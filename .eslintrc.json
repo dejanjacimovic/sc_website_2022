@@ -1,0 +1,55 @@
+
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "disabled",
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_id"
+        ]
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "react/prefer-stateless-function": "off",
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "guard-for-in": [
+      "off"
+    ],
+    "yoda": [2, "always"],
+    "react/jsx-one-expression-per-line": "off",
+    "react/no-array-index-key": "off",
+    "no-return-assign": "off",
+    "linebreak-style": "off",
+    "no-alert": "off",
+    "no-plusplus": "off",
+    "semi": ["error", "always"],
+    "consistent-return": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off"
+  }
+}
