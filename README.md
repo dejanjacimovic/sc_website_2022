@@ -9,6 +9,7 @@
     Use the Gatsby CLI to start site:
 
     ```shell
+    yarn install
     npm run develop
     ```
 
