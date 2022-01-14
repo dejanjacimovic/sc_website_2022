@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Layout from '../components/layout';
+import NavLeft from '../components/nav_left';
 import contact from "../images/covid-office.jpg"
 
 const Contact = () => {
@@ -8,7 +9,7 @@ const Contact = () => {
     <div class="">
 
       <div class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
-
+        <NavLeft />
       </div>
 
       <div class="relative bg-white">
