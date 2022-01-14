@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/layout';
+// import Layout from '../components/layout';
 
 export default function NavLeft() {
 
@@ -8,7 +8,9 @@ export default function NavLeft() {
       <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
         <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
           <div className="flex items-center justify-between w-full md:w-auto">
-            <a href="/" aria-label="Home"><img className="h-10 w-auto sm:h-12" src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png" loading="auto" alt=""></a>
+            <a href="/" aria-label="Home">
+                <img className="h-10 w-auto sm:h-12" src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png" loading="auto" alt=""/>
+            </a>
             <div className="-mr-2 flex items-center md:hidden">
               <button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" id="main-menu" type="button" aria-label="Main menu" aria-haspopup="true" onclick="document.getElementById('main-mobile-menu').className='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50'">
                 <svg className="h-4 w-4" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -63,20 +65,17 @@ export default function NavLeft() {
           <a className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out" href="/portfolio.php">Portfolio</a>
           <a className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out" href="/testimonials.php">Testimonials</a>
           <a className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out" href="/about-us.php">About us</a>
-          <a className="ml-5 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
-             href="/contact-us.php"
-             onclick="fbq('track', 'Home contact us', {content_name: 'Home contact us',content_category: 'Home contact us',});gtag('event', 'contact', {method: 'contact us'});"
-          >
-              Contact
-          </a>
+          <a className="ml-5 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out" href="/contact-us.php">Contact</a>
         </div>
       </nav>
-    </div>
+    </div>,
     <div className="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50" id="main-mobile-menu">
       <div className="rounded-lg shadow-md">
         <div className="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
           <div className="px-5 pt-4 flex items-center justify-between">
-            <div><img className="h-8 w-auto" src="https://stcdshare.s3.amazonaws.com/stunt-coders-logo-standard.png" alt="" loading="auto"></div>
+            <div>
+              <img className="h-8 w-auto" src="https://stcdshare.s3.amazonaws.com/stunt-coders-logo-standard.png" alt="" loading="auto" />
+            </div>
             <div className="-mr-2">
               <button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" type="button" aria-label="Close menu" onclick="document.getElementById('main-mobile-menu').className='hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50'">
                 <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -132,12 +131,7 @@ export default function NavLeft() {
             <a className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" href="/about-us.php" role="menuitem">About us</a>
           </div>
           <div>
-              <a className="block w-full px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
-                  href="/contact-us.php" role="menuitem"
-                 onclick="fbq('track', 'Home contact us', {content_name: 'Home contact us',content_category: 'Home contact us',});gtag('event', 'contact', {method: 'Home contact us'});"
-              >
-                  Contact us
-              </a>
+            <a className="block w-full px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out" href="/contact-us.php" role="menuitem">Contact us</a>
           </div>
         </div>
       </div>
