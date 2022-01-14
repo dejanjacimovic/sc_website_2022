@@ -1,10 +1,10 @@
 import React from 'react';
 import './css/tailwind.css';
 
-export default function Layout({ children }) {
+export default function Layout(props) {
   return (
     <div>
-      {children}
+      {props.title}
 
       <div className="bg-gray-50">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
