@@ -9,7 +9,7 @@ export default function NavLeft() {
         <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
           <div className="flex items-center justify-between w-full md:w-auto">
             <a href="/" aria-label="Home">
-              <img className="h-8 w-auto sm:h-12" src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png" alt="">
+              <img className="h-8 w-auto sm:h-12" src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png" alt="" />
             </a>
             <div className="-mr-2 flex items-center md:hidden">
               <button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" id="main-menu" type="button" aria-label="Main menu" aria-haspopup="true" onclick="document.getElementById('main-mobile-menu').className='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50'">
@@ -72,13 +72,14 @@ export default function NavLeft() {
           </span>
         </div>
       </nav>
-    </div>
-    <!-- -->
+    </div>,
     <div className="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50" id="main-mobile-menu">
       <div className="rounded-lg shadow-md">
         <div className="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
           <div className="px-5 pt-4 flex items-center justify-between">
-            <div><img className="h-8 w-auto" src="images/stunt-coders-logo-standard.png" alt=""></div>
+            <div>
+              <img className="h-8 w-auto" src="https://stcdshare.s3.amazonaws.com/stunt-coders-logo-standard.png" alt="" />
+            </div>
             <div className="-mr-2">
               <button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" type="button" aria-label="Close menu" onclick="document.getElementById('main-mobile-menu').className='hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50'">
                 <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
@@ -115,7 +116,7 @@ export default function NavLeft() {
                       </p>
                     </a>
 
-                    <a href="services-b2b-ecommerce.php" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                    <a href="/services-b2b-ecommerce.php" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                       <p className="text-base font-medium text-gray-900">
                         B2B eCommerce
                       </p>
