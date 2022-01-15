@@ -1,5 +1,9 @@
 import React from 'react';
 
+function getMaintenanceValue() {
+  return "10.000 eur"
+}
+
 export default function Pricing() {
   return (
     <div class="bg-white">
