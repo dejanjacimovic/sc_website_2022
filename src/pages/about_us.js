@@ -31,9 +31,10 @@ export default function AboutUs() {
           <div class="text-lg max-w-prose mx-auto mb-6">
             <p class="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Learn more</p>
             <h1 class="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">About Us</h1>
-            <p class="text-xl text-gray-500 leading-8">Hi there,<br>
-              Let me tell you the story about StuntCoders (some of us are in this photo).</p>
-            <figure><img class="w-full rounded-lg" src="https://d10ngartke0vp.cloudfront.net/stunt-family.jpg" alt="" width="1310" loading="auto"></figure>
+            <p class="text-xl text-gray-500 leading-8">Hi there,<br/>
+              Let me tell you the story about StuntCoders (some of us are in this photo).
+            </p>
+            <figure><img class="w-full rounded-lg" src="https://d10ngartke0vp.cloudfront.net/stunt-family.jpg" alt="StuntCoders team" width="1310" loading="auto" /></figure>
           </div>
           <div class="prose prose-lg text-gray-500 mx-auto">
             <p>When we were kids, we were honest about our fantasies. We were hungry for knowledge and all that mattered was fun. Later, we grew up and started doing what we were told to. Soon, we started despising Mondays and continued with our lives without trying to make our days count.</p>
@@ -42,7 +43,7 @@ export default function AboutUs() {
 
             <p><strong>StuntCoders is a family</strong>, and when we accept a new project, our <strong>client becomes</strong> a part of <strong>our family</strong>. We want to make our clients feel welcome and we want them to know that <strong>we care</strong>. We care about their ideas and plans, and we try hard to make them happen. We know how important their vision is, as we have fulfilled ours.</p>
             <p>Our knowledge is our client’s shortcut to success. And we don’t search for shortcuts in our work. We believe in people and ideas. We know that with a good idea, we can do more and we’re ready to work more and harder than others because we know that in the end, we’ll be proud. Proud of what we achieved, proud of ourselves and proud of our work.</p>
-            <p>Sincerely,<br><span class="text-indigo-600">Dejan Jacimovic</span></p>
+            <p>Sincerely,<br/><span class="text-indigo-600">Dejan Jacimovic</span></p>
           </div>
         </div>
       </div>
