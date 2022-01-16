@@ -657,10 +657,10 @@ export default function CancellationPolicy() {
             <p>
               Have any questions, comments, or concerns about this privacy
               policy, your data, or your rights with respect to your
-              information? Please get in touch by emailing us at
+              information? Please get in touch by emailing us at&nbsp;
               <a href="mailto:privacy@AdorableInc.com">
                 privacy@AdorableInc.com
-              </a>
+              </a>&nbsp;
               and we’ll be happy to answer them!
             </p>
           </div>
