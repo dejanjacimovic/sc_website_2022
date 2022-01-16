@@ -43,7 +43,6 @@ export default function CancellationPolicy() {
           </div>
         </div>
       </div>
-    </div>
 
     </LayoutPage>
   )
