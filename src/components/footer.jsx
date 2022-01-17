@@ -34,30 +34,30 @@ export default function Footer() {
           <div className="sm:mt-12">
             <h5 className="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">United States</h5>
             <p className="mt-4 text-gray-300 text-base leading-6">
-              8 The Green<br>
-              19901 Dover<br>
-              Delaware<br><br>
+              8 The Green<br/>
+              19901 Dover<br/>
+              Delaware<br/><br/>
 
-              +1 (424) 297-1577 (Dejan)<br><br>
+              +1 (424) 297-1577 (Dejan)<br/><br/>
             </p>
           </div>
 
           <div  className="sm:mt-12">
             <h5 className="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">Serbia</h5>
             <p className="mt-4 text-gray-300 text-base leading-6">
-              Vatroslava Lisinskog 21<br>
-              11000 Beograd<br>
+              Vatroslava Lisinskog 21<br/>
+              11000 Beograd<br/>
             </p>
           </div>
 
           <div  className="sm:mt-12">
             <h5 className="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">Nordics</h5>
             <p className="mt-4 text-gray-300 text-base leading-6">
-              Kalevankatu 31<br>
-              00100, Helsinki<br>
-              Finland<br><br>
+              Kalevankatu 31<br/>
+              00100, Helsinki<br/>
+              Finland<br/><br/>
 
-              +358 413131372 (Hugo)<br><br>
+              +358 413131372 (Hugo)<br/><br/>
             </p>
           </div>
 
