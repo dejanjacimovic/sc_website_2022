@@ -1,8 +1,8 @@
 import './css/tailwind.css';
 import React from 'react';
-import Header from '../components/header';
-import Hero from '../components/hero';
-import Footer from '../components/footer';
+import Header from './header';
+import Hero from './hero';
+import Footer from './footer';
 
 export default function LayoutPage(content) {
   return (
