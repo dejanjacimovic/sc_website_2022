@@ -14,7 +14,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/testimonials.php"
+                  href="/testimonials/"
                 >
                   Testimonials
                 </a>
@@ -22,7 +22,7 @@ export default function Footer() {
               <li className="mt-4">
                 <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/about-us.php"
+                  href="/about/"
                 >
                   About us
                 </a>
@@ -30,7 +30,7 @@ export default function Footer() {
               <li className="mt-4">
                 <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/services.php"
+                  href="/services-ecommerce-development/"
                 >
                   Services
                 </a>
@@ -38,7 +38,7 @@ export default function Footer() {
               <li className="mt-4">
                 <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/pricing.php"
+                  href="/pricing/"
                 >
                   Pricing
                 </a>
@@ -63,7 +63,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/privacy-policy.php"
+                  href="/privacy-policy/"
                 >
                   Privacy
                 </a>
@@ -71,7 +71,7 @@ export default function Footer() {
               <li className="mt-4">
                 <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/terms.php"
+                  href="/terms/"
                 >
                   Terms
                 </a>
@@ -79,7 +79,7 @@ export default function Footer() {
               <li className="mt-4">
                 <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/refund-policy.php"
+                  href="/refund-policy/"
                 >
                   Refund
                 </a>
@@ -87,7 +87,7 @@ export default function Footer() {
               <li className="mt-4">
                 <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/cancellation-policy.php"
+                  href="/cancellation-policy/"
                 >
                   Cancellation
                 </a>
@@ -95,7 +95,7 @@ export default function Footer() {
               <li className="mt-4">
                 <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/restrictions-policy.php"
+                  href="/restrictions-policy/"
                 >
                   Restrictions
                 </a>
