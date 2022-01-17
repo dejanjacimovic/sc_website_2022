@@ -8,34 +8,34 @@ export default function Testimonials() {
     <LayoutPage>
       <NavCenter />
 
-      <div class="bg-gray-50">
-        <div class="bg-gray-800">
-          <div class="max-w-screen-xl mx-auto pt-16 pb-20 px-4 sm:px-6 md:pb-24 lg:px-8">
-            <h3 class="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">Trusted by our beloved customers</h3>
-            <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img class="h-12" src="images/skintific.svg" alt="" loading="auto" /></div>
-              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img class="h-12" src="images/pur-norsk.svg" alt="" loading="auto" /></div>
-              <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img class="h-12" src="images/jk-logo-white-transparent.png" alt="" /></div>
-              <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1"><img class="h-12" src="images/camp-david.png" alt="" loading="auto" /></div>
-              <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1"><img class="h-12" src="images/berit.png" alt="" loading="auto" /></div>
+      <div className="bg-gray-50">
+        <div className="bg-gray-800">
+          <div className="max-w-screen-xl mx-auto pt-16 pb-20 px-4 sm:px-6 md:pb-24 lg:px-8">
+            <h3 className="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">Trusted by our beloved customers</h3>
+            <div className="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img className="h-12" src="images/skintific.svg" alt="" loading="auto" /></div>
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img className="h-12" src="images/pur-norsk.svg" alt="" loading="auto" /></div>
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img className="h-12" src="images/jk-logo-white-transparent.png" alt="" /></div>
+              <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1"><img className="h-12" src="images/camp-david.png" alt="" loading="auto" /></div>
+              <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1"><img className="h-12" src="images/berit.png" alt="" loading="auto" /></div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="py-12 bg-white">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="lg:text-center">
-            <p class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">See some of our testimonials</p>
-            <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Here's a taste of what our customers said when we asked them how it felt to manage projects after they switched to StuntCoders:</h3>
-            <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto"></p>
+      <div className="py-12 bg-white">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="lg:text-center">
+            <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">See some of our testimonials</p>
+            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Here's a taste of what our customers said when we asked them how it felt to manage projects after they switched to StuntCoders:</h3>
+            <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto"></p>
           </div>
         </div>
       </div>
 
-      <section class="bg-indigo-800"><div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
-        <div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
-          <div class="md:flex-shrink-0">
+      <section className="bg-indigo-800"><div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
+        <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
+          <div className="md:flex-shrink-0">
             <svg height="60" viewBox="0 0 402 195" role="img" aria-labelledby="svg-naturlig" fill="#B4C6FC">
               <g transform="translate(0.000000,195.000000) scale(0.100000,-0.100000)"  stroke="none">
                 <path d="M2845 1902 c-21 -11 -30 -23 -27 -35 5 -23 -25 -70 -40 -61 -7 4 -7
@@ -170,23 +170,23 @@ export default function Testimonials() {
               </g>
             </svg>
           </div>
-          <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
-            <div class="relative text-lg leading-7 font-medium text-white md:flex-grow">
-              <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg><p class="relative">We really appreciate how quickly things are handled with you guys!!! Looking forward to years to come!</p>
+          <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
+            <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+              <svg className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg><p className="relative">We really appreciate how quickly things are handled with you guys!!! Looking forward to years to come!</p>
             </div>
-            <footer class="mt-8"><div class="flex">
-              <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                <img class="h-12 w-12 rounded-full" src="images/therese.png" alt="Therese" loading="auto" />
+            <footer className="mt-8"><div className="flex">
+              <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                <img className="h-12 w-12 rounded-full" src="images/therese.png" alt="Therese" loading="auto" />
               </div>
-              <div class="ml-4">
-                <div class="text-base leading-6 font-medium text-white">Therese Aarsæther</div>
-                <div class="text-base leading-6 font-medium text-indigo-200">CEO, Naturlig Liv</div>
+              <div className="ml-4">
+                <div className="text-base leading-6 font-medium text-white">Therese Aarsæther</div>
+                <div className="text-base leading-6 font-medium text-indigo-200">CEO, Naturlig Liv</div>
               </div>
               </div>
             </footer></blockquote>
         </div>
-        <div class="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
-          <div class="md:flex-shrink-0">
+        <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+          <div className="md:flex-shrink-0">
             <svg height="60" viewBox="0 0 598 595" role="img" aria-labelledby="svg-naturlig" fill="#B4C6FC">
               <path d="M586.7,310.4c-0.2,0.9-0.5,1.9-0.5,2.8c-1.3,35.2-9.5,68.8-23.7,101c-10.6,23.8-24,46-40.7,66.1
                        c-5.3,6.3-10.7,12.6-16.4,18.5c-24.1,24.8-51.8,44.7-83.1,59.7c-22.3,10.6-45.6,18-69.8,22.7c-16.1,3.1-32.4,4.7-48.8,4.8
@@ -662,17 +662,17 @@ export default function Testimonials() {
             </svg>
 
           </div>
-          <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
-            <div class="relative text-lg leading-7 font-medium text-white md:flex-grow">
-              <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg><p class="relative">For us that I see very valuable is for example when our page was hacked, I didn't even have to think about it, just emailed you in StuntCoders and you fixed it. Saves frustration, time and worries, and basically also a lot of money for my business.</p>
+          <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
+            <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+              <svg className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg><p className="relative">For us that I see very valuable is for example when our page was hacked, I didn't even have to think about it, just emailed you in StuntCoders and you fixed it. Saves frustration, time and worries, and basically also a lot of money for my business.</p>
             </div>
-            <footer class="mt-8"><div class="flex">
-              <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                <img class="h-12 w-12 rounded-full" src="images/stine.jpg" alt="" loading="auto" />
+            <footer className="mt-8"><div className="flex">
+              <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                <img className="h-12 w-12 rounded-full" src="images/stine.jpg" alt="" loading="auto" />
               </div>
-              <div class="ml-4">
-                <div class="text-base leading-6 font-medium text-white">Stine Svarthe</div>
-                <div class="text-base leading-6 font-medium text-indigo-200">CEO, Bare Bra Barnemat</div>
+              <div className="ml-4">
+                <div className="text-base leading-6 font-medium text-white">Stine Svarthe</div>
+                <div className="text-base leading-6 font-medium text-indigo-200">CEO, Bare Bra Barnemat</div>
               </div>
               </div>
             </footer></blockquote>
@@ -680,9 +680,9 @@ export default function Testimonials() {
         </div>
       </section>
 
-      <section class="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24"><div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <svg class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" role="img" aria-labelledby="svg-workcation"><title id="svg-workcation">Workcation</title><defs><pattern id="ad119f34-7694-4c31-947f-5c9d249b21f3" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="404" fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)"></rect></svg><div class="relative">
-        <svg class="mx-auto h-10" fill="none" viewBox="0 0 850 566">
+      <section className="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24"><div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <svg className="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" role="img" aria-labelledby="svg-workcation"><title id="svg-workcation">Workcation</title><defs><pattern id="ad119f34-7694-4c31-947f-5c9d249b21f3" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="404" fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)"></rect></svg><div className="relative">
+        <svg className="mx-auto h-10" fill="none" viewBox="0 0 850 566">
           <path fill="#5850EC" d="M569.15,445.3c-95.89,13.58-191.62,13.49-287.79-0.19c0,12.82,0,25.21,0,37.6c0,2.55-0.1,5.1,0.02,7.65
                                   c0.35,7.68-2.18,13.88-9.36,17.32c-7.71,3.69-15.01,2.24-21.28-3.28c-10.99-9.67-21.77-19.58-32.63-29.39
                                   c-2.13-1.92-4.55-3.6-6.34-5.8c-6.89-8.5-16.07-10.83-26.52-11.41c-13.65-0.76-27.27-2.4-40.87-3.92
@@ -793,17 +793,17 @@ export default function Testimonials() {
           <path fill="#5850EC" d="M403.21,363.72c0-4.63,0-7.45,0-11.57c2.88,0.95,5.66,1.33,7.69,2.77c0.93,0.66,1.15,4.32,0.33,5.02
                                   C409.31,361.57,406.57,362.24,403.21,363.72z"></path>
         </svg>
-        <blockquote class="mt-8">
-          <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
+        <blockquote className="mt-8">
+          <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
             <p>“A big thank you to everyone at StuntCoders for making my work life so much easier! Thanks to your expertise, I now save hours every day. I also appreciate that you always get back to me immediately with any questions or concerns that I may have. Your professionalism and dedication outshine any other IT company that I have previously worked with. I highly recommend StuntCoders.”</p>
           </div>
-          <footer class="mt-8"><div class="md:flex md:items-center md:justify-center">
-            <div class="md:flex-shrink-0">
-            <img class="mx-auto h-10 w-10 rounded-full" src="images/christina.png" alt="Christina" loading="auto" />
+          <footer className="mt-8"><div className="md:flex md:items-center md:justify-center">
+            <div className="md:flex-shrink-0">
+            <img className="mx-auto h-10 w-10 rounded-full" src="images/christina.png" alt="Christina" loading="auto" />
             </div>
-            <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-              <div class="text-base leading-6 font-medium text-gray-900">Christina Chetkowski</div>
-              <svg class="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20"><path d="M11 0h3L9 20H6l5-20z"></path></svg><div class="text-base leading-6 font-medium text-gray-500">CEO, JumpKing</div>
+            <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+              <div className="text-base leading-6 font-medium text-gray-900">Christina Chetkowski</div>
+              <svg className="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20"><path d="M11 0h3L9 20H6l5-20z"></path></svg><div className="text-base leading-6 font-medium text-gray-500">CEO, JumpKing</div>
             </div>
             </div>
           </footer>
@@ -812,9 +812,9 @@ export default function Testimonials() {
         </div>
       </section>
 
-      <section class="bg-indigo-800"><div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
-        <div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
-          <div class="md:flex-shrink-0">
+      <section className="bg-indigo-800"><div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
+        <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
+          <div className="md:flex-shrink-0">
             <svg fill="#b4c6fd" height="40" viewBox="0 0 842 183" role="img" aria-labelledby="svg-ulleval">
               <path d="M87.9,183.1c-3.2-0.6-6.4-1.2-9.7-1.8C31.6,173-1.1,132.5,1.6,85.2C3.8,47.5,23.1,20.7,57.2,4.6
                        c0.7-0.3,1.4-0.5,3.2-1.2C20.6,31.1,4.8,67,21.2,112.6c11.5,32,36.3,50.2,69.9,55.3c34.2,5.2,71.4-11.9,90.4-48.1
@@ -942,23 +942,23 @@ export default function Testimonials() {
                        c2.1-4.9,4-9.4,6.6-15.4c2.4,5.8,4.3,10.4,6.5,15.4C421.5,143.1,417.7,143.1,413.1,143.1z"/>
             </svg>
           </div>
-          <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
-            <div class="relative text-lg leading-7 font-medium text-white md:flex-grow">
-              <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg><p class="relative">StuntCoders has been with us for years. Without them, it would be hard to imagine running the business smoothly. We are very happy to be working with them in years to come.</p>
+          <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
+            <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+              <svg className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg><p className="relative">StuntCoders has been with us for years. Without them, it would be hard to imagine running the business smoothly. We are very happy to be working with them in years to come.</p>
             </div>
-            <footer class="mt-8"><div class="flex">
-              <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-              <img class="h-12 w-12 rounded-full" src="images/kim.jpg" alt="" loading="auto" />
+            <footer className="mt-8"><div className="flex">
+              <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+              <img className="h-12 w-12 rounded-full" src="images/kim.jpg" alt="" loading="auto" />
               </div>
-              <div class="ml-4">
-                <div class="text-base leading-6 font-medium text-white">Kim Orderud</div>
-                <div class="text-base leading-6 font-medium text-indigo-200">CEO, Ulleval Kiropraktor</div>
+              <div className="ml-4">
+                <div className="text-base leading-6 font-medium text-white">Kim Orderud</div>
+                <div className="text-base leading-6 font-medium text-indigo-200">CEO, Ulleval Kiropraktor</div>
               </div>
               </div>
             </footer></blockquote>
         </div>
-        <div class="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
-          <div class="md:flex-shrink-0">
+        <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+          <div className="md:flex-shrink-0">
             <svg fill="#b4c6fd"  height="40" viewBox="0 0 260 84" role="img" aria-labelledby="svg-bedtime">
               <g>
                 <path d="M17.9,58H5.6c-1.8,0-3.1-0.4-3.8-1.2C1,56,0.6,54.8,0.6,53V22.6c0-1.8,0.4-3.1,1.2-3.8c0.8-0.8,2-1.2,3.8-1.2h13.1
@@ -1068,18 +1068,18 @@ export default function Testimonials() {
               </g>
             </svg>
           </div>
-          <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
-            <div class="relative text-lg leading-7 font-medium text-white md:flex-grow">
-              <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg>
-              <p class="relative">I`ve been working with StuntCoders for several years and highly recommend them. They have been helping me with both my Magento and WooCommerce webshop. Nice people, great service!</p>
+          <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
+            <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+              <svg className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg>
+              <p className="relative">I`ve been working with StuntCoders for several years and highly recommend them. They have been helping me with both my Magento and WooCommerce webshop. Nice people, great service!</p>
             </div>
-            <footer class="mt-8"><div class="flex">
-              <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-              <img class="h-12 w-12 rounded-full" src="images/helene-bedtime.jpg" alt="" loading="auto" />
+            <footer className="mt-8"><div className="flex">
+              <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+              <img className="h-12 w-12 rounded-full" src="images/helene-bedtime.jpg" alt="" loading="auto" />
               </div>
-              <div class="ml-4">
-                <div class="text-base leading-6 font-medium text-white">Helene Dahlberg Årstad</div>
-                <div class="text-base leading-6 font-medium text-indigo-200">CEO, Bedtime</div>
+              <div className="ml-4">
+                <div className="text-base leading-6 font-medium text-white">Helene Dahlberg Årstad</div>
+                <div className="text-base leading-6 font-medium text-indigo-200">CEO, Bedtime</div>
               </div>
               </div>
             </footer></blockquote>
@@ -1087,23 +1087,23 @@ export default function Testimonials() {
         </div>
       </section>
 
-      <section class="bg-white overflow-hidden"><div class="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
-          <svg class="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden" width="784" height="404" fill="none" viewbox="0 0 784 404"><defs><pattern id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32" x="0" y="0" width="20" height="20" patternunits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="784" height="404" fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)"></rect></svg><svg class="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2" width="404" height="784" fill="none" viewbox="0 0 404 784"><defs><pattern id="56409614-3d62-4985-9a10-7ca758a8f4f0" x="0" y="0" width="20" height="20" patternunits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)"></rect></svg><div class="relative lg:flex lg:items-center">
-            <div class="hidden lg:block lg:flex-shrink-0">
-            <img class="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="images/ace.jpeg" alt="" loading="auto" />
+      <section className="bg-white overflow-hidden"><div className="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
+          <svg className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden" width="784" height="404" fill="none" viewbox="0 0 784 404"><defs><pattern id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32" x="0" y="0" width="20" height="20" patternunits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="784" height="404" fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)"></rect></svg><svg className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2" width="404" height="784" fill="none" viewbox="0 0 404 784"><defs><pattern id="56409614-3d62-4985-9a10-7ca758a8f4f0" x="0" y="0" width="20" height="20" patternunits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)"></rect></svg><div className="relative lg:flex lg:items-center">
+            <div className="hidden lg:block lg:flex-shrink-0">
+            <img className="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="images/ace.jpeg" alt="" loading="auto" />
             </div>
-            <div class="relative lg:ml-10">
-              <svg class="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50" stroke="currentColor" fill="none" viewbox="0 0 144 144"><path stroke-width="2" d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"></path></svg><blockquote class="relative">
-                <div class="text-2xl leading-9 font-medium text-gray-900">
+            <div className="relative lg:ml-10">
+              <svg className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50" stroke="currentColor" fill="none" viewbox="0 0 144 144"><path stroke-width="2" d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"></path></svg><blockquote className="relative">
+                <div className="text-2xl leading-9 font-medium text-gray-900">
                   <p>We have been happily working with Dejan and StuntCoders for almost 5 years now and we especially commend them for their care and attention to our project and business. Apart from their professionalism and attention to the business side of things it is StuntCoders extraordinarily GREAT people that make up the core of their company. We could not have done it without them, and we really can not recommend them highly enough!</p>
                 </div>
-                <footer class="mt-8"><div class="flex">
-                    <div class="flex-shrink-0 lg:hidden">
-                    <img class="h-12 w-12 rounded-full" src="images/ace.jpeg" alt="" loading="auto" />
+                <footer className="mt-8"><div className="flex">
+                    <div className="flex-shrink-0 lg:hidden">
+                    <img className="h-12 w-12 rounded-full" src="images/ace.jpeg" alt="" loading="auto" />
                     </div>
-                    <div class="ml-4 lg:ml-0">
-                      <div class="text-base leading-6 font-medium text-gray-900">Anders Sverdvik</div>
-                      <div class="text-base leading-6 font-medium text-indigo-600">CEO, Warholms</div>
+                    <div className="ml-4 lg:ml-0">
+                      <div className="text-base leading-6 font-medium text-gray-900">Anders Sverdvik</div>
+                      <div className="text-base leading-6 font-medium text-indigo-600">CEO, Warholms</div>
                     </div>
                   </div>
                 </footer></blockquote>
@@ -1112,16 +1112,16 @@ export default function Testimonials() {
         </div>
       </section>
 
-      <div class="bg-gray-50">
-        <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-          <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+      <div className="bg-gray-50">
+        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+          <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             <span>Ready to dive in?</span>
             <br/>
-            <span class="text-indigo-600">We'll get you covered.</span>
+            <span className="text-indigo-600">We'll get you covered.</span>
           </h2>
-          <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
-            <div class="inline-flex rounded-md shadow">
-                <a class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+          <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+            <div className="inline-flex rounded-md shadow">
+                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                    href="/contact-us.php"
                    onclick="fbq('track', 'Testimonials sign up', {content_name: 'Testimonials sign up',content_category: 'Testimonials sign up',});gtag('event', 'sign_up', {method: 'Testimonials sign up'});"
                 >
@@ -1132,41 +1132,41 @@ export default function Testimonials() {
         </div>
       </div>
 
-      <div class="relative py-16 bg-white overflow-hidden">
-        <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
-          <div class="relative h-full text-lg max-w-prose mx-auto">
-            <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384"><defs><pattern id="74b3fd99-0a6f-4271-bef2-e80eeafdf357" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="384" fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"></rect></svg>
-            <svg class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384"><defs><pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="384" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"></rect></svg>
-            <svg class="absolute bottom-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384"><defs><pattern id="d3eb07ae-5182-43e6-857d-35c643af9034" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="384" fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"></rect></svg>
+      <div className="relative py-16 bg-white overflow-hidden">
+        <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+          <div className="relative h-full text-lg max-w-prose mx-auto">
+            <svg className="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384"><defs><pattern id="74b3fd99-0a6f-4271-bef2-e80eeafdf357" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="384" fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"></rect></svg>
+            <svg className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384"><defs><pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="384" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"></rect></svg>
+            <svg className="absolute bottom-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384"><defs><pattern id="d3eb07ae-5182-43e6-857d-35c643af9034" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="384" fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"></rect></svg>
           </div>
         </div>
-        <div class="relative px-4 sm:px-6 lg:px-8">
-          <div class="text-lg max-w-prose mx-auto mb-6">
-            <p class="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Video testimonial</p>
-            <h1 class="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Christofer from Etiketta</h1>
+        <div className="relative px-4 sm:px-6 lg:px-8">
+          <div className="text-lg max-w-prose mx-auto mb-6">
+            <p className="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Video testimonial</p>
+            <h1 className="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Christofer from Etiketta</h1>
             <figure>
             <a href="https://www.youtube.com/watch?v=UNwPgOZnQHE" target="_blank">
-            <img class="w-full rounded-lg" src="https://stcdshare.s3.amazonaws.com/etiketta-christofer-stuntcoders-review-play-min-min-min.jpg" alt="" width="1310" height="873" loading="auto" />
+            <img className="w-full rounded-lg" src="https://stcdshare.s3.amazonaws.com/etiketta-christofer-stuntcoders-review-play-min-min-min.jpg" alt="" width="1310" height="873" loading="auto" />
             </a>
             </figure>
           </div>
         </div>
       </div>
 
-      <div class="relative bg-gray-800">
-        <div class="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-        <img class="w-full h-full object-cover" src="images/stunt-family.jpg" alt="StuntCoders family" loading="auto" />
+      <div className="relative bg-gray-800">
+        <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+        <img className="w-full h-full object-cover" src="images/stunt-family.jpg" alt="StuntCoders family" loading="auto" />
         </div>
-        <div class="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <div class="md:ml-auto md:w-1/2 md:pl-10">
-            <div class="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300">Word-class support</div>
-            <h2 class="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">We’re here to help</h2>
-            <p class="mt-3 text-lg leading-7 text-gray-300">Learn more about us and how we work with our customers.</p>
-            <div class="mt-8">
-              <div class="inline-flex rounded-md shadow">
-                <a class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" href="/about-us.php">
+        <div className="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+          <div className="md:ml-auto md:w-1/2 md:pl-10">
+            <div className="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300">Word-class support</div>
+            <h2 className="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">We’re here to help</h2>
+            <p className="mt-3 text-lg leading-7 text-gray-300">Learn more about us and how we work with our customers.</p>
+            <div className="mt-8">
+              <div className="inline-flex rounded-md shadow">
+                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" href="/about-us.php">
                   <span>Learn more about us</span>
-                  <svg class="-mr-1 ml-3 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                  <svg className="-mr-1 ml-3 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
                     <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
                   </svg>
