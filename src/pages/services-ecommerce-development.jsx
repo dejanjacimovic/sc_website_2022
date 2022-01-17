@@ -6,9 +6,7 @@ import NavCenter from '../components/nav_center';
 export default function ServicesEcommerceDevelopment() {
   return (
     <LayoutPage>
-      {/*<div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">*/}
       <NavCenter />
-      {/*</div>*/}
 
       <div className="py-12 bg-white">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
