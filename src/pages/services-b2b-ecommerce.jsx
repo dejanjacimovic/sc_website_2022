@@ -3,6 +3,10 @@ import { Link } from 'gatsby';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
+function getB2BPrice() {
+  return "27.6500 eur";
+}
+
 export default function ServicesB2bEcommerce() {
   return (
     <LayoutPage>
@@ -16,7 +20,7 @@ export default function ServicesB2bEcommerce() {
             <p class=" text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">All the</p>
             <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Features you'll need</h3>
             <p class="mt-4 text-xl leading-7 text-gray-500 lg:mx-auto">With our B2B platform, you have the power to fuel B2B eCommerce — and with our team, the speed to adapt it.</p>
-            <p class="mt-4  text-xl leading-7 text-gray-500 lg:mx-auto">Over the last 10-year-period, we have invested more than 100.000 work-hours, working with real-life enterprise customers to bring this unique B2B eCommerce system to the market.<p>
+            <p class="mt-4  text-xl leading-7 text-gray-500 lg:mx-auto">Over the last 10-year-period, we have invested more than 100.000 work-hours, working with real-life enterprise customers to bring this unique B2B eCommerce system to the market.</p>
             <p class="mt-4 text-xl leading-7 text-gray-500 lg:mx-auto">It comes packed with essential features out of the box.</p>
           </div>
           <div class="mt-10">
@@ -260,7 +264,6 @@ export default function ServicesB2bEcommerce() {
           </div>
 
           <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
-            <!-- Content area -->
             <div class="pt-12 sm:pt-16 lg:pt-20">
               <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
                 Payment Reminders
@@ -273,7 +276,6 @@ export default function ServicesB2bEcommerce() {
                   With our B2B eCommerce platform, it is easy to overview those customers and send bulk reminders.
                 </p>
                 <p class="text-base leading-7">
-
                 </p>
               </div>
             </div>
@@ -293,32 +295,32 @@ export default function ServicesB2bEcommerce() {
             <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
               <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img class="h-12" src="/images/media/cbs.svg" alt="CBS">
+                  <img class="h-12" src="/images/media/cbs.svg" alt="CBS" />
                 </div>
                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img class="h-12" src="/images/media/fox.svg" alt="FOX">
+                  <img class="h-12" src="/images/media/fox.svg" alt="FOX" />
                 </div>
                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img class="h-12" src="/images/media/nbc.svg" alt="NBC">
+                  <img class="h-12" src="/images/media/nbc.svg" alt="NBC" />
                 </div>
                 <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-                  <img class="h-12" src="/images/media/usa-today.svg" alt="USA Today">
+                  <img class="h-12" src="/images/media/usa-today.svg" alt="USA Today" />
                 </div>
                 <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-                  <img class="h-12" src="/images/media/ncn.svg" alt="NCN">
+                  <img class="h-12" src="/images/media/ncn.svg" alt="NCN" />
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
 
       <div class="py-16 bg-gray-50 overflow-hidden lg:py-24">
         <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
-          <svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784"><defs><pattern id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"></rect></svg><div class="relative">
-          <h3 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Adapt to your customers' needs</h3>
-          <p class="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">B2B eCommerce system should serve you and adapt to your needs so that you can optimize your business processes and save on time for your sales team.</p>
+          <svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784"><defs><pattern id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"></rect></svg>
+          <div class="relative">
+            <h3 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Adapt to your customers' needs</h3>
+            <p class="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">B2B eCommerce system should serve you and adapt to your needs so that you can optimize your business processes and save on time for your sales team.</p>
           </div>
           <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div class="relative">
@@ -327,7 +329,6 @@ export default function ServicesB2bEcommerce() {
             </div>
             <div class="mt-10 -mx-4 relative lg:mt-0">
               <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404"><defs><pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"></rect></svg>
-
               <iframe width="560" height="300" class="relative mx-auto rounded-2xl shadow-xl inset-0 w-full object-cover" src="https://www.youtube.com/embed/73Z21tT_1i0" title="Product attributes and production analytics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
@@ -352,7 +353,7 @@ export default function ServicesB2bEcommerce() {
         <div class="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             <span>Want to learn more?</span>
-            <br>
+            <br />
             <span>We'd love to answer your questions.</span>
           </h2>
           <div class="mt-8 flex justify-center">
@@ -387,7 +388,6 @@ export default function ServicesB2bEcommerce() {
           </div>
 
           <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
-            <!-- Content area -->
             <div class="pt-12 sm:pt-16 lg:pt-20">
               <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
                 Decisions are better when backed by data
@@ -414,13 +414,12 @@ export default function ServicesB2bEcommerce() {
             <div>
               <h1 class="text-4xl leading-10 font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight">
                 <span class="text-gray-900">Starting from </span>
-                <span class="text-indigo-600"><?php echo getB2BPrice(); ?></span>
+                <span class="text-indigo-600">{getB2BPrice()}</span>
               </h1>
               <p class="mt-5 text-xl leading-7 text-gray-500">Standard implementation takes about six months and requires a project manager on the side of the client.</p>
             </div>
             <a class="mt-8 w-full bg-indigo-600 border border-transparent px-5 py-3 inline-flex items-center justify-center text-base leading-6 font-medium rounded-md text-white hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out sm:mt-10 sm:w-auto xl:mt-0"
-               href="/contact-us.php"
-            >
+               href="/contact-us.php">
                 Get a custom quote
             </a>
           </div>
