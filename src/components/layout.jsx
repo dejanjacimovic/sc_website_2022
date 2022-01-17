@@ -1,5 +1,5 @@
-import React from 'react';
 import './css/tailwind.css';
+import React from 'react';
 
 export default function Layout(content) {
   return (
