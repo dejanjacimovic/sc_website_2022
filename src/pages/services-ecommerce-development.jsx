@@ -16,7 +16,7 @@ export default function ServicesEcommerceDevelopment() {
             <p class=" text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Our question is,</p>
             <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">What can we help you with?</h3>
             <p class="mt-4 text-xl leading-7 text-gray-500 lg:mx-auto">Technology is transforming the way we live and work. Software technologies are an essential part of the technology transformation.</p>
-            <p class="mt-4  text-xl leading-7 text-gray-500 lg:mx-auto">Learn more about platforms, technologies, and industries we have gained extensive experience with over the past ten years.<p>
+            <p class="mt-4  text-xl leading-7 text-gray-500 lg:mx-auto">Learn more about platforms, technologies, and industries we have gained extensive experience with over the past ten years.</p>
           </div>
           <div class="mt-10">
           </div>
@@ -27,7 +27,6 @@ export default function ServicesEcommerceDevelopment() {
                   <div class="-mt-6">
                     <div>
                       <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
-                        <!-- Heroicon name: cart -->
                         <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                         </svg>
@@ -51,7 +50,6 @@ export default function ServicesEcommerceDevelopment() {
                   <div class="-mt-6">
                     <div>
                       <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
-                        <!-- Heroicon name: stack -->
                         <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                         </svg>
@@ -75,7 +73,6 @@ export default function ServicesEcommerceDevelopment() {
                   <div class="-mt-6">
                     <div>
                       <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
-                        <!-- Heroicon name: cube -->
                         <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
                         </svg>
@@ -110,10 +107,9 @@ export default function ServicesEcommerceDevelopment() {
                 Being focused on your success
               </p>
               <p class="pt-12 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">When it comes to tailor-made eCommerce solutions for business technology, innovation is all about increasing the pace of delivery. Speed influences the time to market and indirectly affects the costs associated with the project.</p>
-              <p class="pt-6 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">At StuntCoders, we deliver new technologies that facilitate this pace of delivery. We focus on intelligent orchestration and the integration of services, open-source components, and customized software.<p>
+              <p class="pt-6 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">At StuntCoders, we deliver new technologies that facilitate this pace of delivery. We focus on intelligent orchestration and the integration of services, open-source components, and customized software.</p>
               <p class="pt-6 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">While we are using an agile setup to deliver the software, we take responsibility to achieve milestones and reach deadlines together with your Product Owners and other stakeholders.</p>
-              <p class="pt-6 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">To best adapt to your needs, we have created two models of collaboration—one for balanced small-budget companies and the other for fast-paced enterprises or startups.
-              </p>
+              <p class="pt-6 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">To best adapt to your needs, we have created two models of collaboration—one for balanced small-budget companies and the other for fast-paced enterprises or startups.</p>
             </div>
           </div>
         </div>
@@ -139,7 +135,6 @@ export default function ServicesEcommerceDevelopment() {
                     <ul class="space-y-4">
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
-                          <!-- Heroicon name: outline/check -->
                           <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                           </svg>
@@ -151,7 +146,6 @@ export default function ServicesEcommerceDevelopment() {
 
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
-                          <!-- Heroicon name: outline/check -->
                           <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                           </svg>
@@ -163,7 +157,6 @@ export default function ServicesEcommerceDevelopment() {
 
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
-                          <!-- Heroicon name: outline/check -->
                           <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                           </svg>
@@ -175,7 +168,6 @@ export default function ServicesEcommerceDevelopment() {
 
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
-                          <!-- Heroicon name: outline/check -->
                           <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                           </svg>
@@ -210,7 +202,6 @@ export default function ServicesEcommerceDevelopment() {
                     <ul class="space-y-4">
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
-                          <!-- Heroicon name: outline/check -->
                           <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                           </svg>
@@ -222,7 +213,6 @@ export default function ServicesEcommerceDevelopment() {
 
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
-                          <!-- Heroicon name: outline/check -->
                           <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                           </svg>
@@ -234,7 +224,6 @@ export default function ServicesEcommerceDevelopment() {
 
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
-                          <!-- Heroicon name: outline/check -->
                           <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                           </svg>
@@ -246,7 +235,6 @@ export default function ServicesEcommerceDevelopment() {
 
                       <li class="flex items-start">
                         <div class="flex-shrink-0">
-                          <!-- Heroicon name: outline/check -->
                           <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                           </svg>
@@ -297,7 +285,7 @@ export default function ServicesEcommerceDevelopment() {
           <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-cover" src="/images/portfolio/tesori.jpeg" alt="">
+                <img class="h-48 w-full object-cover" src="/images/portfolio/tesori.jpeg" alt="Tesori portfolio image" />
               </div>
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div class="flex-1">
@@ -331,7 +319,7 @@ export default function ServicesEcommerceDevelopment() {
 
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-cover" src="/images/portfolio/clinton-b2b.jpeg" alt="Camp David Soccx">
+                <img class="h-48 w-full object-cover" src="/images/portfolio/clinton-b2b.jpeg" alt="Camp David Soccx" />
               </div>
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div class="flex-1">
@@ -365,7 +353,7 @@ export default function ServicesEcommerceDevelopment() {
 
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
-                <img class="h-48 w-full object-cover" src="/images/portfolio/selekkt.jpeg" alt="">
+                <img class="h-48 w-full object-cover" src="/images/portfolio/selekkt.jpeg" alt="Selekkt" />
               </div>
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div class="flex-1">
@@ -402,20 +390,27 @@ export default function ServicesEcommerceDevelopment() {
 
       <section class="bg-white overflow-hidden"><div class="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
           <svg class="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404"><defs><pattern id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="784" height="404" fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)"></rect></svg><svg class="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784"><defs><pattern id="56409614-3d62-4985-9a10-7ca758a8f4f0" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)"></rect></svg><div class="relative lg:flex lg:items-center">
-            <div class="hidden lg:block lg:flex-shrink-0"><img class="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="images/terje.jpg" alt="" loading="auto"></div>
+            <div class="hidden lg:block lg:flex-shrink-0">
+              <img class="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="images/terje.jpg" alt="Teje Tesori" loading="auto" />
+            </div>
             <div class="relative lg:ml-10">
-              <svg class="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50" stroke="currentColor" fill="none" viewBox="0 0 144 144"><path stroke-width="2" d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"></path></svg><blockquote class="relative">
+              <svg class="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50" stroke="currentColor" fill="none" viewBox="0 0 144 144"><path stroke-width="2" d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"></path></svg>
+              <blockquote class="relative">
                 <div class="text-2xl leading-9 font-medium text-gray-900">
                   <p>During my career I have worked with numerous IT companies, software and e-commerce developers. None of them come close to StuntCoders. They are a highly dedicated and professional team with a high technical proficiency, but most importantly you feel that they care about your project on a personal level. You really feel that they want you to succeed. This is what sets StuntCoders apart from the rest. I highly recommend Dejan and the rest of the team at StuntCoders.</p>
                 </div>
-                <footer class="mt-8"><div class="flex">
-                    <div class="flex-shrink-0 lg:hidden"><img class="h-12 w-12 rounded-full" src="images/terje.jpg" alt="" loading="auto"></div>
+                <footer class="mt-8">
+                  <div class="flex">
+                    <div class="flex-shrink-0 lg:hidden">
+                      <img class="h-12 w-12 rounded-full" src="images/terje.jpg" alt="" loading="auto" />
+                    </div>
                     <div class="ml-4 lg:ml-0">
                       <div class="text-base leading-6 font-medium text-gray-900">Terje Gaupseth</div>
                       <div class="text-base leading-6 font-medium text-indigo-600">CEO, Tesori</div>
                     </div>
                   </div>
-                </footer></blockquote>
+                </footer>
+              </blockquote>
             </div>
           </div>
         </div>
@@ -492,19 +487,19 @@ export default function ServicesEcommerceDevelopment() {
           <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
               <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img class="h-12" src="/images/marketplaces/otto.png" alt="Otto">
+                <img class="h-12" src="/images/marketplaces/otto.png" alt="Otto" />
               </div>
               <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img class="h-12" src="/images/marketplaces/amazon.png" alt="Amazon">
+                <img class="h-12" src="/images/marketplaces/amazon.png" alt="Amazon" />
               </div>
               <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img class="h-12" src="/images/marketplaces/ebay.png" alt="ebay">
+                <img class="h-12" src="/images/marketplaces/ebay.png" alt="ebay" />
               </div>
               <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-                <img class="h-12" src="/images/marketplaces/zalando.svg" alt="Zalando">
+                <img class="h-12" src="/images/marketplaces/zalando.svg" alt="Zalando" />
               </div>
               <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-                <img class="h-12" src="/images/marketplaces/goertz.png" alt="Goertz">
+                <img class="h-12" src="/images/marketplaces/goertz.png" alt="Goertz" />
               </div>
             </div>
           </div>
@@ -536,12 +531,10 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
               <img src="https://stcdshare.s3.amazonaws.com/vND1hE7mnw.jpg" alt="Unleash your Decision-making Process" class="relative mx-auto rounded-lg shadow-xl border-gray-200" />
-
             </div>
           </div>
 
           <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
-            <!-- Content area -->
             <div class="pt-12 sm:pt-16 lg:pt-20">
               <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
                 360° eCommerce Analytics
@@ -582,22 +575,22 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div class="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
               <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img class="max-h-12" src="/images/partnerships/digitalocean.svg" alt="DigitalOcean">
+                <img class="max-h-12" src="/images/partnerships/digitalocean.svg" alt="DigitalOcean" />
               </div>
               <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img class="max-h-12" src="/images/partnerships/aws.png" alt="AWS">
+                <img class="max-h-12" src="/images/partnerships/aws.png" alt="AWS" />
               </div>
               <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img class="max-h-12" src="/images/partnerships/cpanel.svg" alt="cPanel">
+                <img class="max-h-12" src="/images/partnerships/cpanel.svg" alt="cPanel" />
               </div>
               <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img class="max-h-12" src="/images/partnerships/mailchimp.png" alt="MailChimp">
+                <img class="max-h-12" src="/images/partnerships/mailchimp.png" alt="MailChimp" />
               </div>
               <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img class="max-h-12" src="/images/partnerships/algolia.png" alt="Algolia">
+                <img class="max-h-12" src="/images/partnerships/algolia.png" alt="Algolia" />
               </div>
               <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img class="max-h-12" src="/images/partnerships/tradebyte.svg" alt="Tradebyte">
+                <img class="max-h-12" src="/images/partnerships/tradebyte.svg" alt="Tradebyte" />
               </div>
             </div>
           </div>
@@ -623,7 +616,7 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div class="mt-10 -mx-4 relative lg:mt-0">
               <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404"><defs><pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"></rect></svg>
-              <img class="relative mx-auto rounded-lg shadow-xl border-gray-200" width="490" src="/images/nearshoring.jpeg" alt="Experienced developer" loading="auto">
+              <img class="relative mx-auto rounded-lg shadow-xl border-gray-200" width="490" src="/images/nearshoring.jpeg" alt="Experienced developer" loading="auto" />
             </div>
           </div>
           <svg class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" fill="none" viewBox="0 0 404 784"><defs><pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"></rect></svg><div class="relative mt-12 sm:mt-16 lg:mt-24">
@@ -637,7 +630,7 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
               <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404"><defs><pattern id="e80155a9-dfde-425a-b5ea-1f6fadd20131" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect class="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"></rect></svg>
-              <img class="relative mx-auto rounded-lg shadow-xl border-gray-200" width="490" src="/images/why.jpg" alt="" loading="auto">
+              <img class="relative mx-auto rounded-lg shadow-xl border-gray-200" width="490" src="/images/why.jpg" alt="" loading="auto" />
             </div>
           </div>
           </div>
@@ -654,7 +647,6 @@ export default function ServicesEcommerceDevelopment() {
           <dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
             <div class="relative">
               <dt>
-                <!-- Heroicon name: outline/check -->
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -664,7 +656,6 @@ export default function ServicesEcommerceDevelopment() {
 
             <div class="relative">
               <dt>
-                <!-- Heroicon name: outline/check -->
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -674,7 +665,6 @@ export default function ServicesEcommerceDevelopment() {
 
             <div class="relative">
               <dt>
-                <!-- Heroicon name: outline/check -->
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -684,7 +674,6 @@ export default function ServicesEcommerceDevelopment() {
 
             <div class="relative">
               <dt>
-                <!-- Heroicon name: outline/check -->
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -694,7 +683,6 @@ export default function ServicesEcommerceDevelopment() {
 
             <div class="relative">
               <dt>
-                <!-- Heroicon name: outline/check -->
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -704,7 +692,6 @@ export default function ServicesEcommerceDevelopment() {
 
             <div class="relative">
               <dt>
-                <!-- Heroicon name: outline/check -->
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -714,7 +701,6 @@ export default function ServicesEcommerceDevelopment() {
 
             <div class="relative">
               <dt>
-                <!-- Heroicon name: outline/check -->
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -724,7 +710,6 @@ export default function ServicesEcommerceDevelopment() {
 
             <div class="relative">
               <dt>
-                <!-- Heroicon name: outline/check -->
                 <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
