@@ -3,22 +3,22 @@ import React from 'react';
 export default function PlusIntegrations() {
   return (
     (
-      <div class="bg-indigo-700 hidden">
-        <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-          <h2 class="text-3xl font-extrabold text-white tracking-tight">
+      <div className="bg-indigo-700 hidden">
+        <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-white tracking-tight">
             Configuration and Integration
           </h2>
-          <p class="mt-4 max-w-3xl text-lg text-indigo-200">
+          <p className="mt-4 max-w-3xl text-lg text-indigo-200">
             We help you properly install and integrate business-essential areas.
           </p>
-          <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
+          <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
             <div>
               <div>
-                <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10"></span>
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10"></span>
               </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Marketing</h3>
-                <ul class="mt-2 text-base leading-6 text-indigo-200 list-disc pl-4">
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">Marketing</h3>
+                <ul className="mt-2 text-base leading-6 text-indigo-200 list-disc pl-4">
                   <li>Google Analytics</li>
                   <li>Facebook Pixel</li>
                   <li>Snapchat Pixel</li>
@@ -31,9 +31,9 @@ export default function PlusIntegrations() {
 
             <div>
               <div>
-                <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
                   <svg
-                    class="h-6 w-6 text-white"
+                    className="h-6 w-6 text-white"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -47,9 +47,9 @@ export default function PlusIntegrations() {
                   </svg>
                 </span>
               </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Communication</h3>
-                <ul class="mt-2 text-base leading-6 text-indigo-200 list-disc pl-4">
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">Communication</h3>
+                <ul className="mt-2 text-base leading-6 text-indigo-200 list-disc pl-4">
                   <li>Make Nyhetsbrev</li>
                   <li>MailChimp</li>
                   <li>Klaviyo</li>
@@ -62,29 +62,29 @@ export default function PlusIntegrations() {
 
             <div>
               <div>
-                <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10"></span>
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10"></span>
               </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Payment</h3>
-                <ul class="mt-2 text-base leading-6 text-indigo-200 list-disc pl-4"></ul>
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">Payment</h3>
+                <ul className="mt-2 text-base leading-6 text-indigo-200 list-disc pl-4"></ul>
               </div>
             </div>
 
             <div>
               <div>
-                <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10"></span>
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10"></span>
               </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Hosting</h3>
-                <ul class="mt-2 text-base leading-6 text-indigo-200 list-disc pl-4"></ul>
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">Hosting</h3>
+                <ul className="mt-2 text-base leading-6 text-indigo-200 list-disc pl-4"></ul>
               </div>
             </div>
 
-            <div class="hidden">
+            <div className="hidden">
               <div>
-                <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
                   <svg
-                    class="h-6 w-6 text-white"
+                    className="h-6 w-6 text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -100,20 +100,20 @@ export default function PlusIntegrations() {
                   </svg>
                 </span>
               </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Team Reporting</h3>
-                <p class="mt-2 text-base text-indigo-200">
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">Team Reporting</h3>
+                <p className="mt-2 text-base text-indigo-200">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                   Et magna sit morbi lobortis.
                 </p>
               </div>
             </div>
 
-            <div class="hidden">
+            <div className="hidden">
               <div>
-                <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
                   <svg
-                    class="h-6 w-6 text-white"
+                    className="h-6 w-6 text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -129,20 +129,20 @@ export default function PlusIntegrations() {
                   </svg>
                 </span>
               </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Saved Replies</h3>
-                <p class="mt-2 text-base text-indigo-200">
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">Saved Replies</h3>
+                <p className="mt-2 text-base text-indigo-200">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                   Et magna sit morbi lobortis.
                 </p>
               </div>
             </div>
 
-            <div class="hidden">
+            <div className="hidden">
               <div>
-                <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
                   <svg
-                    class="h-6 w-6 text-white"
+                    className="h-6 w-6 text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -158,20 +158,20 @@ export default function PlusIntegrations() {
                   </svg>
                 </span>
               </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Email Commenting</h3>
-                <p class="mt-2 text-base text-indigo-200">
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">Email Commenting</h3>
+                <p className="mt-2 text-base text-indigo-200">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                   Et magna sit morbi lobortis.
                 </p>
               </div>
             </div>
 
-            <div class="hidden">
+            <div className="hidden">
               <div>
-                <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+                <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
                   <svg
-                    class="h-6 w-6 text-white"
+                    className="h-6 w-6 text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -187,11 +187,11 @@ export default function PlusIntegrations() {
                   </svg>
                 </span>
               </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">
+              <div className="mt-6">
+                <h3 className="text-lg font-medium text-white">
                   Connect with Customers
                 </h3>
-                <p class="mt-2 text-base text-indigo-200">
+                <p className="mt-2 text-base text-indigo-200">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                   Et magna sit morbi lobortis.
                 </p>
@@ -202,27 +202,27 @@ export default function PlusIntegrations() {
       </div>
     ),
     (
-      <div class="relative bg-white py-16 sm:py-24 lg:py-32">
-        <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-          <h2 class="text-base font-semibold tracking-wider text-indigo-600 uppercase">
+      <div className="relative bg-white py-16 sm:py-24 lg:py-32">
+        <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+          <h2 className="text-base font-semibold tracking-wider text-indigo-600 uppercase">
             Plus
           </h2>
-          <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+          <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
             Configuration and Integration
           </p>
-          <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
             We help you properly install and integrate your business-essential
             areas.
           </p>
-          <div class="mt-12 text-left">
-            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
-              <div class="pt-6">
-                <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div class="-mt-6">
+          <div className="mt-12 text-left">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
                     <div>
-                      <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                         <svg
-                          class="h-6 w-6 text-white"
+                          className="h-6 w-6 text-white"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -236,11 +236,11 @@ export default function PlusIntegrations() {
                         </svg>
                       </span>
                     </div>
-                    <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
                       Marketing
                     </h3>
-                    <p class="mt-5 text-base text-gray-500">
-                      <ul class="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                    <p className="mt-5 text-base text-gray-500">
+                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
                         <li>Google Analytics</li>
                         <li>Facebook Pixel</li>
                         <li>Snapchat Pixel</li>
@@ -253,13 +253,13 @@ export default function PlusIntegrations() {
                 </div>
               </div>
 
-              <div class="pt-6">
-                <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div class="-mt-6">
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
                     <div>
-                      <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                         <svg
-                          class="h-6 w-6 text-white"
+                          className="h-6 w-6 text-white"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -273,11 +273,11 @@ export default function PlusIntegrations() {
                         </svg>
                       </span>
                     </div>
-                    <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
                       Communication
                     </h3>
-                    <p class="mt-5 text-base text-gray-500">
-                      <ul class="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                    <p className="mt-5 text-base text-gray-500">
+                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
                         <li>Make Nyhetsbrev</li>
                         <li>MailChimp</li>
                         <li>Klaviyo</li>
@@ -290,13 +290,13 @@ export default function PlusIntegrations() {
                 </div>
               </div>
 
-              <div class="pt-6">
-                <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div class="-mt-6">
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
                     <div>
-                      <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                         <svg
-                          class="h-6 w-6 text-white"
+                          className="h-6 w-6 text-white"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -310,11 +310,11 @@ export default function PlusIntegrations() {
                         </svg>
                       </span>
                     </div>
-                    <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
                       Payment
                     </h3>
-                    <p class="mt-5 text-base text-gray-500">
-                      <ul class="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                    <p className="mt-5 text-base text-gray-500">
+                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
                         <li>Vipps</li>
                         <li>Klarna</li>
                         <li>Dibs</li>
@@ -327,13 +327,13 @@ export default function PlusIntegrations() {
                 </div>
               </div>
 
-              <div class="pt-6">
-                <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div class="-mt-6">
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
                     <div>
-                      <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                         <svg
-                          class="h-6 w-6 text-white"
+                          className="h-6 w-6 text-white"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -347,11 +347,11 @@ export default function PlusIntegrations() {
                         </svg>
                       </span>
                     </div>
-                    <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
                       Hosting
                     </h3>
-                    <p class="mt-5 text-base text-gray-500">
-                      <ul class="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                    <p className="mt-5 text-base text-gray-500">
+                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
                         <li>AWS</li>
                         <li>Microsoft Azure</li>
                         <li>DigitalOcean</li>
