@@ -78,7 +78,7 @@ export default function NavLeft() {
                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                     <a
-                      href="/services-woocommerce-maintenance.php"
+                      href="/services-woocommerce-maintenance/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <p className="text-base font-medium text-gray-900">
@@ -90,7 +90,7 @@ export default function NavLeft() {
                     </a>
 
                     <a
-                      href="/services-ecommerce-development.php"
+                      href="/services-ecommerce-development/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <p className="text-base font-medium text-gray-900">
@@ -103,7 +103,7 @@ export default function NavLeft() {
                     </a>
 
                     <a
-                      href="/services-b2b-ecommerce.php"
+                      href="/services-b2b-ecommerce/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <p className="text-base font-medium text-gray-900">
@@ -119,25 +119,25 @@ export default function NavLeft() {
             </div>
             <a
               className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              href="/portfolio.php"
+              href="/portfolio/"
             >
               Portfolio
             </a>
             <a
               className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              href="/testimonials.php"
+              href="/testimonials/"
             >
               Testimonials
             </a>
             <a
               className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              href="/about-us.php"
+              href="/about-us/"
             >
               About us
             </a>
             <a
               className="ml-5 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
-              href="/contact-us.php"
+              href="/contact/"
             >
               Contact
             </a>
@@ -222,7 +222,7 @@ export default function NavLeft() {
                   <div className="overflow-hidden">
                     <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
                       <a
-                        href="/services-woocommerce-maintenance.php"
+                        href="/services-woocommerce-maintenance/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -234,7 +234,7 @@ export default function NavLeft() {
                       </a>
 
                       <a
-                        href="/services-ecommerce-development.php"
+                        href="/services-ecommerce-development/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -247,7 +247,7 @@ export default function NavLeft() {
                       </a>
 
                       <a
-                        href="/services-b2b-ecommerce.php"
+                        href="/services-b2b-ecommerce/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -263,21 +263,21 @@ export default function NavLeft() {
               </div>
               <a
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                href="/portfolio.php"
+                href="/portfolio/"
                 role="menuitem"
               >
                 Portfolio
               </a>
               <a
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                href="/testimonials.php"
+                href="/testimonials/"
                 role="menuitem"
               >
                 Testimonials
               </a>
               <a
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                href="/about-us.php"
+                href="/about-us/"
                 role="menuitem"
               >
                 About us
@@ -286,7 +286,7 @@ export default function NavLeft() {
             <div>
               <a
                 className="block w-full px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
-                href="/contact-us.php"
+                href="/contact-us/"
                 role="menuitem"
               >
                 Contact us
