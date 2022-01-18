@@ -239,7 +239,7 @@ export default function NavCenter() {
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="images/stunt-coders-logo-standard.png"
+                    src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png"
                     alt=""
                   />
                 </div>
