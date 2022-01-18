@@ -37,7 +37,7 @@ export default function NavCenter() {
                   <div id="service-submenu" className="hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50">
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                       <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                        <a href="/services-woocommerce-maintenance.php" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                        <a href="/services-woocommerce-maintenance/" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                           <p className="text-base font-medium text-gray-900">
                             WooCommerce Maintenance
                           </p>
@@ -46,7 +46,7 @@ export default function NavCenter() {
                           </p>
                         </a>
 
-                        <a href="/services-ecommerce-development.php" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                        <a href="/services-ecommerce-development/" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                           <p className="text-base font-medium text-gray-900">
                             eCommerce Development
                           </p>
@@ -55,7 +55,7 @@ export default function NavCenter() {
                           </p>
                         </a>
 
-                        <a href="services-b2b-ecommerce.php" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                        <a href="services-b2b-ecommerce/" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                           <p className="text-base font-medium text-gray-900">
                             B2B eCommerce
                           </p>
@@ -75,7 +75,7 @@ export default function NavCenter() {
               <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span className="inline-flex rounded-md shadow">
                     <a className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
-                       href="/contact-us.php"
+                       href="/contact/"
                        onclick="fbq('track', 'Contact us', {content_name: 'Contact us',content_category: 'Nav Contact us',});gtag('event', 'login', {method: 'Nav Contact us'});"
                     >
                         Contact us
@@ -108,7 +108,7 @@ export default function NavCenter() {
                     <div id="service-submenu-mobile" className="hidden px-2 w-screen max-w-xl sm:px-0">
                       <div className="overflow-hidden">
                         <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
-                          <a href="/services-woocommerce-maintenance.php" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                          <a href="/services-woocommerce-maintenance/" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                             <p className="text-base font-medium text-gray-900">
                               WooCommerce Maintenance
                             </p>
@@ -117,7 +117,7 @@ export default function NavCenter() {
                             </p>
                           </a>
 
-                          <a href="/services-ecommerce-development.php" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                          <a href="/services-ecommerce-development/" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                             <p className="text-base font-medium text-gray-900">
                               eCommerce Development
                             </p>
@@ -126,7 +126,7 @@ export default function NavCenter() {
                             </p>
                           </a>
 
-                          <a href="services-b2b-ecommerce.php" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                          <a href="services-b2b-ecommerce/" className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                             <p className="text-base font-medium text-gray-900">
                               B2B eCommerce
                             </p>
@@ -138,14 +138,14 @@ export default function NavCenter() {
                       </div>
                     </div>
                   </div>
-                  <a className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" href="/portfolio.php" role="menuitem">Portfolio</a>
-                  <a className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" href="/testimonials.php" role="menuitem">Testimonials</a>
-                  <a className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" href="/pricing.php" role="menuitem">Pricing</a>
-                  <a className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" href="/about-us.php" role="menuitem">About us</a>
+                  <a className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" href="/portfolio/" role="menuitem">Portfolio</a>
+                  <a className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" href="/testimonials/" role="menuitem">Testimonials</a>
+                  <a className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" href="/pricing/" role="menuitem">Pricing</a>
+                  <a className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" href="/about-us/" role="menuitem">About us</a>
                 </div>
                 <div>
                   <a className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
-                     href="/contact-us.php"
+                     href="/contact/"
                      role="menuitem"
                   >
                       Contact us
