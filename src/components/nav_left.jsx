@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function NavLeft() {
   return (
-    (
+    <div>
       <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
         <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
           <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
@@ -143,8 +143,7 @@ export default function NavLeft() {
           </div>
         </nav>
       </div>
-    ),
-    (
+
       <div
         className="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50"
         id="main-mobile-menu"
@@ -301,6 +300,6 @@ export default function NavLeft() {
           </div>
         </div>
       </div>
-    )
+    </div>
   );
 }
