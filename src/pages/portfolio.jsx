@@ -324,7 +324,7 @@ export default function Portfolio() {
   return (
     <LayoutPage>
       <div class="relative pt-6 pb-2 sm:pb-16 md:pb-2 lg:pb-2 xl:pb-2">
-        <NavLeft />
+        <NavCenter />
       </div>
 
       <div class="bg-white">
