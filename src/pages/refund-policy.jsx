@@ -6,7 +6,7 @@ import NavCenter from '../components/nav_center';
 export default function RefundPolicy() {
   return (
     <LayoutPage>
-      <div class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+      <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
         <NavCenter />
       </div>
 
