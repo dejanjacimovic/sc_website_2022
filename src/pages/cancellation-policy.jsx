@@ -1,10 +1,15 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import LayoutPage from '../components/layout_page';
+import NavCenter from '../components/nav_center';
 
 export default function CancellationPolicy() {
   return (
-    <LayoutPage nav="Center">
+    <LayoutPage>
+      <div class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+        <NavCenter />
+      </div>
+
       <div class="relative py-16 bg-white overflow-hidden">
         <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
           <div class="relative h-full text-lg max-w-prose mx-auto">
