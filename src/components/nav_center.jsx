@@ -21,7 +21,7 @@ export default function NavCenter() {
                   type="button"
                   aria-label="Main menu"
                   aria-haspopup="true"
-                  onclick="document.getElementById('main-mobile-menu').className='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50'"
+                  onClick="document.getElementById('main-mobile-menu').class='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50'"
                 >
                   <svg
                     className="h-6 w-6"
@@ -49,7 +49,7 @@ export default function NavCenter() {
               >
                 <span
                   className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                  onclick="document.getElementById('service-submenu').classList.toggle('hidden')"
+                  onClick="document.getElementById('service-submenu').classList.toggle('hidden')"
                 >
                   Services
                 </span>
@@ -59,7 +59,7 @@ export default function NavCenter() {
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   aria-hidden="true"
-                  onclick="document.getElementById('service-submenu').classList.toggle('hidden')"
+                  onClick="document.getElementById('service-submenu').classList.toggle('hidden')"
                 >
                   <path
                     fill-rule="evenodd"
@@ -178,7 +178,7 @@ export default function NavCenter() {
                   className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                   type="button"
                   aria-label="Close menu"
-                  onclick="document.getElementById('main-mobile-menu').className='hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50'"
+                  onClick="document.getElementById('main-mobile-menu').class='hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50'"
                 >
                   <svg
                     className="h-6 w-6"
@@ -202,7 +202,7 @@ export default function NavCenter() {
                   type="button"
                   className="w-full px-3 py-2 text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
                   aria-expanded="false"
-                  onclick="document.getElementById('service-submenu-mobile').classList.toggle('hidden')"
+                  onClick="document.getElementById('service-submenu-mobile').classList.toggle('hidden')"
                 >
                   <span className="font-medium text-gray-700 hover:text-gray-900  focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
                     Services
