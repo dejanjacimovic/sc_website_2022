@@ -10,7 +10,6 @@ export default function LayoutPage(content) {
     (
       <body className="font-sans antialiased text-gray-900">
         <div className="">
-          <Hero nav={content.nav} />
           {content.children}
         </div>
         <Footer />
