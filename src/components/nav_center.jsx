@@ -1,6 +1,4 @@
 import React from 'react';
-import Layout from '../components/layout';
-import LiveAndBreatheEcommerce from '../components/heroes/live_and_breathe_ecommerce';
 
 export default function NavCenter() {
   return (
