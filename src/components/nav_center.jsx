@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function NavCenter() {
   return (
-    (
+    <div>
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
         <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
           <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
@@ -152,8 +152,7 @@ export default function NavCenter() {
           </div>
         </nav>
       </div>
-    ),
-    (
+
       <div
         className="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50"
         id="main-mobile-menu"
@@ -309,6 +308,6 @@ export default function NavCenter() {
           </div>
         </div>
       </div>
-    )
+    </div>
   );
 }
