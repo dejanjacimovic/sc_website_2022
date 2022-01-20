@@ -2,6 +2,22 @@ import React from 'react';
 import LayoutPage from '../components/layout_page';
 import NavLeft from '../components/nav_left';
 
+import imgMarkoDejan from '../images/marko-og-dejan.jpg';
+import imgTerje from '../images/terje.jpg'
+import imgPricingPlans from '../images/pricing-plans.jpeg';
+import imgCampDavidBlack from '../images/CampDavid-black.svg';
+import imgBerit from '../images/madebyberitnordstrand.png';
+import imgSmartlapper from '../images/smartlapper.png';
+import imgPurNorsk from '../images/pur-norsk.svg';
+import imgJumpking from '../images/jumpking.png';
+
+import imgChristina from '../images/christina.png';
+import imgTherese from '../images/therese.png';
+import imgStine from '../images/stine.jpg';
+import imgStuntFamily from '../images/stunt-family.jpg';
+
+
+
 function getHeroPhrase() {
   return 'killing it!';
 }
@@ -70,7 +86,7 @@ export default function Home() {
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="/images/marko-og-dejan.jpg"
+            src={imgMarkoDejan}
             loading="auto"
             alt="Marko and Dejan coding"
           />
@@ -573,7 +589,7 @@ export default function Home() {
             <div className="hidden lg:block lg:flex-shrink-0">
               <img
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                src="/images/terje.jpg"
+                src={imgTerje}
                 alt="Terje from Tesori"
                 loading="auto"
               />
@@ -608,7 +624,7 @@ export default function Home() {
                     <div className="flex-shrink-0 lg:hidden">
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="/images/terje.jpg"
+                        src={imgTerje}
                         alt="Terje from Tesori testimonial"
                         loading="auto"
                       />
@@ -636,7 +652,7 @@ export default function Home() {
             <div className="h-full xl:relative xl:col-start-2">
               <img
                 className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-                src="/images/pricing-plans.jpeg"
+                src={imgPricingPlans}
                 alt="Pricing plans"
               />
               <div
@@ -677,7 +693,7 @@ export default function Home() {
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <img
                 className="h-12"
-                src="/images/CampDavid-black.svg"
+                src={imgCampDavidBlack}
                 alt="StuntCoders client CampDavid"
                 loading="auto"
               />
@@ -685,7 +701,7 @@ export default function Home() {
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <img
                 className="h-12"
-                src="/images/madebyberitnordstrand.png"
+                src={imgBerit}
                 alt="BERIT"
                 loading="auto"
               />
@@ -693,7 +709,7 @@ export default function Home() {
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <img
                 className="h-12"
-                src="/images/smartlapper.png"
+                src={imgSmartlapper}
                 alt="Client Smartlapper"
                 loading="auto"
               />
@@ -701,7 +717,7 @@ export default function Home() {
             <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
               <img
                 className="h-12"
-                src="/images/pur-norsk.svg"
+                src={imgPurNorsk}
                 alt="PurNorsk Client of StuntCoders"
                 loading="auto"
               />
@@ -709,7 +725,7 @@ export default function Home() {
             <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
               <img
                 className="h-12"
-                src="/images/jumpking.png"
+                src={imgJumpking}
                 alt="JumpKing client of StuntCoders"
                 loading="auto"
               />
@@ -926,7 +942,7 @@ export default function Home() {
                   <div className="md:flex-shrink-0">
                     <img
                       className="mx-auto h-10 w-10 rounded-full"
-                      src="/images/christina.png"
+                      src={imgChristina}
                       alt="Christina from JumpKing"
                       loading="auto"
                     />
@@ -1308,7 +1324,7 @@ export default function Home() {
                   <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                     <img
                       className="h-12 w-12 rounded-full"
-                      src="/images/therese.png"
+                      src={imgTherese}
                       alt="Testimonial from Therese"
                     />
                   </div>
@@ -1940,7 +1956,7 @@ export default function Home() {
                   <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                     <img
                       className="h-12 w-12 rounded-full"
-                      src="/images/stine.jpg"
+                      src={imgStine}
                       alt="Testimonial from Stine BareBra Barnemat"
                     />
                   </div>
@@ -2073,7 +2089,7 @@ export default function Home() {
         <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
           <img
             className="w-full h-full object-cover"
-            src="/images/stunt-family.jpg"
+            src={imgStuntFamily}
             alt="StuntCoders is a messy family"
           />
         </div>
