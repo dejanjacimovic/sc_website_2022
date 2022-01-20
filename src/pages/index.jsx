@@ -64,7 +64,7 @@ export default function Home() {
                   <div className="rounded-md shadow">
                     <a
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
-                      href="/contact-us.php"
+                      href="/contact/"
                       onclick="fbq('track', 'Home sign up', {content_name: 'Home sign up',content_category: 'Home sign up',});gtag('event', 'contact_us', {method: 'Home sign up'});"
                     >
                       Get started
@@ -73,7 +73,7 @@ export default function Home() {
                   <div className="mt-3 sm:mt-0 sm:ml-3">
                     <a
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
-                      href="/testimonials.php"
+                      href="/testimonials/"
                     >
                       What did our customers say?
                     </a>
@@ -458,7 +458,7 @@ export default function Home() {
                 <div className="rounded-md shadow">
                   <a
                     className="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    href="/contact-us.php"
+                    href="/contact/"
                   >
                     Contact us
                   </a>
@@ -676,7 +676,7 @@ export default function Home() {
             <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
               <div className="mt-8 inline-flex rounded-md shadow">
                 <a
-                  href="/pricing.php"
+                  href="/pricing/"
                   className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   See pricing
@@ -1115,7 +1115,7 @@ export default function Home() {
             <div className="inline-flex rounded-md shadow">
               <a
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/contact-us.php?subject=model%20of%20collaboration"
+                href="/contact/"
               >
                 Get in touch
               </a>
@@ -1123,7 +1123,7 @@ export default function Home() {
             <div className="ml-3 inline-flex rounded-md shadow">
               <a
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/testimonials.php"
+                href="/testimonials/"
               >
                 What did our customers say?
               </a>
@@ -2106,7 +2106,7 @@ export default function Home() {
               <div className="inline-flex rounded-md shadow">
                 <a
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                  href="/about-us.php"
+                  href="/about-us/"
                 >
                   <span>Learn more about us</span>
                   <svg
