@@ -13,7 +13,7 @@ export default function NavCenter() {
                   src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png"
                   alt="StuntCoders logo"
                 />
-              </a>
+              </Link>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
                   className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
@@ -75,7 +75,7 @@ export default function NavCenter() {
               >
                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                    <a
+                    <Link
                       href="/services-woocommerce-maintenance/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
@@ -85,9 +85,9 @@ export default function NavCenter() {
                       <p className="mt-1 text-sm text-gray-500">
                         Learn about unlimited WordPress support.
                       </p>
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                       href="/services-ecommerce-development/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
@@ -98,9 +98,9 @@ export default function NavCenter() {
                         Get all of your questions answered about eCommerce
                         development.
                       </p>
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                       href="/services-b2b-ecommerce/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
@@ -110,44 +110,44 @@ export default function NavCenter() {
                       <p className="mt-1 text-sm text-gray-500">
                         The eCommerce solution for all your B2B needs.
                       </p>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <a
+            <Link
               className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               href="/testimonials/"
             >
               Testimonials
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               href="/portfolio/"
             >
               Portfolio
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               href="/pricing/"
             >
               Pricing
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               href="/about-us/"
             >
               About us
-            </a>
+            </Link>
           </div>
           <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
             <span className="inline-flex rounded-md shadow">
-              <a
+              <Link
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
                 href="/contact-us/"
               >
                 Contact us
-              </a>
+              </Link>
             </span>
           </div>
         </nav>
@@ -227,7 +227,7 @@ export default function NavCenter() {
                 >
                   <div className="overflow-hidden">
                     <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
-                      <a
+                      <Link
                         href="/services-woocommerce-maintenance/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
@@ -237,9 +237,9 @@ export default function NavCenter() {
                         <p className="mt-1 text-sm text-gray-500">
                           Learn about unlimited WordPress support.
                         </p>
-                      </a>
+                      </Link>
 
-                      <a
+                      <Link
                         href="/services-ecommerce-development/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
@@ -250,9 +250,9 @@ export default function NavCenter() {
                           Get all of your questions answered about eCommerce
                           development.
                         </p>
-                      </a>
+                      </Link>
 
-                      <a
+                      <Link
                         href="/services-b2b-ecommerce/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
@@ -262,48 +262,48 @@ export default function NavCenter() {
                         <p className="mt-1 text-sm text-gray-500">
                           The eCommerce solution for all your B2B needs.
                         </p>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <a
+              <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 href="/portfolio/"
                 role="menuitem"
               >
                 Portfolio
-              </a>
-              <a
+              </Link>
+              <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 href="/testimonials/"
                 role="menuitem"
               >
                 Testimonials
-              </a>
-              <a
+              </Link>
+              <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 href="/pricing/"
                 role="menuitem"
               >
                 Pricing
-              </a>
-              <a
+              </Link>
+              <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 href="/about-us/"
                 role="menuitem"
               >
                 About us
-              </a>
+              </Link>
             </div>
             <div>
-              <a
+              <Link
                 className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
                 href="/contact-us/"
                 role="menuitem"
               >
                 Contact us
-              </a>
+              </Link>
             </div>
           </div>
         </div>

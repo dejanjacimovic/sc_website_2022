@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 export default function NavLeft() {
   return (
@@ -7,14 +8,14 @@ export default function NavLeft() {
         <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
           <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="/" aria-label="Home">
+              <Link href="/" aria-label="Home">
                 <img
                   className="h-10 w-auto sm:h-12"
                   src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png"
                   loading="auto"
                   alt="StuntCoders logo"
                 />
-              </a>
+              </Link>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
                   className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
@@ -76,7 +77,7 @@ export default function NavLeft() {
               >
                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                    <a
+                    <Link
                       href="/services-woocommerce-maintenance/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
@@ -86,9 +87,9 @@ export default function NavLeft() {
                       <p className="mt-1 text-sm text-gray-500">
                         Learn about unlimited WordPress support.
                       </p>
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                       href="/services-ecommerce-development/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
@@ -99,9 +100,9 @@ export default function NavLeft() {
                         Get all of your questions answered about eCommerce
                         development.
                       </p>
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                       href="/services-b2b-ecommerce"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
@@ -111,35 +112,35 @@ export default function NavLeft() {
                       <p className="mt-1 text-sm text-gray-500">
                         The eCommerce solution for all your B2B needs.
                       </p>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <a
+            <Link
               className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               href="/portfolio/"
             >
               Portfolio
-            </a>
-            <a
+            </Link>
+            <Link
               className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               href="/testimonials/"
             >
               Testimonials
-            </a>
-            <a
+            </Link>
+            <Link
               className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               href="/about-us/"
             >
               About us
-            </a>
-            <a
+            </Link>
+            <Link
               className="ml-5 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
               href="/contact/"
             >
               Contact
-            </a>
+            </Link>
           </div>
         </nav>
       </div>
@@ -219,7 +220,7 @@ export default function NavLeft() {
                 >
                   <div className="overflow-hidden">
                     <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
-                      <a
+                      <Link
                         href="/services-woocommerce-maintenance/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
@@ -229,9 +230,9 @@ export default function NavLeft() {
                         <p className="mt-1 text-sm text-gray-500">
                           Learn about unlimited WordPress support.
                         </p>
-                      </a>
+                      </Link>
 
-                      <a
+                      <Link
                         href="/services-ecommerce-development/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
@@ -242,9 +243,9 @@ export default function NavLeft() {
                           Get all of your questions answered about eCommerce
                           development.
                         </p>
-                      </a>
+                      </Link>
 
-                      <a
+                      <Link
                         href="/services-b2b-ecommerce/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
@@ -254,48 +255,48 @@ export default function NavLeft() {
                         <p className="mt-1 text-sm text-gray-500">
                           The eCommerce solution for all your B2B needs.
                         </p>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <a
+              <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 href="/portfolio/"
                 role="menuitem"
               >
                 Portfolio
-              </a>
-              <a
+              </Link>
+              <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 href="/testimonials/"
                 role="menuitem"
               >
                 Testimonials
-              </a>
-              <a
+              </Link>
+              <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 href="/pricing/"
                 role="menuitem"
               >
                 Pricing
-              </a>
-              <a
+              </Link>
+              <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 href="/about-us/"
                 role="menuitem"
               >
                 About us
-              </a>
+              </Link>
             </div>
             <div>
-              <a
+              <Link
                 className="block w-full px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
                 href="/contact/"
                 role="menuitem"
               >
                 Contact us
-              </a>
+              </Link>
             </div>
           </div>
         </div>
