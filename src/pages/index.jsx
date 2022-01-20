@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout from '../components/layout';
+import LayoutPage from '../components/layout_page';
 
 export default function Home() {
   return (
-    <Layout template="homepage" title="StuntCoders">
+    <LayoutPage>
       Hello world!
-    </Layout>
+    </LayoutPage>
   );
 }
