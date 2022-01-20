@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/layout';
+import { Link } from 'gatsby';
 
 export default function Footer() {
   return (
@@ -12,45 +12,45 @@ export default function Footer() {
             </h4>
             <ul className="mt-4">
               <li>
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="/testimonials/"
                 >
                   Testimonials
-                </a>
+                </Link>
               </li>
               <li className="mt-4">
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="/about/"
                 >
                   About us
-                </a>
+                </Link>
               </li>
               <li className="mt-4">
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="/services-ecommerce-development/"
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li className="mt-4">
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="/pricing/"
                 >
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="mt-4">
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="https://stuntcoders.careers/"
                   target="_blank"
                 >
                   Careers
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -61,44 +61,44 @@ export default function Footer() {
             </h4>
             <ul className="mt-4">
               <li>
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="/privacy-policy/"
                 >
                   Privacy
-                </a>
+                </Link>
               </li>
               <li className="mt-4">
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="/terms/"
                 >
                   Terms
-                </a>
+                </Link>
               </li>
               <li className="mt-4">
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="/refund-policy/"
                 >
                   Refund
-                </a>
+                </Link>
               </li>
               <li className="mt-4">
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="/cancellation-policy/"
                 >
                   Cancellation
-                </a>
+                </Link>
               </li>
               <li className="mt-4">
-                <a
+                <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
                   href="/restrictions-policy/"
                 >
                   Restrictions
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
