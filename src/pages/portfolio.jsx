@@ -1,7 +1,18 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { GatsbyImage, StaticImage } from 'gatsby-plugin-image'
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
+
+function portfolioList() {
+  let myArray = clients();
+  let output = [];
+  for (var key in myArray) {
+    output.push(project(key, myArray[key]));
+  }
+
+  return output;
+}
 
 function clients() {
   return {
@@ -9,43 +20,43 @@ function clients() {
       tehnologies: 'WordPress, Shopify',
       country: '🇺🇸',
       link: 'https://www.smartypantsvitamins.com/',
-      image: 'images/portfolio/smartypantsvitamins.jpeg',
+      image: '../images/portfolio/smartypantsvitamins.jpeg',
     },
     'CAMP DAVID & SOCCX': {
       tehnologies: 'Oxid e-Commerce',
       country: '🇩🇪',
       link: 'https://www.campdavid-soccx.de/',
-      image: 'images/portfolio/campdavid.jpeg',
+      image: '../images/portfolio/campdavid.jpeg',
     },
     Arduino: {
       tehnologies: 'Magento',
       link: 'https://store.arduino.cc/',
       country: '🇮🇹',
-      image: 'images/portfolio/arduino.jpeg',
+      image: '../images/portfolio/arduino.jpeg',
     },
     Tesori: {
       tehnologies: 'Magento, WordPress',
       country: '🇳🇴',
       link: 'https://tesori.no/',
-      image: 'images/portfolio/tesori.jpeg',
+      image: '../images/portfolio/tesori.jpeg',
     },
     BilXtra: {
       tehnologies: 'Magento, WordPress, Ruby on Rails',
       country: '🇳🇴',
       link: 'https://bilxtra.no/',
-      image: 'images/portfolio/bilxtra.jpeg',
+      image: '../images/portfolio/bilxtra.jpeg',
     },
     Pickles: {
       tehnologies: 'Magento, WordPress',
       country: '🇳🇴',
       link: 'https://pickles.no/',
-      image: 'images/portfolio/pickles.jpeg',
+      image: '../images/portfolio/pickles.jpeg',
     },
     JumpKing: {
       tehnologies: 'WordPress, WooCommerce',
       country: '🇳🇴',
       link: 'https://jumpking.no/',
-      image: 'images/portfolio/jumpking.jpeg',
+      image: '../images/portfolio/jumpking.jpeg',
     },
     Smartlapper: {
       tehnologies: 'Magento, WordPress',
@@ -57,98 +68,98 @@ function clients() {
       tehnologies: 'WordPress, WooCommerce, WPML',
       country: '🇳🇴',
       link: 'https://lavaart.com/',
-      image: 'images/portfolio/lavaart.jpeg',
+      image: '../images/portfolio/lavaart.jpeg',
     },
     Bedtime: {
       tehnologies: 'WordPress, WooCommerce',
       country: '🇳🇴',
       link: 'https://bedtime.no/',
-      image: 'images/portfolio/bedtime.jpeg',
+      image: '../images/portfolio/bedtime.jpeg',
     },
     'Naturlig Liv': {
       tehnologies: 'WordPress, Magento',
       country: '🇳🇴',
       link: 'https://natuligliv.no/',
-      image: 'images/portfolio/natuligliv.jpeg',
+      image: '../images/portfolio/natuligliv.jpeg',
     },
     'Ulleval Kiropraktor': {
       tehnologies: 'WordPress',
       country: '🇳🇴',
       link: 'https://www.ullevalkiropraktor.no/',
-      image: 'images/portfolio/ullevalkiropraktor.jpg',
+      image: '../images/portfolio/ullevalkiropraktor.jpg',
     },
     'Omage Cure': {
       tehnologies: 'WordPress, WooCommerce',
       country: '🇳🇴',
       link: 'https://omegacure.no/',
-      image: 'images/portfolio/omegacure.jpeg',
+      image: '../images/portfolio/omegacure.jpeg',
     },
     Warholms: {
       tehnologies: 'Magento',
       country: '🇳🇴',
       link: 'https://warholms.no/',
-      image: 'images/portfolio/warholms.jpeg',
+      image: '../images/portfolio/warholms.jpeg',
     },
     'Made By Berit': {
       tehnologies: 'WooCommerce, WordPress',
       country: '🇳🇴',
       link: 'https://beritnordstrand.no/',
-      image: 'images/portfolio/beritnordstrand.jpeg',
+      image: '../images/portfolio/beritnordstrand.jpeg',
     },
     'CAMP DAVID & SOCCX B2B': {
       tehnologies: 'Ruby On Rails, Magento',
       link: 'https://www.campdavid-soccx.de/',
       country: '🇩🇪',
-      image: 'images/portfolio/clinton-b2b.jpeg',
+      image: '../images/portfolio/clinton-b2b.jpeg',
     },
     DNBS: {
       tehnologies: 'WooCommerce, WordPress',
       substack: 'Klarna, WPML',
       country: '🇳🇴',
       link: 'https://www.dnbs.no/en/',
-      image: 'images/portfolio/dnbs.jpeg',
+      image: '../images/portfolio/dnbs.jpeg',
     },
     'Sommer Ballett': {
       tehnologies: 'WooCommerce, WordPress',
       substack: 'Klarna, WPML',
       country: '🇳🇴',
       link: 'https://www.sommerballett.no/en/',
-      image: 'images/portfolio/sommerballett.jpeg',
+      image: '../images/portfolio/sommerballett.jpeg',
     },
     Khujo: {
       tehnologies: 'Magento, WordPress',
       substack: 'Redis, SalesForce, Optimizely, Amazon CloudFront',
       country: '🇩🇪',
       link: 'https://www.khujo.com/',
-      image: 'images/portfolio/khujo.jpeg',
+      image: '../images/portfolio/khujo.jpeg',
     },
     MedLearn: {
       tehnologies: 'WordPress',
       substack: 'Redis',
       country: '🇳🇴',
       link: 'https://medlearn.no/',
-      image: 'images/portfolio/medlearn.jpeg',
+      image: '../images/portfolio/medlearn.jpeg',
     },
     'GR Drukkerij': {
       tehnologies: 'WordPress, WooCommece',
       substack: 'Klarna',
       country: '🇳🇱',
       link: 'https://grdruk.nl/',
-      image: 'images/portfolio/grdruk.jpeg',
+      image: '../images/portfolio/grdruk.jpeg',
     },
     'Living Autism': {
       tehnologies: 'Ruby On Rails, WordPress',
       substack: 'Redis',
       country: '🇬🇧',
       link: 'https://livingautism.co.uk/',
-      image: 'images/portfolio/livingautism.jpg',
+      image: '../images/portfolio/livingautism.jpg',
     },
     Skntific: {
       tehnologies: 'Ruby On Rails',
       substack: 'Redis, Nginx',
       country: '🇳🇴',
       link: 'https://skintific.no/',
-      image: 'images/portfolio/skintific.jpeg',
+      image: '../images/portfolio/skintific.jpeg',
     },
     LeCollab: {
       tehnologies: 'Ruby On Rails',
@@ -163,125 +174,128 @@ function clients() {
       substack: 'Nginx',
       country: '🇩🇪',
       link: 'https://selekkt.com/',
-      image: 'images/portfolio/selekkt.jpeg',
+      image: '../images/portfolio/selekkt.jpeg',
     },
     'Ucon Acrobatics': {
       tehnologies: 'Magento, Shopify',
       substack: 'Redis, Nginx',
       country: '🇩🇪',
       link: 'https://ucon-acrobatics.com/',
-      image: 'images/portfolio/ucon-acrobatics.jpeg',
+      image: '../images/portfolio/ucon-acrobatics.jpeg',
     },
     Mascolori: {
       tehnologies: 'Magento',
       substack: 'Redis, Nginx',
       country: '🇳🇱',
       link: 'https://mascolori.nl/',
-      image: 'images/portfolio/mascolori.jpeg',
+      image: '../images/portfolio/mascolori.jpeg',
     },
     Vaktrommet: {
       tehnologies: 'Magento, Algolia, Custom JS',
       substack: 'Nginx',
       country: '🇳🇴',
       link: 'https://vaktrommet.no/',
-      image: 'images/portfolio/vaktrommet.jpeg',
+      image: '../images/portfolio/vaktrommet.jpeg',
     },
     'Tokyo Jane': {
       tehnologies: 'Magento, WordPress',
       substack: 'Nginx',
       country: '🇩🇪',
       link: 'https://tokyojane.com/',
-      image: 'images/portfolio/tokyojane.jpeg',
+      image: '../images/portfolio/tokyojane.jpeg',
     },
     Etiketta: {
       tehnologies: 'Nest.js, React',
       substack: 'Nginx, Express JS',
       country: '🇸🇪',
       link: 'https://etiketta.se/',
-      image: 'images/portfolio/etiketta.jpeg',
+      image: '../images/portfolio/etiketta.jpeg',
     },
     PosterStar: {
       tehnologies: 'WooCommerce, WPML',
       substack: 'Klarna',
       country: '🇸🇪',
       link: 'https://posterstar.websitetotal.com/',
-      image: 'images/portfolio/posterstar.jpeg',
+      image: '../images/portfolio/posterstar.jpeg',
     },
     'Privatni Casovi': {
       tehnologies: 'Ruby On Rails',
       substack: 'Klarna',
       country: '🇷🇸',
       link: 'https://privatni-casovi.net/',
-      image: 'images/portfolio/privatni-casovi.jpeg',
+      image: '../images/portfolio/privatni-casovi.jpeg',
     },
     'Fachwelt Verlag': {
       tehnologies: 'WordPress',
       substack: 'Klarna',
       country: '🇩🇪',
       link: 'https://www.fachwelt-verlag.de/',
-      image: 'images/portfolio/fachwelt-verlag.jpg',
+      image: '../images/portfolio/fachwelt-verlag.jpg',
     },
     'IB Expo': {
       tehnologies: 'Ruby On Rails',
       substack: 'Klarna',
       country: '🇳🇴',
       link: 'https://ib-expo.com/',
-      image: 'images/portfolio/ib-expo.jpg',
+      image: '../images/portfolio/ib-expo.jpg',
     },
     Luado: {
       tehnologies: 'Ruby On Rails',
       substack: 'Stripe, Twilio',
       country: '🇳🇴',
       link: 'https://luado.no/',
-      image: 'images/portfolio/luado.jpeg',
+      image: '../images/portfolio/luado.jpeg',
     },
     'Ruden Energy': {
       tehnologies: 'Craft CMS',
       substack: 'Klarna',
       country: '🇳🇴',
       link: 'https://rudenas.com/',
-      image: 'images/portfolio/rudenas.jpeg',
+      image: '../images/portfolio/rudenas.jpeg',
     },
     'Prominent Immobilien': {
       tehnologies: 'WordPress',
       substack: 'Klarna',
       country: '🇩🇪',
       link: 'https://www.prominent-immobilien.com/',
-      image: 'images/portfolio/prominent-immobilien.jpg',
+      image: '../images/portfolio/prominent-immobilien.jpg',
     },
     ALP: {
       tehnologies: 'Craft CMS',
       substack: 'Klarna',
       country: '🇳🇴',
       link: 'https://alpinogfjell.no/',
-      image: 'images/portfolio/alpinogfjell.jpeg',
+      image: '../images/portfolio/alpinogfjell.jpeg',
     },
     'Bare Bra Barnemat': {
       tehnologies: 'WordPress',
       substack: 'Klarna',
       country: '🇳🇴',
       link: 'https://www.barebrabarnemat.no/',
-      image: 'images/portfolio/barebrabarnemat.jpg',
+      image: '../images/portfolio/barebrabarnemat.jpg',
     },
     Industry24h: {
       tehnologies: 'WordPress',
       substack: 'Klarna',
       country: '🇩🇪',
       link: 'https://industry24h.com/',
-      image: 'images/portfolio/industry24h.jpeg',
+      image: '../images/portfolio/industry24h.jpeg',
     },
-  };
+  }
 }
 
 function project(clientName, client) {
+  let imageSrc = client['image'];
+  console.log(imageSrc);
+
   return (
     <li>
       <div class="space-y-4">
         <div class="aspect-w-3 aspect-h-2">
-          <img
+          <StaticImage
             class="object-cover shadow-lg rounded-lg"
-            src="{client['image']}"
-            alt="{clientName}"
+            src={imageSrc}
+            alt={clientName}
           />
         </div>
 
@@ -293,7 +307,7 @@ function project(clientName, client) {
           <ul class="flex space-x-5">
             <li>
               <a
-                href="{client['link']}"
+                href={client['link']}
                 target="_blank"
                 class="text-gray-400 hover:text-gray-500"
               >
@@ -339,7 +353,9 @@ export default function Portfolio() {
                 developing, and technologies they are built on.
               </p>
             </div>
-            <ul class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"></ul>
+            <ul class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+              {portfolioList()}
+            </ul>
           </div>
         </div>
       </div>
