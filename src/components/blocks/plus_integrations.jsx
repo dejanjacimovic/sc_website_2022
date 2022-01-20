@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function PlusIntegrations() {
   return (
-    (
+    <div>
       <div className="bg-indigo-700 hidden">
         <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
           <h2 className="text-3xl font-extrabold text-white tracking-tight">
@@ -48,7 +48,9 @@ export default function PlusIntegrations() {
                 </span>
               </div>
               <div className="mt-6">
-                <h3 className="text-lg font-medium text-white">Communication</h3>
+                <h3 className="text-lg font-medium text-white">
+                  Communication
+                </h3>
                 <ul className="mt-2 text-base leading-6 text-indigo-200 list-disc pl-4">
                   <li>Make Nyhetsbrev</li>
                   <li>MailChimp</li>
@@ -101,7 +103,9 @@ export default function PlusIntegrations() {
                 </span>
               </div>
               <div className="mt-6">
-                <h3 className="text-lg font-medium text-white">Team Reporting</h3>
+                <h3 className="text-lg font-medium text-white">
+                  Team Reporting
+                </h3>
                 <p className="mt-2 text-base text-indigo-200">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                   Et magna sit morbi lobortis.
@@ -130,7 +134,9 @@ export default function PlusIntegrations() {
                 </span>
               </div>
               <div className="mt-6">
-                <h3 className="text-lg font-medium text-white">Saved Replies</h3>
+                <h3 className="text-lg font-medium text-white">
+                  Saved Replies
+                </h3>
                 <p className="mt-2 text-base text-indigo-200">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                   Et magna sit morbi lobortis.
@@ -159,7 +165,9 @@ export default function PlusIntegrations() {
                 </span>
               </div>
               <div className="mt-6">
-                <h3 className="text-lg font-medium text-white">Email Commenting</h3>
+                <h3 className="text-lg font-medium text-white">
+                  Email Commenting
+                </h3>
                 <p className="mt-2 text-base text-indigo-200">
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                   Et magna sit morbi lobortis.
@@ -200,8 +208,7 @@ export default function PlusIntegrations() {
           </div>
         </div>
       </div>
-    ),
-    (
+
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <h2 className="text-base font-semibold tracking-wider text-indigo-600 uppercase">
@@ -367,6 +374,6 @@ export default function PlusIntegrations() {
           </div>
         </div>
       </div>
-    )
+    </div>
   );
 }

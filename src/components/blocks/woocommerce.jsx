@@ -2,32 +2,32 @@ import React from 'react';
 
 export default function Woocommerce() {
   return (
-    <div class="relative bg-white py-16 sm:py-24 lg:py-32">
-      <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-        <h2 class="text-base font-semibold tracking-wider text-indigo-600 uppercase">
+    <div className="relative bg-white py-16 sm:py-24 lg:py-32">
+      <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+        <h2 className="text-base font-semibold tracking-wider text-indigo-600 uppercase">
           Does your business run on
         </h2>
-        <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+        <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
           WooCommerce?
         </p>
-        <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+        <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
           It has been more than 9 years since we dived into the WooCommerce
           world, only one year after it was born. So, we have plenty to offer
           regarding support and development. We know how to solve and integrate
           all important segments of your e-commerce business.
         </p>
-        <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+        <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
           Some of the areas we can help you with are listed below.
         </p>
-        <div class="mt-12 text-left">
-          <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
-            <div class="pt-6">
-              <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                <div class="-mt-6">
+        <div className="mt-12 text-left">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
+            <div className="pt-6">
+              <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="-mt-6">
                   <div>
-                    <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                    <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                       <svg
-                        class="h-6 w-6 text-white"
+                        className="h-6 w-6 text-white"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -41,11 +41,11 @@ export default function Woocommerce() {
                       </svg>
                     </span>
                   </div>
-                  <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
                     Shipping
                   </h3>
-                  <p class="mt-5 text-base text-gray-500">
-                    <ul class="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                  <p className="mt-5 text-base text-gray-500">
+                    <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
                       <li>Porterbuddy</li>
                       <li>Consignor</li>
                       <li>Posten</li>
@@ -59,13 +59,13 @@ export default function Woocommerce() {
               </div>
             </div>
 
-            <div class="pt-6">
-              <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                <div class="-mt-6">
+            <div className="pt-6">
+              <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="-mt-6">
                   <div>
-                    <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                    <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                       <svg
-                        class="h-6 w-6 text-white"
+                        className="h-6 w-6 text-white"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -79,11 +79,11 @@ export default function Woocommerce() {
                       </svg>
                     </span>
                   </div>
-                  <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
                     Catalog Management
                   </h3>
-                  <p class="mt-5 text-base text-gray-500">
-                    <ul class="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                  <p className="mt-5 text-base text-gray-500">
+                    <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
                       <li>Virtual products</li>
                       <li>Downloadable/digital products with samples</li>
                       <li>Backordered inventory items</li>
@@ -97,13 +97,13 @@ export default function Woocommerce() {
               </div>
             </div>
 
-            <div class="pt-6">
-              <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                <div class="-mt-6">
+            <div className="pt-6">
+              <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="-mt-6">
                   <div>
-                    <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                    <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                       <svg
-                        class="h-6 w-6 text-white"
+                        className="h-6 w-6 text-white"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -117,11 +117,11 @@ export default function Woocommerce() {
                       </svg>
                     </span>
                   </div>
-                  <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
                     ERP, CRM, Accounting
                   </h3>
-                  <p class="mt-5 text-base text-gray-500">
-                    <ul class="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                  <p className="mt-5 text-base text-gray-500">
+                    <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
                       <li>Tripletex</li>
                       <li>Visma Global</li>
                       <li>Visma One</li>
@@ -134,13 +134,13 @@ export default function Woocommerce() {
               </div>
             </div>
 
-            <div class="pt-6">
-              <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                <div class="-mt-6">
+            <div className="pt-6">
+              <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="-mt-6">
                   <div>
-                    <span class="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                    <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
                       <svg
-                        class="h-6 w-6 text-white"
+                        className="h-6 w-6 text-white"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -154,11 +154,11 @@ export default function Woocommerce() {
                       </svg>
                     </span>
                   </div>
-                  <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
                     Reporting
                   </h3>
-                  <p class="mt-5 text-base text-gray-500">
-                    <ul class="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                  <p className="mt-5 text-base text-gray-500">
+                    <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
                       <li>Tax reports</li>
                       <li>Abandoned shopping cart</li>
                       <li>Low stock alert</li>
