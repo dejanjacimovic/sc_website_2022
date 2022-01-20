@@ -24,7 +24,7 @@ function getFaq() {
     'Can you help me connect to MailChimp, Klaviyo, Posten or Vips?':
       'Absolutely. We have a plenty of experience with all of the mentioned platforms, and more. We can surely help you navigate the platforms themselves.',
     'Can I cancel at any time?':
-      "Sure, you can. We'd be sad to see you go, but make sure to check out <a href='/refund-policy.php'>fair refund policy</a> along the way. We prefer having a fair relationship over a frustrated one.",
+      "Sure, you can. We'd be sad to see you go, but make sure to check out <a href='/refund-policy/'>fair refund policy</a> along the way. We prefer having a fair relationship over a frustrated one.",
     'Are you able to provide hosting for me?':
       'While we do not own servers, we can recommend where to purchase, and we can take care of the rest once you grant us access.',
     'How can I give you access to the site?':
@@ -993,7 +993,7 @@ export default function ServicesWoocommerceMaintenance() {
             <div class="ml-3 inline-flex">
               <a
                 class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out"
-                href="/testimonials.php"
+                href="/testimonials/"
               >
                 See what our customers said?
               </a>
@@ -1087,7 +1087,7 @@ export default function ServicesWoocommerceMaintenance() {
             </div>
             <a
               class="mt-8 w-full bg-indigo-600 border border-transparent px-5 py-3 inline-flex items-center justify-center text-base leading-6 font-medium rounded-md text-white hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out sm:mt-10 sm:w-auto xl:mt-0"
-              href="/pricing.php"
+              href="/pricing/"
             >
               See our pricing
             </a>

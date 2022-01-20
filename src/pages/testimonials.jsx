@@ -1218,7 +1218,7 @@ export default function Testimonials() {
             <p className="mt-3 text-lg leading-7 text-gray-300">Learn more about us and how we work with our customers.</p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">
-                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" href="/about-us.php">
+                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" href="/about-us/">
                   <span>Learn more about us</span>
                   <svg className="-mr-1 ml-3 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>

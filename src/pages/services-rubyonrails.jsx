@@ -763,7 +763,7 @@ export default function ServicesRubyonrails() {
             <div class="ml-3 inline-flex">
               <a
                 class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-red-700 bg-red-100 hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 transition duration-150 ease-in-out"
-                href="/testimonials.php"
+                href="/testimonials/"
               >
                 See what our customers said?
               </a>

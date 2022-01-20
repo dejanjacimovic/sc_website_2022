@@ -161,7 +161,7 @@ export default function Terms() {
               If you violate any of the terms, we may terminate your account.
               That’s a broad statement and it means you need to place a lot of
               trust in us. We do our best to deserve that trust by being open
-              about <a href="/about-us.php">who we are</a>, how we work, and
+              about <a href="/about-us/">who we are</a>, how we work, and
               keeping an open door to your{' '}
               <a href="/contact/">feedback</a>.
             </p>
@@ -202,7 +202,7 @@ export default function Terms() {
                 will freeze your account and it will be inaccessible until you
                 make payment. If your account has been frozen for a while, we
                 will queue it up for auto-cancellation. See our{' '}
-                <a href="/cancellation-policy.php">Cancellation policy</a> for
+                <a href="/cancellation-policy/">Cancellation policy</a> for
                 more details.
               </li>
               <li>
@@ -220,7 +220,7 @@ export default function Terms() {
               </li>
               <li>
                 We process refunds according to our{' '}
-                <a href="/refund-policy.php">Refund policy</a>.
+                <a href="/refund-policy/">Refund policy</a>.
               </li>
             </ol>
 
@@ -231,7 +231,7 @@ export default function Terms() {
                 Within each of our Services, we provide a simple
                 no-questions-asked cancellation link. You can find instructions
                 for how to cancel your account in our{' '}
-                <a href="/cancellation-policy.php">Cancellation policy</a>. An
+                <a href="/cancellation-policy/">Cancellation policy</a>. An
                 email or phone request to cancel your account is not
                 automatically considered cancellation. If you need help
                 cancelling your account, you can always contact our{' '}
@@ -240,7 +240,7 @@ export default function Terms() {
               <li>
                 All of your content will be inaccessible from the Services
                 immediately upon cancellation. Please check{' '}
-                <a href="/cancellation-policy.php">Cancellation policy</a> for
+                <a href="/cancellation-policy/">Cancellation policy</a> for
                 details.
               </li>
               <li>
@@ -248,7 +248,7 @@ export default function Terms() {
                 month, your cancellation will take effect immediately, and you
                 will not be charged again. We do not automatically prorate
                 unused time in the last billing cycle. See our{' '}
-                <a href="/refund-policy.php">Refund policy</a> for more details.
+                <a href="/refund-policy/">Refund policy</a> for more details.
               </li>
               <li>
                 We have the right to suspend or terminate your account and
@@ -262,7 +262,7 @@ export default function Terms() {
                 Services to anyone for any reason at any time. There are some
                 things we staunchly stand against and this clause is how we
                 exercise that stance. For more details, see our Use{' '}
-                <a href="/restrictions-policy.php">Restrictions policy</a>.
+                <a href="/restrictions-policy/">Restrictions policy</a>.
               </li>
               <li>
                 Verbal, physical, written or other abuse (including threats of
@@ -303,7 +303,7 @@ export default function Terms() {
                 When you use our Services, you entrust us with your data. We
                 take that trust to heart. You agree that Adorable may process
                 your data as described in our{' '}
-                <a href="/privacy-policy.php">Privacy Policy</a> and for no
+                <a href="/privacy-policy/">Privacy Policy</a> and for no
                 other purpose. We as humans can access your data for the
                 following reasons:
                 <ul>
@@ -350,7 +350,7 @@ export default function Terms() {
                 respect to your use of the Services. That means we process any
                 data you share with us only for the purpose you signed up for
                 and as described in these Terms of Service,{' '}
-                <a href="/privacy-policy.php">Privacy policy</a>, and other
+                <a href="/privacy-policy/">Privacy policy</a>, and other
                 policies. We do not retain, use, disclose, or sell any of that
                 information for any other commercial purposes unless we have
                 your explicit permission. And on the flip-side, you agree to
@@ -454,7 +454,7 @@ export default function Terms() {
               not us. We do our darnedest to be as safe a bet as possible
               through careful management of the business; investments in
               security, infrastructure, and talent; and in general{' '}
-              <a href="/about-us.php">providing an actual care</a>. If you
+              <a href="/about-us/">providing an actual care</a>. If you
               choose to use our Services, thank you for betting on us.
             </p>
           </div>
