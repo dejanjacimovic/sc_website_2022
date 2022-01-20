@@ -431,7 +431,7 @@ export default function ServicesRubyonrails() {
           <div class="mt-8 flex justify-center">
             <div class="inline-flex rounded-md shadow">
               <a
-                href="/contact-us.php"
+                href="/contact/"
                 class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700"
               >
                 Contact us
@@ -755,7 +755,7 @@ export default function ServicesRubyonrails() {
             <div class="inline-flex rounded-md shadow">
               <a
                 class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/contact-us.php"
+                href="/contact/"
               >
                 Get in touch
               </a>
@@ -1295,7 +1295,7 @@ export default function ServicesRubyonrails() {
             <div class="inline-flex rounded-md shadow">
               <a
                 class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/contact-us.php"
+                href="/contact/"
               >
                 Get in touch
               </a>

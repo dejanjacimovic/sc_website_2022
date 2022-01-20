@@ -37,7 +37,8 @@ export default function Contact() {
 
                 <form
                   className="mt-9 grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8"
-                  action="/thank-you.php"
+                  name="contact"
+                  data-netlify="true"
                   id="contact-us-form"
                   method="POST"
                 >

@@ -163,7 +163,7 @@ export default function Terms() {
               trust in us. We do our best to deserve that trust by being open
               about <a href="/about-us.php">who we are</a>, how we work, and
               keeping an open door to your{' '}
-              <a href="/contact-us.php">feedback</a>.
+              <a href="/contact/">feedback</a>.
             </p>
 
             <h2>Account Terms</h2>
@@ -235,7 +235,7 @@ export default function Terms() {
                 email or phone request to cancel your account is not
                 automatically considered cancellation. If you need help
                 cancelling your account, you can always contact our{' '}
-                <a href="/contact-us.php">Support team</a>.
+                <a href="/contact/">Support team</a>.
               </li>
               <li>
                 All of your content will be inaccessible from the Services

@@ -151,7 +151,7 @@ export default function CancellationPolicy() {
             </p>
             <p>
               We won’t bill you again once you cancel. Contact us for a{' '}
-              <a href="/refund-policy.php">refund</a>. We’ll treat you right.
+              <a href="/refund-policy/">refund</a>. We’ll treat you right.
             </p>
 
             <h2>StuntCoders-initiated cancellations</h2>
@@ -169,7 +169,7 @@ export default function CancellationPolicy() {
             <p>
               We also retain the right to suspend or terminate accounts for any
               reason at any time, as outlined in our{' '}
-              <a href="/terms.php">Terms of Service</a>. In practice, this
+              <a href="/terms/">Terms of Service</a>. In practice, this
               generally means we will cancel your account without notice if we
               have evidence that you are using our products to engage in abusive
               behavior.

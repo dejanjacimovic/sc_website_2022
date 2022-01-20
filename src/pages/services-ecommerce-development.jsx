@@ -358,7 +358,7 @@ export default function ServicesEcommerceDevelopment() {
                     </ul>
                     <div className="rounded-md shadow">
                       <a
-                        href="/contact-us.php?subject=Micro%team"
+                        href="/contact/?subject=Micro%team"
                         className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
                         aria-describedby="tier-standard"
                       >
@@ -483,7 +483,7 @@ export default function ServicesEcommerceDevelopment() {
                     </ul>
                     <div className="rounded-md shadow">
                       <a
-                        href="/contact-us.php?subject=Accelerated%development"
+                        href="/contact/?subject=Accelerated%development"
                         className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
                         aria-describedby="tier-standard"
                       >
@@ -548,7 +548,7 @@ export default function ServicesEcommerceDevelopment() {
                   <p className="text-sm font-medium text-indigo-600">
                     Case Study
                   </p>
-                  <a href="/case/tesori.php" className="block mt-2">
+                  <a href="/case/tesori/" className="block mt-2">
                     <p className="text-xl font-semibold text-gray-900">
                       Tesori Diamanter
                     </p>
@@ -582,7 +582,7 @@ export default function ServicesEcommerceDevelopment() {
               </div>
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
                 <a
-                  href="/case/tesori.php"
+                  href="/case/tesori/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
                   Read the study<span aria-hidden="true"> →</span>
@@ -603,7 +603,7 @@ export default function ServicesEcommerceDevelopment() {
                   <p className="text-sm font-medium text-indigo-600">
                     Case Study
                   </p>
-                  <a href="/case/camp-david.php" className="block mt-2">
+                  <a href="/case/camp-david/" className="block mt-2">
                     <p className="text-xl font-semibold text-gray-900">
                       Camp David & Soccx
                     </p>
@@ -637,7 +637,7 @@ export default function ServicesEcommerceDevelopment() {
               </div>
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
                 <a
-                  href="/case/camp-david.php"
+                  href="/case/camp-david/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
                   Read the study<span aria-hidden="true"> →</span>
@@ -693,7 +693,7 @@ export default function ServicesEcommerceDevelopment() {
               </div>
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
                 <a
-                  href="/case/selekkt.php"
+                  href="/case/selekkt/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
                   Read the study<span aria-hidden="true"> →</span>
@@ -1051,7 +1051,7 @@ export default function ServicesEcommerceDevelopment() {
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="/contact-us.php?subject=marketplaces"
+                href="/contact/?subject=marketplaces"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Contact us to learn more
@@ -1155,7 +1155,7 @@ export default function ServicesEcommerceDevelopment() {
               <div className="mt-8 sm:flex">
                 <div className="mt-3 sm:mt-0">
                   <a
-                    href="/contact-us.php?subject=ecommerce%20development"
+                    href="/contact/?subject=ecommerce%20development"
                     className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                   >
                     Contact Us
@@ -1631,7 +1631,7 @@ export default function ServicesEcommerceDevelopment() {
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="/contact-us.php?subject=Book%20call"
+                href="/contact/?subject=Book%20call"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Get started

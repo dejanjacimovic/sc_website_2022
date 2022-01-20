@@ -134,7 +134,7 @@ export default function Pricing() {
               </ul>
             </div>
 
-            <a href="/contact-us.php" class="bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium">Contact us</a>
+            <a href="/contact/" class="bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium">Contact us</a>
           </div>
 
           <div class="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
@@ -242,7 +242,7 @@ export default function Pricing() {
               </ul>
             </div>
 
-            <a href="/contact-us.php" class="bg-indigo-500 text-white hover:bg-indigo-600 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium">Contact us</a>
+            <a href="/contact/" class="bg-indigo-500 text-white hover:bg-indigo-600 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium">Contact us</a>
           </div>
 
           <div class="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
@@ -296,7 +296,7 @@ export default function Pricing() {
               </ul>
             </div>
 
-            <a href="/contact-us.php" class="bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium">Contact us</a>
+            <a href="/contact/" class="bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium">Contact us</a>
           </div>
         </div>
       </div>
@@ -354,7 +354,7 @@ export default function Pricing() {
             </h2>
             <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
               <div class="inline-flex rounded-md shadow">
-                <a href="/contact-us.php" class="bg-indigo-600 border border-transparent rounded-md py-3 px-5 inline-flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700">
+                <a href="/contact/" class="bg-indigo-600 border border-transparent rounded-md py-3 px-5 inline-flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700">
                   Contact us
                 </a>
               </div>
