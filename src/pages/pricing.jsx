@@ -6,8 +6,41 @@ import AddedValue from '../components/blocks/added_value';
 import ContentManagement from '../components/blocks/content_management';
 import PlusIntegrations from '../components/blocks/plus_integrations';
 
-function getFaq() {
+function faqList() {
+  let myArray = getFaq();
+  let output = [];
+  for (var key in myArray) {
+    output.push(QA(key, myArray[key]));
+  }
 
+  return output;
+}
+
+function getFaq() {
+  return {
+    'Do you offer 24/7 support?':
+      'Our office hours are 9 AM – 6 PM Central European Time, Monday through Friday. Any request submitted during off-hours are immediately attended with SLA of 90 minutes. However, in an emergency, you can call our emergency line, and immediate support is provided to you regardless of the hours.',
+    'Do you support WordPress Multisite?':
+      'Absolutely. Due to the different use cases, database structure and plugin/theme variations, we will request information from you about your existing network. So, give us a call as each multisite is different and we will give you a custom quote.',
+    'Can you help me with server maintenance?':
+      "Of course. Our team includes experienced system administrators that can help you optimise your server for speed, security, and even upgrade it, so you don't need to sweat about which version of MySQL or PHP is right for your website.",
+    'Do you offer software development services?':
+      'Yes. Custom development is not part of this plan. However, our team is available to perform any of your custom development if you require such an additional service.',
+    'Can you help me connect to MailChimp, Klaviyo, Posten or Vips?':
+      'Absolutely. We have a plenty of experience with all of the mentioned platforms, and more. We can surely help you navigate the platforms themselves.',
+    'Can I cancel at any time?':
+      "Sure, you can. We'd be sad to see you go, but make sure to check out <a href='/refund-policy/'>fair refund policy</a> along the way. We prefer having a fair relationship over a frustrated one.",
+    'Are you able to provide hosting for me?':
+      'While we do not own servers, we can recommend where to purchase, and we can take care of the rest once you grant us access.',
+    'How can I give you access to the site?':
+      'Once you sign up, you will have a secure place to share your login details. This will help our team navigate access to the site, and, in case you need server maintenance, you can share those details as well.',
+    'I own multiple websites, is there a discount?':
+      'Since each case is specific, it would be better to get in touch with us to give you a custom-tailored offer.',
+    'How "unlimited" is "unlimited"?':
+      "It is unlimited. You need to ask us questions; please do. Wanna jump on the call? Let's talk. You need us to upload content? Please send us all. You need us to fix malware all the time? Wait for a second... You can't have malware all the time; we must fix that. So, yes, truly unlimited support for you and your business.",
+    'If an update breaks my website, will the fix be free of charge?':
+      'All updates are done with a backup beforehand. So, in an unlikely event that something goes wrong, we will rollback your website to a previous stable version. We will inestigate on what has caused the website to break, and give you an honest opinion on what are your further options.',
+  };
 }
 
 function QA(question, answer) {
@@ -302,7 +335,7 @@ export default function Pricing() {
       </div>
 
 
-      <div className="bg-white hidden">
+      <div className="bg-white">
 
         <div className="bg-gradient-to-t from-indigo-50 via-white to-white">
           <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
@@ -341,7 +374,7 @@ export default function Pricing() {
             </h2>
             <div className="mt-6 border-t border-indigo-400 border-opacity-25 pt-10">
               <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
-                {QA("question", "the answer")}
+                {faqList()}
               </dl>
             </div>
           </div>
