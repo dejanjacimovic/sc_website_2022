@@ -11,6 +11,16 @@ function getMaintenancePrice() {
   return '380 eur';
 }
 
+function faqList() {
+  let myArray = getFaq();
+  let output = [];
+  for (var key in myArray) {
+    output.push(QA(key, myArray[key]));
+  }
+
+  return output;
+}
+
 function getFaq() {
   return {
     'Do you offer 24/7 support?':
@@ -38,7 +48,7 @@ function getFaq() {
   };
 }
 
-function QA(question, answer, isFirst = false) {
+function QA(question, answer, isFirst = true) {
   let classVal = '';
 
   if (isFirst) {
@@ -1299,7 +1309,7 @@ export default function ServicesWoocommerceMaintenance() {
               Frequently asked questions
             </h2>
             <div className="mt-6 border-t-2 border-gray-200 pt-6">
-              <dl>{QA('question', 'answer', true)}</dl>
+              <dl>{faqList()}</dl>
             </div>
           </div>
         </div>
