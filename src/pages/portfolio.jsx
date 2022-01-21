@@ -286,7 +286,6 @@ function clients() {
 
 function project(clientName, client) {
   let image = getImage(client['image']);
-  console.log(image);
 
   return (
     <li>
