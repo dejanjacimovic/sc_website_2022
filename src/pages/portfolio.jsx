@@ -285,35 +285,35 @@ function clients() {
 }
 
 function project(clientName, client) {
-  let imageSrc = getImage(client['image']);
-  console.log(imageSrc);
+  let image = getImage(client['image']);
+  console.log(image);
 
   return (
     <li>
-      <div class="space-y-4">
-        <div class="aspect-w-3 aspect-h-2">
+      <div className="space-y-4">
+        <div className="aspect-w-3 aspect-h-2">
           <GatsbyImage
             className="object-cover shadow-lg rounded-lg"
-            image={imageSrc}
+            image={image}
             alt={clientName}
           />
         </div>
 
-        <div class="space-y-2">
-          <div class="text-lg leading-6 font-medium space-y-1">
+        <div className="space-y-2">
+          <div className="text-lg leading-6 font-medium space-y-1">
             <h3>{clientName}</h3>
-            <p class="text-indigo-600">{client['tehnologies']}</p>
+            <p className="text-indigo-600">{client['tehnologies']}</p>
           </div>
-          <ul class="flex space-x-5">
+          <ul className="flex space-x-5">
             <li>
               <a
                 href={client['link']}
                 target="_blank"
-                class="text-gray-400 hover:text-gray-500"
+                className="text-gray-400 hover:text-gray-500"
               >
-                <span class="sr-only">Website</span>
+                <span className="sr-only">Website</span>
                 <svg
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   aria-hidden="true"
@@ -337,23 +337,23 @@ function project(clientName, client) {
 export default function Portfolio() {
   return (
     <LayoutPage>
-      <div class="relative pt-6 pb-2 sm:pb-16 md:pb-2 lg:pb-2 xl:pb-2">
+      <div className="relative pt-6 pb-2 sm:pb-16 md:pb-2 lg:pb-2 xl:pb-2">
         <NavCenter />
       </div>
 
-      <div class="bg-white">
-        <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-          <div class="space-y-12">
-            <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-              <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+      <div className="bg-white">
+        <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+          <div className="space-y-12">
+            <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
+              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Our Portfolio
               </h2>
-              <p class="text-xl text-gray-500">
+              <p className="text-xl text-gray-500">
                 List of projects we have built, maintained, or co-worked on
                 developing, and technologies they are built on.
               </p>
             </div>
-            <ul class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+            <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
               {portfolioList()}
             </ul>
           </div>

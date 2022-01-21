@@ -48,12 +48,12 @@ function QA(question, answer, isFirst = false) {
   return (
     <div classVal>
       <div>
-        <dt class="text-lg leading-7">
-          <button class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
-            <span class="font-medium text-gray-900">{question}</span>
-            <span class="ml-6 h-7 flex items-center">
+        <dt className="text-lg leading-7">
+          <button className="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
+            <span className="font-medium text-gray-900">{question}</span>
+            <span className="ml-6 h-7 flex items-center">
               <svg
-                class="-rotate-180 h-6 w-6 transform"
+                className="-rotate-180 h-6 w-6 transform"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -68,8 +68,8 @@ function QA(question, answer, isFirst = false) {
             </span>
           </button>
         </dt>
-        <dd class="mt-2 pr-12">
-          <p class="text-base leading-6 text-gray-500">{answer}</p>
+        <dd className="mt-2 pr-12">
+          <p className="text-base leading-6 text-gray-500">{answer}</p>
         </dd>
       </div>
     </div>
@@ -79,11 +79,11 @@ function QA(question, answer, isFirst = false) {
 export default function ServicesWoocommerceMaintenance() {
   return (
     <LayoutPage>
-      <div class="relative bg-gray-50 overflow-hidden">
-        <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
-          <div class="relative h-full max-w-screen-xl mx-auto">
+      <div className="relative bg-gray-50 overflow-hidden">
+        <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
+          <div className="relative h-full max-w-screen-xl mx-auto">
             <svg
-              class="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+              className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -99,7 +99,7 @@ export default function ServicesWoocommerceMaintenance() {
                   patternUnits="userSpaceOnUse"
                 >
                   <rect
-                    class="text-gray-200"
+                    className="text-gray-200"
                     x="0"
                     y="0"
                     width="4"
@@ -115,7 +115,7 @@ export default function ServicesWoocommerceMaintenance() {
               ></rect>
             </svg>
             <svg
-              class="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
+              className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -131,7 +131,7 @@ export default function ServicesWoocommerceMaintenance() {
                   patternUnits="userSpaceOnUse"
                 >
                   <rect
-                    class="text-gray-200"
+                    className="text-gray-200"
                     x="0"
                     y="0"
                     width="4"
@@ -148,26 +148,26 @@ export default function ServicesWoocommerceMaintenance() {
             </svg>
           </div>
         </div>
-        <div class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+        <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <NavCenter />
-          <main class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
-            <div class="text-center">
-              <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-                <span class="mr-1">Services to support your</span>
-                <br class="xl:hidden" />
-                <span class="text-indigo-600">WooCommerce</span>
+          <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+            <div className="text-center">
+              <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+                <span className="mr-1">Services to support your</span>
+                <br className="xl:hidden" />
+                <span className="text-indigo-600">WooCommerce</span>
               </h2>
-              <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 We believe that the service we offer should be fair, reasonably
                 priced, and cover most of the cases you will ever need. We
                 believe that now, more than ever, it is important to have a
                 human touch that helps you navigate through technical
                 challenges.
               </p>
-              <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-                <div class="rounded-md shadow">
+              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+                <div className="rounded-md shadow">
                   <a
-                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                     href="/contact/"
                   >
                     Get started
@@ -179,29 +179,29 @@ export default function ServicesWoocommerceMaintenance() {
         </div>
       </div>
 
-      <div class="py-12 bg-white">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="lg:text-center">
-            <p class=" text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+      <div className="py-12 bg-white">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="lg:text-center">
+            <p className=" text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
               Guaranteed
             </p>
-            <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               Customer Happiness
             </h3>
-            <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+            <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
               We know that a business is only as good as its customers. If we
               are lucky enough to earn your trust, we promise to work hard on
               maintaining your happiness in years to come.
             </p>
           </div>
-          <div class="mt-10">
-            <ul class="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
-              <li class="mt-10 md:mt-8">
-                <div class="flex">
-                  <div class="flex-shrink-0">
-                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+          <div className="mt-10">
+            <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
+              <li className="mt-10 md:mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <svg
-                        class="h-6 w-6"
+                        className="h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -215,11 +215,11 @@ export default function ServicesWoocommerceMaintenance() {
                       </svg>
                     </div>
                   </div>
-                  <div class="ml-4 pr-4">
-                    <h4 class="text-lg leading-6 font-medium text-gray-900">
+                  <div className="ml-4 pr-4">
+                    <h4 className="text-lg leading-6 font-medium text-gray-900">
                       90 minutes Maximum Response Time
                     </h4>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                    <p className="mt-2 text-base leading-6 text-gray-500">
                       Your business and time are important! When you entrust us
                       with your precious time and investment, a fast response
                       will be the first promise we keep.
@@ -227,12 +227,12 @@ export default function ServicesWoocommerceMaintenance() {
                   </div>
                 </div>
               </li>
-              <li class="mt-10 md:mt-8">
-                <div class="flex">
-                  <div class="flex-shrink-0">
-                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <li className="mt-10 md:mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <svg
-                        class="h-6 w-6"
+                        className="h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -246,11 +246,11 @@ export default function ServicesWoocommerceMaintenance() {
                       </svg>
                     </div>
                   </div>
-                  <div class="ml-4">
-                    <h4 class="text-lg leading-6 font-medium text-gray-900">
+                  <div className="ml-4">
+                    <h4 className="text-lg leading-6 font-medium text-gray-900">
                       Problem-free Guarantee
                     </h4>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                    <p className="mt-2 text-base leading-6 text-gray-500">
                       Your happiness is our success as we grow together. This
                       means we stand by our services 100% to be the source of
                       your happiness.
@@ -259,12 +259,12 @@ export default function ServicesWoocommerceMaintenance() {
                   </div>
                 </div>
               </li>
-              <li class="mt-10 md:mt-8">
-                <div class="flex">
-                  <div class="flex-shrink-0">
-                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <li className="mt-10 md:mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <svg
-                        class="h-6 w-6"
+                        className="h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -278,11 +278,11 @@ export default function ServicesWoocommerceMaintenance() {
                       </svg>
                     </div>
                   </div>
-                  <div class="ml-4">
-                    <h4 class="text-lg leading-6 font-medium text-gray-900">
+                  <div className="ml-4">
+                    <h4 className="text-lg leading-6 font-medium text-gray-900">
                       Phone Support
                     </h4>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                    <p className="mt-2 text-base leading-6 text-gray-500">
                       If you need instant help, we are here for you. We rely on
                       your judgment and believe you will pick up your phone and
                       call us only if something is really urgent. We will be
@@ -292,12 +292,12 @@ export default function ServicesWoocommerceMaintenance() {
                   </div>
                 </div>
               </li>
-              <li class="hidden mt-10 md:mt-8">
-                <div class="flex">
-                  <div class="flex-shrink-0">
-                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <li className="hidden mt-10 md:mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <svg
-                        class="h-6 w-6"
+                        className="h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -311,11 +311,11 @@ export default function ServicesWoocommerceMaintenance() {
                       </svg>
                     </div>
                   </div>
-                  <div class="ml-4">
-                    <h4 class="text-lg leading-6 font-medium text-gray-900">
+                  <div className="ml-4">
+                    <h4 className="text-lg leading-6 font-medium text-gray-900">
                       Content Management, Done for You
                     </h4>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                    <p className="mt-2 text-base leading-6 text-gray-500">
                       We know you have better things to do with your time than
                       learning basic HTML, uploading banners, setting up product
                       pictures, and overall managing the content. Just send us
@@ -325,12 +325,12 @@ export default function ServicesWoocommerceMaintenance() {
                   </div>
                 </div>
               </li>
-              <li class="mt-10 md:mt-8">
-                <div class="flex">
-                  <div class="flex-shrink-0">
-                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <li className="mt-10 md:mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <svg
-                        class="h-6 w-6"
+                        className="h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -344,11 +344,11 @@ export default function ServicesWoocommerceMaintenance() {
                       </svg>
                     </div>
                   </div>
-                  <div class="ml-4 pr-4">
-                    <h4 class="text-lg leading-6 font-medium text-gray-900">
+                  <div className="ml-4 pr-4">
+                    <h4 className="text-lg leading-6 font-medium text-gray-900">
                       24/7 Support in Case Of Emergency
                     </h4>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                    <p className="mt-2 text-base leading-6 text-gray-500">
                       If you need instant help, we will be there for you. We
                       understand you will pick up your phone and call us only if
                       something is really urgent, so we will be there for you
@@ -363,10 +363,10 @@ export default function ServicesWoocommerceMaintenance() {
         </div>
       </div>
 
-      <div class="bg-gray-50 overflow-hidden">
-        <div class="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gray-50 overflow-hidden">
+        <div className="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <svg
-            class="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+            className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
             width="404"
             height="784"
             fill="none"
@@ -382,7 +382,7 @@ export default function ServicesWoocommerceMaintenance() {
                 patternUnits="userSpaceOnUse"
               >
                 <rect
-                  class="text-gray-200"
+                  className="text-gray-200"
                   x="0"
                   y="0"
                   width="4"
@@ -397,17 +397,17 @@ export default function ServicesWoocommerceMaintenance() {
               fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
             ></rect>
           </svg>
-          <div class="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
-            <div class="lg:col-span-1">
-              <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+          <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
+            <div className="lg:col-span-1">
+              <h3 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
                 Security should never be a concern.
               </h3>
             </div>
-            <div class="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
+            <div className="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
               <div>
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -420,11 +420,11 @@ export default function ServicesWoocommerceMaintenance() {
                     ></path>
                   </svg>
                 </div>
-                <div class="mt-5 pr-4">
-                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg leading-6 font-medium text-gray-900">
                     Weekly Upgrades
                   </h4>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p className="mt-2 text-base leading-6 text-gray-500">
                     Keeping your WooCommerce up to date is the first good step
                     to keep your website healthy and free of attackers. But
                     upgrades can cause a headache too. Incompatible themes,
@@ -434,10 +434,10 @@ export default function ServicesWoocommerceMaintenance() {
                   <br />
                 </div>
               </div>
-              <div class="mt-10 sm:mt-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="mt-10 sm:mt-0">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -450,11 +450,11 @@ export default function ServicesWoocommerceMaintenance() {
                     ></path>
                   </svg>
                 </div>
-                <div class="mt-5">
-                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                <div className="mt-5">
+                  <h4 className="text-lg leading-6 font-medium text-gray-900">
                     Server Monitoring
                   </h4>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p className="mt-2 text-base leading-6 text-gray-500">
                     Nobody likes to have an unavailable website and lost
                     customers because of this. Our monitoring systems will
                     inform you via SMS and email, just as it will inform our
@@ -462,10 +462,10 @@ export default function ServicesWoocommerceMaintenance() {
                   </p>
                 </div>
               </div>
-              <div class="mt-10 sm:mt-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="mt-10 sm:mt-0">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -478,21 +478,21 @@ export default function ServicesWoocommerceMaintenance() {
                     ></path>
                   </svg>
                 </div>
-                <div class="mt-5 pr-4">
-                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg leading-6 font-medium text-gray-900">
                     Daily Backups
                   </h4>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p className="mt-2 text-base leading-6 text-gray-500">
                     Because sometimes problems do happen, we make sure backups
                     are performed daily, and completely recoverable within
                     minutes.
                   </p>
                 </div>
               </div>
-              <div class="mt-10 sm:mt-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="mt-10 sm:mt-0">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -505,11 +505,11 @@ export default function ServicesWoocommerceMaintenance() {
                     ></path>
                   </svg>
                 </div>
-                <div class="mt-5">
-                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                <div className="mt-5">
+                  <h4 className="text-lg leading-6 font-medium text-gray-900">
                     Hack Interventions
                   </h4>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p className="mt-2 text-base leading-6 text-gray-500">
                     Your website's savior is a help site for fixing webpages
                     that have been hacked by internet trolls or other hackers
                     who want to disrupt your website. We go in and clean up any
@@ -519,10 +519,10 @@ export default function ServicesWoocommerceMaintenance() {
                   <br />
                 </div>
               </div>
-              <div class="mt-10 sm:mt-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="mt-10 sm:mt-0">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -535,11 +535,11 @@ export default function ServicesWoocommerceMaintenance() {
                     ></path>
                   </svg>
                 </div>
-                <div class="mt-5 pr-4">
-                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg leading-6 font-medium text-gray-900">
                     Security Scans
                   </h4>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p className="mt-2 text-base leading-6 text-gray-500">
                     Malware can be hidden anywhere, so we are constantly
                     searching for it, and in case we find malicious pieces of
                     code on the server, we should inform you immediately while
@@ -547,10 +547,10 @@ export default function ServicesWoocommerceMaintenance() {
                   </p>
                 </div>
               </div>
-              <div class="mt-10 sm:mt-0">
-                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="mt-10 sm:mt-0">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -563,11 +563,11 @@ export default function ServicesWoocommerceMaintenance() {
                     ></path>
                   </svg>
                 </div>
-                <div class="mt-5">
-                  <h4 class="text-lg leading-6 font-medium text-gray-900">
+                <div className="mt-5">
+                  <h4 className="text-lg leading-6 font-medium text-gray-900">
                     DDoS Mitigation
                   </h4>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p className="mt-2 text-base leading-6 text-gray-500">
                     Malicious attacks can take any form and can bring businesses
                     to their knees. We are here for you in a case anything goes
                     wrong.
@@ -583,10 +583,10 @@ export default function ServicesWoocommerceMaintenance() {
       <ContentManagement />
       <PlusIntegrations />
 
-      <div class="py-16 bg-gray-50 overflow-hidden lg:py-24">
-        <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
+      <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
+        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
           <svg
-            class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
+            className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
             width="404"
             height="784"
             fill="none"
@@ -602,7 +602,7 @@ export default function ServicesWoocommerceMaintenance() {
                 patternUnits="userSpaceOnUse"
               >
                 <rect
-                  class="text-gray-200"
+                  className="text-gray-200"
                   x="0"
                   y="0"
                   width="4"
@@ -617,34 +617,34 @@ export default function ServicesWoocommerceMaintenance() {
               fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
             ></rect>
           </svg>
-          <div class="relative">
-            <h3 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+          <div className="relative">
+            <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               A better way to communicate
             </h3>
-            <p class="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
+            <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
               Tickets are not for every one of us. In fact, most of us hate
               tickets. They are slow, provide little feedback, and most of all
               —&nbsp;feel like you're talking to a robot. That is why we
               communicate the way you like.
             </p>
           </div>
-          <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-            <div class="relative">
-              <h4 class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div className="relative">
+              <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
                 Let's talk the way you like to
               </h4>
-              <p class="mt-3 text-lg leading-7 text-gray-500">
+              <p className="mt-3 text-lg leading-7 text-gray-500">
                 Everybody has different habits, and that is absolutely fine.
                 Your habits help you stay organised throughout the day, and we
                 won't make you change them for us.
               </p>
-              <ul class="mt-10">
+              <ul className="mt-10">
                 <li>
-                  <div class="flex">
-                    <div class="flex-shrink-0">
-                      <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                         <svg
-                          class="h-6 w-6"
+                          className="h-6 w-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -658,11 +658,11 @@ export default function ServicesWoocommerceMaintenance() {
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-4">
-                      <h5 class="text-lg leading-6 font-medium text-gray-900">
+                    <div className="ml-4">
+                      <h5 className="text-lg leading-6 font-medium text-gray-900">
                         Tasks on our platform
                       </h5>
-                      <p class="mt-2 text-base leading-6 text-gray-500">
+                      <p className="mt-2 text-base leading-6 text-gray-500">
                         Internally, we use Kanban boards (yes, the ones from
                         Toyota). They help us have a clean overview of the
                         current status of tasks. If you like this approach, we
@@ -671,12 +671,12 @@ export default function ServicesWoocommerceMaintenance() {
                     </div>
                   </div>
                 </li>
-                <li class="mt-10">
-                  <div class="flex">
-                    <div class="flex-shrink-0">
-                      <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <li className="mt-10">
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                         <svg
-                          class="h-6 w-6"
+                          className="h-6 w-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -690,11 +690,11 @@ export default function ServicesWoocommerceMaintenance() {
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-4">
-                      <h5 class="text-lg leading-6 font-medium text-gray-900">
+                    <div className="ml-4">
+                      <h5 className="text-lg leading-6 font-medium text-gray-900">
                         Email
                       </h5>
-                      <p class="mt-2 text-base leading-6 text-gray-500">
+                      <p className="mt-2 text-base leading-6 text-gray-500">
                         Is the email right way to go for you? We'll set you up a
                         dedicated email address so you can shoot us a message,
                         and we'll take care of it.
@@ -702,12 +702,12 @@ export default function ServicesWoocommerceMaintenance() {
                     </div>
                   </div>
                 </li>
-                <li class="mt-10">
-                  <div class="flex">
-                    <div class="flex-shrink-0">
-                      <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <li className="mt-10">
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                         <svg
-                          class="h-6 w-6"
+                          className="h-6 w-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -721,11 +721,11 @@ export default function ServicesWoocommerceMaintenance() {
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-4">
-                      <h5 class="text-lg leading-6 font-medium text-gray-900">
+                    <div className="ml-4">
+                      <h5 className="text-lg leading-6 font-medium text-gray-900">
                         Slack
                       </h5>
-                      <p class="mt-2 text-base leading-6 text-gray-500">
+                      <p className="mt-2 text-base leading-6 text-gray-500">
                         Like Slack? Great, we do too! Hop on our Slack, we'll
                         open a channel for your project, and you can easily ping
                         any of our team members you are familiar with in
@@ -734,12 +734,12 @@ export default function ServicesWoocommerceMaintenance() {
                     </div>
                   </div>
                 </li>
-                <li class="mt-10">
-                  <div class="flex">
-                    <div class="flex-shrink-0">
-                      <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <li className="mt-10">
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                         <svg
-                          class="h-6 w-6"
+                          className="h-6 w-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -753,11 +753,11 @@ export default function ServicesWoocommerceMaintenance() {
                         </svg>
                       </div>
                     </div>
-                    <div class="ml-4">
-                      <h5 class="text-lg leading-6 font-medium text-gray-900">
+                    <div className="ml-4">
+                      <h5 className="text-lg leading-6 font-medium text-gray-900">
                         WhatsApp
                       </h5>
-                      <p class="mt-2 text-base leading-6 text-gray-500">
+                      <p className="mt-2 text-base leading-6 text-gray-500">
                         Sometimes you're on the go, and if it's just the easiest
                         option for you, we don't mind it.
                       </p>
@@ -766,9 +766,9 @@ export default function ServicesWoocommerceMaintenance() {
                 </li>
               </ul>
             </div>
-            <div class="mt-10 -mx-4 relative lg:mt-0">
+            <div className="mt-10 -mx-4 relative lg:mt-0">
               <svg
-                class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
                 width="784"
                 height="404"
                 fill="none"
@@ -784,7 +784,7 @@ export default function ServicesWoocommerceMaintenance() {
                     patternUnits="userSpaceOnUse"
                   >
                     <rect
-                      class="text-gray-200"
+                      className="text-gray-200"
                       x="0"
                       y="0"
                       width="4"
@@ -800,7 +800,7 @@ export default function ServicesWoocommerceMaintenance() {
                 ></rect>
               </svg>
               <img
-                class="relative mx-auto"
+                className="relative mx-auto"
                 width="490"
                 src="https://stcdshare.s3.amazonaws.com/whatsapp-min.png"
                 alt="Whatsapp message support"
@@ -809,7 +809,7 @@ export default function ServicesWoocommerceMaintenance() {
             </div>
           </div>
           <svg
-            class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
+            className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
             width="404"
             height="784"
             fill="none"
@@ -825,7 +825,7 @@ export default function ServicesWoocommerceMaintenance() {
                 patternUnits="userSpaceOnUse"
               >
                 <rect
-                  class="text-gray-200"
+                  className="text-gray-200"
                   x="0"
                   y="0"
                   width="4"
@@ -840,25 +840,25 @@ export default function ServicesWoocommerceMaintenance() {
               fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
             ></rect>
           </svg>
-          <div class="relative mt-12 sm:mt-16 lg:mt-24">
-            <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-              <div class="lg:col-start-2">
-                <h4 class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+          <div className="relative mt-12 sm:mt-16 lg:mt-24">
+            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+              <div className="lg:col-start-2">
+                <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
                   Keeping you in the loop
                 </h4>
-                <p class="mt-3 text-lg leading-7 text-gray-500">
+                <p className="mt-3 text-lg leading-7 text-gray-500">
                   We swore never to be "missing in action" because there is no
                   worse feeling than having to chase those who need to solve
                   your problems. That is why we always keep you in the loop,
                   even on the complex tasks.
                 </p>
-                <ul class="mt-10">
+                <ul className="mt-10">
                   <li>
-                    <div class="flex">
-                      <div class="flex-shrink-0">
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex">
+                      <div className="flex-shrink-0">
+                        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                           <svg
-                            class="h-6 w-6"
+                            className="h-6 w-6"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -878,11 +878,11 @@ export default function ServicesWoocommerceMaintenance() {
                           </svg>
                         </div>
                       </div>
-                      <div class="ml-4">
-                        <h5 class="text-lg leading-6 font-medium text-gray-900">
+                      <div className="ml-4">
+                        <h5 className="text-lg leading-6 font-medium text-gray-900">
                           Nothing gets lost
                         </h5>
-                        <p class="mt-2 text-base leading-6 text-gray-500">
+                        <p className="mt-2 text-base leading-6 text-gray-500">
                           Our internal tools do not allow human error. If there
                           was no reply from our end by the expected date, our
                           systems will nudge, ping, and disturb every one of us,
@@ -891,12 +891,12 @@ export default function ServicesWoocommerceMaintenance() {
                       </div>
                     </div>
                   </li>
-                  <li class="mt-10">
-                    <div class="flex">
-                      <div class="flex-shrink-0">
-                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <li className="mt-10">
+                    <div className="flex">
+                      <div className="flex-shrink-0">
+                        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                           <svg
-                            class="h-6 w-6"
+                            className="h-6 w-6"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -910,11 +910,11 @@ export default function ServicesWoocommerceMaintenance() {
                           </svg>
                         </div>
                       </div>
-                      <div class="ml-4">
-                        <h5 class="text-lg leading-6 font-medium text-gray-900">
+                      <div className="ml-4">
+                        <h5 className="text-lg leading-6 font-medium text-gray-900">
                           Send it and forget it
                         </h5>
-                        <p class="mt-2 text-base leading-6 text-gray-500">
+                        <p className="mt-2 text-base leading-6 text-gray-500">
                           It is our mission to make your requirements happen.
                           Once you send us what you need to get done, you can
                           sincerely go to sleep without thinking if it will be
@@ -925,9 +925,9 @@ export default function ServicesWoocommerceMaintenance() {
                   </li>
                 </ul>
               </div>
-              <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+              <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
                 <svg
-                  class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                  className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
                   width="784"
                   height="404"
                   fill="none"
@@ -943,7 +943,7 @@ export default function ServicesWoocommerceMaintenance() {
                       patternUnits="userSpaceOnUse"
                     >
                       <rect
-                        class="text-gray-200"
+                        className="text-gray-200"
                         x="0"
                         y="0"
                         width="4"
@@ -959,7 +959,7 @@ export default function ServicesWoocommerceMaintenance() {
                   ></rect>
                 </svg>
                 <img
-                  class="relative mx-auto"
+                  className="relative mx-auto"
                   width="490"
                   src="https://stcdshare.s3.amazonaws.com/status-updates-min.png"
                   alt="Status update from StuntCoders"
@@ -973,26 +973,26 @@ export default function ServicesWoocommerceMaintenance() {
 
       <Woocommerce />
 
-      <div class="bg-gray-50">
-        <div class="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+      <div className="bg-gray-50">
+        <div className="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+          <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             <span>Ready to dive in?</span>
             <br />
             <span>We'll get you covered.</span>
           </h2>
-          <div class="mt-8 flex justify-center">
-            <div class="inline-flex rounded-md shadow">
+          <div className="mt-8 flex justify-center">
+            <div className="inline-flex rounded-md shadow">
               <a
-                class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                 href="/contact/"
                 onclick="fbq('track', 'Services sign up', {content_name: 'Services sign up',content_category: 'Services sign up',});gtag('event', 'sign_up', {method: 'Services sign up'});"
               >
                 Get started
               </a>
             </div>
-            <div class="ml-3 inline-flex">
+            <div className="ml-3 inline-flex">
               <a
-                class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out"
                 href="/testimonials/"
               >
                 See what our customers said?
@@ -1002,21 +1002,21 @@ export default function ServicesWoocommerceMaintenance() {
         </div>
       </div>
 
-      <div class="relative bg-white">
-        <div class="h-56 bg-indigo-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
+      <div className="relative bg-white">
+        <div className="h-56 bg-indigo-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
           <img
-            class="w-full h-full object-cover"
+            className="w-full h-full object-cover"
             src="images/magic-in-the-office.jpg"
             alt="Magic in the office"
             loading="auto"
           />
         </div>
-        <div class="relative max-w-screen-xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16">
-          <div class="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
+        <div className="relative max-w-screen-xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16">
+          <div className="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
             <div>
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <svg
-                  class="h-6 w-6"
+                  className="h-6 w-6"
                   fill="none"
                   viewbox="0 0 24 24"
                   stroke="currentColor"
@@ -1030,37 +1030,37 @@ export default function ServicesWoocommerceMaintenance() {
                 </svg>
               </div>
             </div>
-            <h2 class="mt-6 text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+            <h2 className="mt-6 text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
               Get what you want, every time
             </h2>
-            <p class="mt-6 text-lg leading-7 text-gray-500">
+            <p className="mt-6 text-lg leading-7 text-gray-500">
               We sincerely understand how your business is important to you, and
               to your customers. And we know our success depends on yours. This
               is why your business truly matters to us too.
             </p>
-            <div class="mt-8 overflow-hidden">
-              <dl class="-mx-8 -mt-8 flex flex-wrap">
-                <div class="flex flex-col px-8 pt-8">
-                  <dt class="order-2 text-base leading-6 font-medium text-gray-500">
+            <div className="mt-8 overflow-hidden">
+              <dl className="-mx-8 -mt-8 flex flex-wrap">
+                <div className="flex flex-col px-8 pt-8">
+                  <dt className="order-2 text-base leading-6 font-medium text-gray-500">
                     in case of emergency
                   </dt>
-                  <dd class="order-1 text-2xl leading-8 font-extrabold text-indigo-600 sm:text-3xl sm:leading-9">
+                  <dd className="order-1 text-2xl leading-8 font-extrabold text-indigo-600 sm:text-3xl sm:leading-9">
                     24/7 availability
                   </dd>
                 </div>
-                <div class="flex flex-col px-8 pt-8">
-                  <dt class="order-2 text-base leading-6 font-medium text-gray-500">
+                <div className="flex flex-col px-8 pt-8">
+                  <dt className="order-2 text-base leading-6 font-medium text-gray-500">
                     support for you
                   </dt>
-                  <dd class="order-1 text-2xl leading-8 font-extrabold text-indigo-600 sm:text-3xl sm:leading-9">
+                  <dd className="order-1 text-2xl leading-8 font-extrabold text-indigo-600 sm:text-3xl sm:leading-9">
                     truly unlimited
                   </dd>
                 </div>
-                <div class="flex flex-col px-8 pt-8">
-                  <dt class="order-2 text-base leading-6 font-medium text-gray-500">
+                <div className="flex flex-col px-8 pt-8">
+                  <dt className="order-2 text-base leading-6 font-medium text-gray-500">
                     response time guaranteed
                   </dt>
-                  <dd class="order-1 text-2xl leading-8 font-extrabold text-indigo-600 sm:text-3xl sm:leading-9">
+                  <dd className="order-1 text-2xl leading-8 font-extrabold text-indigo-600 sm:text-3xl sm:leading-9">
                     90 minutes
                   </dd>
                 </div>
@@ -1070,43 +1070,43 @@ export default function ServicesWoocommerceMaintenance() {
         </div>
       </div>
 
-      <div class="bg-white">
-        <div class="max-w-screen-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <div class="pb-16 xl:flex xl:items-center xl:justify-between">
+      <div className="bg-white">
+        <div className="max-w-screen-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+          <div className="pb-16 xl:flex xl:items-center xl:justify-between">
             <div>
-              <h1 class="text-4xl leading-10 font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight">
-                <span class="text-gray-900">And even more from </span>
-                <span class="text-indigo-600">
+              <h1 className="text-4xl leading-10 font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight">
+                <span className="text-gray-900">And even more from </span>
+                <span className="text-indigo-600">
                   {getMaintenancePrice()} a month
                 </span>
               </h1>
-              <p class="mt-5 text-xl leading-7 text-gray-500">
+              <p className="mt-5 text-xl leading-7 text-gray-500">
                 Includes every feature we listed above plus the ones listed
                 below.
               </p>
             </div>
             <a
-              class="mt-8 w-full bg-indigo-600 border border-transparent px-5 py-3 inline-flex items-center justify-center text-base leading-6 font-medium rounded-md text-white hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out sm:mt-10 sm:w-auto xl:mt-0"
+              className="mt-8 w-full bg-indigo-600 border border-transparent px-5 py-3 inline-flex items-center justify-center text-base leading-6 font-medium rounded-md text-white hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out sm:mt-10 sm:w-auto xl:mt-0"
               href="/pricing/"
             >
               See our pricing
             </a>
           </div>
-          <div class="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:col-gap-8">
+          <div className="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:col-gap-8">
             <div>
-              <h2 class="text-base leading-6 font-semibold text-indigo-600 tracking-wide uppercase">
+              <h2 className="text-base leading-6 font-semibold text-indigo-600 tracking-wide uppercase">
                 Everything you need
               </h2>
-              <p class="mt-2 text-3xl leading-9 font-extrabold text-gray-900">
+              <p className="mt-2 text-3xl leading-9 font-extrabold text-gray-900">
                 To manage your online business
               </p>
-              <p class="mt-4 text-lg leading-7 text-gray-500"></p>
+              <p className="mt-4 text-lg leading-7 text-gray-500"></p>
             </div>
-            <div class="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 md:col-gap-8 xl:mt-0 xl:col-span-2">
-              <ul class="divide-y divide-gray-200">
-                <li class="py-4 flex space-x-3 md:py-0 md:pb-4">
+            <div className="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 md:col-gap-8 xl:mt-0 xl:col-span-2">
+              <ul className="divide-y divide-gray-200">
+                <li className="py-4 flex space-x-3 md:py-0 md:pb-4">
                   <svg
-                    class="h-6 w-6 text-green-500"
+                    className="h-6 w-6 text-green-500"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1120,13 +1120,13 @@ export default function ServicesWoocommerceMaintenance() {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <span class="text-base leading-6 text-gray-500">
+                  <span className="text-base leading-6 text-gray-500">
                     Setting up and maintaining GDPR
                   </span>
                 </li>
-                <li class="py-4 flex space-x-3">
+                <li className="py-4 flex space-x-3">
                   <svg
-                    class="h-6 w-6 text-green-500"
+                    className="h-6 w-6 text-green-500"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1140,13 +1140,13 @@ export default function ServicesWoocommerceMaintenance() {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <span class="text-base leading-6 text-gray-500">
+                  <span className="text-base leading-6 text-gray-500">
                     User and role management
                   </span>
                 </li>
-                <li class="py-4 flex space-x-3">
+                <li className="py-4 flex space-x-3">
                   <svg
-                    class="h-6 w-6 text-green-500"
+                    className="h-6 w-6 text-green-500"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1160,13 +1160,13 @@ export default function ServicesWoocommerceMaintenance() {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <span class="text-base leading-6 text-gray-500">
+                  <span className="text-base leading-6 text-gray-500">
                     Support when going international
                   </span>
                 </li>
-                <li class="py-4 flex space-x-3">
+                <li className="py-4 flex space-x-3">
                   <svg
-                    class="h-6 w-6 text-green-500"
+                    className="h-6 w-6 text-green-500"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1180,13 +1180,13 @@ export default function ServicesWoocommerceMaintenance() {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <span class="text-base leading-6 text-gray-500">
+                  <span className="text-base leading-6 text-gray-500">
                     Batch import of pages &amp; products
                   </span>
                 </li>
-                <li class="py-4 flex space-x-3">
+                <li className="py-4 flex space-x-3">
                   <svg
-                    class="h-6 w-6 text-green-500"
+                    className="h-6 w-6 text-green-500"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1200,15 +1200,15 @@ export default function ServicesWoocommerceMaintenance() {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <span class="text-base leading-6 text-gray-500">
+                  <span className="text-base leading-6 text-gray-500">
                     Fighting off SPAM bots
                   </span>
                 </li>
               </ul>
-              <ul class="border-t border-gray-200 divide-y divide-gray-200 md:border-t-0">
-                <li class="py-4 flex space-x-3 md:border-t-0 md:py-0 md:pb-4">
+              <ul className="border-t border-gray-200 divide-y divide-gray-200 md:border-t-0">
+                <li className="py-4 flex space-x-3 md:border-t-0 md:py-0 md:pb-4">
                   <svg
-                    class="h-6 w-6 text-green-500"
+                    className="h-6 w-6 text-green-500"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1222,13 +1222,13 @@ export default function ServicesWoocommerceMaintenance() {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <span class="text-base leading-6 text-gray-500">
+                  <span className="text-base leading-6 text-gray-500">
                     Help improving the search
                   </span>
                 </li>
-                <li class="py-4 flex space-x-3">
+                <li className="py-4 flex space-x-3">
                   <svg
-                    class="h-6 w-6 text-green-500"
+                    className="h-6 w-6 text-green-500"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1242,13 +1242,13 @@ export default function ServicesWoocommerceMaintenance() {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <span class="text-base leading-6 text-gray-500">
+                  <span className="text-base leading-6 text-gray-500">
                     Suggestions on UI and UX improvements
                   </span>
                 </li>
-                <li class="py-4 flex space-x-3">
+                <li className="py-4 flex space-x-3">
                   <svg
-                    class="h-6 w-6 text-green-500"
+                    className="h-6 w-6 text-green-500"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1262,13 +1262,13 @@ export default function ServicesWoocommerceMaintenance() {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <span class="text-base leading-6 text-gray-500">
+                  <span className="text-base leading-6 text-gray-500">
                     Speed optimisation
                   </span>
                 </li>
-                <li class="py-4 flex space-x-3">
+                <li className="py-4 flex space-x-3">
                   <svg
-                    class="h-6 w-6 text-green-500"
+                    className="h-6 w-6 text-green-500"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1282,7 +1282,7 @@ export default function ServicesWoocommerceMaintenance() {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  <span class="text-base leading-6 text-gray-500">
+                  <span className="text-base leading-6 text-gray-500">
                     Configuring SSL
                   </span>
                 </li>
@@ -1292,13 +1292,13 @@ export default function ServicesWoocommerceMaintenance() {
         </div>
       </div>
 
-      <div class="bg-gray-50">
-        <div class="max-w-screen-xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-          <div class="max-w-3xl mx-auto">
-            <h2 class="text-center text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+      <div className="bg-gray-50">
+        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-center text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
               Frequently asked questions
             </h2>
-            <div class="mt-6 border-t-2 border-gray-200 pt-6">
+            <div className="mt-6 border-t-2 border-gray-200 pt-6">
               <dl>{QA('question', 'answer', true)}</dl>
             </div>
           </div>

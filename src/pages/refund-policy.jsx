@@ -10,11 +10,11 @@ export default function RefundPolicy() {
         <NavCenter />
       </div>
 
-      <div class="relative py-16 bg-white overflow-hidden">
-        <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
-          <div class="relative h-full text-lg max-w-prose mx-auto">
+      <div className="relative py-16 bg-white overflow-hidden">
+        <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+          <div className="relative h-full text-lg max-w-prose mx-auto">
             <svg
-              class="absolute top-12 left-full transform translate-x-32"
+              className="absolute top-12 left-full transform translate-x-32"
               width="404"
               height="384"
               fill="none"
@@ -30,7 +30,7 @@ export default function RefundPolicy() {
                   patternUnits="userSpaceOnUse"
                 >
                   <rect
-                    class="text-gray-200"
+                    className="text-gray-200"
                     x="0"
                     y="0"
                     width="4"
@@ -46,7 +46,7 @@ export default function RefundPolicy() {
               ></rect>
             </svg>
             <svg
-              class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
+              className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
               width="404"
               height="384"
               fill="none"
@@ -62,7 +62,7 @@ export default function RefundPolicy() {
                   patternUnits="userSpaceOnUse"
                 >
                   <rect
-                    class="text-gray-200"
+                    className="text-gray-200"
                     x="0"
                     y="0"
                     width="4"
@@ -78,7 +78,7 @@ export default function RefundPolicy() {
               ></rect>
             </svg>
             <svg
-              class="absolute bottom-12 left-full transform translate-x-32"
+              className="absolute bottom-12 left-full transform translate-x-32"
               width="404"
               height="384"
               fill="none"
@@ -94,7 +94,7 @@ export default function RefundPolicy() {
                   patternUnits="userSpaceOnUse"
                 >
                   <rect
-                    class="text-gray-200"
+                    className="text-gray-200"
                     x="0"
                     y="0"
                     width="4"
@@ -111,15 +111,15 @@ export default function RefundPolicy() {
             </svg>
           </div>
         </div>
-        <div class="relative px-4 sm:px-6 lg:px-8">
-          <div class="text-lg max-w-prose mx-auto mb-6">
-            <p class="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+        <div className="relative px-4 sm:px-6 lg:px-8">
+          <div className="text-lg max-w-prose mx-auto mb-6">
+            <p className="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
               A fair
             </p>
-            <h1 class="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h1 className="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               Refund Policy
             </h1>
-            <p class="text-xl text-gray-500 leading-8">
+            <p className="text-xl text-gray-500 leading-8">
               Bad refund policies are infuriating. You feel like the company is
               just trying to rip you off. We never want our customers to feel
               that way, so our refund policy is simple: If you’re ever unhappy
@@ -127,7 +127,7 @@ export default function RefundPolicy() {
               support team and we’ll take care of you.
             </p>
           </div>
-          <div class="prose prose-lg text-gray-500 mx-auto">
+          <div className="prose prose-lg text-gray-500 mx-auto">
             <h2>Examples of refunds we’d grant.</h2>
             <ul>
               <li>

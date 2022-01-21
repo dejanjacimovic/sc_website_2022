@@ -10,11 +10,11 @@ function getB2BPrice() {
 export default function ServicesB2bEcommerce() {
   return (
     <LayoutPage>
-      <div class="relative bg-gray-50 overflow-hidden">
-        <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
-          <div class="relative h-full max-w-screen-xl mx-auto">
+      <div className="relative bg-gray-50 overflow-hidden">
+        <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
+          <div className="relative h-full max-w-screen-xl mx-auto">
             <svg
-              class="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+              className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -30,7 +30,7 @@ export default function ServicesB2bEcommerce() {
                   patternUnits="userSpaceOnUse"
                 >
                   <rect
-                    class="text-gray-200"
+                    className="text-gray-200"
                     x="0"
                     y="0"
                     width="4"
@@ -46,7 +46,7 @@ export default function ServicesB2bEcommerce() {
               ></rect>
             </svg>
             <svg
-              class="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
+              className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -62,7 +62,7 @@ export default function ServicesB2bEcommerce() {
                   patternUnits="userSpaceOnUse"
                 >
                   <rect
-                    class="text-gray-200"
+                    className="text-gray-200"
                     x="0"
                     y="0"
                     width="4"
@@ -79,28 +79,28 @@ export default function ServicesB2bEcommerce() {
             </svg>
           </div>
         </div>
-        <div class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+        <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <NavCenter />
-          <main class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
-            <div class="text-center">
-              <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-                <span class="mr-1">
-                  The <span class="text-indigo-600">eCommerce</span> Solution
+          <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+            <div className="text-center">
+              <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+                <span className="mr-1">
+                  The <span className="text-indigo-600">eCommerce</span> Solution
                   for
-                  <br /> All Your <span class="text-indigo-600">B2B</span>{' '}
+                  <br /> All Your <span className="text-indigo-600">B2B</span>{' '}
                   Needs.
                 </span>
               </h2>
-              <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 Over the last decade, we have collaborated with some of the
                 largest Scandinavian fashion brands and some of the most
                 successful ones from Germany to bring to life our
                 enterprise-grade B2B eCommerce platform.
               </p>
-              <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-                <div class="rounded-md shadow">
+              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+                <div className="rounded-md shadow">
                   <a
-                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                     href="/contact/"
                   >
                     Schedule a demo
