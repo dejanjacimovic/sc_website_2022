@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { GatsbyImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
@@ -285,7 +285,7 @@ function clients() {
 }
 
 function project(clientName, client) {
-  let imageSrc = client['image'];
+  let imageSrc = getImage(client['image']);
   console.log(imageSrc);
 
   return (
