@@ -460,20 +460,20 @@ export default function Tesori() {
           </h2>
           <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
             <div class="inline-flex rounded-md shadow">
-              <a
+              <Link
                 class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/contact/"
+                to="/contact/"
               >
                 Get started
-              </a>
+              </Link>
             </div>
             <div class="ml-3 inline-flex rounded-md shadow">
-              <a
+              <Link
                 class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/testimonials/"
+                to="/testimonials/"
               >
                 What did our customers say?
-              </a>
+              </Link>
             </div>
           </div>
         </div>

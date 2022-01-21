@@ -99,7 +99,6 @@ export default function Selekkt() {
         </div>
       </section>
 
-      <a name="pricing"></a>
       <div className="relative bg-gray-900">
         <div className="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
           <div className="h-full w-full xl:grid xl:grid-cols-2">
@@ -155,12 +154,12 @@ export default function Selekkt() {
           </h2>
           <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0">
             <div className="inline-flex rounded-md shadow">
-              <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" href="/contact/">
+              <Link className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" to="/contact/">
                   Get started
-              </a>
+              </Link>
             </div>
             <div className="ml-3 inline-flex rounded-md shadow">
-              <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" href="/testimonials/">What did our customers say?</a>
+              <Link className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" to="/testimonials/">What did our customers say?</Link>
             </div>
           </div>
         </div>
