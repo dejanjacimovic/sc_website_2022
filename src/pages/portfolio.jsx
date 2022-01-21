@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
@@ -281,7 +281,7 @@ function clients() {
       link: 'https://industry24h.com/',
       image: '../images/portfolio/industry24h.jpeg',
     },
-  }
+  };
 }
 
 function project(clientName, client) {
