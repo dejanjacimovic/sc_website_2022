@@ -36,14 +36,14 @@ export default function PrivacyPolicy() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="384"
                 fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"
-              ></rect>
+              />
             </svg>
             <svg
               className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
@@ -68,14 +68,14 @@ export default function PrivacyPolicy() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="384"
                 fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
-              ></rect>
+              />
             </svg>
             <svg
               className="absolute bottom-12 left-full transform translate-x-32"
@@ -100,14 +100,14 @@ export default function PrivacyPolicy() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="384"
                 fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"
-              ></rect>
+              />
             </svg>
           </div>
         </div>
@@ -359,7 +359,7 @@ export default function PrivacyPolicy() {
                 If we get an informal request from any person, organization, or
                 entity, we do not assist.
               </li>
-              <li></li>
+              <li />
               <li>
                 If you are an account owner who wants to export data from their
                 accounts, you can do so directly by contacting our support team.

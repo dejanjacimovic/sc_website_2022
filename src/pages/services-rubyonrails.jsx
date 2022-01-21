@@ -32,14 +32,14 @@ export default function ServicesRubyonrails() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="784"
                 fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
-              ></rect>
+              />
             </svg>
             <svg
               className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
@@ -64,14 +64,14 @@ export default function ServicesRubyonrails() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="784"
                 fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
-              ></rect>
+              />
             </svg>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function ServicesRubyonrails() {
                           stroke-linejoin="round"
                           stroke-width="2"
                           d="M13 10V3L4 14h7v7l9-11h-7z"
-                        ></path>
+                        />
                       </svg>
                     </div>
                   </div>
@@ -276,14 +276,14 @@ export default function ServicesRubyonrails() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
-            ></rect>
+            />
           </svg>
           <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
             <div className="lg:col-span-1">
@@ -397,7 +397,7 @@ export default function ServicesRubyonrails() {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                    ></path>
+                    />
                   </svg>
                 </div>
                 <div className="mt-5">
@@ -466,14 +466,14 @@ export default function ServicesRubyonrails() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
-            ></rect>
+            />
           </svg>
           <div className="relative">
             <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
@@ -539,14 +539,14 @@ export default function ServicesRubyonrails() {
                       width="4"
                       height="4"
                       fill="currentColor"
-                    ></rect>
+                    />
                   </pattern>
                 </defs>
                 <rect
                   width="784"
                   height="404"
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
-                ></rect>
+                />
               </svg>
               <img
                 className="relative mx-auto rounded-lg shadow-xl border-gray-200"
@@ -580,14 +580,14 @@ export default function ServicesRubyonrails() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
-            ></rect>
+            />
           </svg>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -633,14 +633,14 @@ export default function ServicesRubyonrails() {
                         width="4"
                         height="4"
                         fill="currentColor"
-                      ></rect>
+                      />
                     </pattern>
                   </defs>
                   <rect
                     width="784"
                     height="404"
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
-                  ></rect>
+                  />
                 </svg>
                 <img
                   className="relative mx-auto rounded-lg shadow-xl border-gray-200"
@@ -902,7 +902,7 @@ export default function ServicesRubyonrails() {
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
-                          ></path>
+                          />
                         </svg>
                       </span>
                     </div>
@@ -972,7 +972,7 @@ export default function ServicesRubyonrails() {
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
-                          ></path>
+                          />
                         </svg>
                       </span>
                     </div>
@@ -1042,7 +1042,7 @@ export default function ServicesRubyonrails() {
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
-                          ></path>
+                          />
                         </svg>
                       </span>
                     </div>
@@ -1078,7 +1078,7 @@ export default function ServicesRubyonrails() {
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                          ></path>
+                          />
                         </svg>
                       </span>
                     </div>

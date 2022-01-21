@@ -36,14 +36,14 @@ export default function Terms() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="384"
                 fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"
-              ></rect>
+              />
             </svg>
             <svg
               className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
@@ -68,14 +68,14 @@ export default function Terms() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="384"
                 fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
-              ></rect>
+              />
             </svg>
             <svg
               className="absolute bottom-12 left-full transform translate-x-32"
@@ -100,14 +100,14 @@ export default function Terms() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="384"
                 fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"
-              ></rect>
+              />
             </svg>
           </div>
         </div>
@@ -162,8 +162,7 @@ export default function Terms() {
               That’s a broad statement and it means you need to place a lot of
               trust in us. We do our best to deserve that trust by being open
               about <a href="/about-us/">who we are</a>, how we work, and
-              keeping an open door to your{' '}
-              <a href="/contact/">feedback</a>.
+              keeping an open door to your <a href="/contact/">feedback</a>.
             </p>
 
             <h2>Account Terms</h2>
@@ -202,8 +201,8 @@ export default function Terms() {
                 will freeze your account and it will be inaccessible until you
                 make payment. If your account has been frozen for a while, we
                 will queue it up for auto-cancellation. See our{' '}
-                <a href="/cancellation-policy/">Cancellation policy</a> for
-                more details.
+                <a href="/cancellation-policy/">Cancellation policy</a> for more
+                details.
               </li>
               <li>
                 If you are upgrading, we will charge your card immediately and
@@ -303,9 +302,9 @@ export default function Terms() {
                 When you use our Services, you entrust us with your data. We
                 take that trust to heart. You agree that Adorable may process
                 your data as described in our{' '}
-                <a href="/privacy-policy/">Privacy Policy</a> and for no
-                other purpose. We as humans can access your data for the
-                following reasons:
+                <a href="/privacy-policy/">Privacy Policy</a> and for no other
+                purpose. We as humans can access your data for the following
+                reasons:
                 <ul>
                   <li>
                     <strong>To help you with support requests you make.</strong>{' '}
@@ -454,8 +453,8 @@ export default function Terms() {
               not us. We do our darnedest to be as safe a bet as possible
               through careful management of the business; investments in
               security, infrastructure, and talent; and in general{' '}
-              <a href="/about-us/">providing an actual care</a>. If you
-              choose to use our Services, thank you for betting on us.
+              <a href="/about-us/">providing an actual care</a>. If you choose
+              to use our Services, thank you for betting on us.
             </p>
           </div>
         </div>

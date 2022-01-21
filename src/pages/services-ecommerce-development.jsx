@@ -32,14 +32,14 @@ export default function ServicesEcommerceDevelopment() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="784"
                 fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
-              ></rect>
+              />
             </svg>
             <svg
               className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
@@ -64,14 +64,14 @@ export default function ServicesEcommerceDevelopment() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="784"
                 fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
-              ></rect>
+              />
             </svg>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function ServicesEcommerceDevelopment() {
               <div
                 className="absolute inset-0 bg-gray-800 mix-blend-multiply"
                 aria-hidden="true"
-              ></div>
+              />
             </div>
             <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
               <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
@@ -232,7 +232,7 @@ export default function ServicesEcommerceDevelopment() {
               gained extensive experience with over the past ten years.
             </p>
           </div>
-          <div className="mt-10"></div>
+          <div className="mt-10" />
           <div className="mt-12 text-left">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-3">
               <div className="pt-6">
@@ -381,7 +381,7 @@ export default function ServicesEcommerceDevelopment() {
         </div>
         <div className="mt-8 pb-12 bg-gray-50 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
           <div className="relative">
-            <div className="absolute inset-0 h-3/4 bg-gray-900"></div>
+            <div className="absolute inset-0 h-3/4 bg-gray-900" />
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
                 <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
@@ -667,14 +667,14 @@ export default function ServicesEcommerceDevelopment() {
 
       <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
         <div className="absolute inset-0">
-          <div className="bg-white h-1/3 sm:h-2/3"></div>
+          <div className="bg-white h-1/3 sm:h-2/3" />
         </div>
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center">
             <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
               Proven results and happy customers!
             </h2>
-            <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4 hidden"></p>
+            <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4 hidden" />
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
@@ -715,7 +715,7 @@ export default function ServicesEcommerceDevelopment() {
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
-                    <path d="M11 0h3L9 20H6l5-20z"></path>
+                    <path d="M11 0h3L9 20H6l5-20z" />
                   </svg>
                   <div className="text-base font-medium text-gray-500">
                     Length: 8+ years
@@ -770,7 +770,7 @@ export default function ServicesEcommerceDevelopment() {
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
-                    <path d="M11 0h3L9 20H6l5-20z"></path>
+                    <path d="M11 0h3L9 20H6l5-20z" />
                   </svg>
                   <div className="text-base font-medium text-gray-500">
                     Length: 4+ years
@@ -826,7 +826,7 @@ export default function ServicesEcommerceDevelopment() {
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
-                    <path d="M11 0h3L9 20H6l5-20z"></path>
+                    <path d="M11 0h3L9 20H6l5-20z" />
                   </svg>
                   <div className="text-base font-medium text-gray-500">
                     Length: 10+ years
@@ -871,14 +871,14 @@ export default function ServicesEcommerceDevelopment() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="784"
               height="404"
               fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)"
-            ></rect>
+            />
           </svg>
           <svg
             className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2"
@@ -903,14 +903,14 @@ export default function ServicesEcommerceDevelopment() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)"
-            ></rect>
+            />
           </svg>
           <div className="relative lg:flex lg:items-center">
             <div className="hidden lg:block lg:flex-shrink-0">
@@ -931,7 +931,7 @@ export default function ServicesEcommerceDevelopment() {
                 <path
                   stroke-width="2"
                   d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"
-                ></path>
+                />
               </svg>
               <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
@@ -997,14 +997,14 @@ export default function ServicesEcommerceDevelopment() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
-            ></rect>
+            />
           </svg>
           <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
             <div className="lg:col-span-1">
@@ -1026,7 +1026,7 @@ export default function ServicesEcommerceDevelopment() {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
-                    ></path>
+                    />
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
@@ -1082,7 +1082,7 @@ export default function ServicesEcommerceDevelopment() {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
-                    ></path>
+                    />
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
@@ -1110,7 +1110,7 @@ export default function ServicesEcommerceDevelopment() {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                    ></path>
+                    />
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
@@ -1210,7 +1210,7 @@ export default function ServicesEcommerceDevelopment() {
               aria-hidden="true"
               className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
             >
-              <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
+              <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72" />
               <svg
                 className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
                 width="404"
@@ -1378,14 +1378,14 @@ export default function ServicesEcommerceDevelopment() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
-            ></rect>
+            />
           </svg>
           <div className="relative">
             <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
@@ -1443,14 +1443,14 @@ export default function ServicesEcommerceDevelopment() {
                       width="4"
                       height="4"
                       fill="currentColor"
-                    ></rect>
+                    />
                   </pattern>
                 </defs>
                 <rect
                   width="784"
                   height="404"
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
-                ></rect>
+                />
               </svg>
               <img
                 className="relative mx-auto rounded-lg shadow-xl border-gray-200"
@@ -1484,14 +1484,14 @@ export default function ServicesEcommerceDevelopment() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
-            ></rect>
+            />
           </svg>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -1537,14 +1537,14 @@ export default function ServicesEcommerceDevelopment() {
                         width="4"
                         height="4"
                         fill="currentColor"
-                      ></rect>
+                      />
                     </pattern>
                   </defs>
                   <rect
                     width="784"
                     height="404"
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
-                  ></rect>
+                  />
                 </svg>
                 <img
                   className="relative mx-auto rounded-lg shadow-xl border-gray-200"

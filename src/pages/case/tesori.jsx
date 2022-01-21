@@ -16,7 +16,7 @@ export default function Tesori() {
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
             >
-              <polygon points="50,0 100,0 50,100 0,100"></polygon>
+              <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
 
             <NavLeft />
@@ -72,14 +72,14 @@ export default function Tesori() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
-            ></rect>
+            />
           </svg>
           <div class="relative">
             <h3 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
@@ -131,14 +131,14 @@ export default function Tesori() {
                       width="4"
                       height="4"
                       fill="currentColor"
-                    ></rect>
+                    />
                   </pattern>
                 </defs>
                 <rect
                   width="784"
                   height="404"
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
-                ></rect>
+                />
               </svg>
               <StaticImage
                 class="relative mx-auto rounded-lg shadow-xl border-gray-200"
@@ -172,14 +172,14 @@ export default function Tesori() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
-            ></rect>
+            />
           </svg>
           <div class="relative mt-12 sm:mt-16 lg:mt-24">
             <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -241,14 +241,14 @@ export default function Tesori() {
                         width="4"
                         height="4"
                         fill="currentColor"
-                      ></rect>
+                      />
                     </pattern>
                   </defs>
                   <rect
                     width="784"
                     height="404"
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
-                  ></rect>
+                  />
                 </svg>
                 <StaticImage
                   class="relative mx-auto rounded-lg shadow-xl border-gray-200"
@@ -288,14 +288,14 @@ export default function Tesori() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="784"
               height="404"
               fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)"
-            ></rect>
+            />
           </svg>
           <svg
             class="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2"
@@ -320,14 +320,14 @@ export default function Tesori() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)"
-            ></rect>
+            />
           </svg>
           <div class="relative lg:flex lg:items-center">
             <div class="hidden lg:block lg:flex-shrink-0">
@@ -348,7 +348,7 @@ export default function Tesori() {
                 <path
                   stroke-width="2"
                   d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"
-                ></path>
+                />
               </svg>
               <blockquote class="relative">
                 <div class="text-2xl leading-9 font-medium text-gray-900">
@@ -401,7 +401,7 @@ export default function Tesori() {
               <div
                 aria-hidden="true"
                 class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"
-              ></div>
+              />
             </div>
           </div>
         </div>

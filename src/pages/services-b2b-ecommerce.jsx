@@ -36,14 +36,14 @@ export default function ServicesB2bEcommerce() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="784"
                 fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
-              ></rect>
+              />
             </svg>
             <svg
               className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
@@ -68,14 +68,14 @@ export default function ServicesB2bEcommerce() {
                     width="4"
                     height="4"
                     fill="currentColor"
-                  ></rect>
+                  />
                 </pattern>
               </defs>
               <rect
                 width="404"
                 height="784"
                 fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
-              ></rect>
+              />
             </svg>
           </div>
         </div>
@@ -85,9 +85,11 @@ export default function ServicesB2bEcommerce() {
             <div className="text-center">
               <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                 <span className="mr-1">
-                  The <span className="text-indigo-600">eCommerce</span> Solution
-                  for
-                  <br /> All Your <span className="text-indigo-600">B2B</span>{' '}
+                  The <span className="text-indigo-600">eCommerce</span>{' '}
+                  Solution for
+                  <br /> All Your <span className="text-indigo-600">
+                    B2B
+                  </span>{' '}
                   Needs.
                 </span>
               </h2>
@@ -151,7 +153,7 @@ export default function ServicesB2bEcommerce() {
                           stroke-linejoin="round"
                           stroke-width="2"
                           d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                        ></path>
+                        />
                       </svg>
                     </div>
                   </div>
@@ -187,7 +189,7 @@ export default function ServicesB2bEcommerce() {
                           stroke-linejoin="round"
                           stroke-width="2"
                           d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                        ></path>
+                        />
                       </svg>
                     </div>
                   </div>
@@ -224,7 +226,7 @@ export default function ServicesB2bEcommerce() {
                           stroke-linejoin="round"
                           stroke-width="2"
                           d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                        ></path>
+                        />
                       </svg>
                     </div>
                   </div>
@@ -256,7 +258,7 @@ export default function ServicesB2bEcommerce() {
                           stroke-linejoin="round"
                           stroke-width="2"
                           d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-                        ></path>
+                        />
                       </svg>
                     </div>
                   </div>
@@ -289,7 +291,7 @@ export default function ServicesB2bEcommerce() {
                           stroke-linejoin="round"
                           stroke-width="2"
                           d="M13 10V3L4 14h7v7l9-11h-7z"
-                        ></path>
+                        />
                       </svg>
                     </div>
                   </div>
@@ -326,7 +328,7 @@ export default function ServicesB2bEcommerce() {
                           stroke-linejoin="round"
                           stroke-width="2"
                           d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-                        ></path>
+                        />
                       </svg>
                     </div>
                   </div>
@@ -361,7 +363,7 @@ export default function ServicesB2bEcommerce() {
                           stroke-linejoin="round"
                           stroke-width="2"
                           d="M13 10V3L4 14h7v7l9-11h-7z"
-                        ></path>
+                        />
                       </svg>
                     </div>
                   </div>
@@ -394,7 +396,7 @@ export default function ServicesB2bEcommerce() {
                           stroke-linejoin="round"
                           stroke-width="2"
                           d="M13 10V3L4 14h7v7l9-11h-7z"
-                        ></path>
+                        />
                       </svg>
                     </div>
                   </div>
@@ -441,14 +443,14 @@ export default function ServicesB2bEcommerce() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
-            ></rect>
+            />
           </svg>
           <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
             <div className="lg:col-span-1">
@@ -470,7 +472,7 @@ export default function ServicesB2bEcommerce() {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
-                    ></path>
+                    />
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
@@ -498,7 +500,7 @@ export default function ServicesB2bEcommerce() {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-                    ></path>
+                    />
                   </svg>
                 </div>
                 <div className="mt-5 pb-4">
@@ -526,7 +528,7 @@ export default function ServicesB2bEcommerce() {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
-                    ></path>
+                    />
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
@@ -553,7 +555,7 @@ export default function ServicesB2bEcommerce() {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                    ></path>
+                    />
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
@@ -607,7 +609,7 @@ export default function ServicesB2bEcommerce() {
               aria-hidden="true"
               className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
             >
-              <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
+              <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72" />
               <svg
                 className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
                 width="404"
@@ -651,7 +653,7 @@ export default function ServicesB2bEcommerce() {
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
-                ></iframe>
+                />
               </div>
             </div>
           </div>
@@ -671,7 +673,7 @@ export default function ServicesB2bEcommerce() {
                   With our B2B eCommerce platform, it is easy to overview those
                   customers and send bulk reminders.
                 </p>
-                <p className="text-base leading-7"></p>
+                <p className="text-base leading-7" />
               </div>
             </div>
           </div>
@@ -742,14 +744,14 @@ export default function ServicesB2bEcommerce() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
-            ></rect>
+            />
           </svg>
           <div className="relative">
             <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
@@ -796,14 +798,14 @@ export default function ServicesB2bEcommerce() {
                       width="4"
                       height="4"
                       fill="currentColor"
-                    ></rect>
+                    />
                   </pattern>
                 </defs>
                 <rect
                   width="784"
                   height="404"
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
-                ></rect>
+                />
               </svg>
               <iframe
                 width="560"
@@ -814,7 +816,7 @@ export default function ServicesB2bEcommerce() {
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-              ></iframe>
+              />
             </div>
           </div>
           <svg
@@ -840,14 +842,14 @@ export default function ServicesB2bEcommerce() {
                   width="4"
                   height="4"
                   fill="currentColor"
-                ></rect>
+                />
               </pattern>
             </defs>
             <rect
               width="404"
               height="784"
               fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
-            ></rect>
+            />
           </svg>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -892,14 +894,14 @@ export default function ServicesB2bEcommerce() {
                         width="4"
                         height="4"
                         fill="currentColor"
-                      ></rect>
+                      />
                     </pattern>
                   </defs>
                   <rect
                     width="784"
                     height="404"
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
-                  ></rect>
+                  />
                 </svg>
 
                 <iframe
@@ -911,7 +913,7 @@ export default function ServicesB2bEcommerce() {
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
-                ></iframe>
+                />
               </div>
             </div>
           </div>
@@ -945,7 +947,7 @@ export default function ServicesB2bEcommerce() {
               aria-hidden="true"
               className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
             >
-              <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
+              <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72" />
               <svg
                 className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
                 width="404"
@@ -989,7 +991,7 @@ export default function ServicesB2bEcommerce() {
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
-                ></iframe>
+                />
               </div>
             </div>
           </div>
@@ -1009,7 +1011,7 @@ export default function ServicesB2bEcommerce() {
                   With our B2B eCommerce platform, it is easy to overview those
                   customers and send bulk reminders.
                 </p>
-                <p className="text-base leading-7"></p>
+                <p className="text-base leading-7" />
               </div>
             </div>
           </div>

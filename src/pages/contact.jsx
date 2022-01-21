@@ -92,7 +92,7 @@ export default function Contact() {
                         id="how_can_we_help"
                         name="how_can_we_help"
                         rows="4"
-                      ></textarea>
+                      />
                     </div>
                   </div>
                   <div className="text-right sm:col-span-2">
