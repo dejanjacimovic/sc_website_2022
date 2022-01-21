@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <title>StuntCoders</title>
       <link rel="icon" type="image/png" sizes="16x16" href={favicon} />
-      <meta charset="utf-8">
+      <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <meta name="description" content="" />
       <meta name="author" content="" />
