@@ -14,7 +14,7 @@ export default function Footer() {
               <li>
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/testimonials/"
+                  to="/testimonials/"
                 >
                   Testimonials
                 </Link>
@@ -22,7 +22,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/about/"
+                  to="/about/"
                 >
                   About us
                 </Link>
@@ -30,7 +30,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/services-ecommerce-development/"
+                  to="/services-ecommerce-development/"
                 >
                   Services
                 </Link>
@@ -38,7 +38,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/pricing/"
+                  to="/pricing/"
                 >
                   Pricing
                 </Link>
@@ -46,7 +46,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="https://stuntcoders.careers/"
+                  to="https://stuntcoders.careers/"
                   target="_blank"
                 >
                   Careers
@@ -63,7 +63,7 @@ export default function Footer() {
               <li>
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/privacy-policy/"
+                  to="/privacy-policy/"
                 >
                   Privacy
                 </Link>
@@ -71,7 +71,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/terms/"
+                  to="/terms/"
                 >
                   Terms
                 </Link>
@@ -79,7 +79,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/refund-policy/"
+                  to="/refund-policy/"
                 >
                   Refund
                 </Link>
@@ -87,7 +87,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/cancellation-policy/"
+                  to="/cancellation-policy/"
                 >
                   Cancellation
                 </Link>
@@ -95,7 +95,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  href="/restrictions-policy/"
+                  to="/restrictions-policy/"
                 >
                   Restrictions
                 </Link>
