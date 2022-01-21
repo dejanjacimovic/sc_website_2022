@@ -8,7 +8,7 @@ export default function NavCenter() {
         <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
           <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <Link href="/" aria-label="Home">
+              <Link to="/" aria-label="Home">
                 <img
                   className="h-8 w-auto sm:h-12"
                   src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png"
@@ -77,7 +77,7 @@ export default function NavCenter() {
                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                     <Link
-                      href="/services-woocommerce-maintenance/"
+                      to="/services-woocommerce-maintenance/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <p className="text-base font-medium text-gray-900">
@@ -89,7 +89,7 @@ export default function NavCenter() {
                     </Link>
 
                     <Link
-                      href="/services-ecommerce-development/"
+                      to="/services-ecommerce-development/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <p className="text-base font-medium text-gray-900">
@@ -102,7 +102,7 @@ export default function NavCenter() {
                     </Link>
 
                     <Link
-                      href="/services-b2b-ecommerce/"
+                      to="/services-b2b-ecommerce/"
                       className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                     >
                       <p className="text-base font-medium text-gray-900">
@@ -118,25 +118,25 @@ export default function NavCenter() {
             </div>
             <Link
               className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              href="/testimonials/"
+              to="/testimonials/"
             >
               Testimonials
             </Link>
             <Link
               className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              href="/portfolio/"
+              to="/portfolio/"
             >
               Portfolio
             </Link>
             <Link
               className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              href="/pricing/"
+              to="/pricing/"
             >
               Pricing
             </Link>
             <Link
               className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              href="/about-us/"
+              to="/about-us/"
             >
               About us
             </Link>
@@ -145,7 +145,7 @@ export default function NavCenter() {
             <span className="inline-flex rounded-md shadow">
               <Link
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
-                href="/contact-us/"
+                to="/contact-us/"
               >
                 Contact us
               </Link>
@@ -229,7 +229,7 @@ export default function NavCenter() {
                   <div className="overflow-hidden">
                     <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
                       <Link
-                        href="/services-woocommerce-maintenance/"
+                        to="/services-woocommerce-maintenance/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -241,7 +241,7 @@ export default function NavCenter() {
                       </Link>
 
                       <Link
-                        href="/services-ecommerce-development/"
+                        to="/services-ecommerce-development/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -254,7 +254,7 @@ export default function NavCenter() {
                       </Link>
 
                       <Link
-                        href="/services-b2b-ecommerce/"
+                        to="/services-b2b-ecommerce/"
                         className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -270,28 +270,28 @@ export default function NavCenter() {
               </div>
               <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                href="/portfolio/"
+                to="/portfolio/"
                 role="menuitem"
               >
                 Portfolio
               </Link>
               <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                href="/testimonials/"
+                to="/testimonials/"
                 role="menuitem"
               >
                 Testimonials
               </Link>
               <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                href="/pricing/"
+                to="/pricing/"
                 role="menuitem"
               >
                 Pricing
               </Link>
               <Link
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                href="/about-us/"
+                to="/about-us/"
                 role="menuitem"
               >
                 About us
@@ -300,7 +300,7 @@ export default function NavCenter() {
             <div>
               <Link
                 className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
-                href="/contact-us/"
+                to="/contact-us/"
                 role="menuitem"
               >
                 Contact us
