@@ -57,31 +57,29 @@ function QA(question, answer, isFirst = true) {
 
   return (
     <div classVal>
-      <div>
-        <dt className="text-lg leading-7">
-          <button className="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
-            <span className="font-medium text-gray-900">{question}</span>
-            <span className="ml-6 h-7 flex items-center">
-              <svg
-                className="-rotate-180 h-6 w-6 transform"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
-            </span>
-          </button>
-        </dt>
-        <dd className="mt-2 pr-12">
-          <p className="text-base leading-6 text-gray-500">{answer}</p>
-        </dd>
-      </div>
+      <dt class="text-lg leading-7">
+        <button class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
+          <span class="font-medium text-gray-900">{question}</span>
+          <span class="ml-6 h-7 flex items-center">
+            <svg
+              class="-rotate-180 h-6 w-6 transform"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              ></path>
+            </svg>
+          </span>
+        </button>
+      </dt>
+      <dd class="mt-2 pr-12">
+        <p class="text-base leading-6 text-gray-500">{answer}</p>
+      </dd>
     </div>
   );
 }
@@ -1309,7 +1307,9 @@ export default function ServicesWoocommerceMaintenance() {
               Frequently asked questions
             </h2>
             <div className="mt-6 border-t-2 border-gray-200 pt-6">
-              <dl>{faqList()}</dl>
+              <dl classNAme="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
+                {faqList()}
+              </dl>
             </div>
           </div>
         </div>
