@@ -44,13 +44,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="mt-4">
-                <Link
+                <a
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  to="https://stuntcoders.careers/"
+                  href="https://stuntcoders.careers/"
                   target="_blank"
                 >
                   Careers
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
