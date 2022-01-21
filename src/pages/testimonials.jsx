@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage, GatsbyImage, getImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
@@ -7,15 +8,49 @@ export default function Testimonials() {
   return (
     <LayoutPage>
       <div className="relative bg-white overflow-hidden">
-        <div className="hidden lg:block lg:absolute lg:inset-0" aria-hidden="true">
-          <svg className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8" width="640" height="784" fill="none" viewBox="0 0 640 784">
+        <div
+          className="hidden lg:block lg:absolute lg:inset-0"
+          aria-hidden="true"
+        >
+          <svg
+            className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"
+            width="640"
+            height="784"
+            fill="none"
+            viewBox="0 0 640 784"
+          >
             <defs>
-              <pattern id="9ebea6f4-a1f5-4d96-8c4e-4c2abf658047" x="118" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" className="text-gray-200" fill="currentColor" />
+              <pattern
+                id="9ebea6f4-a1f5-4d96-8c4e-4c2abf658047"
+                x="118"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  className="text-gray-200"
+                  fill="currentColor"
+                />
               </pattern>
             </defs>
-            <rect y="72" width="640" height="640" className="text-gray-50" fill="currentColor" />
-            <rect x="118" width="404" height="784" fill="url(#9ebea6f4-a1f5-4d96-8c4e-4c2abf658047)" />
+            <rect
+              y="72"
+              width="640"
+              height="640"
+              className="text-gray-50"
+              fill="currentColor"
+            />
+            <rect
+              x="118"
+              width="404"
+              height="784"
+              fill="url(#9ebea6f4-a1f5-4d96-8c4e-4c2abf658047)"
+            />
           </svg>
         </div>
         <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
@@ -26,31 +61,93 @@ export default function Testimonials() {
               <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                 <h1>
                   <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-                    <span className="block text-gray-900">We are still working with</span>
-                    <span className="block text-indigo-600">our first customer</span>
+                    <span className="block text-gray-900">
+                      We are still working with
+                    </span>
+                    <span className="block text-indigo-600">
+                      our first customer
+                    </span>
                   </span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  StuntCoders was founded more than 10 years ago, and in these 10+ years, we had a chance to develop our relationship with many dear people we proudly call our customers.
+                  StuntCoders was founded more than 10 years ago, and in these
+                  10+ years, we had a chance to develop our relationship with
+                  many dear people we proudly call our customers.
                 </p>
               </div>
               <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-                <svg className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden" width="640" height="784" fill="none" viewBox="0 0 640 784" aria-hidden="true">
+                <svg
+                  className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden"
+                  width="640"
+                  height="784"
+                  fill="none"
+                  viewBox="0 0 640 784"
+                  aria-hidden="true"
+                >
                   <defs>
-                    <pattern id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e" x="118" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                      <rect x="0" y="0" width="4" height="4" className="text-gray-200" fill="currentColor" />
+                    <pattern
+                      id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e"
+                      x="118"
+                      y="0"
+                      width="20"
+                      height="20"
+                      patternUnits="userSpaceOnUse"
+                    >
+                      <rect
+                        x="0"
+                        y="0"
+                        width="4"
+                        height="4"
+                        className="text-gray-200"
+                        fill="currentColor"
+                      />
                     </pattern>
                   </defs>
-                  <rect y="72" width="640" height="640" className="text-gray-50" fill="currentColor" />
-                  <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
+                  <rect
+                    y="72"
+                    width="640"
+                    height="640"
+                    className="text-gray-50"
+                    fill="currentColor"
+                  />
+                  <rect
+                    x="118"
+                    width="404"
+                    height="784"
+                    fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)"
+                  />
                 </svg>
                 <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-                  <button type="button" className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" onClick="window.open('https://www.youtube.com/watch?v=xkAW5J6uGZ8', '_blank');">
-                    <span className="sr-only">Watch our video to learn more</span>
-                    <img className="w-full" src="https://stcdshare.s3.amazonaws.com/ase-line-outside-review.png" alt="Ase-Line review of StuntCoders" loading="auto" />
-                    <div className="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
-                      <svg className="h-20 w-20 text-indigo-500" fill="currentColor" viewBox="0 0 84 84">
-                        <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
+                  <button
+                    type="button"
+                    className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    onClick="window.open('https://www.youtube.com/watch?v=xkAW5J6uGZ8', '_blank');"
+                  >
+                    <span className="sr-only">
+                      Watch our video to learn more
+                    </span>
+                    <img
+                      className="w-full"
+                      src="https://stcdshare.s3.amazonaws.com/ase-line-outside-review.png"
+                      alt="Ase-Line review of StuntCoders"
+                      loading="auto"
+                    />
+                    <div
+                      className="absolute inset-0 w-full h-full flex items-center justify-center"
+                      aria-hidden="true"
+                    >
+                      <svg
+                        className="h-20 w-20 text-indigo-500"
+                        fill="currentColor"
+                        viewBox="0 0 84 84"
+                      >
+                        <circle
+                          opacity="0.9"
+                          cx="42"
+                          cy="42"
+                          r="42"
+                          fill="white"
+                        />
                         <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
                       </svg>
                     </div>
@@ -65,13 +162,49 @@ export default function Testimonials() {
       <div className="bg-gray-50">
         <div className="bg-gray-800">
           <div className="max-w-screen-xl mx-auto pt-16 pb-20 px-4 sm:px-6 md:pb-24 lg:px-8">
-            <h3 className="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">Trusted by our beloved customers</h3>
+            <h3 className="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">
+              Trusted by our beloved customers
+            </h3>
             <div className="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img className="h-12" src="images/skintific.svg" alt="" loading="auto" /></div>
-              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img className="h-12" src="images/pur-norsk.svg" alt="" loading="auto" /></div>
-              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"><img className="h-12" src="images/jk-logo-white-transparent.png" alt="" /></div>
-              <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1"><img className="h-12" src="images/camp-david.png" alt="" loading="auto" /></div>
-              <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1"><img className="h-12" src="images/berit.png" alt="" loading="auto" /></div>
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/skintific.svg"
+                  alt=""
+                  loading="auto"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/pur-norsk.svg"
+                  alt=""
+                  loading="auto"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/jk-logo-white-transparent.png"
+                  alt="JumpKing, our beloved client"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/camp-david.png"
+                  alt=""
+                  loading="auto"
+                />
+              </div>
+              <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/berit.png"
+                  alt=""
+                  loading="auto"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -80,19 +213,35 @@ export default function Testimonials() {
       <div className="py-12 bg-white">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">See some of our testimonials</p>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Here's a taste of what our customers said when we asked them how it felt to manage projects after they switched to StuntCoders:</h3>
+            <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+              See some of our testimonials
+            </p>
+            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+              Here's a taste of what our customers said when we asked them how
+              it felt to manage projects after they switched to StuntCoders:
+            </h3>
             <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto"></p>
           </div>
         </div>
       </div>
 
-      <section className="bg-indigo-800"><div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
-        <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
-          <div className="md:flex-shrink-0">
-            <svg height="60" viewBox="0 0 402 195" role="img" aria-labelledby="svg-naturlig" fill="#B4C6FC">
-              <g transform="translate(0.000000,195.000000) scale(0.100000,-0.100000)"  stroke="none">
-                <path d="M2845 1902 c-21 -11 -30 -23 -27 -35 5 -23 -25 -70 -40 -61 -7 4 -7
+      <section className="bg-indigo-800">
+        <div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
+          <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
+            <div className="md:flex-shrink-0">
+              <svg
+                height="60"
+                viewBox="0 0 402 195"
+                role="img"
+                aria-labelledby="svg-naturlig"
+                fill="#B4C6FC"
+              >
+                <g
+                  transform="translate(0.000000,195.000000) scale(0.100000,-0.100000)"
+                  stroke="none"
+                >
+                  <path
+                    d="M2845 1902 c-21 -11 -30 -23 -27 -35 5 -23 -25 -70 -40 -61 -7 4 -7
                          9 1 14 17 10 2 40 -20 40 -14 0 -19 7 -19 28 0 21 -2 24 -10 12 -5 -8 -10 -27
                          -10 -41 0 -15 -6 -32 -14 -38 -12 -10 -17 -8 -27 11 -7 13 -13 30 -14 38 0 10
                          -10 15 -30 15 -27 0 -30 -3 -31 -35 -1 -71 -4 -90 -15 -90 -8 0 -10 13 -6 37
@@ -171,78 +320,131 @@ export default function Testimonials() {
                          -4 16 -10z m101 -5 c-15 -42 -21 -52 -40 -69 -21 -19 -21 -19 -22 0 -2 25 2
                          68 6 74 6 10 60 5 56 -5z m-123 -60 c14 -31 16 -75 3 -75 -10 0 -31 54 -31 81
                          0 27 15 23 28 -6z m95 -149 c16 -12 17 -17 5 -35 -15 -25 -46 -24 -61 1 -8 12
-                         -7 21 2 32 16 19 30 20 54 2z"/>
-                <path d="M13 1548 c-7 -9 -8 -170 -4 -453 5 -382 8 -440 21 -440 13 0 15 47
+                         -7 21 2 32 16 19 30 20 54 2z"
+                  />
+                  <path
+                    d="M13 1548 c-7 -9 -8 -170 -4 -453 5 -382 8 -440 21 -440 13 0 15 47
                          14 368 -1 301 1 367 12 367 8 0 32 -35 53 -77 22 -43 53 -99 68 -126 l28 -47
                          -5 -228 c-5 -244 -4 -262 15 -262 22 0 25 54 25 465 0 344 -2 404 -15 415 -24
                          20 -28 -7 -23 -160 3 -77 2 -140 -2 -140 -4 0 -44 74 -90 165 -46 91 -84 165
-                         -86 165 -1 0 -6 -6 -11 -12z"/>
-                <path d="M924 1538 c-13 -19 -16 -455 -4 -573 5 -55 12 -135 15 -178 6 -82 23
+                         -86 165 -1 0 -6 -6 -11 -12z"
+                  />
+                  <path
+                    d="M924 1538 c-13 -19 -16 -455 -4 -573 5 -55 12 -135 15 -178 6 -82 23
                          -130 50 -141 34 -13 91 -6 112 14 50 46 68 318 42 635 -6 77 -9 161 -6 188 5
                          37 3 49 -9 54 -8 3 -17 4 -19 1 -10 -10 -10 -133 0 -233 12 -109 11 -401 -1
                          -524 -4 -48 -12 -69 -29 -87 -29 -29 -45 -30 -76 -5 -21 17 -25 32 -32 113 -4
-                         51 -10 237 -13 413 -3 176 -9 324 -14 328 -4 5 -12 3 -16 -5z"/>
-                <path d="M1955 1543 c-56 -14 -70 -53 -86 -242 -12 -137 -2 -356 22 -533 12
+                         51 -10 237 -13 413 -3 176 -9 324 -14 328 -4 5 -12 3 -16 -5z"
+                  />
+                  <path
+                    d="M1955 1543 c-56 -14 -70 -53 -86 -242 -12 -137 -2 -356 22 -533 12
                          -85 39 -128 81 -128 62 0 90 66 92 219 l1 86 -50 0 c-38 0 -50 -4 -50 -15 0
                          -10 12 -16 34 -18 l33 -3 -5 -84 c-6 -90 -22 -138 -49 -143 -33 -6 -46 38 -64
                          218 -23 242 -10 558 25 593 5 5 24 12 43 16 39 8 53 42 16 40 -13 -1 -32 -4
-                         -43 -6z"/>
-                <path d="M406 1531 c-3 -5 -11 -55 -17 -112 -5 -56 -12 -105 -14 -108 -2 -4
+                         -43 -6z"
+                  />
+                  <path
+                    d="M406 1531 c-3 -5 -11 -55 -17 -112 -5 -56 -12 -105 -14 -108 -2 -4
                          -9 -77 -15 -164 -7 -87 -22 -228 -35 -315 -12 -86 -20 -163 -17 -170 9 -26 27
                          -4 34 44 19 136 38 274 43 322 7 49 9 52 35 52 31 0 34 -6 45 -115 5 -51 18
                          -139 41 -272 6 -41 34 -45 34 -5 0 15 -7 65 -15 112 -8 47 -19 121 -24 165 -6
                          44 -19 163 -31 265 -15 129 -26 190 -37 202 -10 12 -13 26 -9 45 4 15 8 34 9
                          42 2 16 -19 26 -27 12z m26 -317 c3 -87 3 -89 -21 -92 -20 -3 -23 0 -18 20 3
-                         12 9 63 13 113 9 108 21 88 26 -41z"/>
-                <path d="M584 1529 c-10 -17 16 -29 64 -29 l42 0 2 -52 c1 -29 3 -145 4 -258
+                         12 9 63 13 113 9 108 21 88 26 -41z"
+                  />
+                  <path
+                    d="M584 1529 c-10 -17 16 -29 64 -29 l42 0 2 -52 c1 -29 3 -145 4 -258
                          3 -544 3 -540 18 -540 11 0 14 58 18 313 3 172 1 358 -3 413 -9 113 -3 124 61
-                         124 43 0 54 8 39 27 -15 17 -234 19 -245 2z"/>
-                <path d="M1244 1529 c-5 -8 -9 -70 -10 -139 0 -69 -1 -259 -2 -423 -2 -300 3
+                         124 43 0 54 8 39 27 -15 17 -234 19 -245 2z"
+                  />
+                  <path
+                    d="M1244 1529 c-5 -8 -9 -70 -10 -139 0 -69 -1 -259 -2 -423 -2 -300 3
                          -352 32 -328 9 7 10 29 5 78 -11 93 -11 303 -1 303 5 0 39 -79 77 -176 66
                          -167 87 -206 103 -190 6 7 -12 63 -57 171 -11 28 -34 85 -51 128 l-30 79 34
                          39 c48 56 70 134 63 223 -8 103 -25 161 -61 201 -34 39 -88 56 -102 34z m76
                          -57 c64 -65 69 -289 6 -341 -14 -12 -19 -11 -35 3 -18 16 -19 33 -20 192 0
-                         110 4 174 10 174 6 0 23 -13 39 -28z"/>
-                <path d="M1536 1531 c-4 -5 -6 -204 -5 -441 1 -315 4 -432 13 -435 6 -2 46 -5
+                         110 4 174 10 174 6 0 23 -13 39 -28z"
+                  />
+                  <path
+                    d="M1536 1531 c-4 -5 -6 -204 -5 -441 1 -315 4 -432 13 -435 6 -2 46 -5
                          89 -7 77 -3 77 -3 77 22 0 25 -1 26 -70 22 l-70 -4 -1 268 c-2 519 -3 577 -16
-                         581 -6 2 -14 0 -17 -6z"/>
-                <path d="M1760 1525 c-14 -17 -16 -132 -12 -617 2 -242 3 -258 20 -258 17 0
-                         18 21 16 441 -2 243 -5 443 -7 445 -2 3 -10 -3 -17 -11z"/>
-                <path d="M3425 1529 c-3 -8 -4 -207 -3 -444 l3 -430 68 -3 c67 -3 104 9 91 29
-                         -3 5 -32 9 -65 9 l-59 0 -1 103 c-6 658 -8 730 -18 740 -7 7 -12 6 -16 -4z"/>
-                <path d="M3650 1530 c-12 -8 -15 -52 -17 -257 -2 -136 0 -333 4 -436 5 -157 8
-                         -187 21 -185 12 3 14 64 13 443 -1 241 -3 440 -4 442 -2 1 -9 -2 -17 -7z"/>
-                <path d="M3977 1534 c-4 -4 -7 -20 -7 -36 0 -16 -13 -114 -30 -216 -16 -103
+                         581 -6 2 -14 0 -17 -6z"
+                  />
+                  <path
+                    d="M1760 1525 c-14 -17 -16 -132 -12 -617 2 -242 3 -258 20 -258 17 0
+                         18 21 16 441 -2 243 -5 443 -7 445 -2 3 -10 -3 -17 -11z"
+                  />
+                  <path
+                    d="M3425 1529 c-3 -8 -4 -207 -3 -444 l3 -430 68 -3 c67 -3 104 9 91 29
+                         -3 5 -32 9 -65 9 l-59 0 -1 103 c-6 658 -8 730 -18 740 -7 7 -12 6 -16 -4z"
+                  />
+                  <path
+                    d="M3650 1530 c-12 -8 -15 -52 -17 -257 -2 -136 0 -333 4 -436 5 -157 8
+                         -187 21 -185 12 3 14 64 13 443 -1 241 -3 440 -4 442 -2 1 -9 -2 -17 -7z"
+                  />
+                  <path
+                    d="M3977 1534 c-4 -4 -7 -20 -7 -36 0 -16 -13 -114 -30 -216 -16 -103
                          -36 -250 -45 -327 -25 -222 -34 -208 -59 90 -30 346 -50 485 -72 485 -18 0
                          -18 -23 1 -135 8 -49 17 -130 20 -180 5 -78 11 -141 29 -291 3 -17 7 -78 11
                          -135 4 -57 11 -114 16 -126 8 -23 33 -31 43 -15 6 11 42 261 51 357 4 39 20
-                         150 36 248 33 197 39 278 23 284 -5 2 -13 0 -17 -3z"/>
-                <path d="M2328 393 c7 -3 16 -2 19 1 4 3 -2 6 -13 5 -11 0 -14 -3 -6 -6z"/>
-                <path d="M2357 329 c-4 -16 -3 -18 9 -8 16 13 19 29 5 29 -5 0 -11 -9 -14 -21z"/>
-                <path d="M2631 103 c12 -24 25 -41 27 -38 3 2 0 11 -7 19 -9 11 -9 15 1 19 10
-                         4 10 6 -1 6 -8 1 -20 9 -28 19 -8 9 -4 -2 8 -25z"/>
-              </g>
-            </svg>
-          </div>
-          <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
-            <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
-              <svg className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg><p className="relative">We really appreciate how quickly things are handled with you guys!!! Looking forward to years to come!</p>
+                         150 36 248 33 197 39 278 23 284 -5 2 -13 0 -17 -3z"
+                  />
+                  <path d="M2328 393 c7 -3 16 -2 19 1 4 3 -2 6 -13 5 -11 0 -14 -3 -6 -6z" />
+                  <path d="M2357 329 c-4 -16 -3 -18 9 -8 16 13 19 29 5 29 -5 0 -11 -9 -14 -21z" />
+                  <path
+                    d="M2631 103 c12 -24 25 -41 27 -38 3 2 0 11 -7 19 -9 11 -9 15 1 19 10
+                         4 10 6 -1 6 -8 1 -20 9 -28 19 -8 9 -4 -2 8 -25z"
+                  />
+                </g>
+              </svg>
             </div>
-            <footer className="mt-8"><div className="flex">
-              <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                <img className="h-12 w-12 rounded-full" src="images/therese.png" alt="Therese" loading="auto" />
+            <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
+              <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+                <svg
+                  className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                  fill="currentColor"
+                  viewBox="0 0 32 32"
+                >
+                  <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path>
+                </svg>
+                <p className="relative">
+                  We really appreciate how quickly things are handled with you
+                  guys!!! Looking forward to years to come!
+                </p>
               </div>
-              <div className="ml-4">
-                <div className="text-base leading-6 font-medium text-white">Therese Aarsæther</div>
-                <div className="text-base leading-6 font-medium text-indigo-200">CEO, Naturlig Liv</div>
-              </div>
-              </div>
-            </footer></blockquote>
-        </div>
-        <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
-          <div className="md:flex-shrink-0">
-            <svg height="60" viewBox="0 0 598 595" role="img" aria-labelledby="svg-naturlig" fill="#B4C6FC">
-              <path d="M586.7,310.4c-0.2,0.9-0.5,1.9-0.5,2.8c-1.3,35.2-9.5,68.8-23.7,101c-10.6,23.8-24,46-40.7,66.1
+              <footer className="mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                    <StaticImage
+                      className="h-12 w-12 rounded-full"
+                      src="../images/therese.png"
+                      alt="Therese"
+                      loading="auto"
+                    />
+                  </div>
+                  <div className="ml-4">
+                    <div className="text-base leading-6 font-medium text-white">
+                      Therese Aarsæther
+                    </div>
+                    <div className="text-base leading-6 font-medium text-indigo-200">
+                      CEO, Naturlig Liv
+                    </div>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+          <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+            <div className="md:flex-shrink-0">
+              <svg
+                height="60"
+                viewBox="0 0 598 595"
+                role="img"
+                aria-labelledby="svg-naturlig"
+                fill="#B4C6FC"
+              >
+                <path
+                  d="M586.7,310.4c-0.2,0.9-0.5,1.9-0.5,2.8c-1.3,35.2-9.5,68.8-23.7,101c-10.6,23.8-24,46-40.7,66.1
                        c-5.3,6.3-10.7,12.6-16.4,18.5c-24.1,24.8-51.8,44.7-83.1,59.7c-22.3,10.6-45.6,18-69.8,22.7c-16.1,3.1-32.4,4.7-48.8,4.8
                        c-2.6,0-5.3,0.4-7.9,0.5c-2.3,0-4.6,0-6.9,0c-0.8-0.2-1.7-0.5-2.5-0.5c-25.5-1-50.5-5.3-74.9-13.1c-32.1-10.3-61.6-25.5-88.3-46.2
                        c-9-7-17.7-14.5-25.9-22.5c-12.6-12.3-24-25.5-34.1-40c-2.6-3.7-4.9-7.6-7.3-11.4c-3.9-6.3-8-12.6-11.5-19.1
@@ -257,72 +459,107 @@ export default function Testimonials() {
                        c-5.9-32.6-17.4-63.1-34.4-91.5c-13.4-22.3-29.1-42.8-48.5-60.2c-5.2-4.7-10.1-9.8-15.5-14.1c-26.2-21.1-55.1-37.4-87.1-47.9
                        c-13.6-4.5-27.5-8.2-41.7-10.6c-12.9-2.1-25.8-3.2-38.9-3.8c-13.4-0.6-26.8,0.3-40.1,1.5c-13.5,1.3-26.8,4.1-39.9,7.5
                        c-33.2,8.8-63.8,23.4-91.7,43.5c-20.9,15.1-39.3,32.8-55.3,53c-18.4,23-32.8,48.3-43.1,76c-6.4,17.1-11.1,34.8-13.9,52.8
-                       C20.5,269.5,19.4,285.5,19.6,301.7z"/>
-              <path d="M119,261.8c7.5-25.6,19.8-48.3,37-68.4c17.1-20.1,37.7-35.6,61.5-46.8c23.9-11.3,49.1-16.9,75.6-17.2
+                       C20.5,269.5,19.4,285.5,19.6,301.7z"
+                />
+                <path
+                  d="M119,261.8c7.5-25.6,19.8-48.3,37-68.4c17.1-20.1,37.7-35.6,61.5-46.8c23.9-11.3,49.1-16.9,75.6-17.2
                        c35.9-0.4,69,9,99.3,28.2c39.1,24.9,64.9,59.9,78.6,103.9c1.5,0,2.9,0,4.4,0c-24.5-86.6-106.6-143.4-195.8-136
-                       C192,132.7,131,198,114.8,261.5c0.3,0.1,0.6,0.3,1,0.3C116.7,261.8,117.7,261.8,119,261.8z"/>
-              <path d="M472.5,334.4c-11.5,38.4-32.8,70-64.5,94.4c-31.8,24.4-67.9,37-108,37.9c-35.1,0.8-67.9-8.1-97.9-26.4
+                       C192,132.7,131,198,114.8,261.5c0.3,0.1,0.6,0.3,1,0.3C116.7,261.8,117.7,261.8,119,261.8z"
+                />
+                <path
+                  d="M472.5,334.4c-11.5,38.4-32.8,70-64.5,94.4c-31.8,24.4-67.9,37-108,37.9c-35.1,0.8-67.9-8.1-97.9-26.4
                        c-40.6-24.8-67.5-60.4-81.4-105.8c-1.5,0-2.9,0-4.3,0C134,402.9,204.3,475.4,305.3,471c90-3.9,155.1-70.5,171.6-136.5
-                       C475.5,334.4,474.2,334.4,472.5,334.4z"/>
-              <path d="M362.4,308c0.1-0.2,0.1-0.4,0.2-0.6c-0.3-0.2-0.6-0.6-1-0.7c-1.3-0.5-1.7-1.5-1.7-2.8c0-2.7,0-5.5,0-8.2
+                       C475.5,334.4,474.2,334.4,472.5,334.4z"
+                />
+                <path
+                  d="M362.4,308c0.1-0.2,0.1-0.4,0.2-0.6c-0.3-0.2-0.6-0.6-1-0.7c-1.3-0.5-1.7-1.5-1.7-2.8c0-2.7,0-5.5,0-8.2
                        c0-1,0.4-1.7,1.3-2.1c0.9-0.3,1.8-0.8,2.8-0.9c2.1-0.3,3.1,0.4,3.2,2.5c0.1,2.9,0.1,5.8,0,8.8c0,1.2-0.5,2.2-1.7,2.7
                        c-0.3,0.1-0.4,0.7-0.7,1.2c4,0.5,6.3,0.3,7.9-0.3c-2.2-2.7-2.2-2.7-2.2-7.1c0-1.8,0.1-3.6-0.1-5.3c-0.3-4.1-2.9-5.8-6.8-4.4
                        c-1.2,0.4-2.2,1-3.4,1.6c-0.3-0.7-0.5-1.3-0.8-2.1c-1.9,0.7-3.5,1.2-5.7,2c0.9,0.6,1.5,0.9,1.9,1.3c0.4,0.5,1,1.1,1,1.7
-                       c0.1,2.9,0,5.8,0,8.8c0,1.2-0.5,2.2-1.8,2.7c-0.3,0.1-0.5,0.7-0.9,1.2C357.1,308,359.8,308,362.4,308z"/>
-              <path d="M162.5,308.1c-2.5-3.2-2.5-3.2-2.5-7.5c0-1.8,0.1-3.5,0-5.3c-0.2-4-2.7-5.7-6.5-4.5c-1.2,0.4-2.4,1.1-3.7,1.7
+                       c0.1,2.9,0,5.8,0,8.8c0,1.2-0.5,2.2-1.8,2.7c-0.3,0.1-0.5,0.7-0.9,1.2C357.1,308,359.8,308,362.4,308z"
+                />
+                <path
+                  d="M162.5,308.1c-2.5-3.2-2.5-3.2-2.5-7.5c0-1.8,0.1-3.5,0-5.3c-0.2-4-2.7-5.7-6.5-4.5c-1.2,0.4-2.4,1.1-3.7,1.7
                        c-0.2-0.7-0.4-1.3-0.6-2.1c-1.9,0.5-3.8,0.7-5.5,2.1c0.7,0.4,1.3,0.7,1.7,1.1c0.4,0.5,0.9,1.1,0.9,1.7c0.1,2.8,0.1,5.7,0,8.5
                        c0,1.3-0.5,2.4-1.9,2.9c-0.3,0.1-0.5,0.7-0.8,1.2c3.7,0.5,6.8,0.4,8.4-0.3c-0.1-0.2-0.2-0.6-0.3-0.7c-2-0.6-2.3-2.2-2.3-4
                        c0-1.9,0-3.9,0-5.8c0-2.9,0.9-3.9,3.7-4.3c2.4-0.4,3.6,0.4,3.7,2.9c0.1,2.7,0.1,5.5,0,8.2c0,1.3-0.5,2.4-1.9,2.9
-                       c-0.3,0.1-0.4,0.7-0.7,1.2C157,308.1,159.6,308.1,162.5,308.1z"/>
-              <path d="M431.9,307.9c2.7,0.6,6.4,0.5,8.3-0.1c0-0.2,0.1-0.5,0-0.5c-2.4-1-2.5-3-2.5-5.3c0.1-5.9,0-11.9,0-17.8
+                       c-0.3,0.1-0.4,0.7-0.7,1.2C157,308.1,159.6,308.1,162.5,308.1z"
+                />
+                <path
+                  d="M431.9,307.9c2.7,0.6,6.4,0.5,8.3-0.1c0-0.2,0.1-0.5,0-0.5c-2.4-1-2.5-3-2.5-5.3c0.1-5.9,0-11.9,0-17.8
                        c0-1,0-1.9,0-2.9c-2.6,0.2-4,0.7-5.6,1.8c2.4,2.1,2.4,2.1,2.4,5.7c0,4.2-0.1,8.3,0,12.5c0.1,2.5,0,4.8-2.6,6
-                       C432,307.4,432,307.6,431.9,307.9z"/>
-              <path d="M222.2,295.8c0.7-3.2,0.7-3.9-0.3-4.4c-2.2-1.1-4.5-1.6-6.9-0.5c-3.1,1.3-3.8,4.8-1.4,7.1c1,1,2.3,1.6,3.5,2.4
+                       C432,307.4,432,307.6,431.9,307.9z"
+                />
+                <path
+                  d="M222.2,295.8c0.7-3.2,0.7-3.9-0.3-4.4c-2.2-1.1-4.5-1.6-6.9-0.5c-3.1,1.3-3.8,4.8-1.4,7.1c1,1,2.3,1.6,3.5,2.4
                        c0.9,0.6,2,1.2,2.8,2c1.1,1,1.3,2.3,0.8,3.3c-0.6,1.1-2.1,1.7-3.4,1.4c-1.4-0.3-2.3-1.3-2.8-2.5c-0.3-0.7-0.2-1.8-1.3-2.1
                        c-1,2.1-0.9,3.9,0.3,4.7c2.4,1.5,4.9,2,7.5,0.7c3.5-1.8,4-5.7,1-8.3c-1.1-1-2.5-1.6-3.8-2.5c-1-0.7-2-1.5-2.7-2.4
-                       c-0.9-1.2-0.2-2.7,1.3-3c1.6-0.4,3.2,0.2,4.1,1.7C221.2,294,221.6,294.7,222.2,295.8z"/>
-              <path d="M275.5,295.3c0.2,0,0.4-0.1,0.6-0.1c0-0.8,0.1-1.6,0-2.3c-0.1-0.6-0.5-1.3-1-1.6c-1.8-0.9-3.7-1.2-5.7-0.7
+                       c-0.9-1.2-0.2-2.7,1.3-3c1.6-0.4,3.2,0.2,4.1,1.7C221.2,294,221.6,294.7,222.2,295.8z"
+                />
+                <path
+                  d="M275.5,295.3c0.2,0,0.4-0.1,0.6-0.1c0-0.8,0.1-1.6,0-2.3c-0.1-0.6-0.5-1.3-1-1.6c-1.8-0.9-3.7-1.2-5.7-0.7
                        c-1.8,0.5-3.2,1.5-3.6,3.5c-0.4,1.9,0.4,3.3,1.8,4.4c1.1,0.9,2.4,1.5,3.6,2.3c0.9,0.6,2,1.3,2.7,2.1c1.3,1.6,0.6,3.6-1.4,4.2
                        c-1.5,0.5-3.2-0.2-4.1-1.6c-0.4-0.7-0.5-1.5-0.9-2.2c-0.2-0.3-0.7-0.5-1.4-1c0,1.4-0.1,2.4,0,3.3c0.1,0.6,0.3,1.2,0.7,1.6
                        c2,1.8,5.7,2,8,0.6c3.1-1.9,3.5-5.6,0.7-8c-1.1-0.9-2.4-1.5-3.5-2.4c-1-0.7-2.1-1.4-2.9-2.3c-1.2-1.5-0.4-3.2,1.6-3.4
-                       c1.5-0.2,2.8,0.4,3.7,1.7C274.8,293.9,275.1,294.6,275.5,295.3z"/>
-              <path d="M312.4,294.3c0,3.2,0,6.5,0,9.7c0,1.2-0.5,2.2-1.7,2.7c-0.4,0.1-0.6,0.6-1.3,1.4c3.6,0,6.6,0.2,9.6-0.4
+                       c1.5-0.2,2.8,0.4,3.7,1.7C274.8,293.9,275.1,294.6,275.5,295.3z"
+                />
+                <path
+                  d="M312.4,294.3c0,3.2,0,6.5,0,9.7c0,1.2-0.5,2.2-1.7,2.7c-0.4,0.1-0.6,0.6-1.3,1.4c3.6,0,6.6,0.2,9.6-0.4
                        c-0.3-0.5-0.7-0.9-1.1-0.9c-1.1-0.2-1.9-0.8-2-1.8c-0.1-3.1-0.4-6.2,0-9.2c0.3-2.6,2.6-3,4.6-1.3c0.2,0.2,0.6,0.3,0.9,0.4
                        c1.6-1.8,1.7-2.6,0.7-3.7c-1.1-1.1-2.3-1.2-3.8-0.1c-0.6,0.4-1.1,0.9-1.6,1.4c-0.2,0.1-0.5,0.1-0.7,0.2c-0.2-0.8-0.5-1.5-0.7-2.4
-                       c-1.8,0.7-3.5,1.3-5.7,2C310.7,293.2,311.4,293.7,312.4,294.3z"/>
-              <path d="M462.3,308.4c0.3,0,0.6,0,0.9,0c0.6-1.5,1.2-3,1.9-4.5c1.9-4.2,2.8-8.9,6.1-12.5c0,0,0-0.2-0.1-0.4
+                       c-1.8,0.7-3.5,1.3-5.7,2C310.7,293.2,311.4,293.7,312.4,294.3z"
+                />
+                <path
+                  d="M462.3,308.4c0.3,0,0.6,0,0.9,0c0.6-1.5,1.2-3,1.9-4.5c1.9-4.2,2.8-8.9,6.1-12.5c0,0,0-0.2-0.1-0.4
                        c-1.9,0-3.8,0-6,0c0.3,0.5,0.4,0.7,0.5,0.8c1.8,1.4,1.9,1.7,1.2,3.7c-0.6,1.7-1.2,3.3-1.8,5c-0.4,0.9-0.8,1.9-1.1,2.8
                        c-1.6-3-2.7-5.8-3.7-8.7c-0.3-1-0.4-1.9,0.7-2.5c0.3-0.2,0.5-0.6,0.9-1.1c-2.6,0-5,0-7.8,0c3,2.4,3.4,5.7,4.7,8.5
-                       C459.9,302.4,461.1,305.4,462.3,308.4z"/>
-              <path d="M490.4,291.7c1,0.3,1.7,0.6,2.6,0.8c0,1.1,0,2,0,3c0,3-0.1,6,0,9c0.1,3.6,1.6,4.7,5.2,3.8
+                       C459.9,302.4,461.1,305.4,462.3,308.4z"
+                />
+                <path
+                  d="M490.4,291.7c1,0.3,1.7,0.6,2.6,0.8c0,1.1,0,2,0,3c0,3-0.1,6,0,9c0.1,3.6,1.6,4.7,5.2,3.8
                        c1-0.2,2.3-0.2,2.7-1.5c-0.2-0.2-0.3-0.3-0.3-0.3c-0.4,0-0.9-0.1-1.3-0.1c-2.7,0.2-3.1-0.1-3.2-2.8c-0.1-2.7,0-5.5,0-8.2
-                       c0-1,0.1-2.1,0.1-3c3.8-0.5,3.8-0.5,4.2-1.5c-1.3-0.1-2.6-0.2-4-0.3c-0.2-1-0.4-2-0.7-3.1C493.8,289,492.2,290.3,490.4,291.7z"/>
-              <path d="M282.9,292.5c0,1.2,0,2.2,0,3.3c0,3.1,0,6.2,0.1,9.3c0,1,0.4,2.2,1,2.9c1.4,1.5,5.3,0.7,6.8-1.3
+                       c0-1,0.1-2.1,0.1-3c3.8-0.5,3.8-0.5,4.2-1.5c-1.3-0.1-2.6-0.2-4-0.3c-0.2-1-0.4-2-0.7-3.1C493.8,289,492.2,290.3,490.4,291.7z"
+                />
+                <path
+                  d="M282.9,292.5c0,1.2,0,2.2,0,3.3c0,3.1,0,6.2,0.1,9.3c0,1,0.4,2.2,1,2.9c1.4,1.5,5.3,0.7,6.8-1.3
                        c-0.6-0.1-1.1-0.2-1.5-0.1c-2.9,0.2-3.2-0.1-3.3-3c0-1.9,0-3.7,0-5.6c0-1.8,0-3.7,0-5.6c1.4-0.1,2.5,0,3.5-0.2
                        c0.3-0.1,0.6-0.5,1.2-1.1c-1.8-0.2-3.2-0.3-4.5-0.4c-0.2-1.1-0.4-2-0.6-3.2c-1.1,1-1.8,1.7-2.7,2.3c-0.8,0.6-1.6,1.2-2.8,2.1
-                       C281.2,292,281.8,292.2,282.9,292.5z"/>
-              <path d="M229.3,292.4c0,1.8,0,3.4,0,5c0,2.7,0,5.3,0.1,8c0,1.4,0.4,2.7,2,3.1c2,0.5,4,0.1,5.7-1.2
+                       C281.2,292,281.8,292.2,282.9,292.5z"
+                />
+                <path
+                  d="M229.3,292.4c0,1.8,0,3.4,0,5c0,2.7,0,5.3,0.1,8c0,1.4,0.4,2.7,2,3.1c2,0.5,4,0.1,5.7-1.2
                        c0.1-0.1,0-0.5-0.1-0.9c-0.6,0-1.1,0.1-1.6,0.1c-2.4,0.2-3-0.3-3-2.8c0-1.9,0-3.9,0-5.8c0-1.8,0-3.7,0-5.6c1.4-0.1,2.4-0.1,3.5-0.2
                        c0.3-0.1,0.6-0.6,1.1-1.1c-1.7-0.1-3-0.2-4.4-0.4c-0.1-1-0.3-1.9-0.4-3.2c-1.9,1.5-3.5,2.8-5.5,4.4
-                       C227.7,292.1,228.4,292.2,229.3,292.4z"/>
-              <path d="M335.3,306.6c-0.9-0.1-1.3-0.1-1.8-0.1c-2.8,0.2-3.2-0.2-3.3-3c0-2.5,0-5,0-7.4c0-1.2,0-2.4,0-3.7
+                       C227.7,292.1,228.4,292.2,229.3,292.4z"
+                />
+                <path
+                  d="M335.3,306.6c-0.9-0.1-1.3-0.1-1.8-0.1c-2.8,0.2-3.2-0.2-3.3-3c0-2.5,0-5,0-7.4c0-1.2,0-2.4,0-3.7
                        c1.4-0.1,2.5-0.1,3.5-0.2c0.3,0,0.6-0.6,1.1-1.1c-1.7-0.1-3-0.2-4.4-0.3c-0.2-1.1-0.3-2-0.5-3.2c-1.9,1.5-3.5,2.9-5.3,4.3
                        c1,0.3,1.8,0.5,2.6,0.8c0,4.2-0.1,8.3,0,12.3c0.1,3.1,1.5,4.3,4.6,3.7c0.9-0.2,1.7-0.5,2.5-0.8C334.6,307.6,334.8,307.2,335.3,306.6
-                       z"/>
-              <path d="M452.2,308.1c-0.4-0.7-0.5-1.1-0.8-1.2c-2-0.6-2.1-2.1-2.1-3.8c0-2.4,0-4.8,0-7.2c0-1.7,0-3.5,0-5.4
+                       z"
+                />
+                <path
+                  d="M452.2,308.1c-0.4-0.7-0.5-1.1-0.8-1.2c-2-0.6-2.1-2.1-2.1-3.8c0-2.4,0-4.8,0-7.2c0-1.7,0-3.5,0-5.4
                        c-2.2,0.3-4,0.8-5.9,2c0.6,0.5,1,0.8,1.4,1c0.9,0.4,1.3,1.1,1.3,2.1c0,2.7,0,5.3-0.1,8c0,1.4-0.3,2.6-1.9,3.2
-                       c-0.3,0.1-0.4,0.7-0.8,1.3C446.4,308.1,449.1,308.1,452.2,308.1z"/>
-              <path d="M449.7,283.1c0-1.1-0.9-2-2-2c-1.2,0-2,0.8-1.9,2c0,1.2,0.8,1.7,1.8,1.9C448.7,285.2,449.7,284.2,449.7,283.1z"
-                    />
-              <path d="M409.7,521.8c0,0.2,0,0.4,0.1,0.6c0.5,0,1-0.1,1.5-0.1c0-0.1,0-0.3,0-0.4C410.8,521.8,410.2,521.8,409.7,521.8z
-                       "/>
-              <path d="M119,261.8c-1.4,0-2.3,0-3.3,0c-0.3,0-0.6-0.2-1-0.3C131,198,192,132.7,279.6,125.4
+                       c-0.3,0.1-0.4,0.7-0.8,1.3C446.4,308.1,449.1,308.1,452.2,308.1z"
+                />
+                <path d="M449.7,283.1c0-1.1-0.9-2-2-2c-1.2,0-2,0.8-1.9,2c0,1.2,0.8,1.7,1.8,1.9C448.7,285.2,449.7,284.2,449.7,283.1z" />
+                <path
+                  d="M409.7,521.8c0,0.2,0,0.4,0.1,0.6c0.5,0,1-0.1,1.5-0.1c0-0.1,0-0.3,0-0.4C410.8,521.8,410.2,521.8,409.7,521.8z
+                       "
+                />
+                <path
+                  d="M119,261.8c-1.4,0-2.3,0-3.3,0c-0.3,0-0.6-0.2-1-0.3C131,198,192,132.7,279.6,125.4
                        c89.2-7.4,171.2,49.5,195.8,136c-1.5,0-2.9,0-4.4,0c-13.7-44-39.5-79-78.6-103.9c-30.3-19.2-63.4-28.6-99.3-28.2
-                       c-26.4,0.3-51.6,5.9-75.6,17.2c-23.8,11.3-44.4,26.8-61.5,46.8C138.9,213.5,126.5,236.2,119,261.8z"/>
-              <path d="M472.5,334.4c1.7,0,3,0,4.3,0c-16.5,66-81.5,132.6-171.6,136.5c-101,4.4-171.3-68.1-188.8-136.4
+                       c-26.4,0.3-51.6,5.9-75.6,17.2c-23.8,11.3-44.4,26.8-61.5,46.8C138.9,213.5,126.5,236.2,119,261.8z"
+                />
+                <path
+                  d="M472.5,334.4c1.7,0,3,0,4.3,0c-16.5,66-81.5,132.6-171.6,136.5c-101,4.4-171.3-68.1-188.8-136.4
                        c1.4,0,2.8,0,4.3,0c13.9,45.4,40.7,80.9,81.4,105.8c30,18.3,62.8,27.2,97.9,26.4c40-0.9,76.2-13.4,108-37.9
-                       C439.7,404.5,461,372.9,472.5,334.4z"/>
-              <path d="M257.8,504c0,2.1-0.1,4.2,0,6.3c0.6,10-0.9,19.8-2.2,29.6c-0.2,1.3,0,2.6,0.1,3.9c0,1.2,0,2.5,0,3.7
+                       C439.7,404.5,461,372.9,472.5,334.4z"
+                />
+                <path
+                  d="M257.8,504c0,2.1-0.1,4.2,0,6.3c0.6,10-0.9,19.8-2.2,29.6c-0.2,1.3,0,2.6,0.1,3.9c0,1.2,0,2.5,0,3.7
                        c0,2.2-0.1,4.4-0.1,6.6c0,1.6-0.4,2.1-2.3,2.7c0.3,0.5,0.6,1,0.9,1.5c0.2,0.4,0.6,0.8,0.5,1.2c0,0.3-0.6,0.6-1,0.6
                        c-1.2,0.1-2.5,0-3.7,0c-1.5,0-3,0-4.5-0.1c-2-0.1-2.7-0.7-3-2.7c-0.2-1.6-0.4-3.1-0.6-4.9c1.2-0.5,2.5-1,3.6-1.6
                        c0.5-0.3,1.2-0.7,1.3-1.1c0.3-1.8,0.5-3.7,0.6-5.5c0.1-3.4,0-6.7,0.3-10.1c0.9-10.6,2.1-21.2,3-31.7c0.4-4,0.4-8,0.6-11.9
@@ -344,8 +581,10 @@ export default function Testimonials() {
                        c0,0.2,0,0.3,0,0.5C245.6,552.7,246,552.7,246.5,552.7z M256.8,488.1c-0.3,0.5-0.6,0.9-0.6,1c0.2,0.3,0.6,0.5,0.9,0.8
                        c0.1-0.2,0.4-0.4,0.4-0.5C257.4,489,257.2,488.7,256.8,488.1z M277.6,536.6c0.1,1.4,0.3,2,1.8,2.1
                        C278.8,537.9,278.4,537.5,277.6,536.6z M245.2,555.5c0-0.2,0-0.3,0-0.5c-0.6,0-1.2-0.1-1.8-0.1c0,0.2,0,0.4,0,0.6
-                       C244,555.5,244.6,555.5,245.2,555.5z"/>
-              <path d="M391.4,529.1c1.4-1.2,2.8-2.4,4.3-3.8c-0.3-0.8-0.7-1.7-1.1-2.6c-5.7-12.8-11.4-25.5-17.2-38.3
+                       C244,555.5,244.6,555.5,245.2,555.5z"
+                />
+                <path
+                  d="M391.4,529.1c1.4-1.2,2.8-2.4,4.3-3.8c-0.3-0.8-0.7-1.7-1.1-2.6c-5.7-12.8-11.4-25.5-17.2-38.3
                        c-1.1-2.5-2.2-5-3.3-7.5c-0.4-1-0.2-1.8,0.6-2.3c2.4-1.6,4.7-3.3,7.7-3.3c1.4,0,2.8,0.3,4.1,0.8c3.2,1.3,6,3.4,8.5,5.8
                        c2,2,4.3,3.7,6.4,5.6c1,0.9,2,2,2.9,3c1,1.1,2.1,2.1,3.1,3.2c1.5-1.3,1.4-2.7,1.6-4.1c0.9-7,1.6-14.1,2.7-21.1
                        c0.3-2.2,0.9-4.6,2.1-6.4c1-1.5,3-2.3,4.5-3.5c0.1-0.1,0.3-0.1,0.5-0.1c5.6-1.8,5.8-1.7,8,3.6c3.1,7.6,6,15.3,9.3,22.9
@@ -371,8 +610,10 @@ export default function Testimonials() {
                        c-0.2,0.1-0.4,0.1-0.7,0.2c0,1.3-0.1,2.7,2,3.9C438.6,499.2,438.2,498,437.8,496.9z M395.9,520.9c0.6-1.7,0.4-2.5-0.9-3
                        C395.2,518.8,395.4,519.6,395.9,520.9z M389.7,504.4c0.2-0.1,0.4-0.2,0.5-0.3c-0.3-0.5-0.5-1.1-0.8-1.6c-0.2,0.1-0.4,0.2-0.5,0.3
                        C389.2,503.3,389.5,503.8,389.7,504.4z M416.9,458.7c-0.2-0.1-0.5-0.2-0.7-0.3c-0.1,0.5-0.2,1.1-0.2,1.6c0.2,0,0.3,0.1,0.5,0.1
-                       C416.6,459.7,416.7,459.2,416.9,458.7z"/>
-              <path d="M223.9,118.9c-5.8,4.8-13.1,5.6-19.4,8.7c-1.8-1.7-2.3-3.8-2.7-5.9c-0.1-0.6,0.4-1.5,0.9-2
+                       C416.6,459.7,416.7,459.2,416.9,458.7z"
+                />
+                <path
+                  d="M223.9,118.9c-5.8,4.8-13.1,5.6-19.4,8.7c-1.8-1.7-2.3-3.8-2.7-5.9c-0.1-0.6,0.4-1.5,0.9-2
                        c0.7-0.7,1.6-1.1,2.4-1.7c1.5-1.1,1.6-1.3,1-3.1c-0.3-0.8-0.7-1.6-1-2.5c-5.9-13.7-11.7-27.3-17.6-41c-0.5-1.2-1.1-2.4-1.8-3.8
                        c-2.3,1.3-4.3,2.5-6.4,3.7c-3.1-0.9-3.2-3.4-3.3-6.3c2.9-1.7,5.9-3.3,8.8-5.1c3.7-2.3,7.5-3.8,11.8-4.5c3.7-0.6,7.4-1.8,11.1-2.5
                        c2.2-0.5,4.6-0.7,6.9-0.8c7.6-0.4,13.4,3.1,17,9.6c3.3,5.9,2.6,12-1,17.6c-1.4,2.2-3.1,4.3-4.7,6.5c-0.6,0.9-1.2,1.9-1.9,3.1
@@ -393,8 +634,10 @@ export default function Testimonials() {
                        c0.3-1.3,0.3-1.3-0.9-2.3C212.8,116.5,212.9,117.1,213,117.8z M201.3,58.6c1.1,0.3,1.7,0,2.2-1.1C202.3,57.3,201.7,57.5,201.3,58.6z
                        M219.7,87.7c0.1,0.1,0.2,0.2,0.2,0.3c0.3-0.2,0.7-0.3,1-0.5c0.2-0.2,0.3-0.5,0.8-1.2c-0.8,0.3-1.1,0.4-1.3,0.5
                        C220.1,87.1,219.9,87.4,219.7,87.7z M254.1,103.8c-0.3-0.1-0.6-0.3-0.7-0.3c-0.2,0.2-0.3,0.5-0.5,0.7c0.2,0.1,0.5,0.2,0.7,0.1
-                       C253.8,104.4,253.9,104.1,254.1,103.8z"/>
-              <path d="M209.9,514.7c0.4,2.5,0.8,4.7,1.2,6.9c1,5.2,2.1,10.4,3.1,15.6c0.5,2.4,1.6,4.2,3.9,5.3
+                       C253.8,104.4,253.9,104.1,254.1,103.8z"
+                />
+                <path
+                  d="M209.9,514.7c0.4,2.5,0.8,4.7,1.2,6.9c1,5.2,2.1,10.4,3.1,15.6c0.5,2.4,1.6,4.2,3.9,5.3
                        c1.2,0.5,2.3,1.4,3.3,2.2c1.1,0.8,1.5,1.9,1.1,3.2c-0.4,1.2-0.7,2.3-1.1,3.6c-2.1-0.5-4.1-1-6.1-1.4c-0.2,0-0.4-0.1-0.5-0.1
                        c-3.2-1.8-6.4-3.7-9.6-5.5c-0.3-0.2-0.6-0.4-0.8-0.6c0.2-1.1,0.3-1.9,0.5-2.8c0.7-2.6,0.5-5.2,0.2-7.9c-0.6-5.4-0.7-10.9-1-16.4
                        c-0.2-3.3-0.2-3.4-3.6-4c-1.8-0.4-3.6-0.8-5.4-1.3c-2.2-0.6-3.2-0.2-4.1,1.8c-1.3,3-2.5,6-3.7,9.1c-0.3,0.7-0.5,1.5-0.6,2.3
@@ -418,8 +661,10 @@ export default function Testimonials() {
                        c0.5-0.5,0.8-0.9,1-1.2c0-0.1-0.5-0.6-0.6-0.6c-0.4,0.2-0.7,0.4-0.9,0.8C191.5,468.3,191.8,468.7,192.1,469.2z M213.4,508.8
                        c0-0.2,0-0.3,0-0.5c-1,0-2,0-2.9,0c0,0.2,0,0.3,0,0.5C211.4,508.8,212.4,508.8,213.4,508.8z M218.3,508.3c-1.4-0.7-1.4-0.7-2.8,0.2
                        C216.6,508.4,217.4,508.4,218.3,508.3z M180.9,525c-0.2-0.1-0.4-0.3-0.6-0.4c-0.2,0.4-0.4,0.9-0.7,1.3c0.1,0.1,0.3,0.2,0.4,0.3
-                       C180.4,525.8,180.6,525.4,180.9,525z"/>
-              <path d="M404,121.7c1.6-1.3,30.6-40.8,31.7-43.2c-1.5-0.8-3-1.7-4.5-2.6c-2.2-1.2-2.4-2-1.2-4.1
+                       C180.4,525.8,180.6,525.4,180.9,525z"
+                />
+                <path
+                  d="M404,121.7c1.6-1.3,30.6-40.8,31.7-43.2c-1.5-0.8-3-1.7-4.5-2.6c-2.2-1.2-2.4-2-1.2-4.1
                        c0.4-0.6,0.7-1.2,1.1-1.7c0.5-0.4,1.1-0.6,2.1-1.1c1.6,0.8,3.5,1.8,5.3,2.8c5.3,2.9,10.3,6,14.4,10.7c3.5,4,7.2,7.8,10.5,12
                        c3.5,4.3,3.9,9.2,3.4,14.3c-0.9,8.4-8.6,14-15.8,14.3c-2.7,0.1-5.5-0.3-8.2-0.4c-1.7-0.1-3.5-0.2-5.5-0.3c-0.2,1.6-0.4,2.9-0.5,4.2
                        c-0.3,6.4-0.6,12.7-0.9,19.1c-0.1,2.3,0.3,4.4,2.4,5.8c0.1,0.1,0.3,0.2,0.4,0.4c4,3.9,4.1,4.4,0.7,9c-3.2-0.9-5.4-2.4-7.6-4.7
@@ -441,8 +686,10 @@ export default function Testimonials() {
                        C407.7,126.8,407.2,127.2,406.7,127.6z M436.1,118.1c-0.1,0.2-0.1,0.4-0.2,0.6c0.6,0.2,1.2,0.3,1.8,0.5c0-0.2,0.1-0.4,0.1-0.5
                        C437.2,118.4,436.6,118.3,436.1,118.1z M451.6,87.6c0.4,1,0.9,1.4,2,1.3C453.3,87.8,452.8,87.4,451.6,87.6z M406.5,125.6
                        c-0.1-0.2-0.3-0.3-0.4-0.5c-0.3,0.4-0.7,0.7-1,1.1c0.1,0.1,0.2,0.2,0.3,0.4C405.7,126.2,406.1,125.9,406.5,125.6z M432.8,125.9
-                       c0.2,0,0.4,0,0.6,0.1c0-0.4-0.1-0.8-0.1-1.2c-0.1,0-0.3,0-0.4,0C432.9,125.1,432.8,125.5,432.8,125.9z"/>
-              <path d="M335.4,105.4c0.5-1.8,0.9-3.2,1.3-4.6c0.3-1.1,1.1-1.6,2.2-1.4c2.1,0.3,4.2,0.6,6.3,1c1.1,0.2,2.2,0.5,3.5,0.8
+                       c0.2,0,0.4,0,0.6,0.1c0-0.4-0.1-0.8-0.1-1.2c-0.1,0-0.3,0-0.4,0C432.9,125.1,432.8,125.5,432.8,125.9z"
+                />
+                <path
+                  d="M335.4,105.4c0.5-1.8,0.9-3.2,1.3-4.6c0.3-1.1,1.1-1.6,2.2-1.4c2.1,0.3,4.2,0.6,6.3,1c1.1,0.2,2.2,0.5,3.5,0.8
                        c0.2-0.7,0.5-1.2,0.6-1.8c1.2-4.1,2.4-8.1,3.6-12.2c0.1-0.5,0.4-1,0.8-1.4c2.5-2.7,3.5-6,3.6-9.7c0-1.1,0.5-2.2,1-3.3
                        c2.8-6.9,5.7-13.7,8.6-20.6c0.4-0.9,0.7-1.8,1.2-2.9c-1.3-1-2.6-1.8-3.8-2.7c-1.5,1.6-2.8,2.9-4.1,4.4c-0.8-0.5-1.5-1-2.1-1.4
                        c-1.1-0.7-1.3-1.6-1-2.8c0.7-2.6,1.4-5.3,2.1-7.9c0.3-1.1,1.2-1.3,2-1.4c2-0.2,3.8,0.3,5.6,1.2c1,0.5,2,1.1,3.1,1.5
@@ -465,8 +712,10 @@ export default function Testimonials() {
                        c1.3,1.2,1.9,2.6,3.7,2C372.5,43.8,372.5,43.8,370,43.4z M378.7,114.7c0,0.2,0,0.5,0,0.7c0.8,0.6,1.6,0.4,2.7-0.8
                        C380.2,114.6,379.5,114.7,378.7,114.7z M390.4,90c-0.2-1.7-0.2-1.7-1.7-2.3C389.3,88.5,389.8,89.1,390.4,90z M375.3,115.2
                        c0,0.2,0,0.4,0,0.6c0.5,0,1-0.1,1.5-0.1c0-0.2,0-0.3,0-0.5C376.3,115.2,375.8,115.2,375.3,115.2z M345.3,104
-                       c-0.1,0.2-0.2,0.4-0.3,0.6c0.5,0.2,1,0.4,1.4,0.5c0.1-0.1,0.1-0.3,0.2-0.4C346.2,104.5,345.8,104.2,345.3,104z"/>
-              <path d="M150.3,144.3c1.1,2.7,2.2,5.2,3.5,8.1c1.7-1.2,3-2.2,4.4-3c1.4-0.8,3-1,4.7-0.5c0.5,1.7,0.3,3.4-0.8,4.7
+                       c-0.1,0.2-0.2,0.4-0.3,0.6c0.5,0.2,1,0.4,1.4,0.5c0.1-0.1,0.1-0.3,0.2-0.4C346.2,104.5,345.8,104.2,345.3,104z"
+                />
+                <path
+                  d="M150.3,144.3c1.1,2.7,2.2,5.2,3.5,8.1c1.7-1.2,3-2.2,4.4-3c1.4-0.8,3-1,4.7-0.5c0.5,1.7,0.3,3.4-0.8,4.7
                        c-3.5,4.1-7.7,7.5-11.9,10.9c-1.1-0.9-2.1-1.7-2.8-2.3c-0.3-1.6-0.5-3-0.8-4.5c0.2,0,0.6,0.1,1.2,0.2c-0.1-0.6-0.1-1.3-0.4-1.7
                        c-2.4-3.6-3.6-7.7-5.1-11.6c-1.7-4.4-3.5-8.7-4.8-13.2c-2.1-7.2-5.4-13.9-7.9-20.9c-1.1-3.2-2.2-6.4-3.1-9.6
                        c-1.1-3.9,1.9-9.1,6.8-10.1c0.7-0.1,1.6,0.2,2.2,0.5c8.4,4.9,16.7,9.9,24.7,15.6c6.2,4.4,12.6,8.6,18.9,12.8
@@ -476,8 +725,10 @@ export default function Testimonials() {
                        C161.1,133.3,155.8,138.7,150.3,144.3z M147.6,137.9c2.3-2.6,4.2-4.7,6.1-6.9c1.9-2.1,3.9-4.1,5.9-6.1c2-2.1,4.5-3.6,6.5-6.1
                        c-1.1-0.8-1.9-1.7-2.9-1.8c-2.2-0.2-3.8-1.5-5.5-2.5c-5.1-3-10.1-6.2-15.2-9.2c-1.4-0.9-2.9-1.7-4.4-2.4c-0.5-0.2-1.1-0.2-1.7-0.3
                        c0.5,1.2,1,2.2,1.2,3.2c1.5,6.5,2.9,12.9,4.4,19.4C143,129.5,145.2,133.5,147.6,137.9z M189.6,126.1c0.2,0.1,0.4,0.2,0.6,0.3
-                       c0.2-0.4,0.5-0.9,0.7-1.3c-0.2-0.1-0.4-0.2-0.5-0.3C190.1,125.2,189.8,125.6,189.6,126.1z"/>
-              <path d="M475.1,206.1c0.4,1.1,1.1,2.7,1.9,4.5c-1.3,0.7-2.8,1.4-4.3,2.1c-0.6-1.2-1-2-1.6-3.2c-0.4,0.7-0.6,1.1-0.7,1.3
+                       c0.2-0.4,0.5-0.9,0.7-1.3c-0.2-0.1-0.4-0.2-0.5-0.3C190.1,125.2,189.8,125.6,189.6,126.1z"
+                />
+                <path
+                  d="M475.1,206.1c0.4,1.1,1.1,2.7,1.9,4.5c-1.3,0.7-2.8,1.4-4.3,2.1c-0.6-1.2-1-2-1.6-3.2c-0.4,0.7-0.6,1.1-0.7,1.3
                        c-1.3-1.7-2.5-3.6-3.9-5.2c-1.7-2-2.6-4.2-2.1-6.8c1.1-0.9,2.1-1.8,3.6-3.1c0.6,1,1.2,2.1,1.9,3.2c3.9-2.4,5.8-5.5,7.1-9.1
                        c0.2-0.6-0.3-1.7-0.8-2.3c-4.1-5.5-8.4-11-12.6-16.5c-0.3-0.4-0.5-0.7-0.8-1c-2.3-3-2.3-3-6-2c-1.4,0.4-2.9,0.8-4.7,1.3
                        c0.9,1.7,1.7,3.1,2.3,4.6c0.6,1.5,0.7,3.1,0,4.8c-1.8,0.2-3.5-0.1-4.7-1.6c-3.4-4.1-6.2-8.6-8.9-13.2c1-0.9,1.9-1.7,2.9-2.7
@@ -486,8 +737,10 @@ export default function Testimonials() {
                        c-5.4,6.1-11,12-16.6,17.9c-0.5,0.5-0.8,1.2-1.2,1.7C478.3,202.3,476.9,204,475.1,206.1z M483.8,186.2c0.8-1,1.6-1.9,2.3-2.9
                        c0.7-1,1.1-2.2,1.8-3.1c4.5-5.5,9.1-10.9,13.5-16.4c1-1.3,1.9-2.7,3.1-4.4c-1.8,0.4-3,0.7-4.2,0.8c-5.2,0.4-10.4,1-15.6,1.2
                        c-5.2,0.1-10.2,1.3-15,3c-0.6,0.2-1.3,0.6-2,0.9C473.1,172.2,478.3,179,483.8,186.2z M473,208.4c-0.2,0.2-0.3,0.4-0.5,0.5
-                       c0.4,0.3,0.8,0.6,1.3,0.9c0.1-0.2,0.2-0.3,0.3-0.5C473.7,209.1,473.3,208.7,473,208.4z"/>
-              <path d="M461.6,479.1c0.9,2.6,1.8,5.2,2.8,7.9c2.1,0,3-1.7,4.6-2.3c1.5-0.6,3-1,4.8-0.5c0.5,1.8,0.3,3.6-1,4.9
+                       c0.4,0.3,0.8,0.6,1.3,0.9c0.1-0.2,0.2-0.3,0.3-0.5C473.7,209.1,473.3,208.7,473,208.4z"
+                />
+                <path
+                  d="M461.6,479.1c0.9,2.6,1.8,5.2,2.8,7.9c2.1,0,3-1.7,4.6-2.3c1.5-0.6,3-1,4.8-0.5c0.5,1.8,0.3,3.6-1,4.9
                        c-3.8,3.7-7.9,7-12.3,10.1c-1-0.9-1.9-1.7-2.5-2.3c-0.2-1.7-0.4-3.1-0.6-4.5c0.2,0,0.6,0,1.2,0c-0.1-0.5-0.1-1.1-0.3-1.5
                        c-3.7-7.3-5.8-15.2-8-23c-2.1-7.3-4.5-14.4-6.8-21.6c-1.2-3.7-2.3-7.4-3.2-11.2c-1.1-4.5,2.2-9.1,7.2-10.1c0.6-0.1,1.4,0.2,2,0.5
                        c8,5.2,15.9,10.6,23.5,16.5c6.2,4.9,12.5,9.5,18.8,14.3c0.5,0.4,1.1,0.6,1.6,0.9c1.8,1.2,3.6,2.4,6,4c1-0.5,2.5-1.3,4.3-2.3
@@ -496,8 +749,10 @@ export default function Testimonials() {
                        c0.4-0.5,0.8-0.9,1.4-1.5c-2.4-3.2-5.7-4.8-9.3-5.8c-0.6-0.2-1.5,0.4-2,0.8c-2.8,2.5-5.5,5-8.2,7.5
                        C469,472.3,465.4,475.6,461.6,479.1z M459,472.3c6.6-6.1,12.8-11.9,19.2-17.8c-0.7-1-1.6-1.8-3-2.2c-1-0.3-2-0.7-2.9-1.2
                        c-1.6-1-3.1-2-4.7-3.1c-4.8-3.2-9.5-6.5-14.3-9.7c-1-0.7-2.1-1.6-3.6-1.5c0.4,1.2,0.8,2.2,1,3.2c1.1,6.5,2.2,13.1,3.4,19.6
-                       C455,464.1,457,468.1,459,472.3z"/>
-              <path d="M151.6,507.3c1,1.1,2.2,2.4,3.4,3.9c-1.1,1.1-2.2,2.1-3.4,3.2c-0.9-0.9-1.6-1.6-2.6-2.6
+                       C455,464.1,457,468.1,459,472.3z"
+                />
+                <path
+                  d="M151.6,507.3c1,1.1,2.2,2.4,3.4,3.9c-1.1,1.1-2.2,2.1-3.4,3.2c-0.9-0.9-1.6-1.6-2.6-2.6
                        c-0.1,0.9-0.1,1.4-0.1,1.7c-1.6-1.1-3.2-2.2-4.7-3.4c-0.8-0.7-2.2-0.8-2.2-2.4c0-0.3-1.3-0.4-1.6-0.9c-0.6-0.9-0.8-1.9-1.2-2.7
                        c0.8-1.3,1.4-2.4,2.2-3.8c1,0.4,2,0.9,3.3,1.4c1.6-1.3,2.3-3.3,2.8-5.2c1.6-5.3,1.5-5.5-3.1-8.6c-6.2-4.2-12.5-8.4-19-12.8
                        c-2.3,1.5-4.7,3.1-7.4,4.8c2.3,2.6,5.7,4.3,5.1,8.3c-1.6,0.6-3.3,0.9-4.8,0c-4.5-2.8-8.6-6.1-12.7-9.6c0.7-1.2,1.3-2.3,1.8-3.2
@@ -506,8 +761,10 @@ export default function Testimonials() {
                        C153.3,503.6,152.6,505.1,151.6,507.3z M131.6,471c7.5,5,14.6,9.8,21.9,14.7c0.5-1.1,1.3-2.1,1.2-3.1c-0.1-1.9,0.6-3.5,1.2-5.1
                        c2.5-6.6,5-13.2,7.5-19.8c0.4-1.2,1-2.4,0.7-3.6c-1.9,0.9-3.6,1.8-5.3,2.6c-5.3,2.3-10.6,4.5-15.9,6.8
                        C138.7,465.2,135.3,468.1,131.6,471z M151.5,511.5c0.1-0.1,0.2-0.3,0.4-0.4c-0.2-0.2-0.3-0.6-0.6-0.7c-0.3-0.1-0.7,0.1-1.5,0.2
-                       C150.7,511.1,151.1,511.3,151.5,511.5z"/>
-              <path d="M290.7,59.3c1.5,5,1.8,9.8,1.8,15c-1.4-0.3-2.6-0.3-3.6-0.7c-0.6-0.3-1.1-1.1-1.3-1.8c-0.4-1.4-1.3-1.9-2.6-1.8
+                       C150.7,511.1,151.1,511.3,151.5,511.5z"
+                />
+                <path
+                  d="M290.7,59.3c1.5,5,1.8,9.8,1.8,15c-1.4-0.3-2.6-0.3-3.6-0.7c-0.6-0.3-1.1-1.1-1.3-1.8c-0.4-1.4-1.3-1.9-2.6-1.8
                        c-3.9,0.3-7.8,0.6-11.6,0.9c-1.3,0.1-1.9,0.9-1.7,2.1c0.2,1.6,0.3,3.2,0.6,4.7c1,4.9,1,9.9,0.9,14.8c0,1,0,2.1,0,3.5
                        c1.8-0.2,3.4-0.3,4.9-0.6c6.4-1.5,12.8-1.6,19.3-1.5c1.4,0,2.8,0.5,4-0.8c0.2-0.2,0.9,0,1.6,0.1c0-1.1,0-1.9-1.3-2
                        c-1.2-0.1-1.7-0.8-1.8-1.9c2.2-1.7,4.5-1.8,6.3-0.3c0.4,0.4,0.8,1,0.8,1.6c0.5,3.9,0.9,7.7,1.3,11.6c0,0.2-0.1,0.5-0.2,0.8
@@ -526,8 +783,10 @@ export default function Testimonials() {
                        c0.9-0.7,1-1.3-0.3-2C270.9,90.6,271,91.1,271.1,91.7z M266.8,50.3c0.3-0.1,0.5-0.1,0.8-0.2c-0.2-0.5-0.4-1-0.5-1.5
                        c-0.2,0.1-0.4,0.1-0.6,0.2C266.6,49.2,266.7,49.7,266.8,50.3z M298.6,101.2c0-0.2,0-0.5-0.1-0.7c-0.5,0.1-1,0.2-1.6,0.4
                        c0,0.2,0.1,0.3,0.1,0.5C297.6,101.2,298.1,101.2,298.6,101.2z M301.7,97.2c0,0.1,0.1,0.3,0.1,0.4c0.4-0.1,0.9-0.2,1.3-0.3
-                       c-0.1-0.2-0.2-0.4-0.2-0.7C302.4,96.9,302.1,97.1,301.7,97.2z"/>
-              <path d="M347.8,508.8c1.9,4.7,2.3,9.6,3.1,14.7c-2.4-0.1-4.6,0.4-5.4-2.4c-0.3-0.9-1-1.3-1.8-1.2
+                       c-0.1-0.2-0.2-0.4-0.2-0.7C302.4,96.9,302.1,97.1,301.7,97.2z"
+                />
+                <path
+                  d="M347.8,508.8c1.9,4.7,2.3,9.6,3.1,14.7c-2.4-0.1-4.6,0.4-5.4-2.4c-0.3-0.9-1-1.3-1.8-1.2
                        c-4.1,0.6-8.2,1.2-12.3,1.8c-1,0.2-1.5,0.9-1.3,2c0.3,1.6,0.6,3.3,1,4.9c1.1,4.5,1.7,9,1.9,13.7c0.1,1.4,0.3,2.8,0.5,4.5
                        c2.5-0.6,4.7-1,6.9-1.7c5.3-1.6,10.8-2.1,16.3-2.3c1.5-0.1,3.2,0.2,4.5-1.1c0.2-0.2,0.8,0,1.4,0c-0.1-1.1,0-1.9-1.4-2
                        c-0.7,0-1.4-0.8-2.1-1.3c2-2.2,4.5-2.6,6.6-1.2c0.4,0.3,0.7,0.8,0.8,1.3c0.8,3.8,1.5,7.6,2.3,11.5c0.1,0.3-0.1,0.7-0.1,1
@@ -550,8 +809,10 @@ export default function Testimonials() {
                        C330.6,541.5,330.6,542,330.7,542.5z M357.2,549.5c0,0.2,0.1,0.4,0.1,0.7c0.5-0.2,1-0.3,1.5-0.5c0-0.2-0.1-0.3-0.1-0.5
                        C358.2,549.3,357.7,549.4,357.2,549.5z M328.4,551.4c0,0.2,0,0.3,0,0.5c0.5,0,1.1,0,1.6,0c0.1,0,0.2-0.4,0.4-0.9
                        C329.6,551.2,329,551.3,328.4,551.4z M356.3,491.9c-0.2-0.2-0.4-0.3-0.5-0.5c-0.1,0.2-0.3,0.5-0.3,0.7c0,0.1,0.3,0.2,0.5,0.4
-                       C356,492.3,356.2,492.2,356.3,491.9z"/>
-              <path d="M78.6,173.5c-2.3,1.2-2.3,1.2-3.2,3.2c0.8,0.9,1.5,1.8,2.3,2.8c0.6,0.8,0.9,1.6,0.1,2.4
+                       C356,492.3,356.2,492.2,356.3,491.9z"
+                />
+                <path
+                  d="M78.6,173.5c-2.3,1.2-2.3,1.2-3.2,3.2c0.8,0.9,1.5,1.8,2.3,2.8c0.6,0.8,0.9,1.6,0.1,2.4
                        c-0.8,0.8-1.5,1.8-2.9,1.3c-0.7-0.3-1.3-0.6-1.9-0.9c-1.6-0.7-3.2-1.5-4.9-2c-1.2-0.4-1.8-1.1-1.5-2.1c0.3-1.6,0.8-3.3,1.5-4.7
                        c0.9-1.8,2.2-3.4,3.3-5.1c3.1-5,6.1-10,9.2-14.9c0.6-1,1.6-1.9,2.4-2.8c0.9-0.9,2-1.5,2.7-2.5c2.6-3.5,6.3-4.7,10.4-5.1
                        c1.4-0.1,2.8-0.1,4.2-0.1c0.9,0,1.9,0.1,2.5,0.6c3.4,2.4,6.7,4.9,7.6,9.4c0.3,1.5,0.4,3,0.7,4.5c0.1,0.6,0.3,1.2,0.6,2.1
@@ -573,8 +834,10 @@ export default function Testimonials() {
                        C106.2,169.7,105.4,171.4,104.6,173z M72.8,169.9c0.2,0.2,0.5,0.3,0.7,0.5c0.5-1,2.3-1.1,1.5-3.5C74.2,168.2,73.5,169.1,72.8,169.9z
                        M120.6,158.7c0,0.3,0.1,0.6,0.1,0.8c1.2-0.2,2.4-0.4,3.6-0.6C122.9,157.4,121.7,157.9,120.6,158.7z M140.6,170
                        c-0.9,1.3-0.9,1.3-0.1,2.4C140.6,171.7,140.6,171.1,140.6,170z M116.2,158.9c0.1,0.1,0.1,0.3,0.2,0.4c0.5-0.2,1-0.3,1.5-0.6
-                       c0.1-0.1,0.1-0.4,0.1-1C117.2,158.2,116.7,158.5,116.2,158.9z"/>
-              <path d="M114.8,387.9c-1.2,0.4-2.3,0.8-3.4,1.1c-0.9,0.3-1.8,0.3-2.3-0.8c-0.4-1-1.2-2.1-0.1-3.2c0.5-0.5,1-1,1.5-1.5
+                       c0.1-0.1,0.1-0.4,0.1-1C117.2,158.2,116.7,158.5,116.2,158.9z"
+                />
+                <path
+                  d="M114.8,387.9c-1.2,0.4-2.3,0.8-3.4,1.1c-0.9,0.3-1.8,0.3-2.3-0.8c-0.4-1-1.2-2.1-0.1-3.2c0.5-0.5,1-1,1.5-1.5
                        c1.2-1.2,2.6-2.4,3.7-3.8c0.9-1.1,1.8-1.2,2.8-0.6c1.3,0.9,2.6,1.9,3.6,3.1c1.5,1.8,2.8,3.9,4.2,5.8c1.9,2.6,3.6,5.3,5.7,7.7
                        c3.8,4.4,6,9.5,8,14.8c0.6,1.7,1,3.4,0.5,5.2c-0.7,2.5-1.2,5-2,7.4c-0.7,2-2.3,3.2-4.2,4.2c-4.1,2-8.2,2.8-12.5,1.1
                        c-0.8-0.3-1.7-0.4-2.6-0.5c-1,1.6,0,3-0.1,4.5c-0.1,1.3,0,2.6-0.2,3.9c-0.4,2-1,3.9-1.6,5.9c-0.8,2.5-2,4.8-4,6.4
@@ -595,8 +858,10 @@ export default function Testimonials() {
                        c1.6-1.5,1.7-1.9,0.8-3.6C113.3,437.5,113,438.7,113.4,440z M121.2,388c0.5,1.5,0.3,2.9,2.2,3.3C123.4,389.7,122.9,388.8,121.2,388z
                        M116.1,434.3c0.1,0,0.3-0.1,0.4-0.1c-0.1-0.5-0.1-1.1-0.2-1.6c-0.5,0.2-0.7,0.5-0.7,0.8C115.7,433.7,115.9,434,116.1,434.3z
                        M96.3,450.9c0.1-0.2,0.3-0.4,0.4-0.6c-0.4-0.8-1-1.1-2.6-0.7C95.1,450.2,95.7,450.5,96.3,450.9z M91.9,448c0,0.2-0.1,0.4-0.1,0.6
-                       c0.4,0.1,0.9,0.2,1.7,0.4c-0.5-0.6-0.6-0.8-0.8-0.9C92.5,448,92.2,448.1,91.9,448z"/>
-              <path d="M534.5,414.4c-5.3,8.4-10.6,16.6-16,25.2c-1.4-0.7-3.1-1.4-4.9-2.2c0.2-0.6,0.4-1.1,0.6-1.7
+                       c0.4,0.1,0.9,0.2,1.7,0.4c-0.5-0.6-0.6-0.8-0.8-0.9C92.5,448,92.2,448.1,91.9,448z"
+                />
+                <path
+                  d="M534.5,414.4c-5.3,8.4-10.6,16.6-16,25.2c-1.4-0.7-3.1-1.4-4.9-2.2c0.2-0.6,0.4-1.1,0.6-1.7
                        c-0.5-0.1-0.9-0.2-1.3-0.3c0.8-2.9,1.9-5.5,3.4-8c1.4-2.4,1.5-2.5-0.6-4.1c-4.2-3.2-8.3-6.2-13-8.6c-10.4-5.3-20.8-10.6-30.7-17.3
                        c-0.8,0.9-1.7,1.8-2.4,2.8c-1.5,2.4-3,4.8-4.4,7.3c-0.7,1.1-0.5,2.1,0.4,3.1c1.4,1.4,2.7,2.8,4.2,4.4c-0.6,1.4-1.1,2.8-1.8,4.5
                        c-0.9-0.5-1.5-0.9-2.2-1.3c-2.6-1.5-5.2-3.1-7.8-4.6c-0.8-0.4-1.5-0.7-1.6-1.9c0-1.8,0-2,1.5-3.1c-0.6-2.2,0.1-4.3,1.4-6.1
@@ -614,130 +879,239 @@ export default function Testimonials() {
                        c0.2,0.4,0.5,0.8,0.7,1.2c0,0,0.4-0.2,0.6-0.2C518.7,436.5,518.4,436.1,518.2,435.7z M519,432.5c0.2,0.1,0.3,0.2,0.5,0.4
                        c0.6-0.5,1.4-0.9,0.9-2.5C519.8,431.2,519.4,431.8,519,432.5z M476,391c-1.2,1.2-1,1.9,0,3C476,392.8,476,392.2,476,391z
                        M524.1,425.2c-0.2-0.2-0.4-0.3-0.6-0.5c-0.4,0.6-0.7,1.3-1.1,1.9c0.2,0.1,0.3,0.2,0.5,0.3C523.3,426.3,523.7,425.7,524.1,425.2z
-                       M464.8,412.4c-0.3-0.3-0.5-0.7-0.7-0.7c-0.2,0-0.5,0.3-0.7,0.4c0.2,0.2,0.4,0.5,0.7,0.7C464.1,412.8,464.4,412.6,464.8,412.4z"/>
-              <path d="M95.8,308c0.9-0.7,1.2-1.1,1.7-1.3c1.8-0.5,2.5-1.9,2.5-3.6c0-5.4,0-10.8,0-16.2c0-1.8-0.6-3.3-2.6-3.8
+                       M464.8,412.4c-0.3-0.3-0.5-0.7-0.7-0.7c-0.2,0-0.5,0.3-0.7,0.4c0.2,0.2,0.4,0.5,0.7,0.7C464.1,412.8,464.4,412.6,464.8,412.4z"
+                />
+                <path
+                  d="M95.8,308c0.9-0.7,1.2-1.1,1.7-1.3c1.8-0.5,2.5-1.9,2.5-3.6c0-5.4,0-10.8,0-16.2c0-1.8-0.6-3.3-2.6-3.8
                        c-0.4-0.1-0.7-0.5-1-0.8c0.3-0.3,0.4-0.5,0.5-0.5c5.4,0.1,10.8-0.2,16.1,0.5c6.6,0.9,10.4,5.6,10.6,12c0.3,6.3-3.4,11.4-9.7,13.2
                        c-1.4,0.4-2.9,0.7-4.4,0.7c-3.9,0.1-7.8,0.1-11.7,0C97.3,308.2,96.9,308.1,95.8,308z M104.1,283.5c0,6.8-0.1,13.4,0,20
-                       c0,2.1,1.1,2.9,3.2,3.2c4.8,0.7,9-1.8,10.8-6.3c1-2.5,1.1-5.1,0.8-7.8C118.1,284.8,110.6,281.6,104.1,283.5z"/>
-              <path d="M384.4,292.5c0.8-0.4,1.1-0.6,1.5-0.8c1.3-0.5,2.7-0.9,4.1-1.3c0.3,0.8,0.5,1.4,0.8,2.1c0.9-0.5,1.7-1,2.5-1.3
+                       c0,2.1,1.1,2.9,3.2,3.2c4.8,0.7,9-1.8,10.8-6.3c1-2.5,1.1-5.1,0.8-7.8C118.1,284.8,110.6,281.6,104.1,283.5z"
+                />
+                <path
+                  d="M384.4,292.5c0.8-0.4,1.1-0.6,1.5-0.8c1.3-0.5,2.7-0.9,4.1-1.3c0.3,0.8,0.5,1.4,0.8,2.1c0.9-0.5,1.7-1,2.5-1.3
                        c3.2-1.5,6.4-0.5,8.1,2.6c2.3,4.2,1,10.4-2.8,13.2c-1.7,1.3-3.6,1.8-5.7,1.4c-0.7-0.2-1.4-0.3-2.2-0.5c-0.6,2.9-0.6,5.3,2.5,6.8
                        c-1.6,1-5.9,1.2-8.4,0.4c0-0.2-0.1-0.5,0-0.5c2.3-1.1,2.6-3,2.6-5.3c-0.1-4.8-0.1-9.6-0.1-14.3c0-0.2-0.1-0.3-0.2-0.7
                        C386.4,293.8,385.6,293.3,384.4,292.5z M390.4,299.1c0,0,0.1,0,0.1,0c0,1.5-0.1,3,0,4.5c0.3,2.2,1.4,3.3,3.2,3.6
                        c1.9,0.3,3.7-0.5,4.5-2.5c1.4-3.1,1.3-6.3-0.3-9.4c-0.4-0.7-1-1.3-1.6-1.7c-1.5-1.1-3.2-0.8-4.8-0.1c-1.5,0.7-1.3,1.9-1.3,3.1
-                       C390.4,297.5,390.4,298.3,390.4,299.1z"/>
-              <path d="M176.5,306.9c0-2.3,0-4.2,0-6.1c0-4.2-0.1-8.3,0-12.5c0.1-2.1,0-4.1-2.8-4.9c1.9-1.5,3.8-1.9,6-2.1
+                       C390.4,297.5,390.4,298.3,390.4,299.1z"
+                />
+                <path
+                  d="M176.5,306.9c0-2.3,0-4.2,0-6.1c0-4.2-0.1-8.3,0-12.5c0.1-2.1,0-4.1-2.8-4.9c1.9-1.5,3.8-1.9,6-2.1
                        c0,3.8,0,7.4,0,11.4c1.1-0.6,1.8-0.9,2.6-1.3c3.8-1.9,7.6-0.4,9,3.6c0.9,2.5,0.8,5-0.1,7.5c-1.7,4.5-5,6.5-9.7,5.8
                        C179.9,308,178.4,307.4,176.5,306.9z M179.7,299.3C179.7,299.3,179.7,299.3,179.7,299.3c0.1,1.3,0,2.7,0.1,4c0.2,2.3,1.4,3.6,3.3,4
                        c2,0.4,3.9-0.5,4.7-2.6c1.2-3,1.2-6.1-0.2-9c-1.2-2.6-3.6-3.3-6.2-2.2c-1.1,0.5-1.7,1.1-1.6,2.4C179.8,297,179.7,298.1,179.7,299.3z
-                       "/>
-              <path d="M362.4,308c-2.7,0-5.3,0-8.4,0c0.4-0.5,0.5-1.1,0.9-1.2c1.3-0.5,1.7-1.5,1.8-2.7c0.1-2.9,0.1-5.8,0-8.8
+                       "
+                />
+                <path
+                  d="M362.4,308c-2.7,0-5.3,0-8.4,0c0.4-0.5,0.5-1.1,0.9-1.2c1.3-0.5,1.7-1.5,1.8-2.7c0.1-2.9,0.1-5.8,0-8.8
                        c0-0.6-0.6-1.2-1-1.7c-0.4-0.4-0.9-0.7-1.9-1.3c2.1-0.7,3.8-1.3,5.7-2c0.3,0.8,0.5,1.4,0.8,2.1c1.2-0.6,2.2-1.2,3.4-1.6
                        c3.9-1.4,6.5,0.3,6.8,4.4c0.1,1.8,0.1,3.5,0.1,5.3c0,4.3,0,4.3,2.2,7.1c-1.6,0.7-3.9,0.8-7.9,0.3c0.3-0.5,0.4-1.1,0.7-1.2
                        c1.3-0.5,1.7-1.5,1.7-2.7c0-2.9,0.1-5.8,0-8.8c-0.1-2.1-1.1-2.8-3.2-2.5c-0.9,0.1-1.9,0.5-2.8,0.9c-0.9,0.3-1.3,1-1.3,2.1
-                       c0,2.7,0,5.5,0,8.2c0,1.2,0.4,2.2,1.7,2.8c0.4,0.1,0.6,0.5,1,0.7C362.6,307.6,362.5,307.8,362.4,308z"/>
-              <path d="M162.5,308.1c-2.9,0-5.5,0-8.3,0c0.3-0.5,0.4-1.1,0.7-1.2c1.4-0.5,1.9-1.6,1.9-2.9c0.1-2.7,0.1-5.5,0-8.2
+                       c0,2.7,0,5.5,0,8.2c0,1.2,0.4,2.2,1.7,2.8c0.4,0.1,0.6,0.5,1,0.7C362.6,307.6,362.5,307.8,362.4,308z"
+                />
+                <path
+                  d="M162.5,308.1c-2.9,0-5.5,0-8.3,0c0.3-0.5,0.4-1.1,0.7-1.2c1.4-0.5,1.9-1.6,1.9-2.9c0.1-2.7,0.1-5.5,0-8.2
                        c-0.1-2.5-1.2-3.3-3.7-2.9c-2.9,0.5-3.7,1.4-3.7,4.3c0,1.9,0,3.9,0,5.8c0,1.8,0.2,3.4,2.3,4c0.2,0.1,0.2,0.4,0.3,0.7
                        c-1.6,0.7-4.8,0.8-8.4,0.3c0.3-0.5,0.5-1,0.8-1.2c1.4-0.6,1.8-1.6,1.9-2.9c0.1-2.8,0.1-5.7,0-8.5c0-0.6-0.5-1.2-0.9-1.7
                        c-0.4-0.4-1-0.7-1.7-1.1c1.7-1.4,3.6-1.6,5.5-2.1c0.2,0.8,0.4,1.4,0.6,2.1c1.4-0.6,2.5-1.3,3.7-1.7c3.8-1.2,6.3,0.5,6.5,4.5
-                       c0.1,1.8,0,3.5,0,5.3C160,304.9,160,304.9,162.5,308.1z"/>
-              <path d="M414.9,297.7c0-1.4,0.1-2.4,0-3.5c-0.3-1.7-1.5-2.6-3.2-2.5c-2,0-2.8,1.1-2.4,3.1c0.1,0.3,0.1,0.7,0.3,1.3
+                       c0.1,1.8,0,3.5,0,5.3C160,304.9,160,304.9,162.5,308.1z"
+                />
+                <path
+                  d="M414.9,297.7c0-1.4,0.1-2.4,0-3.5c-0.3-1.7-1.5-2.6-3.2-2.5c-2,0-2.8,1.1-2.4,3.1c0.1,0.3,0.1,0.7,0.3,1.3
                        c-0.8,0.3-1.5,0.7-2.3,1c-1.5-2.4-1.3-3.9,0.6-5.2c2-1.3,4.3-1.7,6.6-1.3c2.4,0.4,3.4,1.4,3.5,3.9c0.1,3.1,0,6.2,0.1,9.3
                        c0,1.9,0.1,1.9,2.1,2.4c0.3,1.5-0.8,2-1.9,2.4c-1.8,0.7-2.5-0.8-3.6-1.9c-0.6,0.3-1.2,0.7-1.8,1c-0.4,0.2-0.8,0.4-1.2,0.5
                        c-2.3,0.8-4.7,0-5.6-1.7c-1-1.8-0.2-4.4,1.9-5.8c1.2-0.8,2.7-1.3,4-1.9C412.9,298.4,413.8,298.1,414.9,297.7z M415,299.9
                        c-2.2,0-4.2,0.8-5.2,1.9c-0.8,0.9-1.1,1.8-0.6,2.9c0.6,1.1,1.6,1.6,2.9,1.4c1.7-0.2,2.8-1.4,2.9-3.1C415,301.9,415,300.9,415,299.9z
-                       "/>
-              <path d="M307.4,306.3c-1.1,3-2.9,3.2-5.5,0.3c-0.5,0.3-1,0.6-1.5,0.9c-0.5,0.2-0.9,0.5-1.4,0.7c-2.3,0.8-4.7,0-5.6-1.7
+                       "
+                />
+                <path
+                  d="M307.4,306.3c-1.1,3-2.9,3.2-5.5,0.3c-0.5,0.3-1,0.6-1.5,0.9c-0.5,0.2-0.9,0.5-1.4,0.7c-2.3,0.8-4.7,0-5.6-1.7
                        c-1-1.9-0.3-4.4,1.9-5.8c1.2-0.8,2.7-1.3,4-1.9c0.9-0.4,1.8-0.7,2.9-1c0-1.2,0.1-2.3,0-3.5c-0.2-1.7-1.5-2.6-3.2-2.5
                        c-2,0-2.8,1-2.4,3.1c0,0.2,0.1,0.3,0.1,0.5c0,0.2,0,0.3,0,0.8c-0.6,0.3-1.4,0.6-2.1,0.9c-1.5-2.3-1.3-4,0.6-5.2
                        c2.4-1.6,5.1-1.9,7.9-1c1.7,0.5,2.2,1.9,2.2,3.6c0,2.9,0,5.8,0,8.8C305.3,305.5,305.3,305.5,307.4,306.3z M302.3,299.7
                        c-2.2-0.1-3.7,0.7-5,1.9c-0.9,0.8-1.3,1.9-0.7,3.1c0.6,1.1,1.9,1.6,3.2,1.3c1.7-0.4,2.5-1.4,2.6-3.1
-                       C302.3,301.9,302.3,300.8,302.3,299.7z"/>
-              <path d="M130,297.6c-0.5,2.1,0.1,3.8,1.2,5.4c1,1.5,2.4,2.8,4.4,2.6c1.7-0.2,3.4-1,5.4-1.5c-0.6,2.3-2.1,3.3-3.8,4
+                       C302.3,301.9,302.3,300.8,302.3,299.7z"
+                />
+                <path
+                  d="M130,297.6c-0.5,2.1,0.1,3.8,1.2,5.4c1,1.5,2.4,2.8,4.4,2.6c1.7-0.2,3.4-1,5.4-1.5c-0.6,2.3-2.1,3.3-3.8,4
                        c-3.8,1.7-8.3-0.3-9.8-4.3c-1.1-2.9-1-5.7,0.2-8.5c1.4-3.3,4.4-5.2,7.5-4.8c3.2,0.4,5.3,2.6,6.1,6.7
                        C137.5,297.8,133.7,297,130,297.6z M137.1,295.9c0.1-2.5-1-3.9-3.1-4.1c-2.1-0.2-3.6,1.3-3.9,4.1
-                       C132.5,295.9,134.8,295.9,137.1,295.9z"/>
-              <path d="M340.5,297.6c-0.5,2,0,3.5,0.8,4.9c1.7,3.1,4.5,3.9,7.7,2.4c0.7-0.3,1.3-1.3,2.3-0.7c-1.2,4.5-8,6.1-11.7,2.2
+                       C132.5,295.9,134.8,295.9,137.1,295.9z"
+                />
+                <path
+                  d="M340.5,297.6c-0.5,2,0,3.5,0.8,4.9c1.7,3.1,4.5,3.9,7.7,2.4c0.7-0.3,1.3-1.3,2.3-0.7c-1.2,4.5-8,6.1-11.7,2.2
                        c-3.7-3.8-3-11.6,1.3-14.7c2.1-1.5,4.4-1.9,6.8-0.7c2.4,1.1,3.7,3.1,4,6.1C348,297.8,344.3,297,340.5,297.6z M347.8,296
-                       c-0.3-2.9-1.5-4.2-3.5-4.3c-2,0-3.3,1.3-3.7,4c0.6,0.1,1.2,0.2,1.8,0.2C344.1,296,345.9,296,347.8,296z"/>
-              <path d="M209.5,297.5c-3.8,0-7.4,0-10.9,0c-0.6,3.2,0.6,6,2.8,7.5c2.8,1.8,5.2,0.1,8.1-1.4c-0.4,1.1-0.5,1.6-0.8,2
+                       c-0.3-2.9-1.5-4.2-3.5-4.3c-2,0-3.3,1.3-3.7,4c0.6,0.1,1.2,0.2,1.8,0.2C344.1,296,345.9,296,347.8,296z"
+                />
+                <path
+                  d="M209.5,297.5c-3.8,0-7.4,0-10.9,0c-0.6,3.2,0.6,6,2.8,7.5c2.8,1.8,5.2,0.1,8.1-1.4c-0.4,1.1-0.5,1.6-0.8,2
                        c-1.9,2.4-4.4,3.6-7.4,3c-3.2-0.6-5.2-2.7-5.9-5.8c-0.8-3.6-0.4-7.1,2.2-10c2-2.2,4.8-2.9,7.5-1.9
                        C207.8,291.8,209.3,294,209.5,297.5z M205.8,296c-0.4-3-1.6-4.2-3.6-4.3c-2,0-3.3,1.4-3.6,4.1c0.7,0.1,1.4,0.2,2,0.2
-                       C202.3,296,204,296,205.8,296z"/>
-              <path d="M253.8,297.5c-3.8,0-7.4,0-11,0c-0.6,2.2,0,3.9,1,5.5c1,1.6,2.5,2.9,4.6,2.7c1.7-0.2,3.4-1,5.2-1.6
+                       C202.3,296,204,296,205.8,296z"
+                />
+                <path
+                  d="M253.8,297.5c-3.8,0-7.4,0-11,0c-0.6,2.2,0,3.9,1,5.5c1,1.6,2.5,2.9,4.6,2.7c1.7-0.2,3.4-1,5.2-1.6
                        c-1,4.4-7.5,6.2-11.3,2.8c-4.3-3.7-3.6-12.3,1.2-15.4C247.8,288.6,253.2,291.4,253.8,297.5z M250,295.9c-0.4-2.8-1.6-4.1-3.6-4.1
-                       c-2,0-3.3,1.4-3.6,4.1C245.1,295.9,247.5,295.9,250,295.9z"/>
-              <path d="M488.1,297.3c-3.9,0.1-7.6,0.1-11.1,0.2c-0.5,3.2,0.7,6,2.9,7.4c2.7,1.7,5,0.2,7.8-1.1
+                       c-2,0-3.3,1.4-3.6,4.1C245.1,295.9,247.5,295.9,250,295.9z"
+                />
+                <path
+                  d="M488.1,297.3c-3.9,0.1-7.6,0.1-11.1,0.2c-0.5,3.2,0.7,6,2.9,7.4c2.7,1.7,5,0.2,7.8-1.1
                        c-0.2,0.8-0.2,1.4-0.4,1.7c-1.8,2.4-4.2,3.6-7.2,3.1c-3.1-0.5-5.1-2.4-6-5.3c-0.9-2.8-0.7-5.6,0.5-8.3c1.5-3.1,4.4-4.9,7.4-4.6
-                       C485.2,290.8,487.4,293.1,488.1,297.3z M477.1,295.8c2.3,0,4.6,0,7,0c-0.1-2.6-1.3-4-3.3-4C478.7,291.7,477.3,293.2,477.1,295.8z"/>
-              <path d="M431.9,307.9c0-0.3,0-0.4,0.1-0.5c2.6-1.3,2.6-3.6,2.6-6c-0.1-4.2,0-8.3,0-12.5c0-3.6,0-3.6-2.4-5.7
+                       C485.2,290.8,487.4,293.1,488.1,297.3z M477.1,295.8c2.3,0,4.6,0,7,0c-0.1-2.6-1.3-4-3.3-4C478.7,291.7,477.3,293.2,477.1,295.8z"
+                />
+                <path
+                  d="M431.9,307.9c0-0.3,0-0.4,0.1-0.5c2.6-1.3,2.6-3.6,2.6-6c-0.1-4.2,0-8.3,0-12.5c0-3.6,0-3.6-2.4-5.7
                        c1.6-1.2,3-1.6,5.6-1.8c0,1,0,1.9,0,2.9c0,5.9,0,11.9,0,17.8c0,2.2,0.1,4.2,2.5,5.3c0.1,0,0,0.3,0,0.5
-                       C438.3,308.4,434.7,308.4,431.9,307.9z"/>
-              <path d="M222.2,295.8c-0.6-1.1-1-1.8-1.4-2.4c-1-1.5-2.6-2.1-4.1-1.7c-1.5,0.4-2.2,1.8-1.3,3c0.7,1,1.8,1.7,2.7,2.4
+                       C438.3,308.4,434.7,308.4,431.9,307.9z"
+                />
+                <path
+                  d="M222.2,295.8c-0.6-1.1-1-1.8-1.4-2.4c-1-1.5-2.6-2.1-4.1-1.7c-1.5,0.4-2.2,1.8-1.3,3c0.7,1,1.8,1.7,2.7,2.4
                        c1.2,0.9,2.6,1.5,3.8,2.5c3,2.5,2.5,6.5-1,8.3c-2.6,1.3-5.2,0.8-7.5-0.7c-1.2-0.8-1.3-2.6-0.3-4.7c1.1,0.3,1,1.4,1.3,2.1
                        c0.6,1.3,1.4,2.2,2.8,2.5c1.4,0.3,2.9-0.3,3.4-1.4c0.6-1.1,0.4-2.3-0.8-3.3c-0.8-0.8-1.9-1.3-2.8-2c-1.2-0.8-2.5-1.5-3.5-2.4
-                       c-2.4-2.4-1.7-5.8,1.4-7.1c2.4-1,4.7-0.6,6.9,0.5C222.9,291.9,222.9,292.6,222.2,295.8z"/>
-              <path d="M275.5,295.3c-0.4-0.7-0.7-1.4-1.1-2c-0.9-1.3-2.1-1.8-3.7-1.7c-2,0.2-2.8,1.9-1.6,3.4c0.8,0.9,1.9,1.6,2.9,2.3
+                       c-2.4-2.4-1.7-5.8,1.4-7.1c2.4-1,4.7-0.6,6.9,0.5C222.9,291.9,222.9,292.6,222.2,295.8z"
+                />
+                <path
+                  d="M275.5,295.3c-0.4-0.7-0.7-1.4-1.1-2c-0.9-1.3-2.1-1.8-3.7-1.7c-2,0.2-2.8,1.9-1.6,3.4c0.8,0.9,1.9,1.6,2.9,2.3
                        c1.2,0.8,2.5,1.4,3.5,2.4c2.8,2.4,2.4,6.1-0.7,8c-2.3,1.4-5.9,1.2-8-0.6c-0.4-0.4-0.7-1-0.7-1.6c-0.1-1,0-1.9,0-3.3
                        c0.7,0.5,1.2,0.6,1.4,1c0.4,0.7,0.5,1.5,0.9,2.2c0.9,1.5,2.6,2.1,4.1,1.6c2-0.6,2.7-2.6,1.4-4.2c-0.7-0.9-1.7-1.5-2.7-2.1
                        c-1.2-0.8-2.5-1.4-3.6-2.3c-1.4-1.1-2.2-2.5-1.8-4.4c0.4-1.9,1.8-3,3.6-3.5c2-0.6,3.9-0.2,5.7,0.7c0.5,0.3,0.9,1,1,1.6
-                       c0.2,0.7,0,1.5,0,2.3C275.9,295.2,275.7,295.3,275.5,295.3z"/>
-              <path d="M312.4,294.3c-0.9-0.6-1.7-1.1-2.9-2c2.1-0.8,3.8-1.4,5.7-2c0.3,0.9,0.5,1.6,0.7,2.4c0.3-0.1,0.6-0.1,0.7-0.2
+                       c0.2,0.7,0,1.5,0,2.3C275.9,295.2,275.7,295.3,275.5,295.3z"
+                />
+                <path
+                  d="M312.4,294.3c-0.9-0.6-1.7-1.1-2.9-2c2.1-0.8,3.8-1.4,5.7-2c0.3,0.9,0.5,1.6,0.7,2.4c0.3-0.1,0.6-0.1,0.7-0.2
                        c0.6-0.4,1-1,1.6-1.4c1.5-1.1,2.7-1.1,3.8,0.1c1,1.1,0.9,1.9-0.7,3.7c-0.3-0.1-0.6-0.2-0.9-0.4c-2-1.7-4.3-1.3-4.6,1.3
                        c-0.4,3-0.1,6.2,0,9.2c0,1.1,0.9,1.6,2,1.8c0.4,0.1,0.8,0.4,1.1,0.9c-3,0.6-6,0.4-9.6,0.4c0.7-0.8,0.9-1.3,1.3-1.4
-                       c1.3-0.5,1.7-1.5,1.7-2.7C312.4,300.8,312.4,297.5,312.4,294.3z"/>
-              <path d="M462.3,308.4c-1.2-3-2.4-6-3.7-8.9c-1.3-2.8-1.7-6.1-4.7-8.5c2.8,0,5.1,0,7.8,0c-0.4,0.5-0.6,0.9-0.9,1.1
+                       c1.3-0.5,1.7-1.5,1.7-2.7C312.4,300.8,312.4,297.5,312.4,294.3z"
+                />
+                <path
+                  d="M462.3,308.4c-1.2-3-2.4-6-3.7-8.9c-1.3-2.8-1.7-6.1-4.7-8.5c2.8,0,5.1,0,7.8,0c-0.4,0.5-0.6,0.9-0.9,1.1
                        c-1.1,0.6-1.1,1.6-0.7,2.5c1,2.9,2.1,5.8,3.7,8.7c0.4-0.9,0.8-1.8,1.1-2.8c0.6-1.7,1.3-3.3,1.8-5c0.7-2.1,0.5-2.3-1.2-3.7
                        c-0.2-0.1-0.3-0.4-0.5-0.8c2.1,0,4.1,0,6,0c0.1,0.2,0.1,0.3,0.1,0.4c-3.3,3.5-4.2,8.2-6.1,12.5c-0.7,1.5-1.3,3-1.9,4.5
-                       C462.9,308.4,462.6,308.4,462.3,308.4z"/>
-              <path d="M490.4,291.7c1.8-1.5,3.4-2.7,5.2-4.2c0.3,1.1,0.5,2.1,0.7,3.1c1.3,0.1,2.6,0.2,4,0.3c-0.4,1-0.4,1-4.2,1.5
+                       C462.9,308.4,462.6,308.4,462.3,308.4z"
+                />
+                <path
+                  d="M490.4,291.7c1.8-1.5,3.4-2.7,5.2-4.2c0.3,1.1,0.5,2.1,0.7,3.1c1.3,0.1,2.6,0.2,4,0.3c-0.4,1-0.4,1-4.2,1.5
                        c0,1-0.1,2-0.1,3c0,2.7,0,5.5,0,8.2c0.1,2.7,0.5,3,3.2,2.8c0.4,0,0.9,0,1.3,0.1c0.1,0,0.1,0.1,0.3,0.3c-0.4,1.3-1.7,1.3-2.7,1.5
-                       c-3.5,0.9-5-0.2-5.2-3.8c-0.1-3,0-6,0-9c0-1,0-1.9,0-3C492.1,292.3,491.4,292.1,490.4,291.7z"/>
-              <path d="M282.9,292.5c-1-0.3-1.7-0.4-2.7-0.7c1.1-0.8,2-1.4,2.8-2.1c0.8-0.7,1.6-1.4,2.7-2.3c0.2,1.2,0.4,2.1,0.6,3.2
+                       c-3.5,0.9-5-0.2-5.2-3.8c-0.1-3,0-6,0-9c0-1,0-1.9,0-3C492.1,292.3,491.4,292.1,490.4,291.7z"
+                />
+                <path
+                  d="M282.9,292.5c-1-0.3-1.7-0.4-2.7-0.7c1.1-0.8,2-1.4,2.8-2.1c0.8-0.7,1.6-1.4,2.7-2.3c0.2,1.2,0.4,2.1,0.6,3.2
                        c1.3,0.1,2.7,0.2,4.5,0.4c-0.6,0.5-0.9,1-1.2,1.1c-1,0.2-2.1,0.1-3.5,0.2c0,2,0,3.8,0,5.6c0,1.9,0,3.7,0,5.6c0.1,2.9,0.4,3.2,3.3,3
                        c0.5,0,0.9,0.1,1.5,0.1c-1.5,2.1-5.4,2.8-6.8,1.3c-0.6-0.7-1-1.9-1-2.9c-0.1-3.1-0.1-6.2-0.1-9.3
-                       C282.9,294.7,282.9,293.7,282.9,292.5z"/>
-              <path d="M229.3,292.4c-0.9-0.2-1.6-0.4-2.7-0.6c1.9-1.5,3.6-2.9,5.5-4.4c0.2,1.2,0.3,2.1,0.4,3.2
+                       C282.9,294.7,282.9,293.7,282.9,292.5z"
+                />
+                <path
+                  d="M229.3,292.4c-0.9-0.2-1.6-0.4-2.7-0.6c1.9-1.5,3.6-2.9,5.5-4.4c0.2,1.2,0.3,2.1,0.4,3.2
                        c1.4,0.1,2.7,0.2,4.4,0.4c-0.5,0.5-0.8,1-1.1,1.1c-1,0.2-2.1,0.1-3.5,0.2c0,2,0,3.8,0,5.6c0,1.9,0,3.9,0,5.8c0.1,2.5,0.6,3,3,2.8
                        c0.5,0,1-0.1,1.6-0.1c0,0.4,0.2,0.8,0.1,0.9c-1.7,1.3-3.7,1.7-5.7,1.2c-1.5-0.4-1.9-1.7-2-3.1c-0.1-2.6,0-5.3-0.1-8
-                       C229.3,295.8,229.3,294.2,229.3,292.4z"/>
-              <path d="M335.3,306.6c-0.5,0.6-0.6,1-0.9,1.2c-0.8,0.3-1.7,0.6-2.5,0.8c-3.1,0.6-4.6-0.6-4.6-3.7c-0.1-4.1,0-8.1,0-12.3
+                       C229.3,295.8,229.3,294.2,229.3,292.4z"
+                />
+                <path
+                  d="M335.3,306.6c-0.5,0.6-0.6,1-0.9,1.2c-0.8,0.3-1.7,0.6-2.5,0.8c-3.1,0.6-4.6-0.6-4.6-3.7c-0.1-4.1,0-8.1,0-12.3
                        c-0.8-0.3-1.5-0.5-2.6-0.8c1.8-1.5,3.4-2.8,5.3-4.3c0.2,1.2,0.3,2.1,0.5,3.2c1.3,0.1,2.6,0.2,4.4,0.3c-0.5,0.5-0.8,1.1-1.1,1.1
-                       c-1,0.2-2.1,0.1-3.5,0.2c0,1.3,0,2.5,0,3.7c0,2.5,0,5,0,7.4c0,2.9,0.5,3.2,3.3,3C333.9,306.5,334.4,306.5,335.3,306.6z"/>
-              <path d="M452.2,308.1c-3.1,0-5.8,0-8.7,0c0.3-0.6,0.5-1.2,0.8-1.3c1.5-0.6,1.8-1.9,1.9-3.2c0.1-2.7,0-5.3,0.1-8
+                       c-1,0.2-2.1,0.1-3.5,0.2c0,1.3,0,2.5,0,3.7c0,2.5,0,5,0,7.4c0,2.9,0.5,3.2,3.3,3C333.9,306.5,334.4,306.5,335.3,306.6z"
+                />
+                <path
+                  d="M452.2,308.1c-3.1,0-5.8,0-8.7,0c0.3-0.6,0.5-1.2,0.8-1.3c1.5-0.6,1.8-1.9,1.9-3.2c0.1-2.7,0-5.3,0.1-8
                        c0-1-0.3-1.7-1.3-2.1c-0.4-0.2-0.8-0.6-1.4-1c1.8-1.2,3.6-1.7,5.9-2c0,1.9,0,3.7,0,5.4c0,2.4,0,4.8,0,7.2c0,1.7,0.1,3.2,2.1,3.8
-                       C451.7,307,451.8,307.4,452.2,308.1z"/>
-              <path d="M416.5,284.7c0.1,2.4-1.7,4.3-4,4.3c-2.3,0.1-4.3-1.8-4.3-4.1c-0.1-2.3,1.8-4.2,4.1-4.3
+                       C451.7,307,451.8,307.4,452.2,308.1z"
+                />
+                <path
+                  d="M416.5,284.7c0.1,2.4-1.7,4.3-4,4.3c-2.3,0.1-4.3-1.8-4.3-4.1c-0.1-2.3,1.8-4.2,4.1-4.3
                        C414.7,280.6,416.5,282.3,416.5,284.7z M412.4,282c-1.6,0-2.9,1.3-2.8,2.9c0.1,1.6,1.4,2.8,3,2.7c1.5-0.1,2.6-1.3,2.6-2.8
-                       C415.2,283.2,414,282,412.4,282z"/>
-              <path d="M449.7,283.1c0,1.1-1,2-2.1,1.9c-1.1-0.1-1.8-0.7-1.8-1.9c0-1.2,0.7-2,1.9-2
-                       C448.8,281.2,449.7,282.1,449.7,283.1z"/>
-              <path d="M409.7,521.8c0.5,0,1,0.1,1.6,0.1c0,0.1,0,0.3,0,0.4c-0.5,0-1,0.1-1.5,0.1C409.7,522.2,409.7,522,409.7,521.8z"
-                    />
-            </svg>
-
-          </div>
-          <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
-            <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
-              <svg className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg><p className="relative">For us that I see very valuable is for example when our page was hacked, I didn't even have to think about it, just emailed you in StuntCoders and you fixed it. Saves frustration, time and worries, and basically also a lot of money for my business.</p>
+                       C415.2,283.2,414,282,412.4,282z"
+                />
+                <path
+                  d="M449.7,283.1c0,1.1-1,2-2.1,1.9c-1.1-0.1-1.8-0.7-1.8-1.9c0-1.2,0.7-2,1.9-2
+                       C448.8,281.2,449.7,282.1,449.7,283.1z"
+                />
+                <path d="M409.7,521.8c0.5,0,1,0.1,1.6,0.1c0,0.1,0,0.3,0,0.4c-0.5,0-1,0.1-1.5,0.1C409.7,522.2,409.7,522,409.7,521.8z" />
+              </svg>
             </div>
-            <footer className="mt-8"><div className="flex">
-              <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                <img className="h-12 w-12 rounded-full" src="images/stine.jpg" alt="" loading="auto" />
+            <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
+              <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+                <svg
+                  className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                  fill="currentColor"
+                  viewBox="0 0 32 32"
+                >
+                  <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path>
+                </svg>
+                <p className="relative">
+                  For us that I see very valuable is for example when our page
+                  was hacked, I didn't even have to think about it, just emailed
+                  you in StuntCoders and you fixed it. Saves frustration, time
+                  and worries, and basically also a lot of money for my
+                  business.
+                </p>
               </div>
-              <div className="ml-4">
-                <div className="text-base leading-6 font-medium text-white">Stine Svarthe</div>
-                <div className="text-base leading-6 font-medium text-indigo-200">CEO, Bare Bra Barnemat</div>
-              </div>
-              </div>
-            </footer></blockquote>
-        </div>
+              <footer className="mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                    <StaticImage
+                      className="h-12 w-12 rounded-full"
+                      src="../images/stine.jpg"
+                      alt=""
+                      loading="auto"
+                    />
+                  </div>
+                  <div className="ml-4">
+                    <div className="text-base leading-6 font-medium text-white">
+                      Stine Svarthe
+                    </div>
+                    <div className="text-base leading-6 font-medium text-indigo-200">
+                      CEO, Bare Bra Barnemat
+                    </div>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
         </div>
       </section>
 
-      <section className="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24"><div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <svg className="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" role="img" aria-labelledby="svg-workcation"><title id="svg-workcation">Workcation</title><defs><pattern id="ad119f34-7694-4c31-947f-5c9d249b21f3" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="404" fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)"></rect></svg><div className="relative">
-        <svg className="mx-auto h-10" fill="none" viewBox="0 0 850 566">
-          <path fill="#5850EC" d="M569.15,445.3c-95.89,13.58-191.62,13.49-287.79-0.19c0,12.82,0,25.21,0,37.6c0,2.55-0.1,5.1,0.02,7.65
+      <section className="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
+        <div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <svg
+            className="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2"
+            width="404"
+            height="404"
+            fill="none"
+            viewBox="0 0 404 404"
+            role="img"
+            aria-labelledby="svg-workcation"
+          >
+            <title id="svg-workcation">Workcation</title>
+            <defs>
+              <pattern
+                id="ad119f34-7694-4c31-947f-5c9d249b21f3"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                ></rect>
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="404"
+              fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)"
+            ></rect>
+          </svg>
+          <div className="relative">
+            <svg className="mx-auto h-10" fill="none" viewBox="0 0 850 566">
+              <path
+                fill="#5850EC"
+                d="M569.15,445.3c-95.89,13.58-191.62,13.49-287.79-0.19c0,12.82,0,25.21,0,37.6c0,2.55-0.1,5.1,0.02,7.65
                                   c0.35,7.68-2.18,13.88-9.36,17.32c-7.71,3.69-15.01,2.24-21.28-3.28c-10.99-9.67-21.77-19.58-32.63-29.39
                                   c-2.13-1.92-4.55-3.6-6.34-5.8c-6.89-8.5-16.07-10.83-26.52-11.41c-13.65-0.76-27.27-2.4-40.87-3.92
                                   c-15.83-1.77-23.16-10.14-23.2-25.95c-0.04-14.97-0.09-29.95-0.23-44.92c-0.02-1.86-0.21-3.88-0.96-5.53
@@ -758,53 +1132,80 @@ export default function Testimonials() {
                                   C221.1,433.4,175.49,423.83,135.44,396.24z M715.56,396.89c-40.16,27.27-85.65,36.71-131.35,46c-0.13,1.17-0.35,2.25-0.35,3.34
                                   c-0.02,14.64-0.06,29.27,0.05,43.91c0.01,1.6,0.57,4.14,1.58,4.56c1.39,0.58,3.55-0.19,5.18-0.87c1.26-0.52,2.22-1.77,3.29-2.72
                                   c14.79-13.3,29.42-26.8,44.5-39.78c3.41-2.94,8.21-5.15,12.66-5.82c11.94-1.81,24.04-2.54,36.06-3.82
-                                  c7.27-0.77,14.53-1.65,21.76-2.73c3.87-0.58,6.5-3.08,6.56-7.09C715.68,420.42,715.56,408.98,715.56,396.89z"></path>
-          <path fill="#5850EC" d="M230.88,273.58c0-72.19,0-143.83,0-215.84c17.95,0,35.83,0,54.05,0c2.79,22.51,5.56,44.87,8.33,67.23
+                                  c7.27-0.77,14.53-1.65,21.76-2.73c3.87-0.58,6.5-3.08,6.56-7.09C715.68,420.42,715.56,408.98,715.56,396.89z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M230.88,273.58c0-72.19,0-143.83,0-215.84c17.95,0,35.83,0,54.05,0c2.79,22.51,5.56,44.87,8.33,67.23
                                   c0.41,0.04,0.82,0.08,1.22,0.12c3.29-22.44,6.58-44.89,9.88-67.34c18.04,0,35.66,0,53.53,0c0,66.13,0,131.99,0,198.23
                                   c-12.88,1.16-25.5,2.3-38.74,3.49c0-27.95,0-55.27,0-82.59c-0.37-0.03-0.73-0.05-1.1-0.08c-4.27,27.83-8.53,55.66-12.84,83.73
                                   c-7.21,0.78-14.13,1.52-21.8,2.34c-4.87-30.69-9.72-61.22-14.57-91.76c-0.26,0-0.52,0-0.78,0c0,31.58,0,63.15,0,95.12
-                                  C255.43,268.73,243.35,271.11,230.88,273.58z"></path>
-          <path fill="#5850EC" d="M630.74,57.73c14.64,0,28.75,0,43.38,0c4.76,24.7,9.55,49.51,14.33,74.32c0.39-0.05,0.77-0.11,1.16-0.16
+                                  C255.43,268.73,243.35,271.11,230.88,273.58z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M630.74,57.73c14.64,0,28.75,0,43.38,0c4.76,24.7,9.55,49.51,14.33,74.32c0.39-0.05,0.77-0.11,1.16-0.16
                                   c0-24.61,0-49.23,0-74.13c12.4,0,24.45,0,36.87,0c0,84.88,0,169.85,0,255.44c-8.38-3.94-16.44-8.45-25.02-11.54
                                   c-7.77-2.8-10.46-7.7-11.95-15.49c-6.26-32.81-13.26-65.47-20.02-98.18c-0.12-0.59-0.48-1.13-1.51-1.64c0,33.39,0,66.78,0,100.76
                                   c-2.85-0.61-5-0.97-7.09-1.53c-8.45-2.24-16.84-4.73-25.35-6.71c-3.83-0.89-4.92-2.54-4.91-6.46c0.14-54.47,0.1-108.95,0.1-163.42
-                                  c0-15.29,0-30.58,0-45.87C630.74,61.4,630.74,59.68,630.74,57.73z"></path>
-          <path fill="#5850EC" d="M785.11,186.61c-1.86-0.42-3.53-0.79-5.35-1.2c0-10.01,0-19.86,0-30.13c14.91,0,29.78,0,45.38,0
+                                  c0-15.29,0-30.58,0-45.87C630.74,61.4,630.74,59.68,630.74,57.73z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M785.11,186.61c-1.86-0.42-3.53-0.79-5.35-1.2c0-10.01,0-19.86,0-30.13c14.91,0,29.78,0,45.38,0
                                   c0,1.6,0,3.29,0,4.98c0,48.42,0,96.85-0.01,145.27c0,1.43,0.04,2.88-0.21,4.28c-2.82,16.19-6.1,18.55-22.52,18.19
                                   c-16.4-0.35-32.81-0.08-49.22-0.1c-8.13-0.01-11.79-2.13-14.34-9.88c-1.67-5.05-2.81-10.54-2.82-15.84
                                   c-0.24-72.31-0.21-144.63-0.36-216.94c-0.02-9.78,2.5-18.36,10.47-24.41c2.46-1.87,6.02-3.16,9.1-3.21
                                   c17.2-0.3,34.4-0.15,51.61-0.15c8.66,0,16.85,6.45,17.13,15.14c0.56,17.62,0.17,35.28,0.17,53.24c-13.15,0-26.12,0-39.66,0
                                   c0-8.48,0.06-16.87-0.03-25.26c-0.03-3.2,0.88-7.18-4.02-7.81c-3.9-0.5-6.71,2.54-7.28,7.65c-0.23,2.05-0.25,4.13-0.25,6.2
                                   c-0.01,60.37-0.01,120.74-0.01,181.11c0,0.48,0,0.96,0,1.43c0.07,5.86,2.6,9.22,6.82,9.04c4.01-0.17,5.6-2.64,5.6-8.86
-                                  c0.01-32.81,0.01-65.63,0-98.44C785.29,189.51,785.18,188.1,785.11,186.61z"></path>
-          <path fill="#5850EC" d="M129.07,57.73c13.77,0,27.25,0,41.52,0c0,1.96,0,3.95,0,5.93c0,59.88,0,119.77,0.02,179.65
+                                  c0.01-32.81,0.01-65.63,0-98.44C785.29,189.51,785.18,188.1,785.11,186.61z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M129.07,57.73c13.77,0,27.25,0,41.52,0c0,1.96,0,3.95,0,5.93c0,59.88,0,119.77,0.02,179.65
                                   c0,2.06-0.17,4.29,0.56,6.11c0.73,1.81,2.5,3.21,3.81,4.79c1.75-1.62,4.25-2.94,5.05-4.93c1.01-2.54,0.82-5.63,0.82-8.48
                                   c0.04-58.93,0.03-117.86,0.03-176.78c0-2.02,0-4.05,0-6.3c13.61,0,26.61,0,40.16,0c0.07,1.66,0.21,3.33,0.21,5.01
                                   c0.01,64.98,0.02,129.96,0,194.94c0,14.55-3.69,19.6-17.36,24.16c-14.77,4.93-29.52,9.9-44.27,14.89
                                   c-14.68,4.96-26.61-1.72-29.64-16.79c-0.69-3.41-1.09-6.94-1.09-10.42c-0.06-68.96-0.05-137.92-0.04-206.88
-                                  C128.84,61.08,128.98,59.52,129.07,57.73z"></path>
-          <path fill="#5850EC" d="M32.02,166.88c12.57,0,24.61,0,37.14,0c0.11,2.2,0.3,4.2,0.3,6.2c0.02,36.64,0.01,73.27,0.01,109.91
+                                  C128.84,61.08,128.98,59.52,129.07,57.73z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M32.02,166.88c12.57,0,24.61,0,37.14,0c0.11,2.2,0.3,4.2,0.3,6.2c0.02,36.64,0.01,73.27,0.01,109.91
                                   c0,1.43-0.04,2.87,0.03,4.3c0.15,3,1.11,5.26,4.7,5.37c3.63,0.11,4.7-2.02,4.83-5.11c0.05-1.27,0.07-2.55,0.07-3.82
                                   c0-62.76,0-125.52,0-188.28c0-6.84-0.01-6.85-6.85-6.87c-6.51-0.01-13.02,0-19.99,0c0-10.4,0-20.46,0-30.82
                                   c22.25,0,44.47,0,67.33,0c0,1.77,0,3.47,0,5.17c0,81.08,0,162.16,0,243.24c0,15.29-7.16,22.37-22.56,22.37
                                   c-14.18,0-28.37,0.38-42.52-0.2c-5.17-0.21-10.51-2.14-15.29-4.34c-5.29-2.43-7.54-7.3-7.53-13.32
-                                  c0.07-46.51,0.04-93.03,0.05-139.54C31.74,169.89,31.9,168.63,32.02,166.88z"></path>
-          <path fill="#5850EC" d="M471.26,57.73c14.27,0,28.22,0,42.55,0c0,17.55,0,34.85,0,52.16c0.46,0.08,0.92,0.15,1.38,0.23
+                                  c0.07-46.51,0.04-93.03,0.05-139.54C31.74,169.89,31.9,168.63,32.02,166.88z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M471.26,57.73c14.27,0,28.22,0,42.55,0c0,17.55,0,34.85,0,52.16c0.46,0.08,0.92,0.15,1.38,0.23
                                   c3.69-17.38,7.38-34.76,11.11-52.37c13.9,0,27.69,0,42.08,0c-0.49,2.33-0.83,4.6-1.44,6.79c-6.97,25.44-14.09,50.84-20.87,76.33
                                   c-0.93,3.48-0.93,7.58-0.11,11.1c8.6,36.84,17.46,73.63,26.25,110.43c0.22,0.92,0.4,1.85,0.79,3.63
                                   c-7.41-0.85-14.44-1.6-21.46-2.47c-4.73-0.58-9.43-1.42-14.17-1.93c-3.19-0.34-4.84-1.45-5.67-4.97
                                   c-5.1-21.48-10.54-42.88-15.88-64.3c-0.37-1.5-0.84-2.98-2.22-4.37c0,23.52,0,47.05,0,70.9c-14.46-1.09-28.22-2.13-42.35-3.19
-                                  C471.26,189.73,471.26,123.91,471.26,57.73z"></path>
-          <path fill="#5850EC" d="M407.91,254.6c-13.8,0-26.79,0-40.2,0c0-65.35,0-130.91,0-197.13c1.68,0,3.37,0,5.06,0
+                                  C471.26,189.73,471.26,123.91,471.26,57.73z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M407.91,254.6c-13.8,0-26.79,0-40.2,0c0-65.35,0-130.91,0-197.13c1.68,0,3.37,0,5.06,0
                                   c22.94,0,45.89,0.21,68.83-0.12c7.39-0.1,12.54,3.05,15.4,9.1c2.45,5.18,4.53,11.09,4.64,16.72c0.48,25.8,0.24,51.62,0.2,77.43
                                   c-0.01,7.49-1.6,14.55-6.54,20.49c-2.9,3.49-6.48,5.39-11.18,5.36c-10.03-0.06-20.07,0.35-30.1,0.09
                                   c-4.68-0.13-6.32,0.96-6.23,6.01c0.33,18.48,0.13,36.96,0.13,55.44C407.91,249.88,407.91,251.76,407.91,254.6z M408.26,90.02
                                   c0,21.51,0,42.58,0,63.6c8.85,1.09,11.72-0.35,11.78-6.38c0.16-17.02,0.06-34.04,0.06-51.05c0-3.86-2-5.89-5.78-6.14
-                                  C412.43,89.92,410.54,90.02,408.26,90.02z"></path>
-          <path fill="#5850EC" d="M580.84,57.66c13.61,0,26.47,0,39.62,0c0,72.39,0,144.59,0,217.14c-12.49-2.45-24.81-4.8-37.08-7.39
+                                  C412.43,89.92,410.54,90.02,408.26,90.02z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M580.84,57.66c13.61,0,26.47,0,39.62,0c0,72.39,0,144.59,0,217.14c-12.49-2.45-24.81-4.8-37.08-7.39
                                   c-1.02-0.22-1.79-1.99-2.49-3.16c-0.28-0.47-0.05-1.25-0.05-1.88c0-66.72,0-133.43,0-200.15
-                                  C580.84,60.81,580.84,59.41,580.84,57.66z"></path>
-          <path fill="#5850EC" d="M424.97,311.66c47.66,0.05,95.13,2.94,142.19,10.73c25.74,4.26,51.35,9.41,74.97,21.21
+                                  C580.84,60.81,580.84,59.41,580.84,57.66z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M424.97,311.66c47.66,0.05,95.13,2.94,142.19,10.73c25.74,4.26,51.35,9.41,74.97,21.21
                                   c4.78,2.39,9.38,5.52,13.3,9.14c7.87,7.24,7.75,15.3,0.07,22.83c-7.21,7.05-16.3,10.99-25.55,14.5
                                   c-24.84,9.44-50.81,14.21-76.96,17.94c-47.06,6.71-94.41,9.27-141.9,8.41c-54.8-1-109.36-4.87-162.87-17.87
                                   c-15.32-3.72-30.44-8.21-44.11-16.37c-3.65-2.18-7.13-4.88-10.07-7.93c-6.29-6.53-6.16-13.69-0.04-20.37
@@ -837,249 +1238,409 @@ export default function Testimonials() {
                                   c0-5.17,0-10.33,0-15.65C262.37,352.88,264.43,352.88,266.87,352.88z M471.34,382.02c6.84,0,13.1,0,19.27,0c0-2.37,0-4.35,0-6.62
                                   c-2.08,0-3.85-0.22-5.54,0.04c-4.54,0.69-5.63-1.32-5.46-5.57c0.31-7.87,0.09-15.76,0.09-23.85c-3.1,0-5.56,0-8.36,0
                                   C471.34,358.09,471.34,369.91,471.34,382.02z M495.65,346c0,11.59-0.07,22.55,0.12,33.51c0.02,0.97,1.6,2.44,2.72,2.74
-                                  c1.71,0.47,3.65,0.12,5.55,0.12c0-12.55,0-24.4,0-36.38C501.23,346,498.75,346,495.65,346z"></path>
-          <path fill="#5850EC" d="M455.69,364.26c-0.05,6.79-4.69,11.29-11.47,11.12c-6.42-0.16-10.8-4.82-10.72-11.43
-                                  c0.07-6.6,4.54-11.08,11.05-11.08C451.43,352.89,455.75,357.3,455.69,364.26z"></path>
-          <path fill="#5850EC" d="M280.78,363.25c0-4.25,0-7.2,0-11.45c2.75,1.09,5.31,1.5,6.86,2.97c0.9,0.86,0.91,4.15,0.02,5.08
-                                  C286.15,361.41,283.59,361.96,280.78,363.25z"></path>
-          <path fill="#5850EC" d="M322.07,356.75c1.63,4.49,2.94,8.12,4.36,12.01c-2.99,0-5.51,0-8.71,0
-                                  C319.13,364.85,320.44,361.25,322.07,356.75z"></path>
-          <path fill="#5850EC" d="M403.21,363.72c0-4.63,0-7.45,0-11.57c2.88,0.95,5.66,1.33,7.69,2.77c0.93,0.66,1.15,4.32,0.33,5.02
-                                  C409.31,361.57,406.57,362.24,403.21,363.72z"></path>
-        </svg>
-        <blockquote className="mt-8">
-          <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
-            <p>“A big thank you to everyone at StuntCoders for making my work life so much easier! Thanks to your expertise, I now save hours every day. I also appreciate that you always get back to me immediately with any questions or concerns that I may have. Your professionalism and dedication outshine any other IT company that I have previously worked with. I highly recommend StuntCoders.”</p>
+                                  c1.71,0.47,3.65,0.12,5.55,0.12c0-12.55,0-24.4,0-36.38C501.23,346,498.75,346,495.65,346z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M455.69,364.26c-0.05,6.79-4.69,11.29-11.47,11.12c-6.42-0.16-10.8-4.82-10.72-11.43
+                                  c0.07-6.6,4.54-11.08,11.05-11.08C451.43,352.89,455.75,357.3,455.69,364.26z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M280.78,363.25c0-4.25,0-7.2,0-11.45c2.75,1.09,5.31,1.5,6.86,2.97c0.9,0.86,0.91,4.15,0.02,5.08
+                                  C286.15,361.41,283.59,361.96,280.78,363.25z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M322.07,356.75c1.63,4.49,2.94,8.12,4.36,12.01c-2.99,0-5.51,0-8.71,0
+                                  C319.13,364.85,320.44,361.25,322.07,356.75z"
+              ></path>
+              <path
+                fill="#5850EC"
+                d="M403.21,363.72c0-4.63,0-7.45,0-11.57c2.88,0.95,5.66,1.33,7.69,2.77c0.93,0.66,1.15,4.32,0.33,5.02
+                                  C409.31,361.57,406.57,362.24,403.21,363.72z"
+              ></path>
+            </svg>
+            <blockquote className="mt-8">
+              <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
+                <p>
+                  “A big thank you to everyone at StuntCoders for making my work
+                  life so much easier! Thanks to your expertise, I now save
+                  hours every day. I also appreciate that you always get back to
+                  me immediately with any questions or concerns that I may have.
+                  Your professionalism and dedication outshine any other IT
+                  company that I have previously worked with. I highly recommend
+                  StuntCoders.”
+                </p>
+              </div>
+              <footer className="mt-8">
+                <div className="md:flex md:items-center md:justify-center">
+                  <div className="md:flex-shrink-0">
+                    <StaticImage
+                      className="mx-auto h-10 w-10 rounded-full"
+                      src="../images/christina.png"
+                      alt="Christina"
+                      loading="auto"
+                    />
+                  </div>
+                  <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                    <div className="text-base leading-6 font-medium text-gray-900">
+                      Christina Chetkowski
+                    </div>
+                    <svg
+                      className="hidden md:block mx-1 h-5 w-5 text-indigo-600"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M11 0h3L9 20H6l5-20z"></path>
+                    </svg>
+                    <div className="text-base leading-6 font-medium text-gray-500">
+                      CEO, JumpKing
+                    </div>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
           </div>
-          <footer className="mt-8"><div className="md:flex md:items-center md:justify-center">
-            <div className="md:flex-shrink-0">
-            <img className="mx-auto h-10 w-10 rounded-full" src="images/christina.png" alt="Christina" loading="auto" />
-            </div>
-            <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-              <div className="text-base leading-6 font-medium text-gray-900">Christina Chetkowski</div>
-              <svg className="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20"><path d="M11 0h3L9 20H6l5-20z"></path></svg><div className="text-base leading-6 font-medium text-gray-500">CEO, JumpKing</div>
-            </div>
-            </div>
-          </footer>
-          </blockquote>
-        </div>
         </div>
       </section>
 
-      <section className="bg-indigo-800"><div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
-        <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
-          <div className="md:flex-shrink-0">
-            <svg fill="#b4c6fd" height="40" viewBox="0 0 842 183" role="img" aria-labelledby="svg-ulleval">
-              <path d="M87.9,183.1c-3.2-0.6-6.4-1.2-9.7-1.8C31.6,173-1.1,132.5,1.6,85.2C3.8,47.5,23.1,20.7,57.2,4.6
+      <section className="bg-indigo-800">
+        <div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
+          <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
+            <div className="md:flex-shrink-0">
+              <svg
+                fill="#b4c6fd"
+                height="40"
+                viewBox="0 0 842 183"
+                role="img"
+                aria-labelledby="svg-ulleval"
+              >
+                <path
+                  d="M87.9,183.1c-3.2-0.6-6.4-1.2-9.7-1.8C31.6,173-1.1,132.5,1.6,85.2C3.8,47.5,23.1,20.7,57.2,4.6
                        c0.7-0.3,1.4-0.5,3.2-1.2C20.6,31.1,4.8,67,21.2,112.6c11.5,32,36.3,50.2,69.9,55.3c34.2,5.2,71.4-11.9,90.4-48.1
                        c0,1.2,0.1,1.6,0,2.1c-0.1,0.5-0.4,0.9-0.6,1.3c-14.4,34.2-39.9,54-76.7,59c-1,0.1-2,0.6-3,0.9C96.8,183.1,92.3,183.1,87.9,183.1z"
-                    />
-              <path d="M110.7,0c3.2,0.7,6.4,1.4,9.6,2.1c33.2,6.8,60.2,37.3,63.5,70.1c4.1,40.2-19.8,73.4-51,85.5
+                />
+                <path
+                  d="M110.7,0c3.2,0.7,6.4,1.4,9.6,2.1c33.2,6.8,60.2,37.3,63.5,70.1c4.1,40.2-19.8,73.4-51,85.5
                        c-0.4,0.2-0.8,0.2-1.6,0.4c30.7-19.2,46-46.1,39.7-82.1c-5.6-32.2-25.6-53.6-57.4-61.1C75.6,6.1,47,21.3,26.4,53.3
-                       c4-11.8,10.7-21.9,19.8-30.5C59.1,10.6,74.3,3.2,92,1c0.9-0.1,1.7-0.6,2.6-1C99.9,0,105.3,0,110.7,0z"/>
-              <path d="M837.5,158.4c-5.5,0-11,0-15.1,0c-1.1-3-1.3-5.3-2.6-6.8c-3.5-4.2-7.4-8.1-11.5-12.5
+                       c4-11.8,10.7-21.9,19.8-30.5C59.1,10.6,74.3,3.2,92,1c0.9-0.1,1.7-0.6,2.6-1C99.9,0,105.3,0,110.7,0z"
+                />
+                <path
+                  d="M837.5,158.4c-5.5,0-11,0-15.1,0c-1.1-3-1.3-5.3-2.6-6.8c-3.5-4.2-7.4-8.1-11.5-12.5
                        c-2.8,7.5-1.6,15.8,3.1,18.9c-3,0-5.1,0-7.2,0c-2,0-4,0-5.1,0c0.9-2.3,2.5-4.6,2.6-6.9c0.3-8.2,0.3-16.4,0-24.6
                        c-0.1-2.2-1.7-4.3-2.6-6.4c3.1,0,7.2,0,11.5,0c-6.7,4.7-2.2,11.2-3.8,16.6c0.5,0.3,1,0.6,1.5,0.8c4.2-4.3,8.6-8.5,12.6-13
                        c0.7-0.8-0.1-2.7-0.1-4.4c2.7,0,6.2,0,9.3,0c-5.6,5.3-11.5,10.9-17.1,16.2c5.8,6,11,11.8,16.6,17c2,1.8,5.3,2.1,8,3.2
-                       C837.5,157.2,837.5,157.8,837.5,158.4z"/>
-              <path d="M117.9,154.1c-32.6,5.9-62.3-6.3-77.4-32.2c-7.5-12.8-11.8-26.7-7.5-41.7C37.5,64.6,50.6,57.3,66.1,62
+                       C837.5,157.2,837.5,157.8,837.5,158.4z"
+                />
+                <path
+                  d="M117.9,154.1c-32.6,5.9-62.3-6.3-77.4-32.2c-7.5-12.8-11.8-26.7-7.5-41.7C37.5,64.6,50.6,57.3,66.1,62
                        c6.7,2.1,13.2,5.3,19.4,8.6c11.6,6.1,22.9,12.8,34.5,18.9c4.1,2.2,8.8,3.6,13.3,4.7c8.6,2,14.4-3.3,14-12.2
                        c-0.6-10.6-5.6-18.9-13.1-25.9c-1-1-2.2-1.7-3.1-2.8c10.6,3.7,20.2,16.3,23.1,29.6c3,13.6-0.9,25.6-8.5,36.7
                        c-11.4,16.7-30.1,26.4-49.2,25.2c3.6-1.2,6.5-2.1,9.4-3.2c11.1-4.3,18.1-12.2,19.9-23.9c1.9-11.8-3.3-20.9-12.7-27.7
                        c-10.1-7.3-21.3-12.2-33.6-14.6c-7.3-1.4-13.1,0.8-17.4,6.8c-8.2,11.4-9.6,23.5-3.5,36.2c11,22.7,30.2,33,54.5,35.3
-                       c1.3,0.1,2.5,0.1,3.8,0.1C117.2,153.7,117.3,153.8,117.9,154.1z"/>
-              <path d="M470.3,108.4c12.4-3,12.4-3,12.4-14.7c0-17.2,0-34.5,0-51.7c0-8.8-1.1-10-9.8-10.9c-0.4,0-0.8-0.3-1.2-1.2
+                       c1.3,0.1,2.5,0.1,3.8,0.1C117.2,153.7,117.3,153.8,117.9,154.1z"
+                />
+                <path
+                  d="M470.3,108.4c12.4-3,12.4-3,12.4-14.7c0-17.2,0-34.5,0-51.7c0-8.8-1.1-10-9.8-10.9c-0.4,0-0.8-0.3-1.2-1.2
                        c22,0,44.1,0,66.5,0c0,7.3,0,14.9,0,22.4c-0.4,0.1-0.7,0.2-1.1,0.3c-0.4-1.2-0.9-2.3-1.3-3.5c-3.2-10.7-7.8-14.4-18.9-15.3
                        c-3.1-0.2-6.3-0.2-9.5-0.5c-4.2-0.4-5.9,0.8-5.7,5.4c0.4,8.5,0.1,17.1,0.2,25.6c0,0.5,0.2,0.9,0.3,1.3c5.2,1.5,10.5-0.1,12.9-4.9
                        c2.2-4.1,3.3-8.8,5.8-13.1c0,13.7,0,27.4,0,42.1c-1-1.3-1.7-1.9-2-2.7c-1-3-1.6-6.1-2.9-8.9c-2.9-5.9-6.6-7.7-13.6-7
                        c0,9.8-0.3,19.7,0.3,29.6c0.1,1.5,3.7,4,5.8,4.1c14,0.9,27-0.9,33.3-19.1c0.2-0.7,0.8-1.2,2.4-1.5c-0.7,5.5-1.4,10.9-2.1,16.4
-                       c-0.2,1.7-0.2,3.6-0.9,5.1c-0.7,1.4-2.2,3.2-3.4,3.3c-21.5,0.2-43,0.1-64.5,0.1C472.8,109.2,472.2,108.9,470.3,108.4z"/>
-              <path d="M222.2,29.7c13.4,0,26.8,0,40.2,0c0,0.3,0.1,0.6,0.1,1c-1.1,0.2-2.1,0.4-3.2,0.5c-5.7,0.4-7.9,2-8,7.8
+                       c-0.2,1.7-0.2,3.6-0.9,5.1c-0.7,1.4-2.2,3.2-3.4,3.3c-21.5,0.2-43,0.1-64.5,0.1C472.8,109.2,472.2,108.9,470.3,108.4z"
+                />
+                <path
+                  d="M222.2,29.7c13.4,0,26.8,0,40.2,0c0,0.3,0.1,0.6,0.1,1c-1.1,0.2-2.1,0.4-3.2,0.5c-5.7,0.4-7.9,2-8,7.8
                        c-0.2,17.1,0.2,34.1,0.1,51.2c0,7.9,4.4,13.6,12.8,15.1c8.8,1.6,17.8-2.5,21-10.2c1.7-4.1,2.6-8.8,2.7-13.3
                        c0.4-12.3,0.2-24.7,0.2-37c0-10.5-1.2-11.9-11-14.8c8.9,0,17.7,0,26.6,0c0,0.2,0.1,0.4,0.1,0.7c-1,0.2-1.9,0.4-2.9,0.6
                        c-4.3,0.6-6.8,3.1-7.6,7.3c-0.3,2-0.4,4.1-0.5,6.1c-0.1,13.4-0.2,26.9-0.3,40.3c-0.1,17.6-12.7,24.7-23.8,25.9
-                       c-4.7,0.5-9.5,0.4-14.2,0c-13.7-1.2-22.2-10.6-22.5-24.7c-0.2-13.9-0.1-27.8-0.1-41.7C232.2,33.3,232.2,33.3,222.2,29.7z"/>
-              <path d="M802.3,81.9c-0.9,8.9-1.9,17.7-2.9,26.9c-23.8,0-47.4,0-70.9,0c-0.1-0.3-0.1-0.5-0.2-0.8
+                       c-4.7,0.5-9.5,0.4-14.2,0c-13.7-1.2-22.2-10.6-22.5-24.7c-0.2-13.9-0.1-27.8-0.1-41.7C232.2,33.3,232.2,33.3,222.2,29.7z"
+                />
+                <path
+                  d="M802.3,81.9c-0.9,8.9-1.9,17.7-2.9,26.9c-23.8,0-47.4,0-70.9,0c-0.1-0.3-0.1-0.5-0.2-0.8
                        c0.9-0.2,1.7-0.6,2.6-0.7c6.5-0.6,8.3-2.4,8.3-9c0.1-19.3,0.1-38.5,0-57.8c0-7.4-1.6-8.9-9.2-9.5c-0.6,0-1.1-0.3-1.7-1.2
                        c14.1,0,28.1,0,42.2,0c0.1,0.3,0.1,0.6,0.2,0.9c-1.5,0.1-3,0.3-4.5,0.4c-5,0.4-7.6,2.7-7.6,7.8c-0.1,19.7,0,39.5,0,59.2
                        c0,4.2,2,6.7,6.2,6.7c5.8,0,11.7,0.3,17.4-0.6c7.7-1.3,11.8-7.3,14.7-14.1c1.2-2.9,2.4-5.8,3.6-8.7
-                       C801.1,81.6,801.7,81.8,802.3,81.9z"/>
-              <path d="M464.3,82.3c-0.9,8.7-1.9,17.5-2.9,26.5c-23.7,0-47.3,0-70.9,0c0.2-0.6,0.3-1.1,0.4-1.2
+                       C801.1,81.6,801.7,81.8,802.3,81.9z"
+                />
+                <path
+                  d="M464.3,82.3c-0.9,8.7-1.9,17.5-2.9,26.5c-23.7,0-47.3,0-70.9,0c0.2-0.6,0.3-1.1,0.4-1.2
                        c10-1.7,10.4-1.9,10.5-12.4c0.1-18.5,0-36.9-0.2-55.4c-0.1-6.5-1.9-8.3-8.4-8.7c-0.7-0.1-1.5-0.2-2.2-1.2c13.9,0,27.8,0,41.7,0
                        c0.1,0.3,0.1,0.6,0.2,0.8c-1.5,0.1-3,0.3-4.5,0.4c-4.3,0.4-7.2,2.4-7.2,7.1c0,20.2,0,40.4,0,60.6c0,3.6,1.7,5.9,5.4,5.9
                        c6.3,0,12.7,0.3,18.8-0.6c6.2-0.9,10-5.7,12.7-11.1c1.4-2.8,2.3-5.9,3.5-8.8c0.5-1,1.3-1.9,2-2.9C463.6,81.7,463.9,82,464.3,82.3z"
-                    />
-              <path d="M383.1,82c-0.9,8.3-1.6,16.5-2.7,24.8c-0.1,0.9-1.8,2.3-2.7,2.3c-22.4,0.1-44.9,0-67.3,0
+                />
+                <path
+                  d="M383.1,82c-0.9,8.3-1.6,16.5-2.7,24.8c-0.1,0.9-1.8,2.3-2.7,2.3c-22.4,0.1-44.9,0-67.3,0
                        c-0.3,0-0.7-0.4-1.1-0.6c0.3-0.4,0.4-0.8,0.6-0.8c10-2,10.5-2.5,10.5-13c0.1-16.4,0-32.9,0-49.3c0-12,0-12-11-15.5
                        c13.9,0,27.8,0,41.8,0c0.1,0.3,0.1,0.6,0.2,0.8c-1.2,0.1-2.4,0.4-3.6,0.4c-5.8,0.3-8.1,2.3-8.3,8.1c-0.3,10.3-0.2,20.5-0.2,30.8
                        c0,8.8-0.1,17.7,0.1,26.5c0.2,6.8,1.8,8.2,8.5,8.6c0.6,0,1.3,0,1.9,0c19.3,0.2,23.4-2.7,30.2-20.6c0.4-1,1-2,1.5-3
-                       C382.1,81.7,382.6,81.9,383.1,82z"/>
-              <path d="M601.2,84.4c6.2-14.3,12.6-28.5,18.6-42.9c2.4-5.9,0-9.2-6.4-10.3c-0.9-0.1-1.8-0.2-2.7-1.3
+                       C382.1,81.7,382.6,81.9,383.1,82z"
+                />
+                <path
+                  d="M601.2,84.4c6.2-14.3,12.6-28.5,18.6-42.9c2.4-5.9,0-9.2-6.4-10.3c-0.9-0.1-1.8-0.2-2.7-1.3
                        c8.4,0,16.8,0,25.2,0c-8.2,3.6-10.8,11.3-14.1,18.4c-8.9,19.5-17.7,39.1-26.5,58.6c-0.7,1.5-1.6,2.9-2.9,5.4c-1.2-2.4-1.9-3.7-2.5-5
                        c-9.5-22-19-44-28.6-66c-2.1-4.8-3.9-9.9-10.1-11.4c12.5,0,25,0,37.5,0c0.1,0.3,0.1,0.6,0.2,0.8c-1.7,0.2-3.4,0.3-5,0.7
-                       c-3.3,0.7-5.3,2.4-3.8,6c6.5,15.7,13.2,31.3,19.8,47C600.3,84.4,600.8,84.4,601.2,84.4z"/>
-              <path d="M101.5,140.8C84,140.6,68.8,128.3,65,111.8c-3-12.9,2.8-26.8,14.6-33c-2,2.5-3.7,4-4.6,5.8
+                       c-3.3,0.7-5.3,2.4-3.8,6c6.5,15.7,13.2,31.3,19.8,47C600.3,84.4,600.8,84.4,601.2,84.4z"
+                />
+                <path
+                  d="M101.5,140.8C84,140.6,68.8,128.3,65,111.8c-3-12.9,2.8-26.8,14.6-33c-2,2.5-3.7,4-4.6,5.8
                        c-2,4.4-4.6,8.8-5.3,13.4c-1.1,6.9,3.5,10.4,10.2,8.4c4.3-1.3,8.5-3.2,13.1-4.6c-5.5,6.6-11.3,13.1-8.9,22.5
-                       C86.4,133.3,93.1,138.1,101.5,140.8z"/>
-              <path d="M468.8,157.6c-0.7-2.2-0.8-4.4-2-5.7c-3.8-4.1-8-7.9-12.2-12c-2.4,8.7-1.3,15.2,3.2,17.9c-4.5,0-8.6,0-11.7,0
+                       C86.4,133.3,93.1,138.1,101.5,140.8z"
+                />
+                <path
+                  d="M468.8,157.6c-0.7-2.2-0.8-4.4-2-5.7c-3.8-4.1-8-7.9-12.2-12c-2.4,8.7-1.3,15.2,3.2,17.9c-4.5,0-8.6,0-11.7,0
                        c0.8-2.3,2.3-4.6,2.4-7c0.3-7.9,0.3-15.8,0-23.7c-0.1-2.3-1.5-4.6-2.3-7c2.9,0,7,0,11.4,0c-7,4.6-2.5,11.2-3.9,16.7
                        c0.4,0.3,0.8,0.6,1.2,0.8c4.3-4.4,8.7-8.7,12.8-13.3c0.6-0.7-0.2-2.7-0.3-4.2c3.1,0,6.7,0,9.4,0c-5.6,5.2-11.6,10.6-18.1,16.7
-                       c8,7.4,15.4,14.3,22.4,20.7C477.5,157.6,472.6,157.6,468.8,157.6z"/>
-              <path d="M201.5,140.4c1.5,5.6-2.9,12.2,3.3,17.2c-3.7,0-7.8,0-11,0c0.7-2.2,2.2-4.8,2.3-7.4c0.3-7.7,0.3-15.5,0-23.2
+                       c8,7.4,15.4,14.3,22.4,20.7C477.5,157.6,472.6,157.6,468.8,157.6z"
+                />
+                <path
+                  d="M201.5,140.4c1.5,5.6-2.9,12.2,3.3,17.2c-3.7,0-7.8,0-11,0c0.7-2.2,2.2-4.8,2.3-7.4c0.3-7.7,0.3-15.5,0-23.2
                        c-0.1-2.3-1.5-4.6-2.2-6.9c3,0,7.1,0,11.6,0c-4.4,2.9-4.9,5.7-3.3,18c4.7-4.8,9.1-8.9,13.1-13.4c0.8-0.8,0.1-2.9,0.1-4.5
                        c2.8,0,6.4,0,9.1,0c-5.6,5.2-11.5,10.7-17.9,16.7c7.9,7.3,15.3,14.2,22.1,20.6c-3.5,0-8.5,0-12.3,0c-0.6-2.1-0.7-4.3-1.8-5.5
-                       c-3.7-4.3-7.7-8.3-11.6-12.4C202.5,139.9,202,140.2,201.5,140.4z"/>
-              <path d="M778.5,120.2c3.5,0,7.3,0,10.2,0c-5.6,5.2-11.6,10.8-18.2,16.9c8.2,7.4,15.8,14.3,22.8,20.6
+                       c-3.7-4.3-7.7-8.3-11.6-12.4C202.5,139.9,202,140.2,201.5,140.4z"
+                />
+                <path
+                  d="M778.5,120.2c3.5,0,7.3,0,10.2,0c-5.6,5.2-11.6,10.8-18.2,16.9c8.2,7.4,15.8,14.3,22.8,20.6
                        c-3.9,0-9.1,0-13.2,0c-0.2-1.9,0.2-4-0.7-4.9c-3.9-4.5-8.2-8.6-12.6-13.1c-3.1,7.1-1.5,15.7,3.6,18c-5.1,0-9.6,0-12.8,0
                        c0.9-2.1,2.6-4.4,2.7-6.9c0.4-7.9,0.4-15.8,0-23.7c-0.1-2.4-1.8-4.8-2.6-7c3,0,7.3,0,12.1,0c-7.9,4.1-2.8,11-4.5,16.4
-                       c0.5,0.4,1,0.7,1.4,1.1c4.4-4.6,8.9-9.2,13.1-14C780.3,123.3,779,121.4,778.5,120.2z"/>
-              <path d="M622,120c4,0,7.5,0,10.5,0c-5.8,5.3-11.7,10.8-18.4,16.9c8.2,7.5,15.7,14.4,22.7,20.8c-3.7,0-9,0-13.5,0
+                       c0.5,0.4,1,0.7,1.4,1.1c4.4-4.6,8.9-9.2,13.1-14C780.3,123.3,779,121.4,778.5,120.2z"
+                />
+                <path
+                  d="M622,120c4,0,7.5,0,10.5,0c-5.8,5.3-11.7,10.8-18.4,16.9c8.2,7.5,15.7,14.4,22.7,20.8c-3.7,0-9,0-13.5,0
                        c0.1-1.6,0.8-3.8,0.1-4.5c-4.2-4.6-8.7-8.9-13.4-13.6c-2.5,9.3-1.2,15.7,3.3,18.5c-2.3,0-4.5,0-6.8,0c-2.2,0-4.4,0-6.6,0
                        c4.3-1.2,4.3-4.4,4.3-7.8c0-7.6,0-15.2,0-22.7c0-3.3-0.1-6.4-4.3-7.4c4.3,0,8.7,0,13.2,0c-6.8,4.5-3.2,11.1-4.1,17.3
-                       C618.2,132.5,624.8,123.9,622,120z"/>
-              <path d="M705.9,157.8c-2.9,0-6,0-8,0c0.7-2.6,1.9-5.5,2.1-8.5c0.3-6.5-0.2-13,0.2-19.4c0.3-5.1-1.4-8.2-6.9-9.1
+                       C618.2,132.5,624.8,123.9,622,120z"
+                />
+                <path
+                  d="M705.9,157.8c-2.9,0-6,0-8,0c0.7-2.6,1.9-5.5,2.1-8.5c0.3-6.5-0.2-13,0.2-19.4c0.3-5.1-1.4-8.2-6.9-9.1
                        c7-2,9-1.4,13.1,3.6c6.2,7.7,12.5,15.3,19.7,22.6c0-7.5,0.2-15-0.2-22.4c-0.1-1.5-2.1-2.9-3.2-4.4c2.9,0,6.3,0,9.8,0
                        c-4,0.9-4.3,4-4.3,7.2c0,10.1,0,20.1-1,30.6c-7.9-9.6-15.9-19.2-24.7-29.9c0,9.5-0.1,17.6,0.1,25.7
-                       C702.8,155.2,704.7,156.5,705.9,157.8z"/>
-              <path d="M47.2,45c-0.1-6.7,4.9-11.8,11.5-11.8c6.6,0,11.7,5.1,11.7,11.7c0,6.3-5,11.5-11.4,11.7
-                       C52.5,56.7,47.3,51.6,47.2,45z"/>
-              <path d="M121.9,74.9c-6,0-10.3-4.5-10.3-10.5c0-6.1,4.4-10.5,10.4-10.4c5.9,0.1,10.4,4.6,10.4,10.5
-                       C132.3,70.5,127.9,74.9,121.9,74.9z"/>
-              <path d="M498.6,122.7c-8.2-1.1-9.4-0.6-12.9,5c0-2.5,0-4.8,0-7.4c10.3,0,20.5,0,30.8,0c0,2.4,0,4.6,0,7.8
+                       C702.8,155.2,704.7,156.5,705.9,157.8z"
+                />
+                <path
+                  d="M47.2,45c-0.1-6.7,4.9-11.8,11.5-11.8c6.6,0,11.7,5.1,11.7,11.7c0,6.3-5,11.5-11.4,11.7
+                       C52.5,56.7,47.3,51.6,47.2,45z"
+                />
+                <path
+                  d="M121.9,74.9c-6,0-10.3-4.5-10.3-10.5c0-6.1,4.4-10.5,10.4-10.4c5.9,0.1,10.4,4.6,10.4,10.5
+                       C132.3,70.5,127.9,74.9,121.9,74.9z"
+                />
+                <path
+                  d="M498.6,122.7c-8.2-1.1-9.4-0.6-12.9,5c0-2.5,0-4.8,0-7.4c10.3,0,20.5,0,30.8,0c0,2.4,0,4.6,0,7.8
                        c-2.3-6.9-7.2-6-12.9-5.6c0,3.8,0,7.5,0,11.2c0,5.8-0.3,11.7,0.1,17.5c0.2,2.3,1.8,4.5,2.8,6.6c-3.2,0-7.6,0-10.6,0
-                       c0.9-2.2,2.5-4.5,2.6-6.9C498.8,141.6,498.6,132.3,498.6,122.7z"/>
-              <path d="M642.7,158.1c1.1-2.4,3-4.6,3.1-6.9c0.4-8,0.4-16.1,0-24.1c-0.1-2.4-1.9-4.7-2.9-6.9c3.4,0,8.1,0,12.8,0
+                       c0.9-2.2,2.5-4.5,2.6-6.9C498.8,141.6,498.6,132.3,498.6,122.7z"
+                />
+                <path
+                  d="M642.7,158.1c1.1-2.4,3-4.6,3.1-6.9c0.4-8,0.4-16.1,0-24.1c-0.1-2.4-1.9-4.7-2.9-6.9c3.4,0,8.1,0,12.8,0
                        c-4.9,1.2-4.9,5.1-4.9,9c0,6.8,0.1,13.6,0,20.4c-0.1,4.5,1.4,6.5,6.4,6.3c6-0.3,12.1,0.4,14.5-7.2c-0.2,8.3-1.3,9.5-9,9.5
-                       C655.6,158.1,648.6,158.1,642.7,158.1z"/>
-              <path d="M235.7,120.2c3.2,0,7.5,0,11.9,0c-4.3,1.1-4.2,4.5-4.2,8c0.1,7.6,0.1,15.2,0,22.8c0,3.3,0.2,6.1,4.4,6.9
-                       c-4.4,0-8.8,0-11.9,0c0.7-2.3,2.2-4.7,2.3-7.1c0.3-7.9,0.3-15.8,0-23.7C238,124.6,236.5,122.4,235.7,120.2z"/>
-              <path d="M749.4,120.3c-0.7,2.2-2.2,4.6-2.3,7.1c-0.3,7.7-0.3,15.5,0,23.2c0.1,2.5,1.5,4.9,2.4,7.3c-3.2,0-7.5,0-11.9,0
-                       c4.4-0.8,4.2-4.1,4.2-7.5c-0.1-7.9-0.1-15.8,0-23.7c0-3.2-0.5-5.8-4.4-6.4C741.8,120.3,746.2,120.3,749.4,120.3z"/>
-              <path d="M688.9,157.8c-3,0-7.1,0-10.2,0c0.8-2.3,2.2-4.6,2.3-7c0.3-8,0.3-16.1,0-24.1c-0.1-2.2-1.6-4.4-2.4-6.5
-                       c3.1,0,7.2,0,10.2,0c-0.8,2.3-2.2,4.7-2.3,7.2c-0.3,7.9-0.3,15.8,0,23.6C686.5,153.3,688,155.6,688.9,157.8z"/>
-              <path d="M80.2,89.3c3.4,0.3,5.7,1.9,5.8,5.5c0.1,3.5-1.8,5.6-5.4,5.7c-3.6,0.1-5.7-1.8-5.8-5.3
-                       C74.7,91.6,76.9,89.8,80.2,89.3z"/>
-              <path d="M712.9,96c-5.2-11.7-10.3-23.4-15.5-35c-4.2-9.5-8.3-19-12.4-28.4c8.6-5.2,11-9.5,9.3-16
+                       C655.6,158.1,648.6,158.1,642.7,158.1z"
+                />
+                <path
+                  d="M235.7,120.2c3.2,0,7.5,0,11.9,0c-4.3,1.1-4.2,4.5-4.2,8c0.1,7.6,0.1,15.2,0,22.8c0,3.3,0.2,6.1,4.4,6.9
+                       c-4.4,0-8.8,0-11.9,0c0.7-2.3,2.2-4.7,2.3-7.1c0.3-7.9,0.3-15.8,0-23.7C238,124.6,236.5,122.4,235.7,120.2z"
+                />
+                <path
+                  d="M749.4,120.3c-0.7,2.2-2.2,4.6-2.3,7.1c-0.3,7.7-0.3,15.5,0,23.2c0.1,2.5,1.5,4.9,2.4,7.3c-3.2,0-7.5,0-11.9,0
+                       c4.4-0.8,4.2-4.1,4.2-7.5c-0.1-7.9-0.1-15.8,0-23.7c0-3.2-0.5-5.8-4.4-6.4C741.8,120.3,746.2,120.3,749.4,120.3z"
+                />
+                <path
+                  d="M688.9,157.8c-3,0-7.1,0-10.2,0c0.8-2.3,2.2-4.6,2.3-7c0.3-8,0.3-16.1,0-24.1c-0.1-2.2-1.6-4.4-2.4-6.5
+                       c3.1,0,7.2,0,10.2,0c-0.8,2.3-2.2,4.7-2.3,7.2c-0.3,7.9-0.3,15.8,0,23.6C686.5,153.3,688,155.6,688.9,157.8z"
+                />
+                <path
+                  d="M80.2,89.3c3.4,0.3,5.7,1.9,5.8,5.5c0.1,3.5-1.8,5.6-5.4,5.7c-3.6,0.1-5.7-1.8-5.8-5.3
+                       C74.7,91.6,76.9,89.8,80.2,89.3z"
+                />
+                <path
+                  d="M712.9,96c-5.2-11.7-10.3-23.4-15.5-35c-4.2-9.5-8.3-19-12.4-28.4c8.6-5.2,11-9.5,9.3-16
                        c-1.4-5.4-5.7-8.9-11.3-9c-6-0.2-10.8,3-12.4,8.3c-2,6.6,0.2,10.9,8.6,16.6c-0.6,1.4-1.1,2.8-1.8,4.2c-7.9,17.6-15.7,35.1-23.6,52.7
                        c-3.3,7.4-5.8,15.5-14.3,19.4c8.5,0,16.9,0,25.4,0c-1.1-1.1-2.3-1.4-3.5-1.6c-5.9-1.3-7.7-4.1-5.9-9.9c0.8-2.7,1.9-5.4,3.4-7.8
                        c0.8-1.3,2.7-2.6,4.2-2.7c4.6-0.4,9.2-0.1,13.7-0.1c12,0,11.9,0,16.5,11c2.7,6.5,2.5,9.6-6,10c-0.5,0-0.9,0.4-1.3,0.7
                        c0.1,0.3,0.1,0.5,0.2,0.8c12.5,0,25,0,37.4,0C717.6,106.4,715.2,101.2,712.9,96z M674.5,19.4c0.1-4.2,3.9-7.9,8-7.8
                        c4.1,0,7.9,3.8,8,7.9c0,4-3.7,7.9-7.8,8C678.3,27.7,674.4,23.8,674.5,19.4z M662.2,81.9c4-9,7.8-17.6,12.3-27.6
-                       c4.3,9.9,8,18.4,11.9,27.6C678.2,81.9,670.7,81.9,662.2,81.9z"/>
-              <path d="M580.6,139.9c1.7-0.8,2.8-1.3,3.9-1.9c4-2.1,5.8-5.4,5-9.8c-0.7-4.2-3.5-7-7.6-7.4c-6.7-0.7-13.4-0.8-19-1.1
+                       c4.3,9.9,8,18.4,11.9,27.6C678.2,81.9,670.7,81.9,662.2,81.9z"
+                />
+                <path
+                  d="M580.6,139.9c1.7-0.8,2.8-1.3,3.9-1.9c4-2.1,5.8-5.4,5-9.8c-0.7-4.2-3.5-7-7.6-7.4c-6.7-0.7-13.4-0.8-19-1.1
                        c1,2.7,2.4,4.9,2.5,7.2c0.3,8,0.3,16.1,0,24.1c-0.1,2.3-1.6,4.6-2.5,7c1.1,0,3.2,0,5.3,0c2.3,0,4.6,0,8.1,0
                        c-5.9-2.7-7.1-7.8-4.7-18.6c2,1.3,4,2,5.1,3.4c2.8,3.4,5.6,6.9,7.7,10.7c2.9,5.3,7.3,4.8,12.8,4C588.5,154.1,585.9,146,580.6,139.9z
                        M570.8,138.9c0-5.3-0.2-9.7,0.1-14c0.1-1,1.7-2.4,2.8-2.7c4.5-0.9,8.5,1.6,9.5,5.6c1.2,4.5-0.9,8.3-5.6,9.9
-                       C575.8,138.3,573.7,138.4,570.8,138.9z"/>
-              <path d="M271.9,139.8c1.7-0.7,2.8-1.2,3.9-1.8c3.5-1.9,5.5-4.8,5.2-8.8c-0.3-4.2-2.7-7.6-6.8-8.1
+                       C575.8,138.3,573.7,138.4,570.8,138.9z"
+                />
+                <path
+                  d="M271.9,139.8c1.7-0.7,2.8-1.2,3.9-1.8c3.5-1.9,5.5-4.8,5.2-8.8c-0.3-4.2-2.7-7.6-6.8-8.1
                        c-6.9-1-13.9-1-19.9-1.3c1,2.6,2.4,4.7,2.5,6.8c0.3,8.4,0.3,16.7,0,25.1c-0.1,2.1-1.5,4.1-2.3,6.1c3.2,0,7.3,0,12.1,0
                        c-4.6-2.4-5.7-8.8-3.3-18.2c1.8,1.2,3.7,1.9,4.8,3.2c2.9,3.5,5.4,7.4,8.1,11.1c3.4,4.7,5.9,5.4,11.7,3.4
                        C279.7,154.2,277.3,145.9,271.9,139.8z M262.6,138.4c0-5.5,0-10.5,0-15.6c4.1-1.1,8.2-1.4,10.3,2.3c1.4,2.3,1.8,6.2,0.8,8.7
-                       C271.9,138.1,267.5,138.8,262.6,138.4z"/>
-              <path d="M538.6,119.4c-10.8,0-18.7,8.2-18.7,19.5c0,11.6,7.6,19.7,18.5,19.7c10.7,0,18.5-8.4,18.5-19.8
+                       C271.9,138.1,267.5,138.8,262.6,138.4z"
+                />
+                <path
+                  d="M538.6,119.4c-10.8,0-18.7,8.2-18.7,19.5c0,11.6,7.6,19.7,18.5,19.7c10.7,0,18.5-8.4,18.5-19.8
                        C556.7,127.5,549.1,119.4,538.6,119.4z M548.6,150c-1.8,4.5-5.3,6.9-10.3,6.9c-5,0-8.5-2.6-10.2-7.1c-1.3-3.5-1.8-7.2-2.7-11.1
-                       c0.9-3.7,1.4-7.5,2.8-11c1.7-4.3,5.1-6.7,9.9-6.7c4.7,0,8.2,2.1,10.1,6.4C551.5,134.9,551.7,142.5,548.6,150z"/>
-              <path d="M309.7,119.4c-10.9,0-18.6,8.1-18.6,19.5c0,11.7,7.5,19.7,18.4,19.6c10.6,0,18.5-8.4,18.4-19.8
+                       c0.9-3.7,1.4-7.5,2.8-11c1.7-4.3,5.1-6.7,9.9-6.7c4.7,0,8.2,2.1,10.1,6.4C551.5,134.9,551.7,142.5,548.6,150z"
+                />
+                <path
+                  d="M309.7,119.4c-10.9,0-18.6,8.1-18.6,19.5c0,11.7,7.5,19.7,18.4,19.6c10.6,0,18.5-8.4,18.4-19.8
                        C327.9,127.6,320.1,119.4,309.7,119.4z M319.6,150.2c-1.7,4.3-5.2,6.6-9.9,6.7c-4.8,0.1-8.2-2.2-10.1-6.4c-3.3-7.4-3.4-15-0.3-22.5
-                       c1.8-4.5,5.3-7,10.3-6.9c5,0.1,8.5,2.5,10.2,7.1c1.2,3.5,1.7,7.3,2.6,11.1C321.4,143,320.9,146.7,319.6,150.2z"/>
-              <path d="M349.6,120.5c-5.4-0.4-10.9-0.1-15.2-0.1c0.7,2,2,4.2,2.1,6.5c0.3,7.9,0.3,15.8,0,23.7c-0.1,2.5-1.5,4.9-2.3,7
+                       c1.8-4.5,5.3-7,10.3-6.9c5,0.1,8.5,2.5,10.2,7.1c1.2,3.5,1.7,7.3,2.6,11.1C321.4,143,320.9,146.7,319.6,150.2z"
+                />
+                <path
+                  d="M349.6,120.5c-5.4-0.4-10.9-0.1-15.2-0.1c0.7,2,2,4.2,2.1,6.5c0.3,7.9,0.3,15.8,0,23.7c-0.1,2.5-1.5,4.9-2.3,7
                        c3.1,0,7.2,0,10.9,0c-5.9-4.9-2-11.4-3.3-17.5c2.4,0.3,4,0.6,5.7,0.7c6.7,0.4,11.8-3.3,12.5-9C360.7,125.7,356.8,121.1,349.6,120.5z
                        M351.7,136.6c-1.8,3.4-5.7,3.3-9.7,1.7c0-4.3,0.1-8.4,0-12.4c-0.1-2.7,1.2-4.3,3.5-3.4c2.7,1,6.4,2.5,7.2,4.7
-                       C353.8,129.8,353.2,133.9,351.7,136.6z"/>
-              <path d="M439.5,157.7c-1.6-2.4-3.5-4.6-4.7-7.2c-3.9-8.8-7.5-17.7-11.2-26.6c-0.6-1.5-1.4-2.9-2.6-5.2
+                       C353.8,129.8,353.2,133.9,351.7,136.6z"
+                />
+                <path
+                  d="M439.5,157.7c-1.6-2.4-3.5-4.6-4.7-7.2c-3.9-8.8-7.5-17.7-11.2-26.6c-0.6-1.5-1.4-2.9-2.6-5.2
                        c-1.3,2.9-2.1,4.7-2.9,6.6c-3.7,8.7-7.3,17.4-11.2,26.1c-3.1,6.8-8.7,7.5-13.5,1.7c-3.4-4.1-6.4-8.6-9.6-13.1c1.1-0.6,1.9-1,2.8-1.4
                        c5.1-2.5,6.8-5.5,6-10.5c-0.7-4.1-4-7.1-9.1-7.4c-6.2-0.3-12.5-0.1-18.8-0.1c4.1,0.6,4.3,3.6,4.3,6.9c-0.1,7.7,0.2,15.5-0.2,23.2
                        c-0.1,2.5-1.9,5-2.8,7.2c3.1,0,7.5,0,11.5,0c-6.1-5-2.2-11.5-2.7-17.5c2.1,0.5,4,1.2,5.1,2.5c3.3,4.1,6.1,8.4,9.3,12.6
                        c0.9,1.2,2.3,2.6,3.5,2.7c6.2,0.3,12.5,0.1,17.5,0.1c-0.3-2.6-0.9-4.7-0.6-6.6c0.9-4.8,3.7-7.4,9-6.4c1.7,0.3,3.5,0.2,5.2,0
                        c4.9-0.4,4.7,4,5.8,6.7c0.6,1.6-0.2,3.7-0.5,5.9C432,157.7,436.1,157.7,439.5,157.7z M374.1,139c0-5,0.2-8.9-0.1-12.8
                        c-0.2-3.2,1.2-4.2,4.1-4.1c4.5,0,7.7,2.4,8.5,6.7c0.7,4.2-1.2,7.1-5,8.6C379.6,138.2,377.2,138.3,374.1,139z M413.1,143.1
-                       c2.1-4.9,4-9.4,6.6-15.4c2.4,5.8,4.3,10.4,6.5,15.4C421.5,143.1,417.7,143.1,413.1,143.1z"/>
-            </svg>
-          </div>
-          <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
-            <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
-              <svg className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg><p className="relative">StuntCoders has been with us for years. Without them, it would be hard to imagine running the business smoothly. We are very happy to be working with them in years to come.</p>
+                       c2.1-4.9,4-9.4,6.6-15.4c2.4,5.8,4.3,10.4,6.5,15.4C421.5,143.1,417.7,143.1,413.1,143.1z"
+                />
+              </svg>
             </div>
-            <footer className="mt-8"><div className="flex">
-              <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-              <img className="h-12 w-12 rounded-full" src="images/kim.jpg" alt="" loading="auto" />
+            <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
+              <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+                <svg
+                  className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                  fill="currentColor"
+                  viewBox="0 0 32 32"
+                >
+                  <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path>
+                </svg>
+                <p className="relative">
+                  StuntCoders has been with us for years. Without them, it would
+                  be hard to imagine running the business smoothly. We are very
+                  happy to be working with them in years to come.
+                </p>
               </div>
-              <div className="ml-4">
-                <div className="text-base leading-6 font-medium text-white">Kim Orderud</div>
-                <div className="text-base leading-6 font-medium text-indigo-200">CEO, Ulleval Kiropraktor</div>
-              </div>
-              </div>
-            </footer></blockquote>
-        </div>
-        <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
-          <div className="md:flex-shrink-0">
-            <svg fill="#b4c6fd"  height="40" viewBox="0 0 260 84" role="img" aria-labelledby="svg-bedtime">
-              <g>
-                <path d="M17.9,58H5.6c-1.8,0-3.1-0.4-3.8-1.2C1,56,0.6,54.8,0.6,53V22.6c0-1.8,0.4-3.1,1.2-3.8c0.8-0.8,2-1.2,3.8-1.2h13.1
+              <footer className="mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                    <StaticImage
+                      className="h-12 w-12 rounded-full"
+                      src="../images/kim.jpg"
+                      alt=""
+                      loading="auto"
+                    />
+                  </div>
+                  <div className="ml-4">
+                    <div className="text-base leading-6 font-medium text-white">
+                      Kim Orderud
+                    </div>
+                    <div className="text-base leading-6 font-medium text-indigo-200">
+                      CEO, Ulleval Kiropraktor
+                    </div>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+          <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+            <div className="md:flex-shrink-0">
+              <svg
+                fill="#b4c6fd"
+                height="40"
+                viewBox="0 0 260 84"
+                role="img"
+                aria-labelledby="svg-bedtime"
+              >
+                <g>
+                  <path
+                    d="M17.9,58H5.6c-1.8,0-3.1-0.4-3.8-1.2C1,56,0.6,54.8,0.6,53V22.6c0-1.8,0.4-3.1,1.2-3.8c0.8-0.8,2-1.2,3.8-1.2h13.1
                          c1.9,0,3.6,0.1,5,0.4c1.4,0.2,2.7,0.7,3.8,1.4c1,0.6,1.8,1.3,2.5,2.2c0.7,0.9,1.3,1.8,1.7,2.9c0.4,1.1,0.6,2.2,0.6,3.3
                          c0,4-2,7-6.1,8.9c5.3,1.7,8,5,8,9.9c0,2.3-0.6,4.3-1.7,6.1c-1.2,1.8-2.7,3.1-4.7,4c-1.2,0.5-2.6,0.9-4.2,1.1
                          C21.9,57.9,20.1,58,17.9,58z M8.8,23.8v10.4h7.5c2,0,3.6-0.2,4.7-0.6c1.1-0.4,2-1.1,2.5-2.2c0.5-0.8,0.7-1.6,0.7-2.6
                          c0-2-0.7-3.4-2.2-4.1c-1.5-0.7-3.7-1-6.6-1H8.8z M17.3,40.1H8.8v11.8h8.8c5.5,0,8.3-2,8.3-6c0-2-0.7-3.5-2.1-4.4
-                         C22.3,40.5,20.2,40.1,17.3,40.1z"/>
-                <path d="M67.9,23.9H49.4v9.9h17c1.2,0,2.2,0.3,2.8,0.8c0.6,0.6,0.9,1.3,0.9,2.2c0,0.9-0.3,1.7-0.9,2.2c-0.6,0.6-1.5,0.9-2.8,0.9
+                         C22.3,40.5,20.2,40.1,17.3,40.1z"
+                  />
+                  <path
+                    d="M67.9,23.9H49.4v9.9h17c1.2,0,2.2,0.3,2.8,0.8c0.6,0.6,0.9,1.3,0.9,2.2c0,0.9-0.3,1.7-0.9,2.2c-0.6,0.6-1.5,0.9-2.8,0.9
                          h-17v11.5h19.1c1.3,0,2.3,0.3,2.9,0.9c0.7,0.6,1,1.4,1,2.4c0,1-0.3,1.7-1,2.3c-0.7,0.6-1.6,0.9-2.9,0.9H46.3
                          c-1.8,0-3.1-0.4-3.8-1.2c-0.8-0.8-1.2-2.1-1.2-3.8V22.6c0-1.2,0.2-2.1,0.5-2.9c0.3-0.7,0.9-1.3,1.6-1.6c0.7-0.3,1.7-0.5,2.9-0.5
-                         h21.6c1.3,0,2.3,0.3,2.9,0.9c0.6,0.6,1,1.3,1,2.3c0,1-0.3,1.7-1,2.3C70.1,23.7,69.2,23.9,67.9,23.9z"/>
-                <path d="M84,17.6h10.7c2.8,0,5.2,0.3,7.1,0.8c2,0.5,3.8,1.5,5.4,2.9c4.2,3.6,6.3,9.1,6.3,16.4c0,2.4-0.2,4.6-0.6,6.6
+                         h21.6c1.3,0,2.3,0.3,2.9,0.9c0.6,0.6,1,1.3,1,2.3c0,1-0.3,1.7-1,2.3C70.1,23.7,69.2,23.9,67.9,23.9z"
+                  />
+                  <path
+                    d="M84,17.6h10.7c2.8,0,5.2,0.3,7.1,0.8c2,0.5,3.8,1.5,5.4,2.9c4.2,3.6,6.3,9.1,6.3,16.4c0,2.4-0.2,4.6-0.6,6.6
                          c-0.4,2-1.1,3.8-2,5.4c-0.9,1.6-2,3-3.4,4.3c-1.1,1-2.3,1.8-3.6,2.3c-1.3,0.6-2.7,1-4.1,1.2c-1.5,0.2-3.1,0.4-5,0.4H84.1
                          c-1.5,0-2.6-0.2-3.4-0.7c-0.8-0.5-1.2-1.1-1.5-1.9c-0.2-0.8-0.3-1.9-0.3-3.2V22.6c0-1.8,0.4-3,1.2-3.8C80.9,18,82.2,17.6,84,17.6z
                          M87.1,24.1v27.4h6.2c1.4,0,2.4,0,3.2-0.1c0.8-0.1,1.6-0.3,2.4-0.6c0.8-0.3,1.5-0.7,2.1-1.2c2.7-2.3,4.1-6.3,4.1-12
-                         c0-4-0.6-7-1.8-9c-1.2-2-2.7-3.2-4.4-3.8c-1.8-0.5-3.9-0.8-6.4-0.8L87.1,24.1L87.1,24.1z"/>
-                <path  d="M144.3,24.4h-8.9v29.3c0,1.7-0.4,2.9-1.1,3.8c-0.8,0.8-1.7,1.2-2.9,1.2c-1.2,0-2.2-0.4-3-1.2c-0.8-0.8-1.1-2.1-1.1-3.7
+                         c0-4-0.6-7-1.8-9c-1.2-2-2.7-3.2-4.4-3.8c-1.8-0.5-3.9-0.8-6.4-0.8L87.1,24.1L87.1,24.1z"
+                  />
+                  <path
+                    d="M144.3,24.4h-8.9v29.3c0,1.7-0.4,2.9-1.1,3.8c-0.8,0.8-1.7,1.2-2.9,1.2c-1.2,0-2.2-0.4-3-1.2c-0.8-0.8-1.1-2.1-1.1-3.7
                           V24.4h-8.9c-1.4,0-2.4-0.3-3.1-0.9c-0.7-0.6-1-1.4-1-2.4c0-1,0.4-1.9,1.1-2.5c0.7-0.6,1.7-0.9,3.1-0.9h26c1.4,0,2.5,0.3,3.2,0.9
-                          c0.7,0.6,1,1.4,1,2.5s-0.4,1.8-1.1,2.4C146.7,24.1,145.7,24.4,144.3,24.4z"/>
-                <path d="M153.6,53.7V21.9c0-1.7,0.4-2.9,1.1-3.7c0.8-0.8,1.7-1.2,2.9-1.2c1.2,0,2.2,0.4,3,1.2c0.8,0.8,1.1,2.1,1.1,3.7v31.8
-                         c0,1.7-0.4,2.9-1.1,3.7c-0.8,0.8-1.8,1.2-3,1.2c-1.2,0-2.1-0.4-2.9-1.3C154,56.6,153.6,55.4,153.6,53.7z"/>
-                <path d="M184.6,51.9l-6.5-25.7v27.9c0,1.5-0.3,2.7-1,3.5c-0.7,0.8-1.6,1.2-2.7,1.2c-1.1,0-2-0.4-2.7-1.1c-0.7-0.8-1-1.9-1-3.5v-32
+                          c0.7,0.6,1,1.4,1,2.5s-0.4,1.8-1.1,2.4C146.7,24.1,145.7,24.4,144.3,24.4z"
+                  />
+                  <path
+                    d="M153.6,53.7V21.9c0-1.7,0.4-2.9,1.1-3.7c0.8-0.8,1.7-1.2,2.9-1.2c1.2,0,2.2,0.4,3,1.2c0.8,0.8,1.1,2.1,1.1,3.7v31.8
+                         c0,1.7-0.4,2.9-1.1,3.7c-0.8,0.8-1.8,1.2-3,1.2c-1.2,0-2.1-0.4-2.9-1.3C154,56.6,153.6,55.4,153.6,53.7z"
+                  />
+                  <path
+                    d="M184.6,51.9l-6.5-25.7v27.9c0,1.5-0.3,2.7-1,3.5c-0.7,0.8-1.6,1.2-2.7,1.2c-1.1,0-2-0.4-2.7-1.1c-0.7-0.8-1-1.9-1-3.5v-32
                          c0-1.8,0.5-3,1.4-3.6c0.9-0.6,2.2-0.9,3.7-0.9h2.5c1.5,0,2.6,0.1,3.3,0.4c0.7,0.3,1.2,0.8,1.5,1.5c0.3,0.7,0.7,1.9,1.1,3.5
                          l5.9,22.1L196,23c0.4-1.6,0.8-2.8,1.1-3.5c0.3-0.7,0.8-1.2,1.5-1.5c0.7-0.3,1.8-0.4,3.3-0.4h2.5c1.6,0,2.8,0.3,3.7,0.9
                          c0.9,0.6,1.4,1.8,1.4,3.6v32c0,1.5-0.3,2.7-1,3.5c-0.7,0.8-1.6,1.2-2.8,1.2c-1.1,0-2-0.4-2.7-1.2c-0.7-0.8-1-1.9-1-3.5V26.2
                          l-6.5,25.7c-0.4,1.7-0.8,2.9-1,3.7c-0.3,0.8-0.8,1.5-1.5,2.1c-0.7,0.6-1.7,1-3,1c-1,0-1.8-0.2-2.4-0.6c-0.7-0.4-1.2-0.9-1.5-1.6
-                         c-0.4-0.6-0.7-1.4-0.9-2.1C185,53.6,184.8,52.8,184.6,51.9z"/>
-                <path d="M244.6,23.9h-18.4v9.9h17c1.2,0,2.2,0.3,2.8,0.8c0.6,0.6,0.9,1.3,0.9,2.2c0,0.9-0.3,1.7-0.9,2.2c-0.6,0.6-1.5,0.9-2.8,0.9
+                         c-0.4-0.6-0.7-1.4-0.9-2.1C185,53.6,184.8,52.8,184.6,51.9z"
+                  />
+                  <path
+                    d="M244.6,23.9h-18.4v9.9h17c1.2,0,2.2,0.3,2.8,0.8c0.6,0.6,0.9,1.3,0.9,2.2c0,0.9-0.3,1.7-0.9,2.2c-0.6,0.6-1.5,0.9-2.8,0.9
                          h-17v11.5h19.1c1.3,0,2.3,0.3,2.9,0.9c0.7,0.6,1,1.4,1,2.4c0,1-0.3,1.7-1,2.3s-1.6,0.9-2.9,0.9H223c-1.8,0-3.1-0.4-3.8-1.2
                          c-0.8-0.8-1.2-2.1-1.2-3.8V22.6c0-1.2,0.2-2.1,0.5-2.9c0.3-0.7,0.9-1.3,1.6-1.6c0.7-0.3,1.7-0.5,2.9-0.5h21.6
-                         c1.3,0,2.3,0.3,2.9,0.9c0.6,0.6,0.9,1.3,0.9,2.3c0,1-0.3,1.7-0.9,2.3C246.9,23.7,245.9,23.9,244.6,23.9z"/>
-                <g>
-                  <path d="M4.1,66.7l5,7.6v-7.7c0-0.5,0.1-0.9,0.3-1.1c0.2-0.3,0.5-0.4,0.9-0.4c0.4,0,0.7,0.1,0.9,0.4c0.2,0.2,0.3,0.6,0.3,1.1v10.2
+                         c1.3,0,2.3,0.3,2.9,0.9c0.6,0.6,0.9,1.3,0.9,2.3c0,1-0.3,1.7-0.9,2.3C246.9,23.7,245.9,23.9,244.6,23.9z"
+                  />
+                  <g>
+                    <path
+                      d="M4.1,66.7l5,7.6v-7.7c0-0.5,0.1-0.9,0.3-1.1c0.2-0.3,0.5-0.4,0.9-0.4c0.4,0,0.7,0.1,0.9,0.4c0.2,0.2,0.3,0.6,0.3,1.1v10.2
                            c0,1.1-0.5,1.7-1.4,1.7c-0.2,0-0.4,0-0.6-0.1c-0.2-0.1-0.4-0.2-0.5-0.3c-0.2-0.1-0.3-0.3-0.5-0.5c-0.1-0.2-0.3-0.4-0.4-0.6
                            l-4.9-7.5V77c0,0.5-0.1,0.9-0.3,1.1c-0.2,0.3-0.5,0.4-0.9,0.4c-0.4,0-0.7-0.1-0.9-0.4c-0.2-0.3-0.3-0.6-0.3-1.1V67
                            c0-0.4,0-0.8,0.1-1c0.1-0.3,0.3-0.5,0.6-0.7c0.3-0.2,0.5-0.2,0.8-0.2c0.2,0,0.4,0,0.6,0.1c0.2,0.1,0.3,0.2,0.4,0.3
-                           c0.1,0.1,0.3,0.3,0.4,0.5C3.8,66.2,3.9,66.4,4.1,66.7z"/>
-                  <path  d="M20.8,65.1c1.3,0,2.5,0.3,3.5,0.8c1,0.5,1.7,1.3,2.2,2.3c0.5,1,0.7,2.2,0.7,3.5c0,1-0.1,1.9-0.4,2.7
+                           c0.1,0.1,0.3,0.3,0.4,0.5C3.8,66.2,3.9,66.4,4.1,66.7z"
+                    />
+                    <path
+                      d="M20.8,65.1c1.3,0,2.5,0.3,3.5,0.8c1,0.5,1.7,1.3,2.2,2.3c0.5,1,0.7,2.2,0.7,3.5c0,1-0.1,1.9-0.4,2.7
                             c-0.3,0.8-0.7,1.5-1.2,2.1c-0.5,0.6-1.2,1.1-2,1.4c-0.8,0.3-1.7,0.5-2.7,0.5c-1,0-1.9-0.2-2.7-0.5c-0.8-0.3-1.5-0.8-2-1.4
                             c-0.5-0.6-0.9-1.3-1.2-2.1c-0.3-0.8-0.4-1.7-0.4-2.7c0-1,0.1-1.9,0.4-2.7c0.3-0.8,0.7-1.5,1.2-2.1c0.5-0.6,1.2-1,2-1.3
                             C18.9,65.3,19.8,65.1,20.8,65.1z M24.5,71.8c0-0.9-0.2-1.8-0.5-2.5c-0.3-0.7-0.7-1.2-1.3-1.6c-0.6-0.4-1.2-0.5-2-0.5
                             c-0.5,0-1,0.1-1.5,0.3c-0.4,0.2-0.8,0.5-1.1,0.9c-0.3,0.4-0.6,0.9-0.8,1.4c-0.2,0.6-0.3,1.2-0.3,2c0,0.7,0.1,1.4,0.3,2
                             c0.2,0.6,0.4,1.1,0.8,1.5c0.3,0.4,0.7,0.7,1.2,0.9c0.4,0.2,0.9,0.3,1.4,0.3c0.7,0,1.3-0.2,1.9-0.5c0.6-0.3,1-0.9,1.3-1.6
-                            C24.4,73.6,24.5,72.8,24.5,71.8z"/>
-                  <path d="M33.6,72.7h-0.9v4.2c0,0.5-0.1,1-0.4,1.2c-0.2,0.3-0.6,0.4-0.9,0.4c-0.4,0-0.7-0.1-1-0.4c-0.2-0.3-0.3-0.7-0.3-1.2v-10
+                            C24.4,73.6,24.5,72.8,24.5,71.8z"
+                    />
+                    <path
+                      d="M33.6,72.7h-0.9v4.2c0,0.5-0.1,1-0.4,1.2c-0.2,0.3-0.6,0.4-0.9,0.4c-0.4,0-0.7-0.1-1-0.4c-0.2-0.3-0.3-0.7-0.3-1.2v-10
                            c0-0.6,0.1-1,0.4-1.2c0.3-0.3,0.7-0.4,1.2-0.4H36c0.6,0,1.1,0,1.5,0.1c0.4,0,0.8,0.2,1.1,0.3c0.4,0.2,0.8,0.4,1.1,0.7
                            c0.3,0.3,0.5,0.7,0.7,1.1c0.2,0.4,0.2,0.9,0.2,1.3c0,1-0.3,1.7-0.8,2.3c-0.5,0.6-1.4,1-2.5,1.2c0.5,0.2,0.9,0.6,1.3,1.1
                            c0.4,0.5,0.8,1,1.1,1.5c0.3,0.5,0.6,1,0.8,1.5c0.2,0.4,0.3,0.7,0.3,0.9c0,0.2-0.1,0.3-0.2,0.5c-0.1,0.2-0.3,0.3-0.4,0.4
                            c-0.2,0.1-0.4,0.1-0.7,0.1c-0.3,0-0.5-0.1-0.7-0.2c-0.2-0.1-0.4-0.3-0.5-0.5c-0.1-0.2-0.3-0.5-0.6-0.9l-1.1-1.8
                            c-0.4-0.6-0.7-1.1-1-1.5c-0.3-0.3-0.6-0.6-0.9-0.7C34.5,72.8,34.1,72.7,33.6,72.7z M35.1,67.3h-2.4v3.6h2.3c0.6,0,1.2-0.1,1.6-0.2
-                           c0.4-0.1,0.8-0.3,1-0.6c0.2-0.3,0.3-0.6,0.3-1.1c0-0.4-0.1-0.7-0.3-0.9c-0.2-0.3-0.4-0.5-0.8-0.6C36.6,67.4,36,67.3,35.1,67.3z"/>
-                  <path  d="M46,65.3h3.4c0.9,0,1.7,0.1,2.3,0.2c0.6,0.2,1.2,0.5,1.7,0.9c1.3,1.2,2,2.9,2,5.3c0,0.8-0.1,1.5-0.2,2.1
+                           c0.4-0.1,0.8-0.3,1-0.6c0.2-0.3,0.3-0.6,0.3-1.1c0-0.4-0.1-0.7-0.3-0.9c-0.2-0.3-0.4-0.5-0.8-0.6C36.6,67.4,36,67.3,35.1,67.3z"
+                    />
+                    <path
+                      d="M46,65.3h3.4c0.9,0,1.7,0.1,2.3,0.2c0.6,0.2,1.2,0.5,1.7,0.9c1.3,1.2,2,2.9,2,5.3c0,0.8-0.1,1.5-0.2,2.1
                             c-0.1,0.6-0.3,1.2-0.6,1.7c-0.3,0.5-0.6,1-1.1,1.4c-0.3,0.3-0.7,0.6-1.1,0.8c-0.4,0.2-0.9,0.3-1.3,0.4c-0.5,0.1-1,0.1-1.6,0.1H46
                             c-0.5,0-0.8-0.1-1.1-0.2c-0.2-0.1-0.4-0.3-0.5-0.6c-0.1-0.3-0.1-0.6-0.1-1v-9.5c0-0.6,0.1-1,0.4-1.2C45,65.4,45.4,65.3,46,65.3z
                             M47,67.4v8.8h2c0.4,0,0.8,0,1,0c0.2,0,0.5-0.1,0.8-0.2c0.3-0.1,0.5-0.2,0.7-0.4c0.9-0.7,1.3-2,1.3-3.8c0-1.3-0.2-2.2-0.6-2.9
-                            s-0.9-1-1.4-1.2c-0.6-0.2-1.2-0.3-2-0.3L47,67.4L47,67.4z"/>
-                  <path d="M58.5,76.9V66.7c0-0.5,0.1-0.9,0.4-1.2c0.2-0.3,0.6-0.4,0.9-0.4c0.4,0,0.7,0.1,1,0.4c0.2,0.3,0.4,0.7,0.4,1.2v10.2
-                           c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.3-0.6,0.4-1,0.4c-0.4,0-0.7-0.1-0.9-0.4C58.7,77.8,58.5,77.4,58.5,76.9z"/>
-                  <path d="M76.4,74.2c0,0.4-0.1,0.9-0.3,1.3c-0.2,0.5-0.5,1-1,1.4c-0.4,0.5-1,0.8-1.7,1.1c-0.7,0.3-1.5,0.4-2.4,0.4
+                            s-0.9-1-1.4-1.2c-0.6-0.2-1.2-0.3-2-0.3L47,67.4L47,67.4z"
+                    />
+                    <path
+                      d="M58.5,76.9V66.7c0-0.5,0.1-0.9,0.4-1.2c0.2-0.3,0.6-0.4,0.9-0.4c0.4,0,0.7,0.1,1,0.4c0.2,0.3,0.4,0.7,0.4,1.2v10.2
+                           c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.3-0.6,0.4-1,0.4c-0.4,0-0.7-0.1-0.9-0.4C58.7,77.8,58.5,77.4,58.5,76.9z"
+                    />
+                    <path
+                      d="M76.4,74.2c0,0.4-0.1,0.9-0.3,1.3c-0.2,0.5-0.5,1-1,1.4c-0.4,0.5-1,0.8-1.7,1.1c-0.7,0.3-1.5,0.4-2.4,0.4
                            c-0.7,0-1.3-0.1-1.9-0.2c-0.6-0.1-1.1-0.3-1.5-0.6c-0.5-0.3-0.9-0.6-1.3-1.1c-0.3-0.4-0.6-0.9-0.9-1.4c-0.2-0.5-0.4-1-0.5-1.6
                            c-0.1-0.6-0.2-1.2-0.2-1.8c0-1,0.1-2,0.5-2.8c0.3-0.8,0.7-1.5,1.3-2.1c0.6-0.6,1.2-1,2-1.3c0.8-0.3,1.6-0.5,2.4-0.5
                            c1,0,2,0.2,2.8,0.6c0.8,0.4,1.4,0.9,1.9,1.5c0.4,0.6,0.7,1.2,0.7,1.7c0,0.3-0.1,0.6-0.3,0.8c-0.2,0.2-0.5,0.3-0.8,0.3
                            c-0.3,0-0.6-0.1-0.8-0.2c-0.2-0.2-0.4-0.4-0.6-0.8c-0.3-0.6-0.7-1.1-1.2-1.4c-0.5-0.3-1-0.5-1.7-0.5c-1.1,0-1.9,0.4-2.6,1.2
                            c-0.6,0.8-1,2-1,3.5c0,1,0.1,1.8,0.4,2.5c0.3,0.7,0.7,1.2,1.2,1.5c0.5,0.3,1.1,0.5,1.8,0.5c0.8,0,1.4-0.2,1.9-0.6
-                           c0.5-0.4,0.9-0.9,1.2-1.6c0.1-0.3,0.2-0.6,0.4-0.8s0.4-0.3,0.8-0.3c0.3,0,0.6,0.1,0.8,0.3C76.3,73.6,76.4,73.9,76.4,74.2z"/>
-                  <path d="M95.7,74.4c0,0.8-0.2,1.5-0.6,2.1c-0.4,0.6-1,1.1-1.8,1.5c-0.8,0.4-1.7,0.5-2.8,0.5c-1.3,0-2.3-0.2-3.2-0.7
+                           c0.5-0.4,0.9-0.9,1.2-1.6c0.1-0.3,0.2-0.6,0.4-0.8s0.4-0.3,0.8-0.3c0.3,0,0.6,0.1,0.8,0.3C76.3,73.6,76.4,73.9,76.4,74.2z"
+                    />
+                    <path
+                      d="M95.7,74.4c0,0.8-0.2,1.5-0.6,2.1c-0.4,0.6-1,1.1-1.8,1.5c-0.8,0.4-1.7,0.5-2.8,0.5c-1.3,0-2.3-0.2-3.2-0.7
                            c-0.6-0.3-1.1-0.8-1.4-1.4c-0.4-0.6-0.6-1.1-0.6-1.7c0-0.3,0.1-0.6,0.3-0.8c0.2-0.2,0.5-0.3,0.8-0.3c0.3,0,0.5,0.1,0.7,0.3
                            c0.2,0.2,0.4,0.4,0.5,0.8c0.2,0.4,0.3,0.8,0.5,1c0.2,0.3,0.5,0.5,0.8,0.7c0.3,0.2,0.8,0.3,1.4,0.3c0.8,0,1.4-0.2,1.9-0.5
                            c0.5-0.4,0.7-0.8,0.7-1.4c0-0.4-0.1-0.8-0.4-1c-0.3-0.3-0.6-0.5-1-0.6c-0.4-0.1-1-0.3-1.7-0.4c-0.9-0.2-1.7-0.5-2.3-0.8
@@ -1088,24 +1649,33 @@ export default function Testimonials() {
                            c-0.2,0.2-0.5,0.4-0.8,0.4c-0.3,0-0.5-0.1-0.7-0.2c-0.2-0.1-0.3-0.4-0.5-0.7c-0.2-0.5-0.5-0.9-0.8-1.1c-0.3-0.3-0.9-0.4-1.6-0.4
                            c-0.7,0-1.2,0.1-1.6,0.4c-0.4,0.3-0.6,0.7-0.6,1.1c0,0.3,0.1,0.5,0.2,0.7c0.1,0.2,0.3,0.4,0.6,0.5c0.2,0.1,0.5,0.2,0.8,0.3
                            c0.3,0.1,0.7,0.2,1.3,0.3c0.7,0.2,1.4,0.4,2,0.6c0.6,0.2,1.1,0.5,1.5,0.8c0.4,0.3,0.7,0.7,1,1.1C95.6,73.2,95.7,73.7,95.7,74.4z"
-                        />
-                  <path d="M101.2,66.7v9.4h5.3c0.4,0,0.8,0.1,1,0.3c0.2,0.2,0.3,0.5,0.3,0.8c0,0.3-0.1,0.6-0.3,0.8c-0.2,0.2-0.6,0.3-1,0.3h-6.3
+                    />
+                    <path
+                      d="M101.2,66.7v9.4h5.3c0.4,0,0.8,0.1,1,0.3c0.2,0.2,0.3,0.5,0.3,0.8c0,0.3-0.1,0.6-0.3,0.8c-0.2,0.2-0.6,0.3-1,0.3h-6.3
                            c-0.6,0-1-0.1-1.2-0.4c-0.2-0.3-0.4-0.7-0.4-1.2v-10c0-0.5,0.1-0.9,0.4-1.2c0.2-0.3,0.6-0.4,0.9-0.4c0.4,0,0.7,0.1,1,0.4
-                           C101.1,65.8,101.2,66.2,101.2,66.7z"/>
-                  <path d="M118.2,67.3h-5.9v3.2h5.4c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.7s-0.1,0.5-0.3,0.7c-0.2,0.2-0.5,0.3-0.9,0.3h-5.4
+                           C101.1,65.8,101.2,66.2,101.2,66.7z"
+                    />
+                    <path
+                      d="M118.2,67.3h-5.9v3.2h5.4c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.7s-0.1,0.5-0.3,0.7c-0.2,0.2-0.5,0.3-0.9,0.3h-5.4
                            v3.7h6.1c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.8c0,0.3-0.1,0.6-0.3,0.7c-0.2,0.2-0.5,0.3-0.9,0.3h-7.1
                            c-0.6,0-1-0.1-1.2-0.4c-0.3-0.3-0.4-0.7-0.4-1.2v-9.7c0-0.4,0.1-0.7,0.2-0.9c0.1-0.2,0.3-0.4,0.5-0.5c0.2-0.1,0.5-0.2,0.9-0.2h6.9
-                           c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.7c0,0.3-0.1,0.6-0.3,0.7C119,67.3,118.7,67.3,118.2,67.3z"/>
-                  <path d="M131.6,67.3h-5.9v3.2h5.4c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.7s-0.1,0.5-0.3,0.7c-0.2,0.2-0.5,0.3-0.9,0.3h-5.4
+                           c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.7c0,0.3-0.1,0.6-0.3,0.7C119,67.3,118.7,67.3,118.2,67.3z"
+                    />
+                    <path
+                      d="M131.6,67.3h-5.9v3.2h5.4c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.7s-0.1,0.5-0.3,0.7c-0.2,0.2-0.5,0.3-0.9,0.3h-5.4
                            v3.7h6.1c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.8c0,0.3-0.1,0.6-0.3,0.7c-0.2,0.2-0.5,0.3-0.9,0.3h-7.1
                            c-0.6,0-1-0.1-1.2-0.4c-0.2-0.3-0.4-0.7-0.4-1.2v-9.7c0-0.4,0.1-0.7,0.2-0.9c0.1-0.2,0.3-0.4,0.5-0.5c0.2-0.1,0.5-0.2,0.9-0.2h6.9
-                           c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.7c0,0.3-0.1,0.6-0.3,0.7C132.3,67.3,132,67.3,131.6,67.3z"/>
-                  <path  d="M140.9,73.2h-2.4v3.7c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.3-0.6,0.4-0.9,0.4c-0.4,0-0.7-0.1-1-0.4c-0.2-0.3-0.4-0.7-0.4-1.2v-10
+                           c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.3,0.4,0.3,0.7c0,0.3-0.1,0.6-0.3,0.7C132.3,67.3,132,67.3,131.6,67.3z"
+                    />
+                    <path
+                      d="M140.9,73.2h-2.4v3.7c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.3-0.6,0.4-0.9,0.4c-0.4,0-0.7-0.1-1-0.4c-0.2-0.3-0.4-0.7-0.4-1.2v-10
                             c0-0.6,0.1-1,0.4-1.2c0.3-0.2,0.7-0.4,1.3-0.4h3.4c1,0,1.8,0.1,2.3,0.2c0.5,0.1,1,0.4,1.4,0.7c0.4,0.3,0.7,0.8,0.9,1.3
                             c0.2,0.5,0.3,1.1,0.3,1.7c0,1.3-0.4,2.3-1.2,3C143.7,72.9,142.5,73.2,140.9,73.2z M140.2,67.3h-1.8v4h1.8c0.6,0,1.1-0.1,1.6-0.2
-                            c0.4-0.1,0.7-0.3,0.9-0.6c0.2-0.3,0.3-0.7,0.3-1.2c0-0.6-0.2-1-0.5-1.4C142.2,67.5,141.4,67.3,140.2,67.3z"/>
-                </g>
-                <path d="M253.9,1.8c0.7,0,1.4,0.1,2,0.4c0.6,0.3,1.2,0.6,1.6,1.1c0.5,0.5,0.8,1,1.1,1.6c0.3,0.6,0.4,1.3,0.4,2
+                            c0.4-0.1,0.7-0.3,0.9-0.6c0.2-0.3,0.3-0.7,0.3-1.2c0-0.6-0.2-1-0.5-1.4C142.2,67.5,141.4,67.3,140.2,67.3z"
+                    />
+                  </g>
+                  <path
+                    d="M253.9,1.8c0.7,0,1.4,0.1,2,0.4c0.6,0.3,1.2,0.6,1.6,1.1c0.5,0.5,0.8,1,1.1,1.6c0.3,0.6,0.4,1.3,0.4,2
                          c0,0.9-0.2,1.8-0.7,2.6c-0.5,0.8-1.1,1.4-1.9,1.9c-0.8,0.5-1.6,0.7-2.6,0.7s-1.8-0.2-2.6-0.7c-0.8-0.5-1.4-1.1-1.9-1.9
                          c-0.5-0.8-0.7-1.6-0.7-2.6c0-0.9,0.2-1.8,0.7-2.6c0.5-0.8,1.1-1.4,1.9-1.9C252.2,2.1,253,1.8,253.9,1.8z M254,2.8
                          c-0.7,0-1.4,0.2-2.1,0.5c-0.6,0.4-1.1,0.9-1.5,1.5c-0.4,0.6-0.6,1.3-0.6,2.1c0,0.7,0.2,1.4,0.6,2.1c0.4,0.6,0.9,1.1,1.5,1.5
@@ -1114,53 +1684,180 @@ export default function Testimonials() {
                          c0.1,0.2,0.2,0.5,0.2,0.8c0,0.4-0.1,0.7-0.4,1s-0.6,0.4-1.1,0.5c0.2,0.1,0.4,0.2,0.6,0.4c0.1,0.2,0.3,0.5,0.6,0.9l0.6,1.1H255
                          l-0.4-0.9c-0.2-0.4-0.4-0.7-0.5-0.9c-0.1-0.2-0.3-0.3-0.4-0.4c-0.1-0.1-0.3-0.1-0.5-0.1h-0.3L252.8,9.6L252.8,9.6z M252.8,5.1v1.5
                          h0.9c0.4,0,0.7-0.1,0.9-0.2c0.2-0.1,0.3-0.3,0.3-0.6c0-0.2-0.1-0.4-0.3-0.5c-0.2-0.1-0.5-0.2-0.8-0.2
-                         C253.7,5.1,252.8,5.1,252.8,5.1z"/>
-                <path d="M146.6,74.2c0,0,16.6-6.1,28-6.1c11.4,0,23.5,10.4,38.1,10.4c8.1,0,18-6.6,18-6.6s-7.5,2.4-14.9,2.4
-                         c-13.7,0-28.2-8.2-40.8-8.2C163.8,66.1,146.6,74.2,146.6,74.2z"/>
-                <path d="M184.8,65.6c0,0,6.6-2.5,20.2-2.5c6.1,0,18.9,5,29.7,5c6.5,0,13.9-2.5,13.9-2.5s-7,4.6-15.6,4.6c-11.9,0-23.2-5.9-34.6-5.9
-                         C193.1,64.4,184.8,65.6,184.8,65.6z"/>
-              </g>
-            </svg>
-          </div>
-          <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
-            <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
-              <svg className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg>
-              <p className="relative">I`ve been working with StuntCoders for several years and highly recommend them. They have been helping me with both my Magento and WooCommerce webshop. Nice people, great service!</p>
+                         C253.7,5.1,252.8,5.1,252.8,5.1z"
+                  />
+                  <path
+                    d="M146.6,74.2c0,0,16.6-6.1,28-6.1c11.4,0,23.5,10.4,38.1,10.4c8.1,0,18-6.6,18-6.6s-7.5,2.4-14.9,2.4
+                         c-13.7,0-28.2-8.2-40.8-8.2C163.8,66.1,146.6,74.2,146.6,74.2z"
+                  />
+                  <path
+                    d="M184.8,65.6c0,0,6.6-2.5,20.2-2.5c6.1,0,18.9,5,29.7,5c6.5,0,13.9-2.5,13.9-2.5s-7,4.6-15.6,4.6c-11.9,0-23.2-5.9-34.6-5.9
+                         C193.1,64.4,184.8,65.6,184.8,65.6z"
+                  />
+                </g>
+              </svg>
             </div>
-            <footer className="mt-8"><div className="flex">
-              <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-              <img className="h-12 w-12 rounded-full" src="images/helene-bedtime.jpg" alt="" loading="auto" />
+            <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
+              <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+                <svg
+                  className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                  fill="currentColor"
+                  viewBox="0 0 32 32"
+                >
+                  <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path>
+                </svg>
+                <p className="relative">
+                  I`ve been working with StuntCoders for several years and
+                  highly recommend them. They have been helping me with both my
+                  Magento and WooCommerce webshop. Nice people, great service!
+                </p>
               </div>
-              <div className="ml-4">
-                <div className="text-base leading-6 font-medium text-white">Helene Dahlberg Årstad</div>
-                <div className="text-base leading-6 font-medium text-indigo-200">CEO, Bedtime</div>
-              </div>
-              </div>
-            </footer></blockquote>
-        </div>
+              <footer className="mt-8">
+                <div className="flex">
+                  <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                    <StaticImage
+                      className="h-12 w-12 rounded-full"
+                      src="../images/helene-bedtime.jpg"
+                      alt=""
+                      loading="auto"
+                    />
+                  </div>
+                  <div className="ml-4">
+                    <div className="text-base leading-6 font-medium text-white">
+                      Helene Dahlberg Årstad
+                    </div>
+                    <div className="text-base leading-6 font-medium text-indigo-200">
+                      CEO, Bedtime
+                    </div>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
         </div>
       </section>
 
-      <section className="bg-white overflow-hidden"><div className="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
-          <svg className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden" width="784" height="404" fill="none" viewbox="0 0 784 404"><defs><pattern id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32" x="0" y="0" width="20" height="20" patternunits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="784" height="404" fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)"></rect></svg><svg className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2" width="404" height="784" fill="none" viewbox="0 0 404 784"><defs><pattern id="56409614-3d62-4985-9a10-7ca758a8f4f0" x="0" y="0" width="20" height="20" patternunits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)"></rect></svg><div className="relative lg:flex lg:items-center">
+      <section className="bg-white overflow-hidden">
+        <div className="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
+          <svg
+            className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
+            width="784"
+            height="404"
+            fill="none"
+            viewbox="0 0 784 404"
+          >
+            <defs>
+              <pattern
+                id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternunits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                ></rect>
+              </pattern>
+            </defs>
+            <rect
+              width="784"
+              height="404"
+              fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)"
+            ></rect>
+          </svg>
+          <svg
+            className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2"
+            width="404"
+            height="784"
+            fill="none"
+            viewbox="0 0 404 784"
+          >
+            <defs>
+              <pattern
+                id="56409614-3d62-4985-9a10-7ca758a8f4f0"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternunits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                ></rect>
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="784"
+              fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)"
+            ></rect>
+          </svg>
+          <div className="relative lg:flex lg:items-center">
             <div className="hidden lg:block lg:flex-shrink-0">
-            <img className="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="images/ace.jpeg" alt="" loading="auto" />
+              <StaticImage
+                className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
+                src="../images/ace.jpeg"
+                alt=""
+                loading="auto"
+              />
             </div>
             <div className="relative lg:ml-10">
-              <svg className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50" stroke="currentColor" fill="none" viewbox="0 0 144 144"><path stroke-width="2" d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"></path></svg><blockquote className="relative">
+              <svg
+                className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
+                stroke="currentColor"
+                fill="none"
+                viewbox="0 0 144 144"
+              >
+                <path
+                  stroke-width="2"
+                  d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"
+                ></path>
+              </svg>
+              <blockquote className="relative">
                 <div className="text-2xl leading-9 font-medium text-gray-900">
-                  <p>We have been happily working with Dejan and StuntCoders for almost 5 years now and we especially commend them for their care and attention to our project and business. Apart from their professionalism and attention to the business side of things it is StuntCoders extraordinarily GREAT people that make up the core of their company. We could not have done it without them, and we really can not recommend them highly enough!</p>
+                  <p>
+                    We have been happily working with Dejan and StuntCoders for
+                    almost 5 years now and we especially commend them for their
+                    care and attention to our project and business. Apart from
+                    their professionalism and attention to the business side of
+                    things it is StuntCoders extraordinarily GREAT people that
+                    make up the core of their company. We could not have done it
+                    without them, and we really can not recommend them highly
+                    enough!
+                  </p>
                 </div>
-                <footer className="mt-8"><div className="flex">
+                <footer className="mt-8">
+                  <div className="flex">
                     <div className="flex-shrink-0 lg:hidden">
-                    <img className="h-12 w-12 rounded-full" src="images/ace.jpeg" alt="" loading="auto" />
+                      <StaticImage
+                        className="h-12 w-12 rounded-full"
+                        src="../images/ace.jpeg"
+                        alt=""
+                        loading="auto"
+                      />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base leading-6 font-medium text-gray-900">Anders Sverdvik</div>
-                      <div className="text-base leading-6 font-medium text-indigo-600">CEO, Warholms</div>
+                      <div className="text-base leading-6 font-medium text-gray-900">
+                        Anders Sverdvik
+                      </div>
+                      <div className="text-base leading-6 font-medium text-indigo-600">
+                        CEO, Warholms
+                      </div>
                     </div>
                   </div>
-                </footer></blockquote>
+                </footer>
+              </blockquote>
             </div>
           </div>
         </div>
@@ -1170,17 +1867,18 @@ export default function Testimonials() {
         <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
           <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             <span>Ready to dive in?</span>
-            <br/>
+            <br />
             <span className="text-indigo-600">We'll get you covered.</span>
           </h2>
           <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0">
             <div className="inline-flex rounded-md shadow">
-                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                   href="/contact/"
-                   onclick="fbq('track', 'Testimonials sign up', {content_name: 'Testimonials sign up',content_category: 'Testimonials sign up',});gtag('event', 'sign_up', {method: 'Testimonials sign up'});"
-                >
-                    Get started
-                </a>
+              <a
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                href="/contact/"
+                onclick="fbq('track', 'Testimonials sign up', {content_name: 'Testimonials sign up',content_category: 'Testimonials sign up',});gtag('event', 'sign_up', {method: 'Testimonials sign up'});"
+              >
+                Get started
+              </a>
             </div>
           </div>
         </div>
@@ -1189,19 +1887,126 @@ export default function Testimonials() {
       <div className="relative py-16 bg-white overflow-hidden">
         <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
           <div className="relative h-full text-lg max-w-prose mx-auto">
-            <svg className="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384"><defs><pattern id="74b3fd99-0a6f-4271-bef2-e80eeafdf357" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="384" fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"></rect></svg>
-            <svg className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384"><defs><pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="384" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"></rect></svg>
-            <svg className="absolute bottom-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384"><defs><pattern id="d3eb07ae-5182-43e6-857d-35c643af9034" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect className="text-gray-200" x="0" y="0" width="4" height="4" fill="currentColor"></rect></pattern></defs><rect width="404" height="384" fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"></rect></svg>
+            <svg
+              className="absolute top-12 left-full transform translate-x-32"
+              width="404"
+              height="384"
+              fill="none"
+              viewBox="0 0 404 384"
+            >
+              <defs>
+                <pattern
+                  id="74b3fd99-0a6f-4271-bef2-e80eeafdf357"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    className="text-gray-200"
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    fill="currentColor"
+                  ></rect>
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="384"
+                fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)"
+              ></rect>
+            </svg>
+            <svg
+              className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
+              width="404"
+              height="384"
+              fill="none"
+              viewBox="0 0 404 384"
+            >
+              <defs>
+                <pattern
+                  id="f210dbf6-a58d-4871-961e-36d5016a0f49"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    className="text-gray-200"
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    fill="currentColor"
+                  ></rect>
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="384"
+                fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
+              ></rect>
+            </svg>
+            <svg
+              className="absolute bottom-12 left-full transform translate-x-32"
+              width="404"
+              height="384"
+              fill="none"
+              viewBox="0 0 404 384"
+            >
+              <defs>
+                <pattern
+                  id="d3eb07ae-5182-43e6-857d-35c643af9034"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    className="text-gray-200"
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    fill="currentColor"
+                  ></rect>
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="384"
+                fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)"
+              ></rect>
+            </svg>
           </div>
         </div>
         <div className="relative px-4 sm:px-6 lg:px-8">
           <div className="text-lg max-w-prose mx-auto mb-6">
-            <p className="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Video testimonial</p>
-            <h1 className="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">Christofer from Etiketta</h1>
+            <p className="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+              Video testimonial
+            </p>
+            <h1 className="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+              Christofer from Etiketta
+            </h1>
             <figure>
-            <a href="https://www.youtube.com/watch?v=UNwPgOZnQHE" target="_blank">
-            <img className="w-full rounded-lg" src="https://stcdshare.s3.amazonaws.com/etiketta-christofer-stuntcoders-review-play-min-min-min.jpg" alt="" width="1310" height="873" loading="auto" />
-            </a>
+              <a
+                href="https://www.youtube.com/watch?v=UNwPgOZnQHE"
+                target="_blank"
+              >
+                <img
+                  className="w-full rounded-lg"
+                  src="https://stcdshare.s3.amazonaws.com/etiketta-christofer-stuntcoders-review-play-min-min-min.jpg"
+                  alt=""
+                  width="1310"
+                  height="873"
+                  loading="auto"
+                />
+              </a>
             </figure>
           </div>
         </div>
@@ -1209,18 +2014,36 @@ export default function Testimonials() {
 
       <div className="relative bg-gray-800">
         <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-        <img className="w-full h-full object-cover" src="images/stunt-family.jpg" alt="StuntCoders family" loading="auto" />
+          <StaticImage
+            className="w-full h-full object-cover"
+            src="../images/stunt-family.jpg"
+            alt="StuntCoders family"
+            loading="auto"
+          />
         </div>
         <div className="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="md:ml-auto md:w-1/2 md:pl-10">
-            <div className="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300">Word-class support</div>
-            <h2 className="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">We’re here to help</h2>
-            <p className="mt-3 text-lg leading-7 text-gray-300">Learn more about us and how we work with our customers.</p>
+            <div className="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300">
+              Word-class support
+            </div>
+            <h2 className="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
+              We’re here to help
+            </h2>
+            <p className="mt-3 text-lg leading-7 text-gray-300">
+              Learn more about us and how we work with our customers.
+            </p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">
-                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" href="/about-us/">
+                <a
+                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  href="/about-us/"
+                >
                   <span>Learn more about us</span>
-                  <svg className="-mr-1 ml-3 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                  <svg
+                    className="-mr-1 ml-3 h-5 w-5 text-gray-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
                     <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
                     <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
                   </svg>
@@ -1231,5 +2054,5 @@ export default function Testimonials() {
         </div>
       </div>
     </LayoutPage>
-  )
+  );
 }
