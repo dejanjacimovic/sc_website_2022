@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { GatsbyImage, StaticImage } from 'gatsby-plugin-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
@@ -292,9 +292,9 @@ function project(clientName, client) {
     <li>
       <div class="space-y-4">
         <div class="aspect-w-3 aspect-h-2">
-          <StaticImage
-            class="object-cover shadow-lg rounded-lg"
-            src={imageSrc}
+          <GatsbyImage
+            className="object-cover shadow-lg rounded-lg"
+            image={imageSrc}
             alt={clientName}
           />
         </div>
