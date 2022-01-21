@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 import AddedValue from '../components/blocks/added_value';
@@ -1012,9 +1013,9 @@ export default function ServicesWoocommerceMaintenance() {
 
       <div className="relative bg-white">
         <div className="h-56 bg-indigo-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
-          <img
+          <GatsbyImage
             className="w-full h-full object-cover"
-            src="images/magic-in-the-office.jpg"
+            image={getImage('../images/magic-in-the-office.jpg')}
             alt="Magic in the office"
             loading="auto"
           />
