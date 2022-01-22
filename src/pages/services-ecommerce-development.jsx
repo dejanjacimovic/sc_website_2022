@@ -780,7 +780,7 @@ export default function ServicesEcommerceDevelopment() {
               </div>
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
                 <Link
-                  href="/case/camp-david/"
+                  to="/case/camp-david/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
                   Read the study<span aria-hidden="true"> →</span>
@@ -836,7 +836,7 @@ export default function ServicesEcommerceDevelopment() {
               </div>
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
                 <Link
-                  href="/case/selekkt/"
+                  to="/case/selekkt/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
                   Read the study<span aria-hidden="true"> →</span>
