@@ -2,6 +2,7 @@ import React from 'react';
 import LayoutPage from '../components/layout_page';
 import NavLeft from '../components/nav_left';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
 
 import imgMarkoDejan from '../images/marko-og-dejan.jpg';
 import imgTerje from '../images/terje.jpg';
