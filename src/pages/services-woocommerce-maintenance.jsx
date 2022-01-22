@@ -58,12 +58,12 @@ function QA(question, answer, isFirst = true) {
 
   return (
     <div classVal>
-      <dt class="text-lg leading-7">
-        <button class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
-          <span class="font-medium text-gray-900">{question}</span>
-          <span class="ml-6 h-7 flex items-center">
+      <dt className="text-lg leading-7">
+        <button className="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
+          <span className="font-medium text-gray-900">{question}</span>
+          <span className="ml-6 h-7 flex items-center">
             <svg
-              class="-rotate-180 h-6 w-6 transform"
+              className="-rotate-180 h-6 w-6 transform"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -78,8 +78,8 @@ function QA(question, answer, isFirst = true) {
           </span>
         </button>
       </dt>
-      <dd class="mt-2 pr-12">
-        <p class="text-base leading-6 text-gray-500">{answer}</p>
+      <dd className="mt-2 pr-12">
+        <p className="text-base leading-6 text-gray-500">{answer}</p>
       </dd>
     </div>
   );
