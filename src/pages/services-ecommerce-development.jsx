@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
@@ -1167,23 +1168,23 @@ export default function ServicesEcommerceDevelopment() {
                 />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
+                <StaticImage
                   className="h-12"
-                  src="/images/marketplaces/ebay.png"
+                  src="../images/marketplaces/ebay.png"
                   alt="ebay"
                 />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-                <img
+                <StaticImage
                   className="h-12"
-                  src="/images/marketplaces/zalando.svg"
+                  src="../images/marketplaces/zalando.svg"
                   alt="Zalando"
                 />
               </div>
               <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-                <img
+                <StaticImage
                   className="h-12"
-                  src="/images/marketplaces/goertz.png"
+                  src="../images/marketplaces/goertz.png"
                   alt="Goertz"
                 />
               </div>
@@ -1193,7 +1194,7 @@ export default function ServicesEcommerceDevelopment() {
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="/contact/?subject=marketplaces"
+                href="/contact/"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Contact us to learn more
@@ -1307,44 +1308,44 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img
+                <StaticImage
                   className="max-h-12"
-                  src="/images/partnerships/digitalocean.svg"
+                  src="../images/partnerships/digitalocean.svg"
                   alt="DigitalOcean"
                 />
               </div>
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img
+                <StaticImage
                   className="max-h-12"
-                  src="/images/partnerships/aws.png"
+                  src="../images/partnerships/aws.png"
                   alt="AWS"
                 />
               </div>
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img
+                <StaticImage
                   className="max-h-12"
-                  src="/images/partnerships/cpanel.svg"
+                  src="../images/partnerships/cpanel.svg"
                   alt="cPanel"
                 />
               </div>
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img
+                <StaticImage
                   className="max-h-12"
-                  src="/images/partnerships/mailchimp.png"
+                  src="../images/partnerships/mailchimp.png"
                   alt="MailChimp"
                 />
               </div>
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img
+                <StaticImage
                   className="max-h-12"
-                  src="/images/partnerships/algolia.png"
+                  src="../images/partnerships/algolia.png"
                   alt="Algolia"
                 />
               </div>
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                <img
+                <StaticImage
                   className="max-h-12"
-                  src="/images/partnerships/tradebyte.svg"
+                  src="../images/partnerships/tradebyte.svg"
                   alt="Tradebyte"
                 />
               </div>
@@ -1452,10 +1453,10 @@ export default function ServicesEcommerceDevelopment() {
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
                 />
               </svg>
-              <img
+              <StaticImage
                 className="relative mx-auto rounded-lg shadow-xl border-gray-200"
                 width="490"
-                src="/images/nearshoring.jpeg"
+                src="../images/nearshoring.jpeg"
                 alt="Experienced developer"
                 loading="auto"
               />
@@ -1546,11 +1547,11 @@ export default function ServicesEcommerceDevelopment() {
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
                   />
                 </svg>
-                <img
+                <StaticImage
                   className="relative mx-auto rounded-lg shadow-xl border-gray-200"
                   width="490"
-                  src="/images/why.jpg"
-                  alt=""
+                  src="../images/why.jpg"
+                  alt="Why?"
                   loading="auto"
                 />
               </div>
