@@ -967,7 +967,7 @@ export default function Home() {
           <div className="absolute inset-0">
             <StaticImage
               className="w-full h-full object-cover"
-              src="/images/working-class-hero.jpeg"
+              src="../images/working-class-hero.jpeg"
               alt="Working class hero is something to be"
             />
             <div

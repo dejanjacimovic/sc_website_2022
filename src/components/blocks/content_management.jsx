@@ -48,7 +48,7 @@ export default function ContentManagement() {
             <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden lg:h-96">
               <StaticImage
                 className="absolute inset-0 h-full w-full object-cover"
-                src="images/content-management-done-for-you.jpg"
+                src="../../images/content-management-done-for-you.jpg"
                 alt="Content management done for you"
               />
             </div>
