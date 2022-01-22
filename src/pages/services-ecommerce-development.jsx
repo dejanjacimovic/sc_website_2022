@@ -691,7 +691,7 @@ export default function ServicesEcommerceDevelopment() {
                   <p className="text-sm font-medium text-indigo-600">
                     Case Study
                   </p>
-                  <a href="/case/tesori/" className="block mt-2">
+                  <Link to="/case/tesori/" className="block mt-2">
                     <p className="text-xl font-semibold text-gray-900">
                       Tesori Diamanter
                     </p>
@@ -705,7 +705,7 @@ export default function ServicesEcommerceDevelopment() {
                       Tesori selected StuntCoders for their partner in this
                       long-lasting pursuit of perfection.
                     </p>
-                  </a>
+                  </Link>
                 </div>
                 <div className="mt-8 text-center md:flex md:items-center">
                   <div className="text-base font-medium text-gray-900">
@@ -724,12 +724,12 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
               </div>
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
-                <a
-                  href="/case/tesori/"
+                <Link
+                  to="/case/tesori/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
                   Read the study<span aria-hidden="true"> →</span>
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -746,7 +746,7 @@ export default function ServicesEcommerceDevelopment() {
                   <p className="text-sm font-medium text-indigo-600">
                     Case Study
                   </p>
-                  <a href="/case/camp-david/" className="block mt-2">
+                  <Link to="/case/camp-david/" className="block mt-2">
                     <p className="text-xl font-semibold text-gray-900">
                       Camp David & Soccx
                     </p>
@@ -760,7 +760,7 @@ export default function ServicesEcommerceDevelopment() {
                       individual is saving 40+ hours a month on previously
                       manual tasks.
                     </p>
-                  </a>
+                  </Link>
                 </div>
                 <div className="mt-8 text-center md:flex md:items-center">
                   <div className="text-base font-medium text-gray-900">
@@ -779,12 +779,12 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
               </div>
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
-                <a
+                <Link
                   href="/case/camp-david/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
                   Read the study<span aria-hidden="true"> →</span>
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -835,12 +835,12 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
               </div>
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
-                <a
+                <Link
                   href="/case/selekkt/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
                   Read the study<span aria-hidden="true"> →</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

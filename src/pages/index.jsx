@@ -673,12 +673,12 @@ export default function Home() {
             </p>
             <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
               <div className="mt-8 inline-flex rounded-md shadow">
-                <a
-                  href="/pricing/"
+                <Link
+                  to="/pricing/"
                   className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   See pricing
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1114,12 +1114,12 @@ export default function Home() {
               </Link>
             </div>
             <div className="ml-3 inline-flex rounded-md shadow">
-              <a
+              <Link
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/testimonials/"
+                to="/testimonials/"
               >
                 What did our customers say?
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -2097,9 +2097,9 @@ export default function Home() {
             <p className="mt-3 text-lg leading-7 text-gray-300"> </p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">
-                <a
+                <Link
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                  href="/about-us/"
+                  to="/about-us/"
                 >
                   <span>Learn more about us</span>
                   <svg
@@ -2110,7 +2110,7 @@ export default function Home() {
                     <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                     <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
