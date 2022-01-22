@@ -1,6 +1,7 @@
 import React from 'react';
 import LayoutPage from '../components/layout_page';
 import NavLeft from '../components/nav_left';
+import { StaticImage } from 'gatsby-plugin-image';
 
 import imgMarkoDejan from '../images/marko-og-dejan.jpg';
 import imgTerje from '../images/terje.jpg';
@@ -965,7 +966,7 @@ export default function Home() {
       <div className="">
         <div className="relative pb-32 bg-gray-800">
           <div className="absolute inset-0">
-            <img
+            <StaticImage
               className="w-full h-full object-cover"
               src="/images/working-class-hero.jpeg"
               alt="Working class hero is something to be"

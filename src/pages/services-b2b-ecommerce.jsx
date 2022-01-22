@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
@@ -695,23 +696,23 @@ export default function ServicesB2bEcommerce() {
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img className="h-12" src="/images/media/cbs.svg" alt="CBS" />
+                  <StaticImage className="h-12" src="../images/media/cbs.svg" alt="CBS" />
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img className="h-12" src="/images/media/fox.svg" alt="FOX" />
+                  <StaticImage className="h-12" src="../images/media/fox.svg" alt="FOX" />
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img className="h-12" src="/images/media/nbc.svg" alt="NBC" />
+                  <StaticImage className="h-12" src="../images/media/nbc.svg" alt="NBC" />
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-                  <img
+                  <StaticImage
                     className="h-12"
-                    src="/images/media/usa-today.svg"
+                    src="../images/media/usa-today.svg"
                     alt="USA Today"
                   />
                 </div>
                 <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-                  <img className="h-12" src="/images/media/ncn.svg" alt="NCN" />
+                  <StaticImage className="h-12" src="../images/media/ncn.svg" alt="NCN" />
                 </div>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default function ContentManagement() {
   return (
@@ -45,7 +46,7 @@ export default function ContentManagement() {
           </div>
           <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
             <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden lg:h-96">
-              <img
+              <StaticImage
                 className="absolute inset-0 h-full w-full object-cover"
                 src="images/content-management-done-for-you.jpg"
                 alt="Content management done for you"

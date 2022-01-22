@@ -80,9 +80,9 @@ export default function ServicesEcommerceDevelopment() {
 
           <div className="relative pb-32 mt-8 bg-gray-800">
             <div className="absolute inset-0">
-              <img
+              <StaticImage
                 className="w-full h-full object-cover"
-                src="/images/working-class-hero.jpeg"
+                src="../images/working-class-hero.jpeg"
                 alt="Working class hero is something to be"
               />
               <div
@@ -679,9 +679,9 @@ export default function ServicesEcommerceDevelopment() {
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div className="flex-shrink-0">
-                <img
+                <StaticImage
                   className="h-48 w-full object-cover"
-                  src="/images/portfolio/tesori.jpeg"
+                  src="../images/portfolio/tesori.jpeg"
                   alt="Tesori portfolio image"
                 />
               </div>
@@ -734,9 +734,9 @@ export default function ServicesEcommerceDevelopment() {
 
             <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div className="flex-shrink-0">
-                <img
+                <StaticImage
                   className="h-48 w-full object-cover"
-                  src="/images/portfolio/clinton-b2b.jpeg"
+                  src="../images/portfolio/clinton-b2b.jpeg"
                   alt="Camp David Soccx"
                 />
               </div>
@@ -789,9 +789,9 @@ export default function ServicesEcommerceDevelopment() {
 
             <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div className="flex-shrink-0">
-                <img
+                <StaticImage
                   className="h-48 w-full object-cover"
-                  src="/images/portfolio/selekkt.jpeg"
+                  src="../images/portfolio/selekkt.jpeg"
                   alt="Selekkt"
                 />
               </div>
@@ -914,9 +914,9 @@ export default function ServicesEcommerceDevelopment() {
           </svg>
           <div className="relative lg:flex lg:items-center">
             <div className="hidden lg:block lg:flex-shrink-0">
-              <img
+              <StaticImage
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                src="images/terje.jpg"
+                src="../images/terje.jpg"
                 alt="Teje Tesori"
                 loading="auto"
               />
@@ -949,9 +949,9 @@ export default function ServicesEcommerceDevelopment() {
                 <footer className="mt-8">
                   <div className="flex">
                     <div className="flex-shrink-0 lg:hidden">
-                      <img
+                      <StaticImage
                         className="h-12 w-12 rounded-full"
-                        src="images/terje.jpg"
+                        src="../images/terje.jpg"
                         alt=""
                         loading="auto"
                       />
@@ -1153,16 +1153,16 @@ export default function ServicesEcommerceDevelopment() {
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
+                <StaticImage
                   className="h-12"
-                  src="/images/marketplaces/otto.png"
+                  src="../images/marketplaces/otto.png"
                   alt="Otto"
                 />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
+                <StaticImage
                   className="h-12"
-                  src="/images/marketplaces/amazon.png"
+                  src="../images/marketplaces/amazon.png"
                   alt="Amazon"
                 />
               </div>
