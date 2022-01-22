@@ -276,12 +276,12 @@ export default function Pricing() {
               </ul>
             </div>
 
-            <a
-              href="/contact/"
+            <Link
+              to="/contact/"
               className="bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
             >
               Contact us
-            </a>
+            </Link>
           </div>
 
           <div className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
@@ -576,12 +576,12 @@ export default function Pricing() {
               </ul>
             </div>
 
-            <a
-              href="/contact/"
+            <Link
+              to="/contact/"
               className="bg-indigo-500 text-white hover:bg-indigo-600 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
             >
               Contact us
-            </a>
+            </Link>
           </div>
 
           <div className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
@@ -712,12 +712,12 @@ export default function Pricing() {
               </ul>
             </div>
 
-            <a
-              href="/contact/"
+            <Link
+              to="/contact/"
               className="bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
             >
               Contact us
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -776,12 +776,12 @@ export default function Pricing() {
             </h2>
             <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0">
               <div className="inline-flex rounded-md shadow">
-                <a
-                  href="/contact/"
+                <Link
+                  to="/contact/"
                   className="bg-indigo-600 border border-transparent rounded-md py-3 px-5 inline-flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700"
                 >
                   Contact us
-                </a>
+                </Link>
               </div>
             </div>
           </div>

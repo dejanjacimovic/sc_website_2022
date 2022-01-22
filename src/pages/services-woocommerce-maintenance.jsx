@@ -175,12 +175,12 @@ export default function ServicesWoocommerceMaintenance() {
               </p>
               <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
-                  <a
+                  <Link
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
-                    href="/contact/"
+                    to="/contact/"
                   >
                     Get started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -991,21 +991,20 @@ export default function ServicesWoocommerceMaintenance() {
           </h2>
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
-              <a
+              <Link
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/contact/"
-                onclick="fbq('track', 'Services sign up', {content_name: 'Services sign up',content_category: 'Services sign up',});gtag('event', 'sign_up', {method: 'Services sign up'});"
+                to="/contact/"
               >
                 Get started
-              </a>
+              </Link>
             </div>
             <div className="ml-3 inline-flex">
-              <a
+              <Link
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out"
-                href="/testimonials/"
+                to="/testimonials/"
               >
                 See what our customers said?
-              </a>
+              </Link>
             </div>
           </div>
         </div>

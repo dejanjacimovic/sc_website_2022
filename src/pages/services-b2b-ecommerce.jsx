@@ -102,12 +102,12 @@ export default function ServicesB2bEcommerce() {
               </p>
               <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
-                  <a
+                  <Link
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                     href="/contact/"
                   >
                     Schedule a demo
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -592,12 +592,12 @@ export default function ServicesB2bEcommerce() {
 
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
-              <a
-                href="/contact/"
+              <Link
+                to="/contact/"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Contact us for a demo
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -930,12 +930,12 @@ export default function ServicesB2bEcommerce() {
           </h2>
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
-              <a
+              <Link
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/contact/"
+                to="/contact/"
               >
                 Contact us
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -1032,12 +1032,12 @@ export default function ServicesB2bEcommerce() {
                 project manager on the side of the client.
               </p>
             </div>
-            <a
+            <Link
               className="mt-8 w-full bg-indigo-600 border border-transparent px-5 py-3 inline-flex items-center justify-center text-base leading-6 font-medium rounded-md text-white hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out sm:mt-10 sm:w-auto xl:mt-0"
-              href="/contact/"
+              to="/contact/"
             >
               Get a custom quote
-            </a>
+            </Link>
           </div>
         </div>
       </div>

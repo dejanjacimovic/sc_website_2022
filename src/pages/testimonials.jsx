@@ -1872,13 +1872,12 @@ export default function Testimonials() {
           </h2>
           <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0">
             <div className="inline-flex rounded-md shadow">
-              <a
+              <Link
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/contact/"
-                onclick="fbq('track', 'Testimonials sign up', {content_name: 'Testimonials sign up',content_category: 'Testimonials sign up',});gtag('event', 'sign_up', {method: 'Testimonials sign up'});"
+                to="/contact/"
               >
                 Get started
-              </a>
+              </Link>
             </div>
           </div>
         </div>

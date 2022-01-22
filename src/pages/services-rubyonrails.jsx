@@ -91,12 +91,12 @@ export default function ServicesRubyonrails() {
               </p>
               <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
-                  <a
+                  <Link
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
-                    href="/contact/"
+                    to="/contact/"
                   >
                     Get started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -431,12 +431,12 @@ export default function ServicesRubyonrails() {
           </h2>
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
-              <a
-                href="/contact/"
+              <Link
+                to="/contact/"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700"
               >
                 Contact us
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -762,20 +762,20 @@ export default function ServicesRubyonrails() {
           </h2>
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
-              <a
+              <Link
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/contact/"
+                to="/contact/"
               >
                 Get in touch
-              </a>
+              </Link>
             </div>
             <div className="ml-3 inline-flex">
-              <a
+              <Link
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-red-700 bg-red-100 hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 transition duration-150 ease-in-out"
-                href="/testimonials/"
+                to="/testimonials/"
               >
                 See what our customers said?
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -1302,12 +1302,12 @@ export default function ServicesRubyonrails() {
           </h2>
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
-              <a
+              <Link
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                href="/contact/"
+                to="/contact/"
               >
                 Get in touch
-              </a>
+              </Link>
             </div>
           </div>
         </div>

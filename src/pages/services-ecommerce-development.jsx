@@ -500,13 +500,13 @@ export default function ServicesEcommerceDevelopment() {
                       </li>
                     </ul>
                     <div className="rounded-md shadow">
-                      <a
-                        href="/contact/?subject=Micro%team"
+                      <Link
+                        to="/contact/"
                         className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
                         aria-describedby="tier-standard"
                       >
                         Get started
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -625,13 +625,13 @@ export default function ServicesEcommerceDevelopment() {
                       </li>
                     </ul>
                     <div className="rounded-md shadow">
-                      <a
-                        href="/contact/?subject=Accelerated%development"
+                      <Link
+                        to="/contact/"
                         className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
                         aria-describedby="tier-standard"
                       >
                         Get started
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -1193,12 +1193,12 @@ export default function ServicesEcommerceDevelopment() {
 
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
-              <a
-                href="/contact/"
+              <Link
+                to="/contact/"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Contact us to learn more
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -1297,12 +1297,12 @@ export default function ServicesEcommerceDevelopment() {
               </p>
               <div className="mt-8 sm:flex">
                 <div className="mt-3 sm:mt-0">
-                  <a
-                    href="/contact/?subject=ecommerce%20development"
+                  <Link
+                    to="/contact/"
                     className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1773,12 +1773,12 @@ export default function ServicesEcommerceDevelopment() {
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <a
-                href="/contact/?subject=Book%20call"
+              <Link
+                to="/contact/"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Get started
-              </a>
+              </Link>
             </div>
           </div>
         </div>
