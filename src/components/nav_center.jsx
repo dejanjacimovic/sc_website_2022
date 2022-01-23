@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'gatsby';
 
 export default class NavCenter extends React.Component {
@@ -16,12 +16,12 @@ export default class NavCenter extends React.Component {
   }
 
   _openMobileMenu() {
-    this.setState = { hiddenMobile: '' };
+    this.setState({hiddenMobile: ''});
     console.log('OPEN mobile menu');
   }
 
-  _closeMobileMenu() {
-    this.setState = { hiddenMobile: 'hidden' };
+  closeMobileMenu() {
+    // this.setState({hiddenMobile: 'hidden'});
     console.log('hide mobile menu');
   }
 
@@ -30,7 +30,7 @@ export default class NavCenter extends React.Component {
   // let closedMenu = '';
 
   render () {
-    let hiddenMobileVal = 'absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
+    let hiddenMobileVal = 'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
     let hiddenDesktopVal = '';
 
     if (this.state.hiddenMobile == 'absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50') {
@@ -217,7 +217,7 @@ export default class NavCenter extends React.Component {
                     className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                     type="button"
                     aria-label="Close menu"
-                    onClick={this._closeMobileMenu()}
+                    onClick={() => this.setState({ hiddenMobile: 'hidden' }) }
                   >
                     <svg
                       className="h-6 w-6"
@@ -241,7 +241,7 @@ export default class NavCenter extends React.Component {
                     type="button"
                     className="w-full px-3 py-2 text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
                     aria-expanded="false"
-                    onClick={this._closeMobileMenu()}
+                    onClick={() => closeMobileMenu()}
                   >
                     <span className="font-medium text-gray-700 hover:text-gray-900  focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
                       Services
