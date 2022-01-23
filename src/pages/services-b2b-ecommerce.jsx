@@ -3,10 +3,7 @@ import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
-
-function getB2BPrice() {
-  return '27.6500 eur';
-}
+import { getB2BPrice } from '../helpers/index.jsx';
 
 export default function ServicesB2bEcommerce() {
   return (
