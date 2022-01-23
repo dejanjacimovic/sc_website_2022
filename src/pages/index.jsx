@@ -3,18 +3,7 @@ import LayoutPage from '../components/layout_page';
 import NavLeft from '../components/nav_left';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
-
-function getHeroPhrase() {
-  return 'killing it!';
-}
-
-function getHeroRegionPhrase() {
-  return 'Europe';
-}
-
-function getRegionName() {
-  return 'European';
-}
+import { getHeroPhrase, getHeroRegionPhrase, getRegionName } from '../helpers/index.jsx';
 
 export default function Home() {
   return (
