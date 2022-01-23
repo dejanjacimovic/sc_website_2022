@@ -70,6 +70,7 @@ function getUserIp() {
 
 function getCountryName() {
   // check if country name in cookie? if so, return cookie value
+  cookieStore.set('country', 'United States');
   return 'United States';
 
   let userIP = getUserIp();
