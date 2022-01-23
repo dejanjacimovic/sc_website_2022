@@ -89,7 +89,7 @@ function getCountryName() {
   return $country;
 }
 
-function getB2BPrice() {
+export function getB2BPrice() {
   let country = getCountryName();
 
   switch (country) {
