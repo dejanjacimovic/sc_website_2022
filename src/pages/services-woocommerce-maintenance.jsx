@@ -3,11 +3,11 @@ import { Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
+import { getMaintenancePrice, getFaq } from '../helpers/index.jsx';
 import AddedValue from '../components/blocks/added_value';
 import ContentManagement from '../components/blocks/content_management';
 import PlusIntegrations from '../components/blocks/plus_integrations';
 import Woocommerce from '../components/blocks/woocommerce';
-import { getMaintenancePrice, getFaq } from '../helpers/index.jsx';
 
 function faqList() {
   let myArray = getFaq();
@@ -1063,12 +1063,12 @@ export default function ServicesWoocommerceMaintenance() {
                 below.
               </p>
             </div>
-            <a
+            <Link
               className="mt-8 w-full bg-indigo-600 border border-transparent px-5 py-3 inline-flex items-center justify-center text-base leading-6 font-medium rounded-md text-white hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out sm:mt-10 sm:w-auto xl:mt-0"
-              href="/pricing/"
+              to="/pricing/"
             >
               See our pricing
-            </a>
+            </Link>
           </div>
           <div className="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:col-gap-8">
             <div>
