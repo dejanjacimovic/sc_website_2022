@@ -106,7 +106,7 @@ function getB2BPrice() {
   }
 }
 
-function getMaintenancePrice() {
+export function getMaintenancePrice() {
   let country = getCountryName();
 
   switch (country) {
@@ -140,7 +140,7 @@ function getMaintenanceValue() {
   }
 }
 
-function getFaq() {
+export function getFaq() {
   return {
     'Do you offer 24/7 support?':
       'Our office hours are 9 AM – 6 PM Central European Time, Monday through Friday. Any request submitted during off-hours are immediately attended with SLA of 90 minutes. However, in an emergency, you can call our emergency line, and immediate support is provided to you regardless of the hours.',
