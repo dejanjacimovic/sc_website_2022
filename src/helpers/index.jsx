@@ -122,3 +122,20 @@ function getMaintenancePrice() {
       return '380 €';
   }
 }
+
+function getMaintenanceValue() {
+  country = getCountryName();
+
+  switch (country) {
+    case 'United States':
+      return '$10.000+ USD';
+    case 'Norway':
+      return '100.000+ NOK';
+    case 'Sweden':
+      return '100.000+ SEK';
+    case 'Denmark':
+      return '100.000+ DKK';
+    default:
+      return '10.000+ €';
+  }
+}
