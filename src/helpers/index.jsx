@@ -88,3 +88,20 @@ function getCountryName() {
 
   return $country;
 }
+
+function getB2BPrice() {
+  let country = getCountryName();
+
+  switch ($country) {
+    case 'United States':
+      return '$31.700 USD';
+    case 'Norway':
+      return '280.920 kr';
+    case 'Sweden':
+      return '275.150 kr';
+    case 'Denmark':
+      return '200.100 kr';
+    default:
+      return '27.650 €';
+  }
+}
