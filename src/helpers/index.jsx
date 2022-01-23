@@ -21,7 +21,23 @@ export function getHeroPhrase() {
 }
 
 export function getHeroRegionPhrase() {
-  return 'Europe';
+  let country = getCountryName();
+
+  switch (country) {
+    case 'United States':
+      return 'US';
+    case 'Norway':
+      return 'Norway';
+    case 'Sweden':
+    case 'Denmark':
+    case 'Finland':
+    case 'Iceland':
+      return 'Nordics';
+    case 'Germany':
+      return 'Germany';
+    default:
+      return 'Europe';
+  }
 }
 
 export function getRegionName() {
