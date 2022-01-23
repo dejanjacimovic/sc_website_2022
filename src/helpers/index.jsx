@@ -166,3 +166,30 @@ export function getFaq() {
       'All updates are done with a backup beforehand. So, in an unlikely event that something goes wrong, we will rollback your website to a previous stable version. We will inestigate on what has caused the website to break, and give you an honest opinion on what are your further options.',
   };
 }
+
+export function servicesIncluded() {
+  return [
+    '90 minutes Maximum Response Time',
+    '24/7 Support in Case Of Emergency',
+    'Problem-free Guarantee',
+    'Content Management, Done for You',
+    'Phone Support',
+    'Weekly Upgrades',
+    'Server Monitoring',
+    'Daily Backups',
+    'Weekly Service Reports',
+    'Security Scans',
+    'Hack &amp; DDoS Mitigation',
+    'Plugin Setup',
+    'Catalog Management',
+    'Maintaining GDPR',
+    'User and role management',
+    'Batch import of pages & products',
+    'Fighting off SPAM',
+    'Speed optimisation',
+    'Help improving the search',
+    'Suggestions on UI and UX improvements',
+    'Ensuring the website is working properly',
+    'Configuring SSL (https)',
+  ];
+}
