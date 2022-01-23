@@ -41,7 +41,23 @@ export function getHeroRegionPhrase() {
 }
 
 export function getRegionName() {
-  return 'European';
+  let country = getCountryName();
+
+  switch (country) {
+    case 'United States':
+      return 'US';
+    case 'Norway':
+      return 'Norwegian';
+    case 'Sweden':
+    case 'Denmark':
+    case 'Finland':
+    case 'Iceland':
+      return 'Nordic';
+    case 'Germany':
+      return 'German';
+    default:
+      return 'European';
+  }
 }
 
 function getUserIp() {
