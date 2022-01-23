@@ -1,7 +1,23 @@
 import React from 'react';
 
 export function getHeroPhrase() {
-  return 'killing it!';
+  let country = getCountryName();
+
+  switch (country) {
+    case 'United States':
+      return 'trusted by US companies';
+    case 'Norway':
+      return 'trusted by Norwegian companies';
+    case 'Sweden':
+    case 'Denmark':
+    case 'Finland':
+    case 'Iceland':
+      return 'trusted by Nordic companies';
+    case 'Germany':
+      return 'trusted by German companies';
+    default:
+      return 'trusted by European companies';
+  }
 }
 
 export function getHeroRegionPhrase() {
@@ -15,7 +31,6 @@ export function getRegionName() {
 function getUserIp() {
   // check if IP is saved in cookie
   // if so, return IP from cookie
-
   // if not, somehow get user IP
   // write it in cookie
   // return the value
@@ -27,13 +42,16 @@ function getCountryName() {
 
   let userIP = getUserIp();
 
-  path = 'http://api.ipstack.com/' + userIP + '?access_key=ecb285d703ed9506024a975b75fc7b7b';
+  path =
+    'http://api.ipstack.com/' +
+    userIP +
+    '?access_key=ecb285d703ed9506024a975b75fc7b7b';
 
-  try {
-      $country = $ipapi['country_name'];
-  } catch (Exception $e) {
-      $country = 'United States';
-  }
+  // try {
+  //     $country = $ipapi['country_name'];
+  // } catch (Exception $e) {
+  //     $country = 'United States';
+  // }
 
   return $country;
 }
