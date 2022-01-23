@@ -92,7 +92,7 @@ function getCountryName() {
 function getB2BPrice() {
   let country = getCountryName();
 
-  switch ($country) {
+  switch (country) {
     case 'United States':
       return '$31.700 USD';
     case 'Norway':
@@ -103,5 +103,22 @@ function getB2BPrice() {
       return '200.100 kr';
     default:
       return '27.650 €';
+  }
+}
+
+function getMaintenancePrice() {
+  let country = getCountryName();
+
+  switch (country) {
+    case 'United States':
+      return '$399 USD';
+    case 'Norway':
+      return '3.920 kr';
+    case 'Sweden':
+      return '3.920 kr';
+    case 'Denmark':
+      return '2.899 kr';
+    default:
+      return '380 €';
   }
 }
