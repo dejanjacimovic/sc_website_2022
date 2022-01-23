@@ -9,10 +9,10 @@ import PlusIntegrations from '../components/blocks/plus_integrations';
 import { getMaintenancePrice, getFaq, servicesIncluded } from '../helpers/index.jsx';
 
 function faqList() {
-  let myArray = getFaq();
+  let faqs = getFaq();
   let output = [];
-  for (var key in myArray) {
-    output.push(QA(key, myArray[key]));
+  for (var key in faqs) {
+    output.push(QA(key, faqs[key]));
   }
 
   return output;

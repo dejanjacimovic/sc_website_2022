@@ -6,10 +6,10 @@ import NavCenter from '../components/nav_center';
 import { getClients } from '../helpers/portfolio'
 
 function portfolioList() {
-  let myArray = getClients();
+  let clients = getClients();
   let output = [];
-  for (var key in myArray) {
-    output.push(project(key, myArray[key]));
+  for (var key in clients) {
+    output.push(project(key, clients[key]));
   }
 
   return output;
