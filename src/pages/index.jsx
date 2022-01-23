@@ -4,20 +4,6 @@ import NavLeft from '../components/nav_left';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 
-import imgMarkoDejan from '../images/marko-og-dejan.jpg';
-import imgTerje from '../images/terje.jpg';
-import imgPricingPlans from '../images/pricing-plans.jpeg';
-import imgCampDavidBlack from '../images/CampDavid-black.svg';
-import imgBerit from '../images/madebyberitnordstrand.png';
-import imgSmartlapper from '../images/smartlapper.png';
-import imgPurNorsk from '../images/pur-norsk.svg';
-import imgJumpking from '../images/jumpking.png';
-
-import imgChristina from '../images/christina.png';
-import imgTherese from '../images/therese.png';
-import imgStine from '../images/stine.jpg';
-import imgStuntFamily from '../images/stunt-family.jpg';
-
 function getHeroPhrase() {
   return 'killing it!';
 }
@@ -83,9 +69,9 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img
+          <StaticImage
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src={imgMarkoDejan}
+            src="../images/marko-og-dejan.jpg"
             loading="auto"
             alt="Marko and Dejan coding"
           />
@@ -586,9 +572,9 @@ export default function Home() {
           </svg>
           <div className="relative lg:flex lg:items-center">
             <div className="hidden lg:block lg:flex-shrink-0">
-              <img
+              <StaticImage
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                src={imgTerje}
+                src="../images/terje.jpg"
                 alt="Terje from Tesori"
                 loading="auto"
               />
@@ -621,9 +607,9 @@ export default function Home() {
                 <footer className="mt-8">
                   <div className="flex">
                     <div className="flex-shrink-0 lg:hidden">
-                      <img
+                      <StaticImage
                         className="h-12 w-12 rounded-full"
-                        src={imgTerje}
+                        src="../images/terje.jpg"
                         alt="Terje from Tesori testimonial"
                         loading="auto"
                       />
@@ -651,7 +637,7 @@ export default function Home() {
             <div className="h-full xl:relative xl:col-start-2">
               <img
                 className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-                src={imgPricingPlans}
+                src="../images/pricing-plans.jpeg"
                 alt="Pricing plans"
               />
               <div
@@ -690,36 +676,36 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <img
+              <StaticImage
                 className="h-12"
-                src={imgCampDavidBlack}
+                src="../images/CampDavid-black.svg"
                 alt="StuntCoders client CampDavid"
                 loading="auto"
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <img className="h-12" src={imgBerit} alt="BERIT" loading="auto" />
+              <StaticImage className="h-12" src="../images/madebyberitnordstrand.png" alt="BERIT" loading="auto" />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <img
+              <StaticImage
                 className="h-12"
-                src={imgSmartlapper}
+                src="../images/smartlapper.png"
                 alt="Client Smartlapper"
                 loading="auto"
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-              <img
+              <StaticImage
                 className="h-12"
-                src={imgPurNorsk}
+                src="../images/pur-norsk.svg"
                 alt="PurNorsk Client of StuntCoders"
                 loading="auto"
               />
             </div>
             <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-              <img
+              <StaticImage
                 className="h-12"
-                src={imgJumpking}
+                src="../images/jumpking.png"
                 alt="JumpKing client of StuntCoders"
                 loading="auto"
               />
@@ -934,9 +920,9 @@ export default function Home() {
               <footer className="mt-8">
                 <div className="md:flex md:items-center md:justify-center">
                   <div className="md:flex-shrink-0">
-                    <img
+                    <StaticImage
                       className="mx-auto h-10 w-10 rounded-full"
-                      src={imgChristina}
+                      src="../images/christina.png"
                       alt="Christina from JumpKing"
                       loading="auto"
                     />
@@ -1316,9 +1302,9 @@ export default function Home() {
               <footer className="mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                    <img
+                    <StaticImage
                       className="h-12 w-12 rounded-full"
-                      src={imgTherese}
+                      src="../images/therese.png"
                       alt="Testimonial from Therese"
                     />
                   </div>
@@ -1948,9 +1934,9 @@ export default function Home() {
               <footer className="mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                    <img
+                    <StaticImage
                       className="h-12 w-12 rounded-full"
-                      src={imgStine}
+                      src="../images/stine.jpg"
                       alt="Testimonial from Stine BareBra Barnemat"
                     />
                   </div>
@@ -2081,9 +2067,9 @@ export default function Home() {
 
       <div className="relative bg-gray-800">
         <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-          <img
+          <StaticImage
             className="w-full h-full object-cover"
-            src={imgStuntFamily}
+            src="../images/stunt-family.jpg"
             alt="StuntCoders is a messy family"
           />
         </div>
