@@ -3,24 +3,29 @@ import { Link } from 'gatsby';
 
 export default class NavLeft extends React.Component {
   constructor(props) {
-      super(props);
+    super(props);
 
-      this.state = {
-        hiddenMobile: true,
-        hiddenDesktop: true,
-      };
+    this.state = {
+      hiddenMobile: true,
+      hiddenMobileSubmenu: true,
+      hiddenDesktop: true,
+    };
   }
 
-  render () {
-    let hiddenMobileVal = 'absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
-    let hiddenDesktopVal = 'absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
+  render() {
+    let hiddenMobileVal =
+      'absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
+    let hiddenDesktopVal =
+      'absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
 
     if (this.state.hiddenMobile) {
-      hiddenMobileVal = 'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
+      hiddenMobileVal =
+        'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
     }
 
     if (this.state.hiddenDesktop) {
-      hiddenDesktopVal = 'hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
+      hiddenDesktopVal =
+        'hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
     }
 
     return (
@@ -44,7 +49,7 @@ export default class NavLeft extends React.Component {
                     type="button"
                     aria-label="Main menu"
                     aria-haspopup="true"
-                    onclick="document.getElementById('main-mobile-menu').className='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50'"
+                    onclick={() => this.setState({ hiddenMobile: false })}
                   >
                     <svg
                       className="h-4 w-4"
@@ -167,7 +172,7 @@ export default class NavLeft extends React.Component {
         </div>
 
         <div
-          className="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50"
+          className={hiddenMobileVal}
           id="main-mobile-menu"
         >
           <div className="rounded-lg shadow-md">
