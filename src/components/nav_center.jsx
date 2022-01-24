@@ -25,6 +25,8 @@ export default class NavCenter extends React.Component {
         'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
     }
 
+    console.log(hiddenMobileVal);
+
     if (this.state.hiddenDesktop) {
       hiddenDesktopVal =
         'hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
@@ -55,7 +57,7 @@ export default class NavCenter extends React.Component {
                     type="button"
                     aria-label="Main menu"
                     aria-haspopup="true"
-                    onClick={() => this.setState({ hiddenMobile: false })}
+                    onClick={() => { this.setState({ hiddenMobile: this.state.hiddenMobile }); console.log('mobile toggle'); }}
                   >
                     <svg
                       className="h-6 w-6"
