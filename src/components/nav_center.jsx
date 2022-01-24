@@ -7,7 +7,7 @@ export default class NavCenter extends React.Component {
 
     this.state = {
       hiddenMobile: true,
-      hiddenMobileSubmenu: true,
+      hiddenSubmenu: true,
       hiddenDesktop: true,
     };
   }
@@ -17,6 +17,8 @@ export default class NavCenter extends React.Component {
       'absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
     let hiddenDesktopVal =
       'absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
+    let hiddenSubmenuVal =
+       'px-2 w-screen max-w-xl sm:px-0';
 
     if (this.state.hiddenMobile) {
       hiddenMobileVal =
@@ -26,6 +28,11 @@ export default class NavCenter extends React.Component {
     if (this.state.hiddenDesktop) {
       hiddenDesktopVal =
         'hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
+    }
+
+    if (this.state.hiddenSubmenu) {
+      hiddenMobileVal =
+        'hidden px-2 w-screen max-w-xl sm:px-0';
     }
 
     return (
@@ -206,7 +213,7 @@ export default class NavCenter extends React.Component {
                     className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                     type="button"
                     aria-label="Close menu"
-                    onClick={() => this.setState({ hiddenMobileSubmenu: !this.state.hiddenMobileSubmenu })}
+                    onClick={() => this.setState({ hiddenSubmenu: !this.state.hiddenSubmenu })}
                   >
                     <svg
                       className="h-6 w-6"
@@ -230,7 +237,7 @@ export default class NavCenter extends React.Component {
                     type="button"
                     className="w-full px-3 py-2 text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
                     aria-expanded="false"
-                    onClick={() => this.setState({ hiddenMobileSubmenu: !this.state.hiddenMobileSubmenu })}
+                    onClick={() => this.setState({ hiddenSubmenu: !this.state.hiddenSubmenu })}
                   >
                     <span className="font-medium text-gray-700 hover:text-gray-900  focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
                       Services
@@ -252,7 +259,7 @@ export default class NavCenter extends React.Component {
 
                   <div
                     id="service-submenu-mobile"
-                    className="hidden px-2 w-screen max-w-xl sm:px-0"
+                    className={hiddenSubmenuVal}
                   >
                     <div className="overflow-hidden">
                       <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
