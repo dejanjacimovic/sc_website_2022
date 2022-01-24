@@ -49,7 +49,11 @@ export default class NavLeft extends React.Component {
                     type="button"
                     aria-label="Main menu"
                     aria-haspopup="true"
-                    onclick={() => this.setState({ hiddenMobile: false })}
+                    onclick={() =>
+                      this.setState({
+                        hiddenMobile: !this.state.hiddenMobile,
+                      })
+                    }
                   >
                     <svg
                       className="h-4 w-4"
@@ -77,7 +81,11 @@ export default class NavLeft extends React.Component {
                 >
                   <span
                     className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                    onclick={() => this.setState( hiddenDesktop: this.state.hiddenDesktop )}
+                    onclick={() =>
+                      this.setState({
+                        hiddenDesktop: !this.state.hiddenDesktop,
+                      })
+                    }
                   >
                     Services
                   </span>
@@ -87,7 +95,11 @@ export default class NavLeft extends React.Component {
                     viewBox="0 0 20 20"
                     fill="currentColor"
                     aria-hidden="true"
-                    onclick={() => this.setState( hiddenDesktop: this.state.hiddenDesktop )}
+                    onclick={() =>
+                      this.setState({
+                        hiddenDesktop: !this.state.hiddenDesktop,
+                      })
+                    }
                   >
                     <path
                       fill-rule="evenodd"
@@ -171,10 +183,7 @@ export default class NavLeft extends React.Component {
           </nav>
         </div>
 
-        <div
-          className={hiddenMobileVal}
-          id="main-mobile-menu"
-        >
+        <div className={hiddenMobileVal} id="main-mobile-menu">
           <div className="rounded-lg shadow-md">
             <div
               className="rounded-lg bg-white shadow-xs overflow-hidden"
@@ -196,7 +205,7 @@ export default class NavLeft extends React.Component {
                     className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                     type="button"
                     aria-label="Close menu"
-                    onclick=onclick={() => this.setState( hiddenMobile: true )}
+                    onclick={() => this.setState({ hiddenMobile: true })}
                   >
                     <svg
                       className="h-6 w-6"
@@ -220,7 +229,11 @@ export default class NavLeft extends React.Component {
                     type="button"
                     className="w-full px-3 py-2 text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
                     aria-expanded="false"
-                    onclick=onclick={() => this.setState( hiddenSubmenu: !this.state.hiddenSubmenu )}
+                    onclick={() =>
+                      this.setState({
+                        hiddenSubmenu: !this.state.hiddenSubmenu,
+                      })
+                    }
                   >
                     <span className="font-medium text-gray-700 hover:text-gray-900  focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
                       Services
