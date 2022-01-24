@@ -6,7 +6,7 @@ export default class NavCenter extends React.Component {
       super(props);
 
       this.state = {
-        hiddenMobile: 'hidden',
+        hiddenMobile: true,
         hiddenDesktop: true,
       };
   }
@@ -30,11 +30,11 @@ export default class NavCenter extends React.Component {
   // let closedMenu = '';
 
   render () {
-    let hiddenMobileVal = 'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
+    let hiddenMobileVal = 'absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
     let hiddenDesktopVal = '';
 
-    if (this.state.hiddenMobile == 'absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50') {
-      hiddenMobileVal = 'md:hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
+    if (this.state.hiddenMobile) {
+      hiddenMobileVal = 'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
     }
 
     if (this.state.hiddenDesktop) {
@@ -61,7 +61,7 @@ export default class NavCenter extends React.Component {
                     type="button"
                     aria-label="Main menu"
                     aria-haspopup="true"
-                    onClick="document.getElementById('main-mobile-menu').class='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50'"
+                    onClick={() => this.setState({ hiddenMobile: false }) }
                   >
                     <svg
                       className="h-6 w-6"
