@@ -15,30 +15,20 @@ export default class NavCenter extends React.Component {
     // this.setState({ hiddenDesktop: !this.state.hiddenDesktop })
   }
 
-  _openMobileMenu() {
-    this.setState({hiddenMobile: ''});
-    console.log('OPEN mobile menu');
-  }
-
-  closeMobileMenu() {
-    // this.setState({hiddenMobile: 'hidden'});
-    console.log('hide mobile menu');
-  }
-
   // let openMenu = 'absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50';
                  // 'absolute top-0 inset-x-0 p-2 transition transform origin-top-right    hidden z-50'
   // let closedMenu = '';
 
   render () {
     let hiddenMobileVal = 'absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
-    let hiddenDesktopVal = '';
+    let hiddenDesktopVal = 'absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
 
     if (this.state.hiddenMobile) {
       hiddenMobileVal = 'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
     }
 
     if (this.state.hiddenDesktop) {
-      hiddenDesktopVal = 'hidden';
+      hiddenDesktopVal = 'hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
     }
 
     return (
@@ -89,7 +79,7 @@ export default class NavCenter extends React.Component {
                 >
                   <span
                     className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                    onClick={this._toggleDesktopMenu()}
+                    onClick={() => this.setState({ hiddenDesktop: !this.state.hiddenDesktop }) }
                   >
                     Services
                   </span>
@@ -99,7 +89,7 @@ export default class NavCenter extends React.Component {
                     viewBox="0 0 20 20"
                     fill="currentColor"
                     aria-hidden="true"
-                    onClick={this._toggleDesktopMenu()}
+                    onClick={() => this.setState({ hiddenDesktop: !this.state.hiddenDesktop }) }
                   >
                     <path
                       fill-rule="evenodd"
@@ -111,7 +101,7 @@ export default class NavCenter extends React.Component {
 
                 <div
                   id="service-submenu"
-                  className="{hiddenDesktopVal} absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50"
+                  className={hiddenDesktopVal}
                 >
                   <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
