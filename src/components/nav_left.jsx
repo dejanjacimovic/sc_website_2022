@@ -7,7 +7,7 @@ export default class NavLeft extends React.Component {
 
     this.state = {
       hiddenMobile: true,
-      hiddenMobileSubmenu: true,
+      hiddenSubmenu: true,
       hiddenDesktop: true,
     };
   }
@@ -77,7 +77,7 @@ export default class NavLeft extends React.Component {
                 >
                   <span
                     className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                    onclick="document.getElementById('service-submenu').classList.toggle('hidden')"
+                    onclick={() => this.setState( hiddenDesktop: this.state.hiddenDesktop )}
                   >
                     Services
                   </span>
@@ -87,7 +87,7 @@ export default class NavLeft extends React.Component {
                     viewBox="0 0 20 20"
                     fill="currentColor"
                     aria-hidden="true"
-                    onclick="document.getElementById('service-submenu').classList.toggle('hidden')"
+                    onclick={() => this.setState( hiddenDesktop: this.state.hiddenDesktop )}
                   >
                     <path
                       fill-rule="evenodd"
@@ -196,7 +196,7 @@ export default class NavLeft extends React.Component {
                     className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                     type="button"
                     aria-label="Close menu"
-                    onclick="document.getElementById('main-mobile-menu').className='hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50'"
+                    onclick=onclick={() => this.setState( hiddenMobile: true )}
                   >
                     <svg
                       className="h-6 w-6"
@@ -220,7 +220,7 @@ export default class NavLeft extends React.Component {
                     type="button"
                     className="w-full px-3 py-2 text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
                     aria-expanded="false"
-                    onclick="document.getElementById('service-submenu-mobile').classList.toggle('hidden')"
+                    onclick=onclick={() => this.setState( hiddenSubmenu: !this.state.hiddenSubmenu )}
                   >
                     <span className="font-medium text-gray-700 hover:text-gray-900  focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
                       Services
