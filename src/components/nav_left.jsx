@@ -17,6 +17,8 @@ export default class NavLeft extends React.Component {
       'absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50';
     let hiddenDesktopVal =
       'absolute z-10 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
+    let hiddenSubmenuVal =
+      'px-2 w-screen max-w-xl sm:px-0';
 
     if (this.state.hiddenMobile) {
       hiddenMobileVal =
@@ -29,6 +31,11 @@ export default class NavLeft extends React.Component {
     if (this.state.hiddenDesktop) {
       hiddenDesktopVal =
         'hidden absolute z-10 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
+    }
+
+    if (this.state.hiddenSubmenu) {
+      hiddenSubmenuVal =
+        'hidden px-2 w-screen max-w-xl sm:px-0';
     }
 
     return (
@@ -230,7 +237,7 @@ export default class NavLeft extends React.Component {
                     aria-expanded="false"
                     onClick={() =>
                       this.setState({
-                        hiddenDesktop: !this.state.hiddenDesktop,
+                        hiddenSubmenu: !this.state.hiddenSubmenu,
                       })
                     }
                   >
@@ -254,7 +261,7 @@ export default class NavLeft extends React.Component {
 
                   <div
                     id="service-submenu-mobile"
-                    className="hidden px-2 w-screen max-w-xl sm:px-0"
+                    className={hiddenSubmenuVal}
                   >
                     <div className="overflow-hidden">
                       <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
