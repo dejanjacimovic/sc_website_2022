@@ -18,7 +18,7 @@ export default class NavCenter extends React.Component {
     let hiddenDesktopVal =
       'absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
 
-    if (this.state.hiddenMobile) {
+    if (this.state.hiddenMobile === true) {
       hiddenMobileVal =
         'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
     }
@@ -206,7 +206,7 @@ export default class NavCenter extends React.Component {
                     className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                     type="button"
                     aria-label="Close menu"
-                    onClick={() => this.setState({ hiddenMobileSubmenu: !this.state.hiddenMobileSubmenu })}
+                    onClick={() => this.setState({ hiddenMobile: true })}
                   >
                     <svg
                       className="h-6 w-6"
