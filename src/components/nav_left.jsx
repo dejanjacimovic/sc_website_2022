@@ -20,17 +20,15 @@ export default class NavLeft extends React.Component {
     let hiddenSubmenuVal = 'px-2 w-screen max-w-xl sm:px-0';
 
     if (this.state.hiddenMobile) {
-      hiddenMobileVal =
-        'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50';
+      hiddenMobileVal = 'hidden '.concat(hiddenMobileVal);
     }
 
     if (this.state.hiddenDesktop) {
-      hiddenDesktopVal =
-        'hidden absolute z-10 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
+      hiddenDesktopVal = 'hidden '.concat(hiddenDesktopVal);
     }
 
     if (this.state.hiddenSubmenu) {
-      hiddenSubmenuVal = 'hidden px-2 w-screen max-w-xl sm:px-0';
+      hiddenSubmenuVal = 'hidden '.concat(hiddenSubmenuVal);
     }
 
     return (
