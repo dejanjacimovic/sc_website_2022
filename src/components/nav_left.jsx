@@ -7,7 +7,7 @@ export default class NavLeft extends React.Component {
 
     this.state = {
       hiddenMobile: true,
-      hiddenMobileSubmenu: true,
+      hiddenSubmenu: true,
       hiddenDesktop: true,
     };
   }

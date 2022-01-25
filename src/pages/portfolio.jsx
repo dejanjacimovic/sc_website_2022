@@ -26,6 +26,7 @@ function project(clientName, client) {
             className="object-cover shadow-lg rounded-lg"
             image={image}
             alt={clientName}
+            formats={['auto', 'webp']}
           />
         </div>
 
