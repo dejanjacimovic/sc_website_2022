@@ -4,7 +4,7 @@ import LayoutPage from '../components/layout_page';
 
 export default function NotFoundPage() {
   let styleDef = {
-    backgroundImage: url('https://stcdshare.s3.amazonaws.com/EQOnmxU4b4.jpeg')
+    backgroundImage: url(`https://stcdshare.s3.amazonaws.com/EQOnmxU4b4.jpeg`)
   }
 
   return (
