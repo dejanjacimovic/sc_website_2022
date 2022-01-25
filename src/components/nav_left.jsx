@@ -80,7 +80,11 @@ export default class NavLeft extends React.Component {
                 >
                   <span
                     className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-                    onClick={() => this.setState({ hiddenMobileSubmenu: !this.state.hiddenMobileSubmenu }}
+                    onClick={() =>
+                      this.setState({
+                        hiddenMobileSubmenu: !this.state.hiddenMobileSubmenu,
+                      })
+                    }
                   >
                     Services
                   </span>
@@ -90,7 +94,11 @@ export default class NavLeft extends React.Component {
                     viewBox="0 0 20 20"
                     fill="currentColor"
                     aria-hidden="true"
-                    onClick={() => this.setState({ hiddenMobileSubmenu: !this.state.hiddenMobileSubmenu }}
+                    onClick={() =>
+                      this.setState({
+                        hiddenMobileSubmenu: !this.state.hiddenMobileSubmenu,
+                      })
+                    }
                   >
                     <path
                       fill-rule="evenodd"
@@ -220,7 +228,11 @@ export default class NavLeft extends React.Component {
                     type="button"
                     className="w-full px-3 py-2 text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
                     aria-expanded="false"
-                    onClick={() => this.setState({ hiddenDesktop: !this.state.hiddenDesktop }}
+                    onClick={() =>
+                      this.setState({
+                        hiddenDesktop: !this.state.hiddenDesktop,
+                      })
+                    }
                   >
                     <span className="font-medium text-gray-700 hover:text-gray-900  focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
                       Services
