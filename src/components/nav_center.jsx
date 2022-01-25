@@ -17,8 +17,7 @@ export default class NavCenter extends React.Component {
       'absolute top-0 inset-x-0 p-2 transition transform origin-top-right z-50';
     let hiddenDesktopVal =
       'absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
-    let hiddenSubmenuVal =
-       'px-2 w-screen max-w-xl sm:px-0';
+    let hiddenSubmenuVal = 'px-2 w-screen max-w-xl sm:px-0';
 
     if (this.state.hiddenMobile === true) {
       hiddenMobileVal =
@@ -33,8 +32,7 @@ export default class NavCenter extends React.Component {
     }
 
     if (this.state.hiddenSubmenu) {
-      hiddenMobileVal =
-        'hidden px-2 w-screen max-w-xl sm:px-0';
+      hiddenMobileVal = 'hidden px-2 w-screen max-w-xl sm:px-0';
     }
 
     return (
@@ -57,7 +55,10 @@ export default class NavCenter extends React.Component {
                     type="button"
                     aria-label="Main menu"
                     aria-haspopup="true"
-                    onClick={() => { this.setState({ hiddenMobile: this.state.hiddenMobile }); console.log('mobile toggle'); }}
+                    onClick={() => {
+                      this.setState({ hiddenMobile: this.state.hiddenMobile });
+                      console.log('mobile toggle');
+                    }}
                   >
                     <svg
                       className="h-6 w-6"
@@ -239,7 +240,11 @@ export default class NavCenter extends React.Component {
                     type="button"
                     className="w-full px-3 py-2 text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
                     aria-expanded="false"
-                    onClick={() => this.setState({ hiddenSubmenu: !this.state.hiddenSubmenu })}
+                    onClick={() =>
+                      this.setState({
+                        hiddenSubmenu: !this.state.hiddenSubmenu,
+                      })
+                    }
                   >
                     <span className="font-medium text-gray-700 hover:text-gray-900  focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
                       Services
@@ -259,10 +264,7 @@ export default class NavCenter extends React.Component {
                     </svg>
                   </button>
 
-                  <div
-                    id="service-submenu-mobile"
-                    className={hiddenSubmenuVal}
-                  >
+                  <div id="service-submenu-mobile" className={hiddenSubmenuVal}>
                     <div className="overflow-hidden">
                       <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
                         <Link
