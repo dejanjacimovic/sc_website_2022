@@ -16,7 +16,7 @@ export default class NavLeft extends React.Component {
     let hiddenMobileVal =
       'absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50';
     let hiddenDesktopVal =
-      'absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
+      'absolute z-10 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
 
     if (this.state.hiddenMobile) {
       hiddenMobileVal =
@@ -28,7 +28,7 @@ export default class NavLeft extends React.Component {
 
     if (this.state.hiddenDesktop) {
       hiddenDesktopVal =
-        'hidden absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
+        'hidden absolute z-10 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
     }
 
     return (
@@ -82,7 +82,7 @@ export default class NavLeft extends React.Component {
                     className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                     onClick={() =>
                       this.setState({
-                        hiddenMobileSubmenu: !this.state.hiddenMobileSubmenu,
+                        hiddenDesktop: !this.state.hiddenDesktop,
                       })
                     }
                   >
@@ -96,7 +96,7 @@ export default class NavLeft extends React.Component {
                     aria-hidden="true"
                     onClick={() =>
                       this.setState({
-                        hiddenMobileSubmenu: !this.state.hiddenMobileSubmenu,
+                        hiddenDesktop: !this.state.hiddenDesktop,
                       })
                     }
                   >
@@ -110,7 +110,7 @@ export default class NavLeft extends React.Component {
 
                 <div
                   id="service-submenu"
-                  className="hidden absolute z-10 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50"
+                  className={hiddenDesktopVal}
                 >
                   <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
