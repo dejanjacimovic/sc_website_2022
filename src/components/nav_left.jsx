@@ -25,9 +25,6 @@ export default class NavLeft extends React.Component {
         'hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50';
     }
 
-    console.log(hiddenMobileVal);
-    console.log(this.state.hiddenMobile);
-
     if (this.state.hiddenDesktop) {
       hiddenDesktopVal =
         'hidden absolute z-10 mt-3 px-2 w-screen max-w-xs sm:px-0 z-50';
