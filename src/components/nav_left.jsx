@@ -325,7 +325,7 @@ export default class NavLeft extends React.Component {
               </div>
               <div>
                 <Link
-                  className="block w-full px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
+                  className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
                   to="/contact/"
                   role="menuitem"
                 >
