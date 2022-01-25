@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
@@ -16,7 +16,18 @@ function portfolioList() {
 }
 
 function project(clientName, client) {
-  let image = getImage(client['image']);
+  const query = graphql`
+    {
+      file(relativePath: {eq: "portfolio/smartypantsvitamins.jpeg"}) {
+        childImageSharp {
+          gatsbyImageData(width: 500, blurredOptions: {width: 100}, placeholder: BLURRED)
+        }
+      }
+    }
+  `
+  console.log(query.file.childImageSharp);
+
+  const image = getImage(query);//.childImageSharp.gatsbyImageData)
 
   return (
     <li>
