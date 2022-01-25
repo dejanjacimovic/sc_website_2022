@@ -15,15 +15,15 @@ function portfolioList() {
   return output;
 }
 
-export const query = graphql`
-    {
-      file(relativePath: {eq: "portfolio/smartypantsvitamins.jpeg"}) {
-        childImageSharp {
-          gatsbyImageData(width: 500, blurredOptions: {width: 100}, placeholder: BLURRED)
-        }
-      }
-    }
-  `
+// export const query = graphql`
+//     {
+//       file(relativePath: {eq: "portfolio/smartypantsvitamins.jpeg"}) {
+//         childImageSharp {
+//           gatsbyImageData(width: 500, blurredOptions: {width: 100}, placeholder: BLURRED)
+//         }
+//       }
+//     }
+//   `
 
 function project(clientName, client) {
   const query = graphql`
@@ -35,7 +35,7 @@ function project(clientName, client) {
       }
     }
   `
-  console.log(query.file.childImageSharp);
+  // console.log(query.file.childImageSharp);
 
   const image = getImage(query);//.childImageSharp.gatsbyImageData)
 
@@ -86,7 +86,7 @@ function project(clientName, client) {
   );
 }
 
-export default function Portfolio({data}) {
+export default function Portfolio() {
   return (
     <LayoutPage>
       <div className="relative pt-6 pb-2 sm:pb-16 md:pb-2 lg:pb-2 xl:pb-2">
