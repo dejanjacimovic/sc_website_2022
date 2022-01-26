@@ -1,5 +1,28 @@
 import React from 'react';
 
+function setCookie(cname, cvalue) {
+  const d = new Date();
+  d.setTime(d.getTime() + 365 * 24 * 60 * 60 * 1000);
+  let expires = 'expires=' + d.toUTCString();
+  document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/';
+}
+
+function getCookie(cname) {
+  let name = cname + '=';
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return '';
+}
+
 export function getHeroPhrase() {
   let country = getCountryName();
 
@@ -66,13 +89,16 @@ function getUserIp() {
   // if not, somehow get user IP
   // write it in cookie
   // return the value
+  return '79.101.140.81';
 }
 
 function getCountryName() {
   // check if country name in cookie? if so, return cookie value
-  cookieStore.set('country', 'United States');
-  return 'United States';
+  if (getCookie('country') != '') {
+    return getCookie('country');
+  }
 
+  let country = 'United States';
   let userIP = getUserIp();
 
   path =
@@ -80,13 +106,14 @@ function getCountryName() {
     userIP +
     '?access_key=ecb285d703ed9506024a975b75fc7b7b';
 
-  // try {
-  //     $country = $ipapi['country_name'];
-  // } catch (Exception $e) {
-  //     $country = 'United States';
-  // }
+  fetch(path)
+    .then((response) => response.json())
+    .then((data) => {
+      country = JSON.stringify(data, null, 2);
+    });
 
-  return $country;
+  setCookie('country', country);
+  return country;
 }
 
 export function getB2BPrice() {
