@@ -7,8 +7,8 @@ export default function LayoutPage(content) {
   return (
     (<Header />),
     (
-      <body className="font-sans antialiased text-gray-900">
-        <div className="">
+      <body>
+        <div className="font-sans antialiased text-gray-900">
           {content.children}
         </div>
         <Footer />
