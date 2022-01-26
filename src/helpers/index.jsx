@@ -83,12 +83,28 @@ export function getRegionName() {
   }
 }
 
+function json_u(url) {
+  return fetch(url).then(res => res.json());
+}
+
 function getUserIp() {
   // check if IP is saved in cookie
   // if so, return IP from cookie
   // if not, somehow get user IP
   // write it in cookie
   // return the value
+
+  json_u('https://api.ipify.org?format=jsonp&callback=getIP').then(data => {
+    console.log(data);
+  });
+
+  fetch('https://api.ipify.org?format=jsonp&callback=getIP', {mode: 'no-cors'})
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      country = JSON.stringify(data, null, 2);
+    });
+
   return '79.101.140.81';
 }
 
