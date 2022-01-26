@@ -7,18 +7,14 @@ export default function LayoutPage(content) {
   return (
     (<Header />),
     (
-      <div className="">
-        {content.children}
-      </div>
-    ),
-    (
-      <Footer />
+      <body className="font-sans antialiased text-gray-900">
+        <div className="">
+          {content.children}
+        </div>
+        <Footer />
+      </body>
     )
   );
 }
 
-exports.onRenderBody = ({ setBodyAttributes }) => {
-  setBodyAttributes({
-      className: 'font-sans antialiased text-gray-900'
-    });
-};
+
