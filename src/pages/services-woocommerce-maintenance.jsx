@@ -23,11 +23,11 @@ function QA(question, answer, isFirst = true) {
   let classVal = '';
 
   if (isFirst) {
-    classVal = 'class="mt-6 border-t border-gray-200 pt-6"';
+    classVal = 'mt-6 border-t border-gray-200 pt-6';
   }
 
   return (
-    <div classVal>
+    <div className={classVal}>
       <dt className="text-lg leading-7">
         <button className="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
           <span className="font-medium text-gray-900">{question}</span>
