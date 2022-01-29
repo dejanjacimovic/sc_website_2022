@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.stuntcoders.com",
     title: "StuntCoders 2022",
   },
   plugins: [
@@ -19,7 +19,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: "${__dirname}/src/images/",
       },
       __key: "images",
     },
