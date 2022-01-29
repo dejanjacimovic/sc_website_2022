@@ -37,7 +37,7 @@ function project(clientName, client) {
   `
   // console.log(query.file.childImageSharp);
 
-  const image = getImage(query);//.childImageSharp.gatsbyImageData)
+  const image = getImage(query.file);//.childImageSharp.gatsbyImageData)
 
   return (
     <li>
