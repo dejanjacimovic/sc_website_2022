@@ -15,11 +15,11 @@
 
 2.  **Start developing.**
 
-    Edit `src/pages/index.js` to see our site update in real-time!
+    Edit `jsx` files in `src/pages/` to see our site update in real-time!
 
 3.  **Open the site locally and start customizing!**
 
-    Your site is now running at http://localhost:8000!
+    Our site is now running at http://localhost:8000!
 
 
 ## 🚀 Deploy?
