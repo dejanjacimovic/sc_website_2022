@@ -1,5 +1,5 @@
 <h1 align="center">
-  Gatsby StuntCoders 2022
+  StuntCoders 2022 website running on Gatsbyjs
 </h1>
 
 ## 🏃‍♂️ Quick start
