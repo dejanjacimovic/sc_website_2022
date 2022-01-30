@@ -5,7 +5,7 @@ import lost from '../images/lost.jpeg'
 
 export default function NotFoundPage() {
   let styleDef = {
-    backgroundImage: "url($lost)"
+    backgroundImage: "url({lost})"
   }
 
   return (
