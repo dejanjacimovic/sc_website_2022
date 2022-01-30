@@ -1,4 +1,5 @@
 import React from 'react';
+// import useFetch from 'react-fetch-hook';
 import { req } from 'gatsby';
 
 function setCookie(cname, cvalue) {
@@ -87,7 +88,9 @@ export function getRegionName() {
 }
 
 function json_u(url) {
-  return fetch(url).then(res => res.json());
+  const { isLoading, error, data } = useFetch(url);
+
+  return data.json();
 }
 
 function getUserIp() {
