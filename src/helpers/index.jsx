@@ -120,7 +120,7 @@ function getCountryName() {
   let country = 'United States';
   let userIP = getUserIp();
 
-  path =
+  let path =
     'http://api.ipstack.com/' +
     userIP +
     '?access_key=ecb285d703ed9506024a975b75fc7b7b';
