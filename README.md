@@ -1,5 +1,5 @@
 <h1 align="center">
-  Gatsby StuntCoders 2022
+  StuntCoders 2022 website running on Gatsbyjs
 </h1>
 
 ## 🏃‍♂️ Quick start
@@ -28,4 +28,4 @@ Git push, then navigate to [Netlify link](https://vibrant-brown-359096.netlify.a
 
 ### 😵‍💫 Changes not visible?
 
-You must go to app.netlify.com/ >> Project name >> Deploy >> See build errors.
+You must go to [app.netlify.com](https://app.netlify.com/) >> Project name >> Deploy >> See build errors.
