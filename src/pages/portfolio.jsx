@@ -28,7 +28,7 @@ function portfolioList() {
 function project(clientName, client) {
   const query = graphql`
     {
-      file(relativePath: {eq: "portfolio/smartypantsvitamins.jpeg"}) {
+      portfolio(relativePath: {eq: "smartypantsvitamins.jpeg"}) {
         childImageSharp {
           gatsbyImageData(width: 500, blurredOptions: {width: 100}, placeholder: BLURRED)
         }
