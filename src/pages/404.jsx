@@ -1,11 +1,10 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import LayoutPage from '../components/layout_page';
-import lost from '../images/lost.jpeg'
 
 export default function NotFoundPage() {
   let styleDef = {
-    backgroundImage: "url({lost})"
+    backgroundImage: "url('https://stcdshare.s3.amazonaws.com/EQOnmxU4b4.jpeg')"
   }
 
   return (
