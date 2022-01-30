@@ -13,13 +13,20 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "portfolio",
+        path: `${__dirname}/src/images/portfolio/`,
+      },
+    },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "${__dirname}/src/images/",
+        path: "./src/images/",
       },
       __key: "images",
     },
