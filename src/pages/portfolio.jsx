@@ -3,7 +3,7 @@ import { Link, graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
-import { getClients } from '../helpers/portfolio'
+import { getClients } from '../helpers/portfolio';
 
 function portfolioList() {
   let clients = getClients();
@@ -15,29 +15,27 @@ function portfolioList() {
   return output;
 }
 
-// export const query = graphql`
-//     {
-//       file(relativePath: {eq: "portfolio/smartypantsvitamins.jpeg"}) {
-//         childImageSharp {
-//           gatsbyImageData(width: 500, blurredOptions: {width: 100}, placeholder: BLURRED)
-//         }
-//       }
-//     }
-//   `
-
 function project(clientName, client) {
   const query = graphql`
     {
-      portfolio(relativePath: {eq: "smartypantsvitamins.jpeg"}) {
-        childImageSharp {
-          gatsbyImageData(width: 500, blurredOptions: {width: 100}, placeholder: BLURRED)
+      allFile(filter: {relativePath: {eq: "fachwelt-verlag.jpg"}}) {
+      edges {
+        node {
+          relativePath
+          childImageSharp {
+            fluid(maxWidth: 1600) {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
     }
-  `
-  // console.log(query.file.childImageSharp);
+  }
+  `;
 
-  const image = getImage(query.file);//.childImageSharp.gatsbyImageData)
+  console.log(query);
+
+  const image = getImage(query.childImageSharp.gatsbyImageData)
 
   return (
     <li>
