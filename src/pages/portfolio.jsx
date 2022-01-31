@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { GatsbyImage, getImage, getSrc } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 import { getClients } from '../helpers/portfolio';
@@ -23,9 +23,11 @@ function project(clientName, client) {
           node {
             relativePath
             childImageSharp {
-              fluid(maxWidth: 1600) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(
+              width: 600
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
             }
           }
         }
@@ -33,9 +35,13 @@ function project(clientName, client) {
     }
   `);
 
-  console.log(data.allFile.edges[0].node.childImageSharp.fluid); //.fileName.childImageSharp.fluid);
+  const imgs = data.allFile.edges[0].node.childImageSharp;
 
-  const image = getImage(data.allFile.edges[0].node.childImageSharp.fluid);
+  console.log(imgs);
+  // console.log(imgs.base64);
+
+  const image = getImage(imgs);
+  console.log(image);
 
   return (
     <li>
@@ -43,9 +49,9 @@ function project(clientName, client) {
         <div className="aspect-w-3 aspect-h-2">
           <GatsbyImage
             className="object-cover shadow-lg rounded-lg"
-            image={data.allFile.edges[0].node.childImageSharp.fluid.src}
+            image={image}
             alt={clientName}
-            formats={['auto', 'webp']}
+            // formats={['auto', 'webp']}
           />
         </div>
 
