@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // import useFetch from 'react-fetch-hook';
-import { req } from 'gatsby';
+// import { req } from 'gatsby';
+
+// const fetch = require('node-fetch');
 
 function setCookie(cname, cvalue) {
   const d = new Date();
@@ -10,7 +12,8 @@ function setCookie(cname, cvalue) {
 }
 
 function getCookie(cname) {
-  console.log(req);
+  // const req = require('req');
+  // console.log(req);
 
   // let name = cname + '=';
   // let decodedCookie = decodeURIComponent(document.cookie);
@@ -88,9 +91,9 @@ export function getRegionName() {
 }
 
 function json_u(url) {
-  const { isLoading, error, data } = useFetch(url);
+  // const { isLoading, error, data } = useFetch(url);
 
-  return data.json();
+  return {};//data.json();
 }
 
 function getUserIp() {
@@ -100,16 +103,26 @@ function getUserIp() {
   // write it in cookie
   // return the value
 
-  json_u('https://api.ipify.org?format=jsonp&callback=getIP').then(data => {
-    console.log(data);
-  });
+  // const response = await fetch('https://api.ipify.org?format=jsonp&callback=getIP');
+  // const data = await response.json();
+  // console.log(data);
 
-  fetch('https://api.ipify.org?format=jsonp&callback=getIP', {mode: 'no-cors'})
-    .then((response) => response.json())
-    .then((data) => {
-      console.log(data);
-      country = JSON.stringify(data, null, 2);
-    });
+
+  useEffect(() => {
+    // get data from GitHub api
+    fetch('https://api.ipify.org?format=jsonp&callback=getIP')
+      .then(response => response.json()) // parse JSON from request
+      .then(resultData => {
+        console.log(resultData)
+      }) // set data for the number of stars
+  }, [])
+
+  // fetch('https://api.ipify.org?format=jsonp&callback=getIP', {mode: 'no-cors'})
+  //   .then((response) => response.json())
+  //   .then((data) => {
+  //     console.log(data);
+  //     country = JSON.stringify(data, null, 2);
+  //   });
 
   return '79.101.140.81';
 }
@@ -128,11 +141,21 @@ function getCountryName() {
     userIP +
     '?access_key=ecb285d703ed9506024a975b75fc7b7b';
 
-  fetch(path)
-    .then((response) => response.json())
-    .then((data) => {
-      country = JSON.stringify(data, null, 2);
-    });
+  // fetch(path)
+  //   .then((response) => response.json())
+  //   .then((data) => {
+  //     country = JSON.stringify(data, null, 2);
+  //   });
+
+  useEffect(() => {
+    // get data from GitHub api
+    fetch(path)
+      .then(response => response.json()) // parse JSON from request
+      .then(resultData => {
+        console.log(resultData)
+        country = JSON.stringify(data, null, 2);
+      })
+  }, [])
 
   setCookie('country', country);
   return country;
