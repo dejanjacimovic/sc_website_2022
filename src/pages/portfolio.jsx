@@ -16,26 +16,26 @@ function portfolioList() {
 }
 
 function project(clientName, client) {
-  const query = graphql`
-    {
-      allFile(filter: {relativePath: {eq: "fachwelt-verlag.jpg"}}) {
-      edges {
-        node {
-          relativePath
-          childImageSharp {
-            fluid(maxWidth: 1600) {
-              ...GatsbyImageSharpFluid
+  const data = useStaticQuery(graphql`
+    query Portfolio {
+      allFile(filter: { relativePath: { eq: "fachwelt-verlag.jpg" } }) {
+        edges {
+          node {
+            relativePath
+            childImageSharp {
+              fluid(maxWidth: 1600) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
       }
     }
-  }
-  `;
+  `);
 
-  console.log(query.node)//.fileName.childImageSharp.fluid);
+  console.log(data.allFile.edges[0].node.childImageSharp.fluid); //.fileName.childImageSharp.fluid);
 
-  const image = getImage(query.data.fileName.childImageSharp.fluid)
+  const image = getImage(data.allFile.edges[0].node.childImageSharp.fluid);
 
   return (
     <li>
@@ -43,7 +43,7 @@ function project(clientName, client) {
         <div className="aspect-w-3 aspect-h-2">
           <GatsbyImage
             className="object-cover shadow-lg rounded-lg"
-            image={image}
+            image={data.allFile.edges[0].node.childImageSharp.fluid.src}
             alt={clientName}
             formats={['auto', 'webp']}
           />
