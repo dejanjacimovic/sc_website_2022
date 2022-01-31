@@ -35,13 +35,7 @@ function project(clientName, client) {
     }
   `);
 
-  const imgs = data.allFile.edges[0].node.childImageSharp;
-
-  console.log(imgs);
-  // console.log(imgs.base64);
-
-  const image = getImage(imgs);
-  console.log(image);
+  const image = getImage(data.allFile.edges[0].node.childImageSharp);
 
   return (
     <li>
@@ -51,7 +45,7 @@ function project(clientName, client) {
             className="object-cover shadow-lg rounded-lg"
             image={image}
             alt={clientName}
-            // formats={['auto', 'webp']}
+            formats={['auto', 'webp']}
           />
         </div>
 
