@@ -33,9 +33,9 @@ function project(clientName, client) {
   }
   `;
 
-  console.log(query);
+  console.log(query.node)//.fileName.childImageSharp.fluid);
 
-  const image = getImage(query.childImageSharp.gatsbyImageData)
+  const image = getImage(query.data.fileName.childImageSharp.fluid)
 
   return (
     <li>
