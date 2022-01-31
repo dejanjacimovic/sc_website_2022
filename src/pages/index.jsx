@@ -134,8 +134,8 @@ export default function Home() {
                         >
                           <path
                             stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M13 10V3L4 14h7v7l9-11h-7z"
                           />
                         </svg>
@@ -165,8 +165,8 @@ export default function Home() {
                         >
                           <path
                             stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11"
                           />
                         </svg>
@@ -197,8 +197,8 @@ export default function Home() {
                         >
                           <path
                             stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                           />
                         </svg>
@@ -316,8 +316,8 @@ export default function Home() {
                           >
                             <path
                               stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
                               d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                             />
                           </svg>
@@ -349,8 +349,8 @@ export default function Home() {
                           >
                             <path
                               stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
                               d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                             />
                           </svg>
@@ -500,7 +500,7 @@ export default function Home() {
             width="784"
             height="404"
             fill="none"
-            viewbox="0 0 784 404"
+            viewBox="0 0 784 404"
           >
             <defs>
               <pattern
@@ -509,7 +509,7 @@ export default function Home() {
                 y="0"
                 width="20"
                 height="20"
-                patternunits="userSpaceOnUse"
+                patternUnits="userSpaceOnUse"
               >
                 <rect
                   className="text-gray-200"
@@ -532,7 +532,7 @@ export default function Home() {
             width="404"
             height="784"
             fill="none"
-            viewbox="0 0 404 784"
+            viewBox="0 0 404 784"
           >
             <defs>
               <pattern
@@ -541,7 +541,7 @@ export default function Home() {
                 y="0"
                 width="20"
                 height="20"
-                patternunits="userSpaceOnUse"
+                patternUnits="userSpaceOnUse"
               >
                 <rect
                   className="text-gray-200"
@@ -573,10 +573,10 @@ export default function Home() {
                 className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
                 stroke="currentColor"
                 fill="none"
-                viewbox="0 0 144 144"
+                viewBox="0 0 144 144"
               >
                 <path
-                  stroke-width="2"
+                  strokeWidth="2"
                   d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"
                 />
               </svg>
@@ -988,8 +988,8 @@ export default function Home() {
                   >
                     <path
                       stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
                     />
                   </svg>
@@ -1020,8 +1020,8 @@ export default function Home() {
                   >
                     <path
                       stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                     />
                   </svg>
@@ -1051,8 +1051,8 @@ export default function Home() {
                   >
                     <path
                       stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M13 10V3L4 14h7v7l9-11h-7z"
                     />
                   </svg>
