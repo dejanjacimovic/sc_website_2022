@@ -3,7 +3,11 @@ import LayoutPage from '../components/layout_page';
 import NavLeft from '../components/nav_left';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
-import { getHeroPhrase, getHeroRegionPhrase, getRegionName } from '../helpers/index.jsx';
+import {
+  getHeroPhrase,
+  getHeroRegionPhrase,
+  getRegionName,
+} from '../helpers/index.jsx';
 
 export default function Home() {
   return (
@@ -26,7 +30,8 @@ export default function Home() {
               <div className="sm:text-center lg:text-left">
                 <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                   <span className="mr-1">eCommerce agency</span>
-                  <br className="xl:hidden" />{` `}
+                  <br className="xl:hidden" />
+                  {` `}
                   <span className="text-indigo-600">{getHeroPhrase()}</span>
                 </h2>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -673,7 +678,12 @@ export default function Home() {
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <StaticImage className="h-12" src="../images/madebyberitnordstrand.png" alt="BERIT" loading="auto" />
+              <StaticImage
+                className="h-12"
+                src="../images/madebyberitnordstrand.png"
+                alt="BERIT"
+                loading="auto"
+              />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <StaticImage
