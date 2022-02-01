@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Cookies from 'universal-cookie';
+import Axios from 'axios';
 
 function setCookie(cname, cvalue) {
   const cookies = new Cookies();
