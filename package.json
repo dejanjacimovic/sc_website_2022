@@ -26,7 +26,8 @@
     "netlify-cms-app": "^2.15.63",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-fetch-hook": "^1.8.5"
+    "react-fetch-hook": "^1.8.5",
+    "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
