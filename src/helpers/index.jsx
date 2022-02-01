@@ -6,13 +6,18 @@ import Cookies from 'universal-cookie';
 // const fetch = require('node-fetch');
 
 function setCookie(cname, cvalue) {
+  const cookies = new Cookies();
+
   const d = new Date();
   d.setTime(d.getTime() + 365 * 24 * 60 * 60 * 1000);
-  let expires = 'expires=' + d.toUTCString();
-  document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/';
+  // let expires = 'expires=' + d.toUTCString();
+  // document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/';
+  cookies.set(cname, cvalue, expires);
 }
 
 function getCookie(cname) {
+  const cookies = new Cookies();
+  return cookies.get(cname)
   // const req = require('req');
   // console.log(req);
 
