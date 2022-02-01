@@ -14,7 +14,7 @@ function setCookie(cname, cvalue) {
 
 function getCookie(cname) {
   const cookies = new Cookies();
-  return cookies.get(cname)
+  return cookies.get(cname);
 }
 
 export function getHeroPhrase() {
@@ -80,7 +80,7 @@ export function getRegionName() {
 function json_u(url) {
   // const { isLoading, error, data } = useFetch(url);
 
-  return {};//data.json();
+  return {}; //data.json();
 }
 
 function getUserIp() {
@@ -94,15 +94,14 @@ function getUserIp() {
   // const data = await response.json();
   // console.log(data);
 
-
   useEffect(() => {
     // get data from GitHub api
     fetch('https://api.ipify.org?format=jsonp&callback=getIP')
-      .then(response => response.json()) // parse JSON from request
-      .then(resultData => {
-        console.log(resultData)
-      }) // set data for the number of stars
-  }, [])
+      .then((response) => response.json()) // parse JSON from request
+      .then((resultData) => {
+        console.log(resultData);
+      }); // set data for the number of stars
+  }, []);
 
   // fetch('https://api.ipify.org?format=jsonp&callback=getIP', {mode: 'no-cors'})
   //   .then((response) => response.json())
@@ -137,12 +136,12 @@ function getCountryName() {
   useEffect(() => {
     // get data from GitHub api
     fetch(path)
-      .then(response => response.json()) // parse JSON from request
-      .then(resultData => {
-        console.log(resultData)
+      .then((response) => response.json()) // parse JSON from request
+      .then((resultData) => {
+        console.log(resultData);
         country = JSON.stringify(data, null, 2);
-      })
-  }, [])
+      });
+  }, []);
 
   setCookie('country', country);
   return country;
