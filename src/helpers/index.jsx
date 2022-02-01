@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Cookies from 'universal-cookie';
-// import useFetch from 'react-fetch-hook';
-// import { req } from 'gatsby';
-
-// const fetch = require('node-fetch');
 
 function setCookie(cname, cvalue) {
   const cookies = new Cookies();
