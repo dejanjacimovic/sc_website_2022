@@ -86,7 +86,7 @@ function getUserIp() {
 
 function getCountryName() {
   let cnt = getCookie('country');
-  if (cnt != '' && !typeof(cnt) == undefined) {
+  if (cnt != '' && !typeof cnt == undefined) {
     return cnt;
   }
 

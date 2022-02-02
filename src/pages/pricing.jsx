@@ -6,7 +6,11 @@ import AddedValue from '../components/blocks/added_value';
 import ContentManagement from '../components/blocks/content_management';
 import PlusIntegrations from '../components/blocks/plus_integrations';
 
-import { getMaintenancePrice, getFaq, servicesIncluded } from '../helpers/index.jsx';
+import {
+  getMaintenancePrice,
+  getFaq,
+  servicesIncluded,
+} from '../helpers/index.jsx';
 
 function faqList() {
   let faqs = getFaq();

@@ -1,34 +1,34 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.stuntcoders.com",
-    title: "StuntCoders 2022",
+    siteUrl: 'https://www.stuntcoders.com',
+    title: 'StuntCoders 2022',
   },
   plugins: [
-    "gatsby-plugin-netlify-cms",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sitemap",
+    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sitemap',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: "src/images/favicon.png",
+        icon: 'src/images/favicon.png',
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "portfolio",
+        name: 'portfolio',
         path: `${__dirname}/src/images/portfolio/`,
       },
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: 'images',
+        path: './src/images/',
       },
-      __key: "images",
+      __key: 'images',
     },
   ],
 };

@@ -24,10 +24,10 @@ function project(clientName, client) {
             relativePath
             childImageSharp {
               gatsbyImageData(
-              width: 600
-              placeholder: BLURRED
-              formats: [AUTO, WEBP, AVIF]
-            )
+                width: 600
+                placeholder: BLURRED
+                formats: [AUTO, WEBP, AVIF]
+              )
             }
           }
         }
