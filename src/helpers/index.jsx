@@ -6,7 +6,7 @@ function setCookie(cname, cvalue) {
   const cookies = new Cookies();
   const d = new Date();
   d.setTime(d.getTime() + 365 * 24 * 60 * 60 * 1000);
-  cookies.set(cname, cvalue, expires);
+  cookies.set(cname, cvalue, 'expires=' + d.toUTCString());
 }
 
 function getCookie(cname) {
@@ -91,9 +91,9 @@ function getUserIp() {
 }
 
 function getCountryName() {
-  // check if country name in cookie? if so, return cookie value
-  if (getCookie('country') != '') {
-    return getCookie('country');
+  let cnt = getCookie('country');
+  if (cnt != '' && !typeof(cnt) == undefined) {
+    return cnt;
   }
 
   let country = 'United States';
@@ -104,21 +104,9 @@ function getCountryName() {
     userIP +
     '?access_key=ecb285d703ed9506024a975b75fc7b7b';
 
-  // fetch(path)
-  //   .then((response) => response.json())
-  //   .then((data) => {
-  //     country = JSON.stringify(data, null, 2);
-  //   });
-
-  useEffect(() => {
-    // get data from GitHub api
-    fetch(path)
-      .then((response) => response.json()) // parse JSON from request
-      .then((resultData) => {
-        console.log(resultData);
-        country = JSON.stringify(data, null, 2);
-      });
-  }, []);
+  Axios.get(path).then((response) => {
+    country = response.data.country_name;
+  });
 
   setCookie('country', country);
   return country;
