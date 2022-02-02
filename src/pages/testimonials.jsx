@@ -121,7 +121,12 @@ export default function Testimonials() {
                   <button
                     type="button"
                     className="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                    onClick="window.open('https://www.youtube.com/watch?v=xkAW5J6uGZ8', '_blank');"
+                    onClick={() =>
+                      window.open(
+                        'https://www.youtube.com/watch?v=xkAW5J6uGZ8',
+                        '_blank'
+                      )
+                    }
                   >
                     <span className="sr-only">
                       Watch our video to learn more
@@ -1744,7 +1749,7 @@ export default function Testimonials() {
             width="784"
             height="404"
             fill="none"
-            viewbox="0 0 784 404"
+            viewBox="0 0 784 404"
           >
             <defs>
               <pattern
@@ -1753,7 +1758,7 @@ export default function Testimonials() {
                 y="0"
                 width="20"
                 height="20"
-                patternunits="userSpaceOnUse"
+                patternUnits="userSpaceOnUse"
               >
                 <rect
                   className="text-gray-200"
@@ -1776,7 +1781,7 @@ export default function Testimonials() {
             width="404"
             height="784"
             fill="none"
-            viewbox="0 0 404 784"
+            viewBox="0 0 404 784"
           >
             <defs>
               <pattern
@@ -1785,7 +1790,7 @@ export default function Testimonials() {
                 y="0"
                 width="20"
                 height="20"
-                patternunits="userSpaceOnUse"
+                patternUnits="userSpaceOnUse"
               >
                 <rect
                   className="text-gray-200"
@@ -1817,10 +1822,10 @@ export default function Testimonials() {
                 className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
                 stroke="currentColor"
                 fill="none"
-                viewbox="0 0 144 144"
+                viewBox="0 0 144 144"
               >
                 <path
-                  stroke-width="2"
+                  strokeWidth="2"
                   d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"
                 />
               </svg>
