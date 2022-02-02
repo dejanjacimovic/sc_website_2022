@@ -39,9 +39,9 @@ function serviceIncluded(serviceName, c = 0) {
         aria-hidden="true"
       >
         <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
           d="M5 13l4 4L19 7"
         />
       </svg>
@@ -93,9 +93,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -112,9 +112,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -133,9 +133,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -152,9 +152,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -171,9 +171,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -192,9 +192,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -211,9 +211,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M6 18L18 6M6 6l12 12"
                     />
                   </svg>
@@ -262,9 +262,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -283,9 +283,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -304,9 +304,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -323,9 +323,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -342,9 +342,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -363,9 +363,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -382,9 +382,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -404,9 +404,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -425,9 +425,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -446,9 +446,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -468,9 +468,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -490,9 +490,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -511,9 +511,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -563,9 +563,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -584,9 +584,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -605,9 +605,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -626,9 +626,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
@@ -647,9 +647,9 @@ export default function Pricing() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
