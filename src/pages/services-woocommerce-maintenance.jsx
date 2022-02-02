@@ -49,7 +49,7 @@ function QA(question, answer, isFirst = true) {
         </button>
       </dt>
       <dd className="mt-2 pr-12">
-        <p className="text-base leading-6 text-gray-500">{answer}</p>
+        <div className="text-base leading-6 text-gray-500" dangerouslySetInnerHTML={{__html: answer}} />
       </dd>
     </div>
   );
