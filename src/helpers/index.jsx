@@ -81,33 +81,13 @@ function json_u(url) {
 }
 
 function getUserIp() {
-  // check if IP is saved in cookie
-  // if so, return IP from cookie
-  // if not, somehow get user IP
-  // write it in cookie
-  // return the value
+  let userIP = '79.101.140.81';
 
-  // const response = await fetch('https://api.ipify.org?format=jsonp&callback=getIP');
-  // const data = await response.json();
-  // console.log(data);
+  Axios.get('https://api.ipify.org?format=json').then((response) => {
+    userIP = response.data.ip;
+  });
 
-  useEffect(() => {
-    // get data from GitHub api
-    fetch('https://api.ipify.org?format=jsonp&callback=getIP')
-      .then((response) => response.json()) // parse JSON from request
-      .then((resultData) => {
-        console.log(resultData);
-      }); // set data for the number of stars
-  }, []);
-
-  // fetch('https://api.ipify.org?format=jsonp&callback=getIP', {mode: 'no-cors'})
-  //   .then((response) => response.json())
-  //   .then((data) => {
-  //     console.log(data);
-  //     country = JSON.stringify(data, null, 2);
-  //   });
-
-  return '79.101.140.81';
+  return userIP;
 }
 
 function getCountryName() {
