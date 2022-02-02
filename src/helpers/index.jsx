@@ -74,12 +74,6 @@ export function getRegionName() {
   }
 }
 
-function json_u(url) {
-  // const { isLoading, error, data } = useFetch(url);
-
-  return {}; //data.json();
-}
-
 function getUserIp() {
   let userIP = '79.101.140.81';
 
