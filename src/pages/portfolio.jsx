@@ -5,6 +5,16 @@ import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 import { getClients } from '../helpers/portfolio';
 
+function findImage(fileName, edges) {
+  for(let i=0; i<edges.length; i++) {
+      if(edges[i].node.relativePath == fileName) {
+        return getImage(edges[i].node.childImageSharp);
+    }
+  }
+
+  return '';
+}
+
 function portfolioList(edges) {
   let clients = getClients();
   let output = [];
@@ -17,7 +27,8 @@ function portfolioList(edges) {
 
 function project(clientName, client, edges) {
 
-  const image = getImage(edges[0].node.childImageSharp);
+  // const image = getImage(edges[0].node.childImageSharp);
+  const image = findImage(client.image, edges);
 
   return (
     <li>
