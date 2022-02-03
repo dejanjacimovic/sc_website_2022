@@ -6,9 +6,9 @@ import NavCenter from '../components/nav_center';
 import { getClients } from '../helpers/portfolio';
 
 function findImage(fileName, edges) {
-  for(let i=0; i<edges.length; i++) {
-      if(edges[i].node.relativePath == fileName) {
-        return getImage(edges[i].node.childImageSharp);
+  for (let i = 0; i < edges.length; i++) {
+    if (edges[i].node.relativePath == fileName) {
+      return getImage(edges[i].node.childImageSharp);
     }
   }
 
@@ -73,7 +73,7 @@ function project(clientName, client, edges) {
   );
 }
 
-export default function Portfolio({data}) {
+export default function Portfolio({ data }) {
   return (
     <LayoutPage>
       <div className="relative pt-6 pb-2 sm:pb-16 md:pb-2 lg:pb-2 xl:pb-2">
