@@ -26,17 +26,13 @@ function portfolioList(edges) {
 }
 
 function project(clientName, client, edges) {
-
-  // const image = getImage(edges[0].node.childImageSharp);
-  const image = findImage(client.image, edges);
-
   return (
     <li>
       <div className="space-y-4">
         <div className="aspect-w-3 aspect-h-2">
           <GatsbyImage
             className="object-cover shadow-lg rounded-lg"
-            image={image}
+            image={findImage(client.image, edges)}
             alt={clientName}
             formats={['auto', 'webp']}
           />
@@ -78,7 +74,6 @@ function project(clientName, client, edges) {
 }
 
 export default function Portfolio({data}) {
-  console.log(data);
   return (
     <LayoutPage>
       <div className="relative pt-6 pb-2 sm:pb-16 md:pb-2 lg:pb-2 xl:pb-2">
