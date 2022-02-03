@@ -48,7 +48,7 @@ export function getClients() {
       tehnologies: 'Magento, WordPress',
       country: '🇳🇴',
       link: 'https://smartlapper.no/',
-      image: 'https://stcdshare.s3.amazonaws.com/cfc59pxu4G.png',
+      image: 'smartlapper.jpg',
     },
     'Lava Art': {
       tehnologies: 'WordPress, WooCommerce, WPML',
@@ -152,8 +152,7 @@ export function getClients() {
       substack: 'Redis, Nginx',
       country: '🇺🇸',
       link: 'https://LeCollab.com/',
-      image:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixqx=PxHbCpEsMp&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      image: 'collab.jpg',
     },
     Selekkt: {
       tehnologies: 'Magento, Algolia',
