@@ -90,7 +90,7 @@ function getCountryName() {
     return cnt;
   }
 
-  let country = 'United States';
+  let country = '';
   let userIP = getUserIp();
 
   let path =
@@ -102,7 +102,10 @@ function getCountryName() {
     country = response.data.country_name;
   });
 
-  setCookie('country', country);
+  if (country != '') {
+    setCookie('country', country);
+  }
+
   return country;
 }
 
