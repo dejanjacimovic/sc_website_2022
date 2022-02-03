@@ -4,15 +4,13 @@ import LayoutPage from '../components/layout_page';
 
 export default function NotFoundPage() {
   let styleDef = {
-    backgroundImage: "url('https://stcdshare.s3.amazonaws.com/EQOnmxU4b4.jpeg')"
-  }
+    backgroundImage:
+      "url('https://stcdshare.s3.amazonaws.com/EQOnmxU4b4.jpeg')",
+  };
 
   return (
     <LayoutPage>
-      <main
-        className="min-h-full bg-cover bg-top sm:bg-top"
-        style={styleDef}
-      >
+      <main className="min-h-full bg-cover bg-top sm:bg-top" style={styleDef}>
         <div className="max-w-7xl mx-auto px-4 py-16 text-center sm:px-6 sm:py-24 lg:px-8 lg:py-48">
           <p className="text-sm font-semibold text-black text-opacity-50 uppercase tracking-wide">
             404 error
