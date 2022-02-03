@@ -181,7 +181,7 @@ export default class NavCenter extends React.Component {
               <span className="inline-flex rounded-md shadow">
                 <Link
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
-                  to="/contact-us/"
+                  to="/contact/"
                 >
                   Contact us
                 </Link>
@@ -334,7 +334,7 @@ export default class NavCenter extends React.Component {
               <div>
                 <Link
                   className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
-                  to="/contact-us/"
+                  to="/contact/"
                   role="menuitem"
                 >
                   Contact us
