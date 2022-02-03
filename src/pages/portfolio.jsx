@@ -5,37 +5,19 @@ import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 import { getClients } from '../helpers/portfolio';
 
-function portfolioList() {
+function portfolioList(edges) {
   let clients = getClients();
   let output = [];
   for (var key in clients) {
-    output.push(project(key, clients[key]));
+    output.push(project(key, clients[key], edges));
   }
 
   return output;
 }
 
-function project(clientName, client) {
-  const data = useStaticQuery(graphql`
-    query Portfolio {
-      allFile(filter: { relativePath: { eq: "fachwelt-verlag.jpg" } }) {
-        edges {
-          node {
-            relativePath
-            childImageSharp {
-              gatsbyImageData(
-                width: 600
-                placeholder: BLURRED
-                formats: [AUTO, WEBP, AVIF]
-              )
-            }
-          }
-        }
-      }
-    }
-  `);
+function project(clientName, client, edges) {
 
-  const image = getImage(data.allFile.edges[0].node.childImageSharp);
+  const image = getImage(edges[0].node.childImageSharp);
 
   return (
     <li>
@@ -84,7 +66,8 @@ function project(clientName, client) {
   );
 }
 
-export default function Portfolio() {
+export default function Portfolio({data}) {
+  console.log(data);
   return (
     <LayoutPage>
       <div className="relative pt-6 pb-2 sm:pb-16 md:pb-2 lg:pb-2 xl:pb-2">
@@ -104,7 +87,7 @@ export default function Portfolio() {
               </p>
             </div>
             <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
-              {portfolioList()}
+              {portfolioList(data.allFile.edges)}
             </ul>
           </div>
         </div>
@@ -112,3 +95,22 @@ export default function Portfolio() {
     </LayoutPage>
   );
 }
+
+export const IMAGES = graphql`
+  query Portfolio {
+    allFile {
+      edges {
+        node {
+          relativePath
+          childImageSharp {
+            gatsbyImageData(
+              width: 600
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+      }
+    }
+  }
+`;
