@@ -29,10 +29,10 @@ function project(clientName, client, edges) {
   return (
     <li>
       <div className="space-y-4">
-        <div className="aspect-w-3 aspect-h-2">
+        <div className="aspect-w-3 aspect-h">
           <GatsbyImage
             imgClassName="object-cover shadow-lg rounded-lg"
-            className="aspect-w-3 aspect-h"
+            className="aspect-w-3 aspect-h-2"
             image={findImage(client.image, edges)}
             alt={clientName}
             formats={['auto', 'webp']}
