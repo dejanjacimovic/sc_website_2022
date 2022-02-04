@@ -86,6 +86,12 @@ export function getClients() {
       link: 'https://warholms.no/',
       image: 'warholms.jpeg',
     },
+    IMI: {
+      tehnologies: 'WordPress, Zapier, Notion',
+      country: '🇳🇱',
+      link: 'https://imimediation.org/',
+      image: 'imimediation.jpeg',
+    },
     'Made By Berit': {
       tehnologies: 'WooCommerce, WordPress',
       country: '🇳🇴',
