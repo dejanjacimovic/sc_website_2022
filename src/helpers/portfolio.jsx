@@ -68,6 +68,12 @@ export function getClients() {
       link: 'https://natuligliv.no/',
       image: 'natuligliv.jpeg',
     },
+    'Blahface': {
+      tehnologies: 'Ruby on Rails',
+      country: '🇺🇸',
+      link: 'https://blahface.com/',
+      image: 'blahface.jpeg',
+    },
     'Ulleval Kiropraktor': {
       tehnologies: 'WordPress',
       country: '🇳🇴',
