@@ -12,11 +12,11 @@ import {
 export default function Home() {
   return (
     <LayoutPage>
-      <div className="relative bg-white overflow-hidden">
-        <div className="max-w-screen-xl mx-auto">
-          <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <div className="relative overflow-hidden bg-white">
+        <div className="mx-auto max-w-screen-xl">
+          <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
             <svg
-              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+              className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -26,15 +26,15 @@ export default function Home() {
 
             <NavLeft />
 
-            <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+            <main className="mx-auto mt-10 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
-                <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+                <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                   <span className="mr-1">eCommerce agency</span>
                   <br className="xl:hidden" />
                   {` `}
                   <span className="text-indigo-600">{getHeroPhrase()}</span>
                 </h2>
-                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
                   Our dedicated team saves frustration, time, worries, and a lot
                   of money for SMB eCommerce. That is why customers from{' '}
                   {getHeroRegionPhrase()} have been with us for{' '}
@@ -43,7 +43,7 @@ export default function Home() {
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
                     <Link
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                      className="focus:shadow-outline-indigo flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:border-indigo-700 focus:outline-none md:py-4 md:px-10 md:text-lg"
                       to="/contact/"
                     >
                       Get started
@@ -51,7 +51,7 @@ export default function Home() {
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
                     <Link
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                      className="focus:shadow-outline-indigo flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium leading-6 text-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-50 hover:text-indigo-600 focus:border-indigo-300 focus:outline-none md:py-4 md:px-10 md:text-lg"
                       to="/testimonials/"
                     >
                       What did our customers say?
@@ -64,7 +64,7 @@ export default function Home() {
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <StaticImage
-            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
             src="../images/marko-og-dejan.jpg"
             loading="auto"
             alt="Marko and Dejan coding"
@@ -72,10 +72,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
-        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
+      <div className="overflow-hidden bg-gray-50 py-16 lg:py-24">
+        <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
           <svg
-            className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
+            className="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -107,17 +107,17 @@ export default function Home() {
             />
           </svg>
           <div className="relative">
-            <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               A better way to manage your eCommerce
             </h3>
-            <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
+            <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-7 text-gray-500">
               Reach our team via phone, real-time chat, Slack, Skype, Zoom, or
               any other channel that suits you best.
             </p>
           </div>
-          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div className="relative">
-              <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+              <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                 We're Here for You
               </h4>
               <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -130,7 +130,7 @@ export default function Home() {
                 <li>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                         <svg
                           className="h-6 w-6"
                           fill="none"
@@ -147,7 +147,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      <h5 className="text-lg font-medium leading-6 text-gray-900">
                         We reply within 90 minutes
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
@@ -161,7 +161,7 @@ export default function Home() {
                 <li className="mt-10">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                         <svg
                           className="h-6 w-6"
                           fill="none"
@@ -178,7 +178,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      <h5 className="text-lg font-medium leading-6 text-gray-900">
                         White glove service
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
@@ -193,7 +193,7 @@ export default function Home() {
                 <li className="mt-10">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                         <svg
                           className="h-6 w-6"
                           fill="none"
@@ -210,7 +210,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      <h5 className="text-lg font-medium leading-6 text-gray-900">
                         Transparent pricing
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
@@ -223,9 +223,9 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="mt-10 -mx-4 relative lg:mt-0">
+            <div className="relative -mx-4 mt-10 lg:mt-0">
               <svg
-                className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                 width="784"
                 height="404"
                 fill="none"
@@ -266,7 +266,7 @@ export default function Home() {
             </div>
           </div>
           <svg
-            className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
+            className="absolute right-full hidden translate-x-1/2 translate-y-12 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -298,9 +298,9 @@ export default function Home() {
             />
           </svg>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
-            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
               <div className="lg:col-start-2">
-                <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+                <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                   Always be in the loop
                 </h4>
                 <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -312,7 +312,7 @@ export default function Home() {
                   <li>
                     <div className="flex">
                       <div className="flex-shrink-0">
-                        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                           <svg
                             className="h-6 w-6"
                             fill="none"
@@ -329,7 +329,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="ml-4">
-                        <h5 className="text-lg leading-6 font-medium text-gray-900">
+                        <h5 className="text-lg font-medium leading-6 text-gray-900">
                           Nothing gets lost. Ever.
                         </h5>
                         <p className="mt-2 text-base leading-6 text-gray-500">
@@ -345,7 +345,7 @@ export default function Home() {
                   <li className="mt-10">
                     <div className="flex">
                       <div className="flex-shrink-0">
-                        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                           <svg
                             className="h-6 w-6"
                             fill="none"
@@ -362,7 +362,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="ml-4">
-                        <h5 className="text-lg leading-6 font-medium text-gray-900">
+                        <h5 className="text-lg font-medium leading-6 text-gray-900">
                           Regular emails, transparent statuses
                         </h5>
                         <p className="mt-2 text-base leading-6 text-gray-500">
@@ -376,9 +376,9 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+              <div className="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0">
                 <svg
-                  className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                  className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                   width="784"
                   height="404"
                   fill="none"
@@ -423,10 +423,10 @@ export default function Home() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div className="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+          <div className="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div>
-              <h2 className="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+              <h2 className="text-3xl font-extrabold leading-9 text-gray-900 sm:text-4xl sm:leading-10">
                 Trusted by {getRegionName()} companies
               </h2>
               <p className="mt-3 max-w-3xl text-lg leading-7 text-gray-500">
@@ -436,7 +436,7 @@ export default function Home() {
               <div className="mt-8 sm:flex">
                 <div className="rounded-md shadow">
                   <Link
-                    className="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                    className="focus:shadow-outline flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none"
                     to="/contact/"
                   >
                     Contact us
@@ -445,7 +445,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
                   src="https://stcdshare.s3.amazonaws.com/bilxtra.svg"
@@ -453,7 +453,7 @@ export default function Home() {
                   loading="auto"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
                   src="https://stcdshare.s3.amazonaws.com/skintific.svg"
@@ -461,7 +461,7 @@ export default function Home() {
                   loading="auto"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
                   src="https://stcdshare.s3.amazonaws.com/93TlHygAEK.svg"
@@ -469,7 +469,7 @@ export default function Home() {
                   loading="auto"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
                   src="https://stcdshare.s3.amazonaws.com/pickles.svg"
@@ -477,7 +477,7 @@ export default function Home() {
                   loading="auto"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
                   src="https://stcdshare.s3.amazonaws.com/tesori.svg"
@@ -485,7 +485,7 @@ export default function Home() {
                   loading="auto"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
                   src="https://stcdshare.s3.amazonaws.com/bedtime.svg"
@@ -498,10 +498,10 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="bg-white overflow-hidden">
-        <div className="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
+      <section className="overflow-hidden bg-white">
+        <div className="relative mx-auto max-w-screen-xl px-4 pt-20 pb-12 sm:px-6 lg:px-8 lg:py-20">
           <svg
-            className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
+            className="absolute top-full left-0 translate-x-80 -translate-y-24 transform lg:hidden"
             width="784"
             height="404"
             fill="none"
@@ -533,7 +533,7 @@ export default function Home() {
             />
           </svg>
           <svg
-            className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2"
+            className="absolute right-full top-1/2 hidden translate-x-1/2 -translate-y-1/2 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -575,7 +575,7 @@ export default function Home() {
             </div>
             <div className="relative lg:ml-10">
               <svg
-                className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
+                className="absolute top-0 left-0 h-36 w-36 -translate-x-8 -translate-y-24 transform text-indigo-200 opacity-50"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 144 144"
@@ -586,7 +586,7 @@ export default function Home() {
                 />
               </svg>
               <blockquote className="relative">
-                <div className="text-2xl leading-9 font-medium text-gray-900">
+                <div className="text-2xl font-medium leading-9 text-gray-900">
                   <p>
                     During my career I have worked with numerous IT companies,
                     software and e-commerce developers. None of them come close
@@ -609,10 +609,10 @@ export default function Home() {
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base leading-6 font-medium text-gray-900">
+                      <div className="text-base font-medium leading-6 text-gray-900">
                         Terje Gaupseth
                       </div>
-                      <div className="text-base leading-6 font-medium text-indigo-600">
+                      <div className="text-base font-medium leading-6 text-indigo-600">
                         CEO, Tesori
                       </div>
                     </div>
@@ -626,7 +626,7 @@ export default function Home() {
 
       <a name="pricing" />
       <div className="relative bg-gray-900">
-        <div className="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
+        <div className="absolute inset-x-0 bottom-0 h-80 xl:top-0 xl:h-full">
           <div className="h-full w-full xl:grid xl:grid-cols-2">
             <div className="h-full xl:relative xl:col-start-2">
               <StaticImage
@@ -641,9 +641,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-flow-col-dense xl:grid-cols-2 xl:gap-x-8">
           <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-            <h2 className="text-sm font-semibold tracking-wide uppercase" />
+            <h2 className="text-sm font-semibold uppercase tracking-wide" />
             <p className="mt-3 text-3xl font-extrabold text-white">
               Fair. Transparent. Pricing.
             </p>
@@ -656,7 +656,7 @@ export default function Home() {
               <div className="mt-8 inline-flex rounded-md shadow">
                 <Link
                   to="/pricing/"
-                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+                  className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
                 >
                   See pricing
                 </Link>
@@ -667,7 +667,7 @@ export default function Home() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <StaticImage
@@ -713,10 +713,10 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
-        <div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="overflow-hidden bg-gray-50 py-12 md:py-20 lg:py-24">
+        <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <svg
-            className="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2"
+            className="absolute top-full right-full translate-x-1/3 -translate-y-1/4 transform lg:translate-x-1/2 xl:-translate-y-1/2"
             width="404"
             height="404"
             fill="none"
@@ -905,7 +905,7 @@ export default function Home() {
               />
             </svg>
             <blockquote className="mt-8">
-              <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
+              <div className="mx-auto max-w-3xl text-center text-2xl font-medium leading-9 text-gray-900">
                 <p>
                   “A big thank you to everyone at StuntCoders for making my work
                   life so much easier! Thanks to your expertise, I now save
@@ -927,17 +927,17 @@ export default function Home() {
                     />
                   </div>
                   <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                    <div className="text-base leading-6 font-medium text-gray-900">
+                    <div className="text-base font-medium leading-6 text-gray-900">
                       Christina Chetkowski
                     </div>
                     <svg
-                      className="hidden md:block mx-1 h-5 w-5 text-indigo-600"
+                      className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
                       <path d="M11 0h3L9 20H6l5-20z" />
                     </svg>
-                    <div className="text-base leading-6 font-medium text-gray-500">
+                    <div className="text-base font-medium leading-6 text-gray-500">
                       CEO, JumpKing
                     </div>
                   </div>
@@ -949,10 +949,10 @@ export default function Home() {
       </section>
 
       <div className="">
-        <div className="relative pb-32 bg-gray-800">
+        <div className="relative bg-gray-800 pb-32">
           <div className="absolute inset-0">
             <StaticImage
-              className="w-full h-full object-cover"
+              className="h-full w-full object-cover"
               src="../images/working-class-hero.jpeg"
               alt="Working class hero is something to be"
             />
@@ -961,7 +961,7 @@ export default function Home() {
               aria-hidden="true"
             />
           </div>
-          <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+          <div className="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
             <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-5xl">
               We are not Jacks of all trades.
               <br />
@@ -978,16 +978,16 @@ export default function Home() {
         </div>
 
         <section
-          className="-mt-32 max-w-7xl mx-auto relative z-10 pb-4 px-4 sm:px-6 lg:px-8"
+          className="relative z-10 mx-auto -mt-32 max-w-7xl px-4 pb-4 sm:px-6 lg:px-8"
           aria-labelledby="contact-heading"
         >
           <h2 className="sr-only" id="contact-heading">
             Contact us
           </h2>
           <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-            <div className="flex flex-col bg-white rounded-2xl shadow-xl">
-              <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                <div className="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+            <div className="flex flex-col rounded-2xl bg-white shadow-xl">
+              <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+                <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
                   <svg
                     className="h-6 w-6 text-white"
                     xmlns="http://www.w3.org/2000/svg"
@@ -1017,9 +1017,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col bg-white rounded-2xl shadow-xl">
-              <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                <div className="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+            <div className="flex flex-col rounded-2xl bg-white shadow-xl">
+              <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+                <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
                   <svg
                     className="h-6 w-6 text-white"
                     xmlns="http://www.w3.org/2000/svg"
@@ -1048,9 +1048,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col bg-white rounded-2xl shadow-xl">
-              <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                <div className="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+            <div className="flex flex-col rounded-2xl bg-white shadow-xl">
+              <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+                <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
                   <svg
                     className="h-6 w-6 text-white"
                     xmlns="http://www.w3.org/2000/svg"
@@ -1084,16 +1084,16 @@ export default function Home() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-          <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+        <div className="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             <span>Ready to dive in?</span>
             <br />
             <span className="text-indigo-600">We'll get you covered.</span>
           </h2>
-          <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <Link
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none"
                 to="/contact/"
               >
                 Get in touch
@@ -1101,7 +1101,7 @@ export default function Home() {
             </div>
             <div className="ml-3 inline-flex rounded-md shadow">
               <Link
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out hover:text-indigo-500 focus:outline-none"
                 to="/testimonials/"
               >
                 What did our customers say?
@@ -1112,8 +1112,8 @@ export default function Home() {
       </div>
 
       <section className="bg-indigo-800">
-        <div className="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
-          <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
+        <div className="mx-auto max-w-screen-xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
+          <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 md:pl-0 md:pr-10 lg:pr-16">
             <div className="md:flex-shrink-0">
               <svg
                 height="60"
@@ -1284,10 +1284,10 @@ export default function Home() {
                 </g>
               </svg>
             </div>
-            <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
-              <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+            <blockquote className="mt-8 md:flex md:flex-grow md:flex-col">
+              <div className="relative text-lg font-medium leading-7 text-white md:flex-grow">
                 <svg
-                  className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                  className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-600"
                   fill="currentColor"
                   viewBox="0 0 32 32"
                 >
@@ -1300,7 +1300,7 @@ export default function Home() {
               </div>
               <footer className="mt-8">
                 <div className="flex">
-                  <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                  <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
                     <StaticImage
                       className="h-12 w-12 rounded-full"
                       src="../images/therese.png"
@@ -1308,10 +1308,10 @@ export default function Home() {
                     />
                   </div>
                   <div className="ml-4">
-                    <div className="text-base leading-6 font-medium text-white">
+                    <div className="text-base font-medium leading-6 text-white">
                       Therese Aarsæther
                     </div>
-                    <div className="text-base leading-6 font-medium text-indigo-200">
+                    <div className="text-base font-medium leading-6 text-indigo-200">
                       CEO, Naturlig Liv
                     </div>
                   </div>
@@ -1319,7 +1319,7 @@ export default function Home() {
               </footer>
             </blockquote>
           </div>
-          <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+          <div className="border-t-2 border-indigo-900 py-12 px-4 sm:px-6 md:border-t-0 md:border-l md:py-16 md:pr-0 md:pl-10 lg:pl-16">
             <div className="md:flex-shrink-0">
               <svg
                 height="60"
@@ -1913,10 +1913,10 @@ export default function Home() {
                 <path d="M409.7,521.8c0.5,0,1,0.1,1.6,0.1c0,0.1,0,0.3,0,0.4c-0.5,0-1,0.1-1.5,0.1C409.7,522.2,409.7,522,409.7,521.8z" />
               </svg>
             </div>
-            <blockquote className="mt-8 md:flex-grow md:flex md:flex-col">
-              <div className="relative text-lg leading-7 font-medium text-white md:flex-grow">
+            <blockquote className="mt-8 md:flex md:flex-grow md:flex-col">
+              <div className="relative text-lg font-medium leading-7 text-white md:flex-grow">
                 <svg
-                  className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+                  className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-600"
                   fill="currentColor"
                   viewBox="0 0 32 32"
                 >
@@ -1932,7 +1932,7 @@ export default function Home() {
               </div>
               <footer className="mt-8">
                 <div className="flex">
-                  <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                  <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
                     <StaticImage
                       className="h-12 w-12 rounded-full"
                       src="../images/stine.jpg"
@@ -1940,10 +1940,10 @@ export default function Home() {
                     />
                   </div>
                   <div className="ml-4">
-                    <div className="text-base leading-6 font-medium text-white">
+                    <div className="text-base font-medium leading-6 text-white">
                       Stine Svarthe
                     </div>
-                    <div className="text-base leading-6 font-medium text-indigo-200">
+                    <div className="text-base font-medium leading-6 text-indigo-200">
                       CEO, Bare Bra Barnemat
                     </div>
                   </div>
@@ -1954,21 +1954,21 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="bg-white overflow-hidden">
-        <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-          <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
-          <div className="mx-auto text-base max-w-prose lg:max-w-none">
-            <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+      <div className="overflow-hidden bg-white">
+        <div className="relative mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+          <div className="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block" />
+          <div className="mx-auto max-w-prose text-base lg:max-w-none">
+            <p className="text-base font-semibold uppercase leading-6 tracking-wide text-indigo-600">
               A word from our CEO
             </p>
-            <h1 className="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h1 className="mt-2 mb-8 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               Dejan Jacimovic
             </h1>
           </div>
           <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-            <div className="relative mb-8 lg:mb-0 lg:row-start-1 lg:col-start-2">
+            <div className="relative mb-8 lg:col-start-2 lg:row-start-1 lg:mb-0">
               <svg
-                className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
+                className="absolute top-0 right-0 -mt-20 -mr-20 hidden lg:block"
                 width="404"
                 height="384"
                 fill="none"
@@ -1999,11 +1999,11 @@ export default function Home() {
                   fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)"
                 />
               </svg>
-              <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
+              <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
                 <figure>
-                  <div className="relative pb-7/12 lg:pb-0">
+                  <div className="pb-7/12 relative lg:pb-0">
                     <img
-                      className="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto"
+                      className="absolute inset-0 h-full w-full rounded-lg object-cover object-center shadow-lg lg:static lg:h-auto"
                       src="https://stcdshare.s3.amazonaws.com/dejan-ceo.jpg"
                       alt="Dejan Jacimovic, CEO of StuntCoders"
                       width="1184"
@@ -2014,8 +2014,8 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <div className="text-base max-w-prose mx-auto lg:max-w-none">
-                <p className="text-lg leading-7 text-gray-500 mb-5">
+              <div className="mx-auto max-w-prose text-base lg:max-w-none">
+                <p className="mb-5 text-lg leading-7 text-gray-500">
                   It’s not our place to tell you what your business needs; it’s
                   our job to make it happen. So if you have a great idea, get in
                   touch and we will give you an honest answer — if it can be
@@ -2023,7 +2023,7 @@ export default function Home() {
                   lightsaber.
                 </p>
               </div>
-              <div className="prose text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+              <div className="prose mx-auto text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
                 <p>
                   StuntCoders is not a ‘full-service agency’, we are not a
                   marketing agency, we are not a design agency — we implement
@@ -2067,24 +2067,24 @@ export default function Home() {
       <div className="relative bg-gray-800">
         <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
           <StaticImage
-            className="w-full h-full object-cover"
+            className="h-full w-full object-cover"
             src="../images/stunt-family.jpg"
             alt="StuntCoders is a messy family"
           />
         </div>
-        <div className="relative max-w-screen-xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+        <div className="relative mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="md:ml-auto md:w-1/2 md:pl-10">
-            <div className="text-base leading-6 font-semibold uppercase tracking-wider text-gray-300">
+            <div className="text-base font-semibold uppercase leading-6 tracking-wider text-gray-300">
               Word-class support
             </div>
-            <h2 className="mt-2 text-white text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
+            <h2 className="mt-2 text-3xl font-extrabold leading-9 tracking-tight text-white sm:text-4xl sm:leading-10">
               Working as your family
             </h2>
             <p className="mt-3 text-lg leading-7 text-gray-300"> </p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">
                 <Link
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none"
                   to="/about-us/"
                 >
                   <span>Learn more about us</span>

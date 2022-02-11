@@ -23,10 +23,10 @@ export default function Contact() {
               />
             </div>
           </div>
-          <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
+          <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div className="lg:pr-8">
-              <div className="max-w-md mx-auto sm:max-w-lg lg:mx-0">
-                <h2 className="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
+              <div className="mx-auto max-w-md sm:max-w-lg lg:mx-0">
+                <h2 className="text-3xl font-extrabold leading-9 tracking-tight sm:text-4xl sm:leading-10">
                   Let's work together
                 </h2>
                 <p className="mt-4 text-lg leading-7 text-gray-500 sm:mt-3">
@@ -36,7 +36,7 @@ export default function Contact() {
                 </p>
 
                 <form
-                  className="mt-9 grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8"
+                  className="row-gap-6 sm:col-gap-8 mt-9 grid grid-cols-1 sm:grid-cols-2"
                   name="contact"
                   data-netlify="true"
                   id="contact-us-form"
@@ -49,9 +49,9 @@ export default function Contact() {
                     >
                       Name
                     </label>
-                    <div className="mt-1 relative rounded-md shadow-sm">
+                    <div className="relative mt-1 rounded-md shadow-sm">
                       <input
-                        className="block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md shadow-sm"
+                        className="block w-full rounded-md border-gray-300 shadow-sm shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                         id="name"
                         name="name"
                         type="text"
@@ -65,9 +65,9 @@ export default function Contact() {
                     >
                       Email
                     </label>
-                    <div className="mt-1 relative rounded-md shadow-sm">
+                    <div className="relative mt-1 rounded-md shadow-sm">
                       <input
-                        className="block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md shadow-sm"
+                        className="block w-full rounded-md border-gray-300 shadow-sm shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                         id="email"
                         name="email"
                         type="email"
@@ -86,9 +86,9 @@ export default function Contact() {
                         Max. 500 characters
                       </span>
                     </div>
-                    <div className="mt-1 relative rounded-md shadow-sm">
+                    <div className="relative mt-1 rounded-md shadow-sm">
                       <textarea
-                        className="form-textarea block w-full transition ease-in-out duration-150 sm:text-sm sm:leading-5 border-gray-300 rounded-md shadow-sm"
+                        className="form-textarea block w-full rounded-md border-gray-300 shadow-sm transition duration-150 ease-in-out sm:text-sm sm:leading-5"
                         id="how_can_we_help"
                         name="how_can_we_help"
                         rows="4"
@@ -99,7 +99,7 @@ export default function Contact() {
                     <br />
                     <span className="inline-flex rounded-md shadow-sm">
                       <button
-                        className="inline-flex justify-center py-2 px-4 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition duration-150 ease-in-out g-recaptcha"
+                        className="focus:shadow-outline-indigo g-recaptcha inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:border-indigo-700 focus:outline-none active:bg-indigo-700"
                         data-sitekey="6LdoFm0aAAAAAD4ZE5f3sS2PoLph_h0kouP_VPF9"
                         data-callback="onSubmit"
                         data-action="submit"

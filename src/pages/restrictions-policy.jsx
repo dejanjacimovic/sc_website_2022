@@ -10,11 +10,11 @@ export default function RestrictionsPolicy() {
         <NavCenter />
       </div>
 
-      <div className="relative py-16 bg-white overflow-hidden">
-        <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
-          <div className="relative h-full text-lg max-w-prose mx-auto">
+      <div className="relative overflow-hidden bg-white py-16">
+        <div className="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full">
+          <div className="relative mx-auto h-full max-w-prose text-lg">
             <svg
-              className="absolute top-12 left-full transform translate-x-32"
+              className="absolute top-12 left-full translate-x-32 transform"
               width="404"
               height="384"
               fill="none"
@@ -46,7 +46,7 @@ export default function RestrictionsPolicy() {
               />
             </svg>
             <svg
-              className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
+              className="absolute top-1/2 right-full -translate-y-1/2 -translate-x-32 transform"
               width="404"
               height="384"
               fill="none"
@@ -78,7 +78,7 @@ export default function RestrictionsPolicy() {
               />
             </svg>
             <svg
-              className="absolute bottom-12 left-full transform translate-x-32"
+              className="absolute bottom-12 left-full translate-x-32 transform"
               width="404"
               height="384"
               fill="none"
@@ -112,20 +112,20 @@ export default function RestrictionsPolicy() {
           </div>
         </div>
         <div className="relative px-4 sm:px-6 lg:px-8">
-          <div className="text-lg max-w-prose mx-auto mb-6">
-            <p className="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+          <div className="mx-auto mb-6 max-w-prose text-lg">
+            <p className="text-center text-base font-semibold uppercase leading-6 tracking-wide text-indigo-600">
               Introducing
             </p>
-            <h1 className="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h1 className="mt-2 mb-8 text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               Restricted purposes
             </h1>
-            <p className="text-xl text-gray-500 leading-8">
+            <p className="text-xl leading-8 text-gray-500">
               We’ve outlined these restrictions to be clear about what we won’t
               stand for. That said, this list is by no means exhaustive. We will
               make changes over time.
             </p>
           </div>
-          <div className="prose prose-lg text-gray-500 mx-auto">
+          <div className="prose prose-lg mx-auto text-gray-500">
             <ul>
               <li>
                 <strong>Child exploitation, sexualization, or abuse</strong>: We

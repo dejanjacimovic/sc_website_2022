@@ -7,11 +7,11 @@ import NavCenter from '../components/nav_center';
 export default function ServicesRubyonrails() {
   return (
     <LayoutPage>
-      <div className="relative bg-gray-50 overflow-hidden">
-        <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
-          <div className="relative h-full max-w-screen-xl mx-auto">
+      <div className="relative overflow-hidden bg-gray-50">
+        <div className="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full">
+          <div className="relative mx-auto h-full max-w-screen-xl">
             <svg
-              className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+              className="absolute right-full translate-y-1/4 translate-x-1/4 transform lg:translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -43,7 +43,7 @@ export default function ServicesRubyonrails() {
               />
             </svg>
             <svg
-              className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
+              className="absolute left-full -translate-y-3/4 -translate-x-1/4 transform md:-translate-y-1/2 lg:-translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -78,21 +78,21 @@ export default function ServicesRubyonrails() {
         </div>
         <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <NavCenter />
-          <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+          <main className="mx-auto mt-10 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
             <div className="text-center">
-              <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+              <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                 <span className="mr-1">Development</span>
                 <br className="xl:hidden" />
                 <span className="text-red-600">on Rails</span>
               </h2>
-              <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              <p className="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
                 Create beautiful, fast and secure web applications tailored
                 exclusively for your business goals.
               </p>
-              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+              <div className="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
                   <Link
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    className="focus:shadow-outline-red flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-red-500 focus:border-red-700 focus:outline-none md:py-4 md:px-10 md:text-lg"
                     to="/contact/"
                   >
                     Get started
@@ -104,13 +104,13 @@ export default function ServicesRubyonrails() {
         </div>
       </div>
 
-      <div className="py-12 bg-white">
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="bg-white py-12">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <p className=" text-base leading-6 text-red-600 font-semibold tracking-wide uppercase">
+            <p className=" text-base font-semibold uppercase leading-6 tracking-wide text-red-600">
               From day one
             </p>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               We Work Hard to Understand Your Needs
             </h3>
             <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
@@ -120,11 +120,11 @@ export default function ServicesRubyonrails() {
             </p>
           </div>
           <div className="mt-10">
-            <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
-              <li className="mt-10 md:mt-8 mr-5">
+            <ul className="md:col-gap-8 md:row-gap-10 md:grid md:grid-cols-2">
+              <li className="mt-10 mr-5 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-red-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -141,7 +141,7 @@ export default function ServicesRubyonrails() {
                     </div>
                   </div>
                   <div className="ml-4 pr-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Engineering Your Vision
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -156,7 +156,7 @@ export default function ServicesRubyonrails() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-red-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -173,7 +173,7 @@ export default function ServicesRubyonrails() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Cut Your Development Time by 30%
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -185,10 +185,10 @@ export default function ServicesRubyonrails() {
                   </div>
                 </div>
               </li>
-              <li className="mt-10 md:mt-8 mr-5">
+              <li className="mt-10 mr-5 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-red-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -205,7 +205,7 @@ export default function ServicesRubyonrails() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       High-quality code
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -218,7 +218,7 @@ export default function ServicesRubyonrails() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-red-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -235,7 +235,7 @@ export default function ServicesRubyonrails() {
                     </div>
                   </div>
                   <div className="ml-4 pr-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Thorough Testing
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -252,10 +252,10 @@ export default function ServicesRubyonrails() {
         </div>
       </div>
 
-      <div className="bg-gray-50 overflow-hidden">
-        <div className="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="overflow-hidden bg-gray-50">
+        <div className="relative mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
           <svg
-            className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+            className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
             width="404"
             height="784"
             fill="none"
@@ -286,15 +286,15 @@ export default function ServicesRubyonrails() {
               fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
             />
           </svg>
-          <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
+          <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
             <div className="lg:col-span-1">
-              <h3 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+              <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
                 In our approach, we cultivate openness, respect, and humanity.
               </h3>
             </div>
-            <div className="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
+            <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
               <div>
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-red-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -310,7 +310,7 @@ export default function ServicesRubyonrails() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Learning
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -325,7 +325,7 @@ export default function ServicesRubyonrails() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-red-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -341,7 +341,7 @@ export default function ServicesRubyonrails() {
                   </svg>
                 </div>
                 <div className="mt-5">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Planning
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -356,7 +356,7 @@ export default function ServicesRubyonrails() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-10">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-red-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -372,7 +372,7 @@ export default function ServicesRubyonrails() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Design
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -386,7 +386,7 @@ export default function ServicesRubyonrails() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-10">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-red-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -402,7 +402,7 @@ export default function ServicesRubyonrails() {
                   </svg>
                 </div>
                 <div className="mt-5">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Implementation
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -425,7 +425,7 @@ export default function ServicesRubyonrails() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block">Let's build great things together</span>
           </h2>
@@ -433,7 +433,7 @@ export default function ServicesRubyonrails() {
             <div className="inline-flex rounded-md shadow">
               <Link
                 to="/contact/"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700"
+                className="inline-flex items-center justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium text-white hover:bg-red-700"
               >
                 Contact us
               </Link>
@@ -442,10 +442,10 @@ export default function ServicesRubyonrails() {
         </div>
       </div>
 
-      <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
-        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
+      <div className="overflow-hidden bg-gray-50 py-16 lg:py-24">
+        <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
           <svg
-            className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
+            className="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -477,10 +477,10 @@ export default function ServicesRubyonrails() {
             />
           </svg>
           <div className="relative">
-            <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               Skills matter
             </h3>
-            <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
+            <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-7 text-gray-500">
               StuntCoders has a robust recruitment process aimed at hiring
               talented people straight out of college. We train our employees to
               adapt to our workflow and grow while appreciating dedication for
@@ -489,9 +489,9 @@ export default function ServicesRubyonrails() {
               that fit your business.
             </p>
           </div>
-          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div className="relative">
-              <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+              <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                 Hire highly experienced Ruby on Rails developers
               </h4>
               <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -516,9 +516,9 @@ export default function ServicesRubyonrails() {
                 graphic design.
               </p>
             </div>
-            <div className="mt-10 -mx-4 relative lg:mt-0">
+            <div className="relative -mx-4 mt-10 lg:mt-0">
               <svg
-                className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                 width="784"
                 height="404"
                 fill="none"
@@ -550,7 +550,7 @@ export default function ServicesRubyonrails() {
                 />
               </svg>
               <img
-                className="relative mx-auto rounded-lg shadow-xl border-gray-200"
+                className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                 width="490"
                 src="https://stcdshare.s3.amazonaws.com/vND1hE7mnw.jpg"
                 alt="Experienced developer"
@@ -559,7 +559,7 @@ export default function ServicesRubyonrails() {
             </div>
           </div>
           <svg
-            className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
+            className="absolute right-full hidden translate-x-1/2 translate-y-12 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -591,9 +591,9 @@ export default function ServicesRubyonrails() {
             />
           </svg>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
-            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
               <div className="lg:col-start-2">
-                <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+                <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                   Curious whether StuntCoders Ruby on Rails development team is
                   the right fit for your project?
                 </h4>
@@ -610,9 +610,9 @@ export default function ServicesRubyonrails() {
                   how working with StuntCoders may look.
                 </p>
               </div>
-              <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+              <div className="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0">
                 <svg
-                  className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                  className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                   width="784"
                   height="404"
                   fill="none"
@@ -644,7 +644,7 @@ export default function ServicesRubyonrails() {
                   />
                 </svg>
                 <StaticImage
-                  className="relative mx-auto rounded-lg shadow-xl border-gray-200"
+                  className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                   width="490"
                   src="../images/rails-ticket-to-future.png"
                   alt="Rails ticket to future"
@@ -657,28 +657,28 @@ export default function ServicesRubyonrails() {
       </div>
 
       <div className="bg-red-200 bg-opacity-25">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-            <h2 className="max-w-md mx-auto text-3xl font-extrabold text-red-8  00 text-center lg:max-w-xl lg:text-left">
+            <h2 className="text-red-8 00 mx-auto max-w-md text-center  text-3xl font-extrabold lg:max-w-xl lg:text-left">
               The most innovative companies use Ruby on Rails
             </h2>
-            <div className="flow-root self-center mt-8 lg:mt-0">
+            <div className="mt-8 flow-root self-center lg:mt-0">
               <div className="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
-                <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4">
+                <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                   <StaticImage
                     className="h-12"
                     src="../images/CampDavid-black.svg"
                     alt="Camp David"
                   />
                 </div>
-                <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4">
+                <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                   <StaticImage
                     className="h-12"
                     src="../images/luado-rosa.png"
                     alt="Luado"
                   />
                 </div>
-                <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4">
+                <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                   <StaticImage
                     className="h-12"
                     src="../images/skintific-black.svg"
@@ -692,8 +692,8 @@ export default function ServicesRubyonrails() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+          <div className="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div>
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
                 And not only those built by us...
@@ -706,42 +706,42 @@ export default function ServicesRubyonrails() {
               </p>
             </div>
             <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/ror/github.svg"
                   alt="Github"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/ror/airbnb.svg"
                   alt="AirBnb"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/ror/twitter.svg"
                   alt="Twitter"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/ror/hulu.svg"
                   alt="Hulu"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/ror/groupon.svg"
                   alt="Groupon"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/ror/shopify.svg"
@@ -754,8 +754,8 @@ export default function ServicesRubyonrails() {
       </div>
 
       <div className="bg-gray-50">
-        <div className="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+        <div className="mx-auto max-w-screen-xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
+          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             <span>Ready to dive in?</span>
             <br />
             <span>We'll get you covered.</span>
@@ -763,7 +763,7 @@ export default function ServicesRubyonrails() {
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
               <Link
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-red-500 focus:outline-none"
                 to="/contact/"
               >
                 Get in touch
@@ -771,7 +771,7 @@ export default function ServicesRubyonrails() {
             </div>
             <div className="ml-3 inline-flex">
               <Link
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-red-700 bg-red-100 hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 transition duration-150 ease-in-out"
+                className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-red-100 px-5 py-3 text-base font-medium leading-6 text-red-700 transition duration-150 ease-in-out hover:bg-red-50 hover:text-red-600 focus:border-red-300 focus:outline-none"
                 to="/testimonials/"
               >
                 See what our customers said?
@@ -782,15 +782,15 @@ export default function ServicesRubyonrails() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-base font-semibold text-red-600 tracking-wide uppercase">
+            <h2 className="text-base font-semibold uppercase tracking-wide text-red-600">
               Best of all
             </h2>
             <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
               We build to scale.
             </p>
-            <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+            <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
               We implement an architectural style that allows for highly
               scalable distributed systems. MonolithFirst, Clean Architecture
               are architectural patterns that make it easier for us to move from
@@ -802,14 +802,14 @@ export default function ServicesRubyonrails() {
       </div>
 
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
-        <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-          <h2 className="text-base font-semibold tracking-wider text-red-600 uppercase">
+        <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+          <h2 className="text-base font-semibold uppercase tracking-wider text-red-600">
             Wondering
           </h2>
-          <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+          <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Which technologies are we using?
           </p>
-          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+          <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
             Although we are flexible when it comes to adopting new technologies,
             here we share the list of all the libraries (gems), plugins, tools,
             and APIs that we've been using in our work. We keep this list
@@ -820,10 +820,10 @@ export default function ServicesRubyonrails() {
           <div className="mt-12 text-left">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -839,11 +839,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       eCommerce Frameworks
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>Shopify</li>
                         <li>Solidus</li>
                         <li>Spree commerce</li>
@@ -854,10 +854,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -873,11 +873,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Mapping
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>MapBox</li>
                         <li>Google Map API</li>
                         <li>Geocoder</li>
@@ -888,10 +888,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -907,11 +907,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       ActiveRecord Extensions
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>act_as_list</li>
                         <li>acts-as-taggable-on</li>
                         <li>friendly_id</li>
@@ -923,10 +923,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -942,11 +942,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Authentication
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>devise</li>
                         <li>oauth2</li>
                         <li>omniauth</li>
@@ -958,10 +958,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -977,11 +977,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Billing
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>active_merchant</li>
                         <li>stripe</li>
                         <li>braintree</li>
@@ -993,10 +993,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -1012,11 +1012,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Databases
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>MongoDB</li>
                         <li>MySQL</li>
                         <li>PostgreSQL</li>
@@ -1028,10 +1028,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -1047,11 +1047,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Deployment, Monitoring & Performance
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>Airbrake</li>
                         <li>Capistrano</li>
                         <li>Ansible</li>
@@ -1064,10 +1064,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -1083,11 +1083,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Front-end Libraries
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>Tailwind UI</li>
                         <li>Bulma</li>
                         <li>Bootstrap</li>
@@ -1100,10 +1100,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -1119,11 +1119,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Queueing and Scheduling
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>delayed_job</li>
                         <li>resque</li>
                         <li>whenever</li>
@@ -1135,10 +1135,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -1154,11 +1154,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Search
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>Open Search</li>
                         <li>Elastic Search</li>
                         <li>Algolia</li>
@@ -1170,10 +1170,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -1189,11 +1189,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Integration with web APIs
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>aws-sdk-s3</li>
                         <li>fog</li>
                         <li>heroku-s3-backup</li>
@@ -1212,10 +1212,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -1231,11 +1231,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Testing
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>capybara</li>
                         <li>cucumber</li>
                         <li>database_cleaner</li>
@@ -1254,10 +1254,10 @@ export default function ServicesRubyonrails() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-red-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -1273,11 +1273,11 @@ export default function ServicesRubyonrails() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       View
                     </h3>
                     <p className="mt-5 text-base text-gray-500">
-                      <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                      <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                         <li>liquid</li>
                         <li>i18n</li>
                         <li>kaminari</li>
@@ -1294,8 +1294,8 @@ export default function ServicesRubyonrails() {
       </div>
 
       <div className="bg-gray-50">
-        <div className="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+        <div className="mx-auto max-w-screen-xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
+          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             <span>Should we talk in person?</span>
             <br />
             <span>We would love to.</span>
@@ -1303,7 +1303,7 @@ export default function ServicesRubyonrails() {
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
               <Link
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-red-500 focus:outline-none"
                 to="/contact/"
               >
                 Get in touch

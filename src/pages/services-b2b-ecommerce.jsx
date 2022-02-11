@@ -8,11 +8,11 @@ import { getB2BPrice } from '../helpers/index.jsx';
 export default function ServicesB2bEcommerce() {
   return (
     <LayoutPage>
-      <div className="relative bg-gray-50 overflow-hidden">
-        <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
-          <div className="relative h-full max-w-screen-xl mx-auto">
+      <div className="relative overflow-hidden bg-gray-50">
+        <div className="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full">
+          <div className="relative mx-auto h-full max-w-screen-xl">
             <svg
-              className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+              className="absolute right-full translate-y-1/4 translate-x-1/4 transform lg:translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -44,7 +44,7 @@ export default function ServicesB2bEcommerce() {
               />
             </svg>
             <svg
-              className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
+              className="absolute left-full -translate-y-3/4 -translate-x-1/4 transform md:-translate-y-1/2 lg:-translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -79,9 +79,9 @@ export default function ServicesB2bEcommerce() {
         </div>
         <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <NavCenter />
-          <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+          <main className="mx-auto mt-10 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
             <div className="text-center">
-              <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+              <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                 <span className="mr-1">
                   The <span className="text-indigo-600">eCommerce</span>{' '}
                   Solution for
@@ -91,16 +91,16 @@ export default function ServicesB2bEcommerce() {
                   Needs.
                 </span>
               </h2>
-              <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              <p className="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
                 Over the last decade, we have collaborated with some of the
                 largest Scandinavian fashion brands and some of the most
                 successful ones from Germany to bring to life our
                 enterprise-grade B2B eCommerce platform.
               </p>
-              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+              <div className="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
                   <Link
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    className="focus:shadow-outline-indigo flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:border-indigo-700 focus:outline-none md:py-4 md:px-10 md:text-lg"
                     to="/contact/"
                   >
                     Schedule a demo
@@ -112,13 +112,13 @@ export default function ServicesB2bEcommerce() {
         </div>
       </div>
 
-      <div className="py-12 bg-white">
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="bg-white py-12">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="lg:text-left">
-            <p className=" text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+            <p className=" text-base font-semibold uppercase leading-6 tracking-wide text-indigo-600">
               All the
             </p>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               Features you'll need
             </h3>
             <p className="mt-4 text-xl leading-7 text-gray-500 lg:mx-auto">
@@ -135,11 +135,11 @@ export default function ServicesB2bEcommerce() {
             </p>
           </div>
           <div className="mt-10">
-            <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
+            <ul className="md:col-gap-8 md:row-gap-10 md:grid md:grid-cols-2">
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -156,7 +156,7 @@ export default function ServicesB2bEcommerce() {
                     </div>
                   </div>
                   <div className="ml-4 pr-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Your Tools, Integrated
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -175,7 +175,7 @@ export default function ServicesB2bEcommerce() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -192,7 +192,7 @@ export default function ServicesB2bEcommerce() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Pre-Order & Re-Order Built-in
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -212,7 +212,7 @@ export default function ServicesB2bEcommerce() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -229,7 +229,7 @@ export default function ServicesB2bEcommerce() {
                     </div>
                   </div>
                   <div className="ml-4 pr-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Custom Pricing
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -244,7 +244,7 @@ export default function ServicesB2bEcommerce() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -261,7 +261,7 @@ export default function ServicesB2bEcommerce() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Pre-Order Analysis
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -277,7 +277,7 @@ export default function ServicesB2bEcommerce() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -294,12 +294,12 @@ export default function ServicesB2bEcommerce() {
                     </div>
                   </div>
                   <div className="ml-4 pr-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Order Minimums
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
                       Our B2B eCommerce system allows setups that can require:
-                      <ul className="list-disc list-inside text-gray-500">
+                      <ul className="list-inside list-disc text-gray-500">
                         <li>
                           the minimum total value to proceed to the checkout
                         </li>
@@ -314,7 +314,7 @@ export default function ServicesB2bEcommerce() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -331,7 +331,7 @@ export default function ServicesB2bEcommerce() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Order Duplication
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -349,7 +349,7 @@ export default function ServicesB2bEcommerce() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -366,7 +366,7 @@ export default function ServicesB2bEcommerce() {
                     </div>
                   </div>
                   <div className="ml-4 pr-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       No limits on products, pictures, or videos
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -382,7 +382,7 @@ export default function ServicesB2bEcommerce() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -399,7 +399,7 @@ export default function ServicesB2bEcommerce() {
                     </div>
                   </div>
                   <div className="ml-4 pr-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Sales representative masquerade
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -416,10 +416,10 @@ export default function ServicesB2bEcommerce() {
         </div>
       </div>
 
-      <div className="bg-gray-50 overflow-hidden">
-        <div className="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="overflow-hidden bg-gray-50">
+        <div className="relative mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
           <svg
-            className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+            className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
             width="404"
             height="784"
             fill="none"
@@ -450,15 +450,15 @@ export default function ServicesB2bEcommerce() {
               fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
             />
           </svg>
-          <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
+          <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
             <div className="lg:col-span-1">
-              <h3 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+              <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
                 We are providing you with peace of mind.
               </h3>
             </div>
-            <div className="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
+            <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
               <div>
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -474,7 +474,7 @@ export default function ServicesB2bEcommerce() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Hosting Included
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -485,8 +485,8 @@ export default function ServicesB2bEcommerce() {
                   <br />
                 </div>
               </div>
-              <div className="mt-10 sm:mt-0 pb-4">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="mt-10 pb-4 sm:mt-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -502,7 +502,7 @@ export default function ServicesB2bEcommerce() {
                   </svg>
                 </div>
                 <div className="mt-5 pb-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Server Monitoring
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -514,7 +514,7 @@ export default function ServicesB2bEcommerce() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -530,7 +530,7 @@ export default function ServicesB2bEcommerce() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Daily Backups
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -541,7 +541,7 @@ export default function ServicesB2bEcommerce() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -557,7 +557,7 @@ export default function ServicesB2bEcommerce() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Security Scans
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -574,14 +574,14 @@ export default function ServicesB2bEcommerce() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block">
               Unleash your sales team's secret weapon
             </span>
           </h2>
 
-          <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+          <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
             Speed up deals with the ability for sales reps to create custom
             quotes and discounts, login, shop, and purchase on behalf of
             customers.
@@ -591,7 +591,7 @@ export default function ServicesB2bEcommerce() {
             <div className="inline-flex rounded-md shadow">
               <Link
                 to="/contact/"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
               >
                 Contact us for a demo
               </Link>
@@ -601,13 +601,13 @@ export default function ServicesB2bEcommerce() {
       </div>
 
       <div className="relative bg-gray-50 py-16 sm:py-24">
-        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
+        <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
           <div className="relative sm:py-16 lg:py-0">
             <div
               aria-hidden="true"
               className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
             >
-              <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72" />
+              <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-gray-50 lg:right-72" />
               <svg
                 className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
                 width="404"
@@ -641,8 +641,8 @@ export default function ServicesB2bEcommerce() {
                 />
               </svg>
             </div>
-            <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
-              <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden lg:h-96">
+            <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+              <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl lg:h-96">
                 <iframe
                   width="560"
                   className="absolute inset-0 h-full w-full object-cover"
@@ -658,10 +658,10 @@ export default function ServicesB2bEcommerce() {
 
           <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
             <div className="pt-12 sm:pt-16 lg:pt-20">
-              <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Payment Reminders
               </h2>
-              <div className="mt-6 text-gray-500 space-y-6">
+              <div className="mt-6 space-y-6 text-gray-500">
                 <p className="text-lg">
                   Since your business will most often work on an invoice basis
                   with your customers, you need to send them payment reminders
@@ -679,18 +679,18 @@ export default function ServicesB2bEcommerce() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block">As featured in</span>
           </h2>
 
-          <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+          <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
             We got featured on major news sites for providing a great B2B
             eCommerce solutions.
           </p>
 
           <div className="bg-white">
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <StaticImage
@@ -733,10 +733,10 @@ export default function ServicesB2bEcommerce() {
         </div>
       </div>
 
-      <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
-        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
+      <div className="overflow-hidden bg-gray-50 py-16 lg:py-24">
+        <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
           <svg
-            className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
+            className="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -768,18 +768,18 @@ export default function ServicesB2bEcommerce() {
             />
           </svg>
           <div className="relative">
-            <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               Adapt to your customers' needs
             </h3>
-            <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
+            <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-7 text-gray-500">
               B2B eCommerce system should serve you and adapt to your needs so
               that you can optimize your business processes and save on time for
               your sales team.
             </p>
           </div>
-          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div className="relative">
-              <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+              <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                 Powerful front-end
               </h4>
               <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -788,9 +788,9 @@ export default function ServicesB2bEcommerce() {
                 won't make you change them for us.
               </p>
             </div>
-            <div className="mt-10 -mx-4 relative lg:mt-0">
+            <div className="relative -mx-4 mt-10 lg:mt-0">
               <svg
-                className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                 width="784"
                 height="404"
                 fill="none"
@@ -824,7 +824,7 @@ export default function ServicesB2bEcommerce() {
               <iframe
                 width="560"
                 height="300"
-                className="relative mx-auto rounded-2xl shadow-xl inset-0 w-full object-cover"
+                className="relative inset-0 mx-auto w-full rounded-2xl object-cover shadow-xl"
                 src="https://www.youtube.com/embed/73Z21tT_1i0"
                 title="Product attributes and production analytics"
                 frameBorder="0"
@@ -834,7 +834,7 @@ export default function ServicesB2bEcommerce() {
             </div>
           </div>
           <svg
-            className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
+            className="absolute right-full hidden translate-x-1/2 translate-y-12 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -866,9 +866,9 @@ export default function ServicesB2bEcommerce() {
             />
           </svg>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
-            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
               <div className="lg:col-start-2">
-                <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+                <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                   Adaptive back-end
                 </h4>
                 <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -884,9 +884,9 @@ export default function ServicesB2bEcommerce() {
                   representatives will save time to perform more critical tasks.
                 </p>
               </div>
-              <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+              <div className="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0">
                 <svg
-                  className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                  className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                   width="784"
                   height="404"
                   fill="none"
@@ -921,7 +921,7 @@ export default function ServicesB2bEcommerce() {
                 <iframe
                   width="560"
                   height="300"
-                  className="relative rounded-2xl shadow-xl inset-0 w-full object-cover"
+                  className="relative inset-0 w-full rounded-2xl object-cover shadow-xl"
                   src="https://www.youtube.com/embed/liv-RBh95PM"
                   title="XLS Order Upload Demo"
                   frameBorder="0"
@@ -935,8 +935,8 @@ export default function ServicesB2bEcommerce() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+        <div className="mx-auto max-w-screen-xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
+          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             <span>Want to learn more?</span>
             <br />
             <span>We'd love to answer your questions.</span>
@@ -944,7 +944,7 @@ export default function ServicesB2bEcommerce() {
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
               <Link
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none"
                 to="/contact/"
               >
                 Contact us
@@ -955,13 +955,13 @@ export default function ServicesB2bEcommerce() {
       </div>
 
       <div className="relative bg-gray-50 py-16 sm:py-24">
-        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
+        <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
           <div className="relative sm:py-16 lg:py-0">
             <div
               aria-hidden="true"
               className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
             >
-              <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72" />
+              <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-gray-50 lg:right-72" />
               <svg
                 className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
                 width="404"
@@ -995,8 +995,8 @@ export default function ServicesB2bEcommerce() {
                 />
               </svg>
             </div>
-            <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
-              <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden lg:h-96">
+            <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+              <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl lg:h-96">
                 <iframe
                   width="560"
                   className="absolute inset-0 h-full w-full object-cover"
@@ -1012,10 +1012,10 @@ export default function ServicesB2bEcommerce() {
 
           <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
             <div className="pt-12 sm:pt-16 lg:pt-20">
-              <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Decisions are better when backed by data
               </h2>
-              <div className="mt-6 text-gray-500 space-y-6">
+              <div className="mt-6 space-y-6 text-gray-500">
                 <p className="text-lg">
                   Since your business will most often work on an invoice basis
                   with your customers, you need to send them payment reminders
@@ -1033,10 +1033,10 @@ export default function ServicesB2bEcommerce() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-screen-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-screen-xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="pb-16 xl:flex xl:items-center xl:justify-between">
             <div>
-              <h1 className="text-4xl leading-10 font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight">
+              <h1 className="text-4xl font-extrabold leading-10 sm:text-5xl sm:leading-none sm:tracking-tight">
                 <span className="text-gray-900">Starting from </span>
                 <span className="text-indigo-600">{getB2BPrice()}</span>
               </h1>
@@ -1046,7 +1046,7 @@ export default function ServicesB2bEcommerce() {
               </p>
             </div>
             <Link
-              className="mt-8 w-full bg-indigo-600 border border-transparent px-5 py-3 inline-flex items-center justify-center text-base leading-6 font-medium rounded-md text-white hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out sm:mt-10 sm:w-auto xl:mt-0"
+              className="focus:shadow-outline mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none sm:mt-10 sm:w-auto xl:mt-0"
               to="/contact/"
             >
               Get a custom quote

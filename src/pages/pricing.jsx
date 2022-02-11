@@ -25,7 +25,7 @@ function faqList() {
 function QA(question, answer) {
   return (
     <div>
-      <dt className="text-lg leading-6 font-medium text-white">{question}</dt>
+      <dt className="text-lg font-medium leading-6 text-white">{question}</dt>
       <dd className="mt-2 text-base text-indigo-200">
         <div dangerouslySetInnerHTML={{ __html: answer }} />
       </dd>
@@ -35,9 +35,9 @@ function QA(question, answer) {
 
 function serviceIncluded(serviceName, c = 0) {
   return (
-    <li className="py-4 flex md:border-t-0 md:py-0 md:pb-4">
+    <li className="flex py-4 md:border-t-0 md:py-0 md:pb-4">
       <svg
-        className="flex-shrink-0 h-6 w-6 text-green-500"
+        className="h-6 w-6 flex-shrink-0 text-green-500"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -63,7 +63,7 @@ export default function Pricing() {
         <NavCenter />
       </div>
 
-      <div className="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl bg-white py-24 px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           The right price for you.
         </h2>
@@ -72,8 +72,8 @@ export default function Pricing() {
           your business.
         </p>
 
-        <div className="mt-24 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
-          <div className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+        <div className="mt-24 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
+          <div className="relative flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
             <div className="flex-1">
               <h3 className="text-xl font-semibold text-gray-900">
                 Unlimited Support
@@ -91,7 +91,7 @@ export default function Pricing() {
               <ul role="list" className="mt-6 space-y-6">
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -110,7 +110,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -131,7 +131,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -150,7 +150,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -169,7 +169,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -190,7 +190,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -209,7 +209,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -232,19 +232,19 @@ export default function Pricing() {
 
             <Link
               to="/contact/"
-              className="bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
+              className="mt-8 block w-full rounded-md border border-transparent bg-indigo-50 py-3 px-6 text-center font-medium text-indigo-700 hover:bg-indigo-100"
             >
               Contact us
             </Link>
           </div>
 
-          <div className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+          <div className="relative flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
             <div className="flex-1">
               <h3 className="text-xl font-semibold text-gray-900">
                 Micro-team
               </h3>
 
-              <p className="absolute top-0 py-1.5 px-4 bg-indigo-500 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
+              <p className="absolute top-0 -translate-y-1/2 transform rounded-full bg-indigo-500 py-1.5 px-4 text-xs font-semibold uppercase tracking-wide text-white">
                 Most popular
               </p>
               <p className="mt-4 flex items-baseline text-gray-900">
@@ -260,7 +260,7 @@ export default function Pricing() {
               <ul role="list" className="mt-6 space-y-6">
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -281,7 +281,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -302,7 +302,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -321,7 +321,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -340,7 +340,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -361,7 +361,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -380,7 +380,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -402,7 +402,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -423,7 +423,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -444,7 +444,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -466,7 +466,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -488,7 +488,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -509,7 +509,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -532,19 +532,19 @@ export default function Pricing() {
 
             <Link
               to="/contact/"
-              className="bg-indigo-500 text-white hover:bg-indigo-600 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
+              className="mt-8 block w-full rounded-md border border-transparent bg-indigo-500 py-3 px-6 text-center font-medium text-white hover:bg-indigo-600"
             >
               Contact us
             </Link>
           </div>
 
-          <div className="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+          <div className="relative flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
             <div className="flex-1">
               <h3 className="text-xl font-semibold text-gray-900">
                 Accelerated Development
               </h3>
 
-              <p className="absolute top-0 py-1.5 px-4 bg-gray-400 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
+              <p className="absolute top-0 -translate-y-1/2 transform rounded-full bg-gray-400 py-1.5 px-4 text-xs font-semibold uppercase tracking-wide text-white">
                 Starting from
               </p>
 
@@ -561,7 +561,7 @@ export default function Pricing() {
               <ul role="list" className="mt-6 space-y-6">
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -582,7 +582,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -603,7 +603,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -624,7 +624,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -645,7 +645,7 @@ export default function Pricing() {
 
                 <li className="flex">
                   <svg
-                    className="flex-shrink-0 w-6 h-6 text-indigo-500"
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -668,7 +668,7 @@ export default function Pricing() {
 
             <Link
               to="/contact/"
-              className="bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium"
+              className="mt-8 block w-full rounded-md border border-transparent bg-indigo-50 py-3 px-6 text-center font-medium text-indigo-700 hover:bg-indigo-100"
             >
               Contact us
             </Link>
@@ -678,7 +678,7 @@ export default function Pricing() {
 
       <div className="bg-white">
         <div className="bg-gradient-to-t from-indigo-50 via-white to-white">
-          <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
             <div className="pb-16 xl:flex xl:items-center xl:justify-between">
               <div>
                 <h1 className="text-4xl font-extrabold sm:text-5xl sm:tracking-tight">
@@ -690,16 +690,16 @@ export default function Pricing() {
             </div>
             <div className="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
               <div>
-                <h2 className="text-base font-semibold text-indigo-600 uppercase tracking-wide">
+                <h2 className="text-base font-semibold uppercase tracking-wide text-indigo-600">
                   Everything you need to manage your{' '}
                 </h2>
                 <p className="mt-2 text-3xl font-extrabold text-gray-900">
                   website
                 </p>
               </div>
-              <div className="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 md:gap-x-8 xl:mt-0 xl:col-span-2">
+              <div className="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 md:gap-x-8 xl:col-span-2 xl:mt-0">
                 <ul className="divide-y divide-gray-200">
-                  <li className="py-4 flex md:py-0 md:pb-4" />
+                  <li className="flex py-4 md:py-0 md:pb-4" />
                 </ul>
               </div>
             </div>
@@ -711,12 +711,12 @@ export default function Pricing() {
         <PlusIntegrations />
 
         <div className="bg-indigo-900">
-          <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-extrabold text-white">
               Frequently asked questions
             </h2>
             <div className="mt-6 border-t border-indigo-400 border-opacity-25 pt-10">
-              <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
+              <dl className="space-y-10 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12 md:space-y-0">
                 {faqList()}
               </dl>
             </div>
@@ -724,15 +724,15 @@ export default function Pricing() {
         </div>
 
         <div className="bg-indigo-50">
-          <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
+          <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8">
             <h2 className="text-3xl font-extrabold tracking-tight text-indigo-900 sm:text-4xl">
               <span className="block">Got questions?</span>
             </h2>
-            <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+            <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
               <div className="inline-flex rounded-md shadow">
                 <Link
                   to="/contact/"
-                  className="bg-indigo-600 border border-transparent rounded-md py-3 px-5 inline-flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700"
+                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-5 text-base font-medium text-white hover:bg-indigo-700"
                 >
                   Contact us
                 </Link>

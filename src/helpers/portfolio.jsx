@@ -68,7 +68,7 @@ export function getClients() {
       link: 'https://natuligliv.no/',
       image: 'natuligliv.jpeg',
     },
-    'Blahface': {
+    Blahface: {
       tehnologies: 'Ruby on Rails',
       country: '🇺🇸',
       link: 'https://blahface.com/',

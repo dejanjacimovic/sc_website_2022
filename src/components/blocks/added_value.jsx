@@ -7,8 +7,8 @@ function getMaintenanceValue() {
 export default function Pricing() {
   return (
     <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center">
+      <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+        <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-extrabold text-gray-900">
             Access to our {getMaintenanceValue()} in value resources
           </h2>
@@ -17,10 +17,10 @@ export default function Pricing() {
             fonts, tools, and more...
           </p>
         </div>
-        <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+        <dl className="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
           <div className="flex">
             <svg
-              className="flex-shrink-0 h-6 w-6 text-white bg-indigo-500 rounded"
+              className="h-6 w-6 flex-shrink-0 rounded bg-indigo-500 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -35,7 +35,7 @@ export default function Pricing() {
               ></path>
             </svg>
             <div className="ml-3">
-              <dt className="text-lg leading-6 font-medium text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900">
                 1.500+ premium templates
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -48,7 +48,7 @@ export default function Pricing() {
 
           <div className="flex">
             <svg
-              className="flex-shrink-0 h-6 w-6 text-white bg-indigo-500 rounded"
+              className="h-6 w-6 flex-shrink-0 rounded bg-indigo-500 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -63,7 +63,7 @@ export default function Pricing() {
               ></path>
             </svg>
             <div className="ml-3">
-              <dt className="text-lg leading-6 font-medium text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900">
                 600+ premium plugins
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -75,7 +75,7 @@ export default function Pricing() {
 
           <div className="flex">
             <svg
-              className="flex-shrink-0 h-6 w-6 text-white bg-indigo-500 rounded"
+              className="h-6 w-6 flex-shrink-0 rounded bg-indigo-500 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -90,7 +90,7 @@ export default function Pricing() {
               ></path>
             </svg>
             <div className="ml-3">
-              <dt className="text-lg leading-6 font-medium text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900">
                 Premium caching plugin
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -103,7 +103,7 @@ export default function Pricing() {
 
           <div className="flex">
             <svg
-              className="flex-shrink-0 h-6 w-6 text-white bg-indigo-500 rounded"
+              className="h-6 w-6 flex-shrink-0 rounded bg-indigo-500 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -118,7 +118,7 @@ export default function Pricing() {
               ></path>
             </svg>
             <div className="ml-3">
-              <dt className="text-lg leading-6 font-medium text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900">
                 Image and loading optimisation
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -130,7 +130,7 @@ export default function Pricing() {
 
           <div className="flex">
             <svg
-              className="flex-shrink-0 h-6 w-6 text-white bg-indigo-500 rounded"
+              className="h-6 w-6 flex-shrink-0 rounded bg-indigo-500 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -145,7 +145,7 @@ export default function Pricing() {
               ></path>
             </svg>
             <div className="ml-3">
-              <dt className="text-lg leading-6 font-medium text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900">
                 CDN for blazing-fast websites
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -157,7 +157,7 @@ export default function Pricing() {
 
           <div className="flex">
             <svg
-              className="flex-shrink-0 h-6 w-6 text-white bg-indigo-500 rounded"
+              className="h-6 w-6 flex-shrink-0 rounded bg-indigo-500 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -172,7 +172,7 @@ export default function Pricing() {
               ></path>
             </svg>
             <div className="ml-3">
-              <dt className="text-lg leading-6 font-medium text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900">
                 SSL for every website
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -184,7 +184,7 @@ export default function Pricing() {
 
           <div className="flex">
             <svg
-              className="flex-shrink-0 h-6 w-6 text-white bg-indigo-500 rounded"
+              className="h-6 w-6 flex-shrink-0 rounded bg-indigo-500 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -199,7 +199,7 @@ export default function Pricing() {
               ></path>
             </svg>
             <div className="ml-3">
-              <dt className="text-lg leading-6 font-medium text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900">
                 Staging server
               </dt>
               <dd className="mt-2 text-base text-gray-500">
@@ -211,7 +211,7 @@ export default function Pricing() {
 
           <div className="flex">
             <svg
-              className="flex-shrink-0 h-6 w-6 text-white bg-indigo-500 rounded"
+              className="h-6 w-6 flex-shrink-0 rounded bg-indigo-500 text-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -226,7 +226,7 @@ export default function Pricing() {
               ></path>
             </svg>
             <div className="ml-3">
-              <dt className="text-lg leading-6 font-medium text-gray-900">
+              <dt className="text-lg font-medium leading-6 text-gray-900">
                 Malware &amp; virus scans
               </dt>
               <dd className="mt-2 text-base text-gray-500">

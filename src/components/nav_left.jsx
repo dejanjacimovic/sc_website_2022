@@ -33,10 +33,10 @@ export default class NavLeft extends React.Component {
 
     return (
       <div>
-        <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+        <div className="relative px-4 pt-6 sm:px-6 lg:px-8">
           <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
-            <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-              <div className="flex items-center justify-between w-full md:w-auto">
+            <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
+              <div className="flex w-full items-center justify-between md:w-auto">
                 <Link to="/" aria-label="Home">
                   <img
                     className="h-10 w-auto sm:h-12"
@@ -47,7 +47,7 @@ export default class NavLeft extends React.Component {
                 </Link>
                 <div className="-mr-2 flex items-center md:hidden">
                   <button
-                    className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                    className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500 focus:outline-none"
                     id="main-menu"
                     type="button"
                     aria-label="Main menu"
@@ -71,15 +71,15 @@ export default class NavLeft extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="hidden md:block md:ml-10 md:pr-4">
+            <div className="hidden md:ml-10 md:block md:pr-4">
               <div className="relative inline-block">
                 <button
                   type="button"
-                  className="text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none"
+                  className="group inline-flex items-center rounded-md text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none"
                   aria-expanded="false"
                 >
                   <span
-                    className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+                    className="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
                     onClick={() =>
                       this.setState({
                         hiddenDesktop: !this.state.hiddenDesktop,
@@ -89,7 +89,7 @@ export default class NavLeft extends React.Component {
                     Services
                   </span>
                   <svg
-                    className="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"
+                    className="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -109,11 +109,11 @@ export default class NavLeft extends React.Component {
                 </button>
 
                 <div id="service-submenu" className={hiddenDesktopVal}>
-                  <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                  <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       <Link
                         to="/services-woocommerce-maintenance/"
-                        className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
+                        className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
                           WooCommerce Maintenance
@@ -125,7 +125,7 @@ export default class NavLeft extends React.Component {
 
                       <Link
                         to="/services-ecommerce-development/"
-                        className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
+                        className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
                           eCommerce Development
@@ -138,7 +138,7 @@ export default class NavLeft extends React.Component {
 
                       <Link
                         to="/services-b2b-ecommerce"
-                        className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
+                        className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
                           B2B eCommerce
@@ -152,25 +152,25 @@ export default class NavLeft extends React.Component {
                 </div>
               </div>
               <Link
-                className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+                className="ml-5 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
                 to="/portfolio/"
               >
                 Portfolio
               </Link>
               <Link
-                className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+                className="ml-5 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
                 to="/testimonials/"
               >
                 Testimonials
               </Link>
               <Link
-                className="ml-5 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+                className="ml-5 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900"
                 to="/about-us/"
               >
                 About us
               </Link>
               <Link
-                className="ml-5 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
+                className="ml-5 font-medium text-indigo-600 transition duration-150 ease-in-out hover:text-indigo-900"
                 to="/contact/"
               >
                 Contact
@@ -182,12 +182,12 @@ export default class NavLeft extends React.Component {
         <div className={hiddenMobileVal} id="main-mobile-menu">
           <div className="rounded-lg shadow-md">
             <div
-              className="rounded-lg bg-white shadow-xs overflow-hidden"
+              className="shadow-xs overflow-hidden rounded-lg bg-white"
               role="menu"
               aria-orientation="vertical"
               aria-labelledby="main-menu"
             >
-              <div className="px-5 pt-4 flex items-center justify-between">
+              <div className="flex items-center justify-between px-5 pt-4">
                 <div>
                   <img
                     className="h-8 w-auto"
@@ -198,7 +198,7 @@ export default class NavLeft extends React.Component {
                 </div>
                 <div className="-mr-2">
                   <button
-                    className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                    className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500 focus:outline-none"
                     type="button"
                     aria-label="Close menu"
                     onClick={() => this.setState({ hiddenMobile: true })}
@@ -223,7 +223,7 @@ export default class NavLeft extends React.Component {
                 <div className="relative">
                   <button
                     type="button"
-                    className="w-full px-3 py-2 text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 hover:bg-gray-50 focus:outline-none"
+                    className="group inline-flex w-full items-center rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900 focus:outline-none"
                     aria-expanded="false"
                     onClick={() =>
                       this.setState({
@@ -231,11 +231,11 @@ export default class NavLeft extends React.Component {
                       })
                     }
                   >
-                    <span className="font-medium text-gray-700 hover:text-gray-900  focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">
+                    <span className="font-medium text-gray-700 transition  duration-150 ease-in-out hover:text-gray-900 focus:text-gray-900 focus:outline-none">
                       Services
                     </span>
                     <svg
-                      className="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"
+                      className="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
@@ -254,7 +254,7 @@ export default class NavLeft extends React.Component {
                       <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
                         <Link
                           to="/services-woocommerce-maintenance/"
-                          className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
+                          className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">
                             WooCommerce Maintenance
@@ -266,7 +266,7 @@ export default class NavLeft extends React.Component {
 
                         <Link
                           to="/services-ecommerce-development/"
-                          className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
+                          className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">
                             eCommerce Development
@@ -279,7 +279,7 @@ export default class NavLeft extends React.Component {
 
                         <Link
                           to="/services-b2b-ecommerce/"
-                          className="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
+                          className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">
                             B2B eCommerce
@@ -293,28 +293,28 @@ export default class NavLeft extends React.Component {
                   </div>
                 </div>
                 <Link
-                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                  className="mt-1 block rounded-md px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out hover:bg-gray-50 hover:text-gray-900 focus:bg-gray-50 focus:text-gray-900 focus:outline-none"
                   to="/portfolio/"
                   role="menuitem"
                 >
                   Portfolio
                 </Link>
                 <Link
-                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                  className="mt-1 block rounded-md px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out hover:bg-gray-50 hover:text-gray-900 focus:bg-gray-50 focus:text-gray-900 focus:outline-none"
                   to="/testimonials/"
                   role="menuitem"
                 >
                   Testimonials
                 </Link>
                 <Link
-                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                  className="mt-1 block rounded-md px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out hover:bg-gray-50 hover:text-gray-900 focus:bg-gray-50 focus:text-gray-900 focus:outline-none"
                   to="/pricing/"
                   role="menuitem"
                 >
                   Pricing
                 </Link>
                 <Link
-                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                  className="mt-1 block rounded-md px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out hover:bg-gray-50 hover:text-gray-900 focus:bg-gray-50 focus:text-gray-900 focus:outline-none"
                   to="/about-us/"
                   role="menuitem"
                 >
@@ -323,7 +323,7 @@ export default class NavLeft extends React.Component {
               </div>
               <div>
                 <Link
-                  className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
+                  className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-indigo-700 focus:bg-gray-100 focus:text-indigo-700 focus:outline-none"
                   to="/contact/"
                   role="menuitem"
                 >

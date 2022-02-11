@@ -8,10 +8,10 @@ export default function AboutUs() {
     <LayoutPage>
       <div className="bg-white">
         <div className="relative">
-          <div className="block absolute inset-y-0 h-full w-full">
+          <div className="absolute inset-y-0 block h-full w-full">
             <div className="relative h-full">
               <svg
-                className="absolute right-full transform translate-y-1/3 translate-x-1/4 md:translate-y-1/2 sm:translate-x-1/2 lg:translate-x-full"
+                className="absolute right-full translate-y-1/3 translate-x-1/4 transform sm:translate-x-1/2 md:translate-y-1/2 lg:translate-x-full"
                 width="404"
                 height="784"
                 fill="none"
@@ -43,7 +43,7 @@ export default function AboutUs() {
                 />
               </svg>
               <svg
-                className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 sm:-translate-x-1/2 md:-translate-y-1/2 lg:-translate-x-3/4"
+                className="absolute left-full -translate-y-3/4 -translate-x-1/4 transform sm:-translate-x-1/2 md:-translate-y-1/2 lg:-translate-x-3/4"
                 width="404"
                 height="784"
                 fill="none"
@@ -82,11 +82,11 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="relative py-16 bg-white overflow-hidden">
-        <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
-          <div className="relative h-full text-lg max-w-prose mx-auto">
+      <div className="relative overflow-hidden bg-white py-16">
+        <div className="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full">
+          <div className="relative mx-auto h-full max-w-prose text-lg">
             <svg
-              className="absolute top-12 left-full transform translate-x-32"
+              className="absolute top-12 left-full translate-x-32 transform"
               width="404"
               height="384"
               fill="none"
@@ -118,7 +118,7 @@ export default function AboutUs() {
               />
             </svg>
             <svg
-              className="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32"
+              className="absolute top-1/2 right-full -translate-y-1/2 -translate-x-32 transform"
               width="404"
               height="384"
               fill="none"
@@ -150,7 +150,7 @@ export default function AboutUs() {
               />
             </svg>
             <svg
-              className="absolute bottom-12 left-full transform translate-x-32"
+              className="absolute bottom-12 left-full translate-x-32 transform"
               width="404"
               height="384"
               fill="none"
@@ -184,14 +184,14 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="relative px-4 sm:px-6 lg:px-8">
-          <div className="text-lg max-w-prose mx-auto mb-6">
-            <p className="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+          <div className="mx-auto mb-6 max-w-prose text-lg">
+            <p className="text-center text-base font-semibold uppercase leading-6 tracking-wide text-indigo-600">
               Learn more
             </p>
-            <h1 className="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h1 className="mt-2 mb-8 text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               About Us
             </h1>
-            <p className="text-xl text-gray-500 leading-8">
+            <p className="text-xl leading-8 text-gray-500">
               Hi there,
               <br />
               Let me tell you the story about StuntCoders (some of us are in
@@ -207,7 +207,7 @@ export default function AboutUs() {
               />
             </figure>
           </div>
-          <div className="prose prose-lg text-gray-500 mx-auto">
+          <div className="prose prose-lg mx-auto text-gray-500">
             <p>
               When we were kids, we were honest about our fantasies. We were
               hungry for knowledge and all that mattered was fun. Later, we grew

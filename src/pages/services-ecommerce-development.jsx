@@ -7,11 +7,11 @@ import NavCenter from '../components/nav_center';
 export default function ServicesEcommerceDevelopment() {
   return (
     <LayoutPage>
-      <div className="relative bg-gray-50 overflow-hidden">
-        <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
-          <div className="relative h-full max-w-screen-xl mx-auto">
+      <div className="relative overflow-hidden bg-gray-50">
+        <div className="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full">
+          <div className="relative mx-auto h-full max-w-screen-xl">
             <svg
-              className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+              className="absolute right-full translate-y-1/4 translate-x-1/4 transform lg:translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -43,7 +43,7 @@ export default function ServicesEcommerceDevelopment() {
               />
             </svg>
             <svg
-              className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
+              className="absolute left-full -translate-y-3/4 -translate-x-1/4 transform md:-translate-y-1/2 lg:-translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -79,10 +79,10 @@ export default function ServicesEcommerceDevelopment() {
         <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <NavCenter />
 
-          <div className="relative pb-32 mt-8 bg-gray-800">
+          <div className="relative mt-8 bg-gray-800 pb-32">
             <div className="absolute inset-0">
               <StaticImage
-                className="w-full h-full object-cover"
+                className="h-full w-full object-cover"
                 src="../images/working-class-hero.jpeg"
                 alt="Working class hero is something to be"
               />
@@ -91,7 +91,7 @@ export default function ServicesEcommerceDevelopment() {
                 aria-hidden="true"
               />
             </div>
-            <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+            <div className="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
               <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
                 We live and breathe eCommerce
                 <br />
@@ -113,16 +113,16 @@ export default function ServicesEcommerceDevelopment() {
           </div>
 
           <section
-            className="-mt-32 max-w-7xl mx-auto relative z-10 pb-4 px-4 sm:px-6 lg:px-8"
+            className="relative z-10 mx-auto -mt-32 max-w-7xl px-4 pb-4 sm:px-6 lg:px-8"
             aria-labelledby="contact-heading"
           >
             <h2 className="sr-only" id="contact-heading">
               Contact us
             </h2>
             <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-              <div className="flex flex-col bg-white rounded-2xl shadow-xl">
-                <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                  <div className="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+              <div className="flex flex-col rounded-2xl bg-white shadow-xl">
+                <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+                  <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
                     <svg
                       className="h-6 w-6 text-white"
                       xmlns="http://www.w3.org/2000/svg"
@@ -151,9 +151,9 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
               </div>
 
-              <div className="flex flex-col bg-white rounded-2xl shadow-xl">
-                <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                  <div className="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+              <div className="flex flex-col rounded-2xl bg-white shadow-xl">
+                <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+                  <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
                     <svg
                       className="h-6 w-6 text-white"
                       xmlns="http://www.w3.org/2000/svg"
@@ -179,9 +179,9 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
               </div>
 
-              <div className="flex flex-col bg-white rounded-2xl shadow-xl">
-                <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                  <div className="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+              <div className="flex flex-col rounded-2xl bg-white shadow-xl">
+                <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+                  <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
                     <svg
                       className="h-6 w-6 text-white"
                       xmlns="http://www.w3.org/2000/svg"
@@ -214,13 +214,13 @@ export default function ServicesEcommerceDevelopment() {
         </div>
       </div>
 
-      <div className="py-12 bg-white">
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="bg-white py-12">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="lg:text-left">
-            <p className=" text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+            <p className=" text-base font-semibold uppercase leading-6 tracking-wide text-indigo-600">
               Our question is,
             </p>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               What can we help you with?
             </h3>
             <p className="mt-4 text-xl leading-7 text-gray-500 lg:mx-auto">
@@ -237,10 +237,10 @@ export default function ServicesEcommerceDevelopment() {
           <div className="mt-12 text-left">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-3">
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -256,10 +256,10 @@ export default function ServicesEcommerceDevelopment() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Our Main Platforms
                     </h3>
-                    <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                    <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                       <li>Magento</li>
                       <li>WooCommerce</li>
                       <li>Shopify</li>
@@ -272,10 +272,10 @@ export default function ServicesEcommerceDevelopment() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -291,10 +291,10 @@ export default function ServicesEcommerceDevelopment() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Our Main Technology Stack
                     </h3>
-                    <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                    <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                       <li>PHP</li>
                       <li>Ruby on Rails</li>
                       <li>Python</li>
@@ -307,10 +307,10 @@ export default function ServicesEcommerceDevelopment() {
               </div>
 
               <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-indigo-500 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
                         <svg
                           className="h-6 w-6 text-white"
                           fill="none"
@@ -326,10 +326,10 @@ export default function ServicesEcommerceDevelopment() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
                       Industries
                     </h3>
-                    <ul className="mt-2 text-base leading-6 text-gray-500 list-disc pl-4">
+                    <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                       <li>Fashion</li>
                       <li>Technology</li>
                       <li>Commodity</li>
@@ -347,32 +347,32 @@ export default function ServicesEcommerceDevelopment() {
 
       <div className="bg-gray-900">
         <div className="pt-12 sm:pt-16 lg:pt-24">
-          <div className="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl mx-auto space-y-2 lg:max-w-none">
-              <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
+          <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-3xl space-y-2 lg:max-w-none">
+              <h2 className="text-lg font-semibold uppercase leading-6 tracking-wider text-gray-300">
                 Our approach is
               </h2>
               <p className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
                 Being focused on your success
               </p>
-              <p className="pt-12 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">
+              <p className="max-w-7xl pt-12 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
                 When it comes to tailor-made eCommerce solutions for business
                 technology, innovation is all about increasing the pace of
                 delivery. Speed influences the time to market and indirectly
                 affects the costs associated with the project.
               </p>
-              <p className="pt-6 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
                 At StuntCoders, we deliver new technologies that facilitate this
                 pace of delivery. We focus on intelligent orchestration and the
                 integration of services, open-source components, and customized
                 software.
               </p>
-              <p className="pt-6 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
                 While we are using an agile setup to deliver the software, we
                 take responsibility to achieve milestones and reach deadlines
                 together with your Product Owners and other stakeholders.
               </p>
-              <p className="pt-6 text-xl leading-7 text-gray-300 lg:mx-auto max-w-7xl lg:max-w-5xl text-left">
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
                 To best adapt to your needs, we have created two models of
                 collaboration—one for balanced small-budget companies and the
                 other for fast-paced enterprises or startups.
@@ -380,19 +380,19 @@ export default function ServicesEcommerceDevelopment() {
             </div>
           </div>
         </div>
-        <div className="mt-8 pb-12 bg-gray-50 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+        <div className="mt-8 bg-gray-50 pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
           <div className="relative">
             <div className="absolute inset-0 h-3/4 bg-gray-900" />
-            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
-                <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-                  <div className="px-6 py-8 bg-white sm:p-10 sm:pb-6">
-                    <h3 className="mt-5 text-gray-900 text-3xl font-extrabold">
+            <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-md space-y-4 lg:grid lg:max-w-5xl lg:grid-cols-2 lg:gap-5 lg:space-y-0">
+                <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                  <div className="bg-white px-6 py-8 sm:p-10 sm:pb-6">
+                    <h3 className="mt-5 text-3xl font-extrabold text-gray-900">
                       Micro-team
                     </h3>
                     <div className="mt-4 flex items-baseline text-xl font-extrabold">
                       from 7.200 €
-                      <span className="ml-1 text-l font-medium text-gray-500">
+                      <span className="text-l ml-1 font-medium text-gray-500">
                         /mo
                       </span>
                     </div>
@@ -405,7 +405,7 @@ export default function ServicesEcommerceDevelopment() {
                       scope of the project.
                     </p>
                   </div>
-                  <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
+                  <div className="flex flex-1 flex-col justify-between space-y-6 bg-gray-50 px-6 pt-6 pb-8 sm:p-10 sm:pt-6">
                     <ul className="space-y-4">
                       <li className="flex items-start">
                         <div className="flex-shrink-0">
@@ -502,7 +502,7 @@ export default function ServicesEcommerceDevelopment() {
                     <div className="rounded-md shadow">
                       <Link
                         to="/contact/"
-                        className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
+                        className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
                         aria-describedby="tier-standard"
                       >
                         Get started
@@ -511,14 +511,14 @@ export default function ServicesEcommerceDevelopment() {
                   </div>
                 </div>
 
-                <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-                  <div className="px-6 py-8 bg-white sm:p-10 sm:pb-6">
-                    <h3 className="mt-5 text-gray-900 text-3xl font-extrabold">
+                <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                  <div className="bg-white px-6 py-8 sm:p-10 sm:pb-6">
+                    <h3 className="mt-5 text-3xl font-extrabold text-gray-900">
                       Accelerated Development
                     </h3>
                     <div className="mt-4 flex items-baseline text-xl font-extrabold">
                       from 11.250 €
-                      <span className="ml-1 text-l font-medium text-gray-500">
+                      <span className="text-l ml-1 font-medium text-gray-500">
                         /mo
                       </span>
                     </div>
@@ -530,7 +530,7 @@ export default function ServicesEcommerceDevelopment() {
                       the quality and timeliness of software delivery.
                     </p>
                   </div>
-                  <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
+                  <div className="flex flex-1 flex-col justify-between space-y-6 bg-gray-50 px-6 pt-6 pb-8 sm:p-10 sm:pt-6">
                     <ul className="space-y-4">
                       <li className="flex items-start">
                         <div className="flex-shrink-0">
@@ -627,7 +627,7 @@ export default function ServicesEcommerceDevelopment() {
                     <div className="rounded-md shadow">
                       <Link
                         to="/contact/"
-                        className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
+                        className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
                         aria-describedby="tier-standard"
                       >
                         Get started
@@ -638,8 +638,8 @@ export default function ServicesEcommerceDevelopment() {
               </div>
             </div>
           </div>
-          <div className="mt-4 relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-5">
-            <div className="max-w-md mx-auto lg:max-w-5xl">
+          <div className="relative mx-auto mt-4 max-w-7xl px-4 sm:px-6 lg:mt-5 lg:px-8">
+            <div className="mx-auto max-w-md lg:max-w-5xl">
               <div className="rounded-lg bg-gray-100 px-6 py-8 sm:p-10 lg:flex lg:items-center">
                 <div className="flex-1">
                   <div className="mt-4 text-lg text-gray-600">
@@ -666,19 +666,19 @@ export default function ServicesEcommerceDevelopment() {
         </div>
       </div>
 
-      <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+      <div className="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
         <div className="absolute inset-0">
-          <div className="bg-white h-1/3 sm:h-2/3" />
+          <div className="h-1/3 bg-white sm:h-2/3" />
         </div>
-        <div className="relative max-w-7xl mx-auto">
+        <div className="relative mx-auto max-w-7xl">
           <div className="text-center">
-            <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Proven results and happy customers!
             </h2>
-            <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4 hidden" />
+            <p className="mx-auto mt-3 hidden max-w-2xl text-xl text-gray-500 sm:mt-4" />
           </div>
-          <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-            <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+          <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
@@ -686,12 +686,12 @@ export default function ServicesEcommerceDevelopment() {
                   alt="Tesori portfolio image"
                 />
               </div>
-              <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
                     Case Study
                   </p>
-                  <Link to="/case/tesori/" className="block mt-2">
+                  <Link to="/case/tesori/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
                       Tesori Diamanter
                     </p>
@@ -712,7 +712,7 @@ export default function ServicesEcommerceDevelopment() {
                     Team: Micro-team
                   </div>
                   <svg
-                    className="hidden md:block mx-1 h-5 w-5 text-indigo-600"
+                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -723,7 +723,7 @@ export default function ServicesEcommerceDevelopment() {
                   </div>
                 </div>
               </div>
-              <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
+              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
                 <Link
                   to="/case/tesori/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
@@ -733,7 +733,7 @@ export default function ServicesEcommerceDevelopment() {
               </div>
             </div>
 
-            <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
@@ -741,12 +741,12 @@ export default function ServicesEcommerceDevelopment() {
                   alt="Camp David Soccx"
                 />
               </div>
-              <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
                     Case Study
                   </p>
-                  <Link to="/case/camp-david/" className="block mt-2">
+                  <Link to="/case/camp-david/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
                       Camp David & Soccx
                     </p>
@@ -767,7 +767,7 @@ export default function ServicesEcommerceDevelopment() {
                     Team: 10+
                   </div>
                   <svg
-                    className="hidden md:block mx-1 h-5 w-5 text-indigo-600"
+                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -778,7 +778,7 @@ export default function ServicesEcommerceDevelopment() {
                   </div>
                 </div>
               </div>
-              <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
+              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
                 <Link
                   to="/case/camp-david/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
@@ -788,7 +788,7 @@ export default function ServicesEcommerceDevelopment() {
               </div>
             </div>
 
-            <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
@@ -796,12 +796,12 @@ export default function ServicesEcommerceDevelopment() {
                   alt="Selekkt"
                 />
               </div>
-              <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-indigo-600">
                     Case Study
                   </p>
-                  <a href="#" className="block mt-2">
+                  <a href="#" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
                       Selekkt
                     </p>
@@ -823,7 +823,7 @@ export default function ServicesEcommerceDevelopment() {
                     Team: 5+
                   </div>
                   <svg
-                    className="hidden md:block mx-1 h-5 w-5 text-indigo-600"
+                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -834,7 +834,7 @@ export default function ServicesEcommerceDevelopment() {
                   </div>
                 </div>
               </div>
-              <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl">
+              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
                 <Link
                   to="/case/selekkt/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
@@ -847,10 +847,10 @@ export default function ServicesEcommerceDevelopment() {
         </div>
       </div>
 
-      <section className="bg-white overflow-hidden">
-        <div className="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
+      <section className="overflow-hidden bg-white">
+        <div className="relative mx-auto max-w-screen-xl px-4 pt-20 pb-12 sm:px-6 lg:px-8 lg:py-20">
           <svg
-            className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
+            className="absolute top-full left-0 translate-x-80 -translate-y-24 transform lg:hidden"
             width="784"
             height="404"
             fill="none"
@@ -882,7 +882,7 @@ export default function ServicesEcommerceDevelopment() {
             />
           </svg>
           <svg
-            className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2"
+            className="absolute right-full top-1/2 hidden translate-x-1/2 -translate-y-1/2 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -924,7 +924,7 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div className="relative lg:ml-10">
               <svg
-                className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
+                className="absolute top-0 left-0 h-36 w-36 -translate-x-8 -translate-y-24 transform text-indigo-200 opacity-50"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 144 144"
@@ -935,7 +935,7 @@ export default function ServicesEcommerceDevelopment() {
                 />
               </svg>
               <blockquote className="relative">
-                <div className="text-2xl leading-9 font-medium text-gray-900">
+                <div className="text-2xl font-medium leading-9 text-gray-900">
                   <p>
                     During my career I have worked with numerous IT companies,
                     software and e-commerce developers. None of them come close
@@ -958,10 +958,10 @@ export default function ServicesEcommerceDevelopment() {
                       />
                     </div>
                     <div className="ml-4 lg:ml-0">
-                      <div className="text-base leading-6 font-medium text-gray-900">
+                      <div className="text-base font-medium leading-6 text-gray-900">
                         Terje Gaupseth
                       </div>
-                      <div className="text-base leading-6 font-medium text-indigo-600">
+                      <div className="text-base font-medium leading-6 text-indigo-600">
                         CEO, Tesori
                       </div>
                     </div>
@@ -973,10 +973,10 @@ export default function ServicesEcommerceDevelopment() {
         </div>
       </section>
 
-      <div className="bg-gray-50 overflow-hidden">
-        <div className="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="overflow-hidden bg-gray-50">
+        <div className="relative mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
           <svg
-            className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+            className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
             width="404"
             height="784"
             fill="none"
@@ -1007,15 +1007,15 @@ export default function ServicesEcommerceDevelopment() {
               fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
             />
           </svg>
-          <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
+          <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
             <div className="lg:col-span-1">
-              <h3 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+              <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
                 We are providing you with peace of mind.
               </h3>
             </div>
-            <div className="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
+            <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
               <div>
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -1031,7 +1031,7 @@ export default function ServicesEcommerceDevelopment() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Hosting Included
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -1042,8 +1042,8 @@ export default function ServicesEcommerceDevelopment() {
                   <br />
                 </div>
               </div>
-              <div className="mt-10 sm:mt-0 pb-4">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="mt-10 pb-4 sm:mt-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -1059,7 +1059,7 @@ export default function ServicesEcommerceDevelopment() {
                   </svg>
                 </div>
                 <div className="mt-5 pb-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Distributed Network
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -1071,7 +1071,7 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -1087,7 +1087,7 @@ export default function ServicesEcommerceDevelopment() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Daily Backups
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -1099,7 +1099,7 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -1115,7 +1115,7 @@ export default function ServicesEcommerceDevelopment() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     GDPR Compliance
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -1134,24 +1134,24 @@ export default function ServicesEcommerceDevelopment() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block">Marketplaces under your fingertips</span>
           </h2>
 
-          <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+          <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
             Speed up deals with the ability to sell on marketplaces through
             integrated platforms and reach a wider audience through Amazon,
             Zalando, Otto, and hundreds of others.
           </p>
 
-          <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
+          <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
             Once implemented, our customers have seen a 5x increase in revenue
             in the first year and a steady 1.3x year over year after the first
             year.
           </p>
 
-          <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <StaticImage
@@ -1195,7 +1195,7 @@ export default function ServicesEcommerceDevelopment() {
             <div className="inline-flex rounded-md shadow">
               <Link
                 to="/contact/"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
               >
                 Contact us to learn more
               </Link>
@@ -1205,13 +1205,13 @@ export default function ServicesEcommerceDevelopment() {
       </div>
 
       <div className="relative bg-gray-50 py-16 sm:py-24">
-        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
+        <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
           <div className="relative sm:py-16 lg:py-0">
             <div
               aria-hidden="true"
               className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
             >
-              <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72" />
+              <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-gray-50 lg:right-72" />
               <svg
                 className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
                 width="404"
@@ -1245,21 +1245,21 @@ export default function ServicesEcommerceDevelopment() {
                 />
               </svg>
             </div>
-            <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
+            <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
               <img
                 src="https://stcdshare.s3.amazonaws.com/vND1hE7mnw.jpg"
                 alt="Unleash your Decision-making Process"
-                className="relative mx-auto rounded-lg shadow-xl border-gray-200"
+                className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
               />
             </div>
           </div>
 
           <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
             <div className="pt-12 sm:pt-16 lg:pt-20">
-              <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
+              <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 360° eCommerce Analytics
               </h2>
-              <div className="mt-6 text-gray-500 space-y-6">
+              <div className="mt-6 space-y-6 text-gray-500">
                 <p className="text-lg">
                   Today the world’s most valuable resource has changed from
                   energy to data. Businesses are becoming driven by data and the
@@ -1284,8 +1284,8 @@ export default function ServicesEcommerceDevelopment() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+          <div className="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div>
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
                 Alliances &amp; Partnerships
@@ -1299,7 +1299,7 @@ export default function ServicesEcommerceDevelopment() {
                 <div className="mt-3 sm:mt-0">
                   <Link
                     to="/contact/"
-                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                    className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none"
                   >
                     Contact Us
                   </Link>
@@ -1307,42 +1307,42 @@ export default function ServicesEcommerceDevelopment() {
               </div>
             </div>
             <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/partnerships/digitalocean.svg"
                   alt="DigitalOcean"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/partnerships/aws.png"
                   alt="AWS"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/partnerships/cpanel.svg"
                   alt="cPanel"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/partnerships/mailchimp.png"
                   alt="MailChimp"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/partnerships/algolia.png"
                   alt="Algolia"
                 />
               </div>
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
                   src="../images/partnerships/tradebyte.svg"
@@ -1354,10 +1354,10 @@ export default function ServicesEcommerceDevelopment() {
         </div>
       </div>
 
-      <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
-        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
+      <div className="overflow-hidden bg-gray-50 py-16 lg:py-24">
+        <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
           <svg
-            className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
+            className="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -1389,22 +1389,22 @@ export default function ServicesEcommerceDevelopment() {
             />
           </svg>
           <div className="relative">
-            <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               Accelerate Your Development
             </h3>
-            <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
+            <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-7 text-gray-500">
               Shortage of tech talent is one of the biggest challenges
               businesses face today regarding technology innovation.
             </p>
-            <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
+            <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-7 text-gray-500">
               StuntCoders accelerates product roadmaps and helps modernize tech
               stacks by becoming a trusted technology partner and an extension
               of your in-house team.
             </p>
           </div>
-          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div className="relative">
-              <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+              <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                 In-sourcing
               </h4>
               <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -1420,9 +1420,9 @@ export default function ServicesEcommerceDevelopment() {
                 engineering teams.
               </p>
             </div>
-            <div className="mt-10 -mx-4 relative lg:mt-0">
+            <div className="relative -mx-4 mt-10 lg:mt-0">
               <svg
-                className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                 width="784"
                 height="404"
                 fill="none"
@@ -1454,7 +1454,7 @@ export default function ServicesEcommerceDevelopment() {
                 />
               </svg>
               <StaticImage
-                className="relative mx-auto rounded-lg shadow-xl border-gray-200"
+                className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                 width="490"
                 src="../images/nearshoring.jpeg"
                 alt="Experienced developer"
@@ -1463,7 +1463,7 @@ export default function ServicesEcommerceDevelopment() {
             </div>
           </div>
           <svg
-            className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
+            className="absolute right-full hidden translate-x-1/2 translate-y-12 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -1495,9 +1495,9 @@ export default function ServicesEcommerceDevelopment() {
             />
           </svg>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
-            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
               <div className="lg:col-start-2">
-                <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+                <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                   Why does it make sense?
                 </h4>
                 <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -1514,9 +1514,9 @@ export default function ServicesEcommerceDevelopment() {
                   continual activities to ensure we’re on top of our game.
                 </p>
               </div>
-              <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+              <div className="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0">
                 <svg
-                  className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                  className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                   width="784"
                   height="404"
                   fill="none"
@@ -1548,7 +1548,7 @@ export default function ServicesEcommerceDevelopment() {
                   />
                 </svg>
                 <StaticImage
-                  className="relative mx-auto rounded-lg shadow-xl border-gray-200"
+                  className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                   width="490"
                   src="../images/why.jpg"
                   alt="Why?"
@@ -1561,8 +1561,8 @@ export default function ServicesEcommerceDevelopment() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
+        <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-extrabold text-gray-900">
               Choose an Experienced Integrator
             </h2>
@@ -1577,7 +1577,7 @@ export default function ServicesEcommerceDevelopment() {
               the following systems, you reduce time to market and uncertainty.
             </p>
           </div>
-          <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+          <dl className="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
             <div className="relative">
               <dt>
                 <svg
@@ -1595,7 +1595,7 @@ export default function ServicesEcommerceDevelopment() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p className="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Visma
                 </p>
               </dt>
@@ -1618,7 +1618,7 @@ export default function ServicesEcommerceDevelopment() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p className="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Mamut
                 </p>
               </dt>
@@ -1641,7 +1641,7 @@ export default function ServicesEcommerceDevelopment() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p className="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Microsoft Dynamics
                 </p>
               </dt>
@@ -1664,7 +1664,7 @@ export default function ServicesEcommerceDevelopment() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p className="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
                   SAP
                 </p>
               </dt>
@@ -1687,7 +1687,7 @@ export default function ServicesEcommerceDevelopment() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p className="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Odoo
                 </p>
               </dt>
@@ -1710,7 +1710,7 @@ export default function ServicesEcommerceDevelopment() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p className="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Salesforce
                 </p>
               </dt>
@@ -1733,7 +1733,7 @@ export default function ServicesEcommerceDevelopment() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p className="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Pimcore
                 </p>
               </dt>
@@ -1756,7 +1756,7 @@ export default function ServicesEcommerceDevelopment() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p className="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
                   SuperOffice
                 </p>
               </dt>
@@ -1766,7 +1766,7 @@ export default function ServicesEcommerceDevelopment() {
       </div>
 
       <div className="bg-indigo-50">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
+        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
             <span className="block">Get in touch?</span>
             <span className="block text-indigo-600">Book your call today.</span>
@@ -1775,7 +1775,7 @@ export default function ServicesEcommerceDevelopment() {
             <div className="inline-flex rounded-md shadow">
               <Link
                 to="/contact/"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
               >
                 Get started
               </Link>

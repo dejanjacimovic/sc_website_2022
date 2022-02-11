@@ -29,11 +29,11 @@ function QA(question, answer, isFirst = true) {
   return (
     <div className={classVal}>
       <dt className="text-lg leading-7">
-        <button className="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
+        <button className="flex w-full items-start justify-between text-left text-gray-400 focus:text-gray-900 focus:outline-none">
           <span className="font-medium text-gray-900">{question}</span>
-          <span className="ml-6 h-7 flex items-center">
+          <span className="ml-6 flex h-7 items-center">
             <svg
-              className="-rotate-180 h-6 w-6 transform"
+              className="h-6 w-6 -rotate-180 transform"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -61,11 +61,11 @@ function QA(question, answer, isFirst = true) {
 export default function ServicesWoocommerceMaintenance() {
   return (
     <LayoutPage>
-      <div className="relative bg-gray-50 overflow-hidden">
-        <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
-          <div className="relative h-full max-w-screen-xl mx-auto">
+      <div className="relative overflow-hidden bg-gray-50">
+        <div className="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full">
+          <div className="relative mx-auto h-full max-w-screen-xl">
             <svg
-              className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+              className="absolute right-full translate-y-1/4 translate-x-1/4 transform lg:translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -97,7 +97,7 @@ export default function ServicesWoocommerceMaintenance() {
               />
             </svg>
             <svg
-              className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
+              className="absolute left-full -translate-y-3/4 -translate-x-1/4 transform md:-translate-y-1/2 lg:-translate-x-1/2"
               width="404"
               height="784"
               fill="none"
@@ -132,24 +132,24 @@ export default function ServicesWoocommerceMaintenance() {
         </div>
         <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <NavCenter />
-          <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+          <main className="mx-auto mt-10 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
             <div className="text-center">
-              <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+              <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                 <span className="mr-1">Services to support your</span>
                 <br className="xl:hidden" />
                 <span className="text-indigo-600">WooCommerce</span>
               </h2>
-              <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              <p className="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
                 We believe that the service we offer should be fair, reasonably
                 priced, and cover most of the cases you will ever need. We
                 believe that now, more than ever, it is important to have a
                 human touch that helps you navigate through technical
                 challenges.
               </p>
-              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+              <div className="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
                   <Link
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    className="focus:shadow-outline-indigo flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:border-indigo-700 focus:outline-none md:py-4 md:px-10 md:text-lg"
                     to="/contact/"
                   >
                     Get started
@@ -161,13 +161,13 @@ export default function ServicesWoocommerceMaintenance() {
         </div>
       </div>
 
-      <div className="py-12 bg-white">
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="bg-white py-12">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <p className=" text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+            <p className=" text-base font-semibold uppercase leading-6 tracking-wide text-indigo-600">
               Guaranteed
             </p>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               Customer Happiness
             </h3>
             <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
@@ -177,11 +177,11 @@ export default function ServicesWoocommerceMaintenance() {
             </p>
           </div>
           <div className="mt-10">
-            <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
+            <ul className="md:col-gap-8 md:row-gap-10 md:grid md:grid-cols-2">
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -198,7 +198,7 @@ export default function ServicesWoocommerceMaintenance() {
                     </div>
                   </div>
                   <div className="ml-4 pr-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       90 minutes Maximum Response Time
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -212,7 +212,7 @@ export default function ServicesWoocommerceMaintenance() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -229,7 +229,7 @@ export default function ServicesWoocommerceMaintenance() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Problem-free Guarantee
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -244,7 +244,7 @@ export default function ServicesWoocommerceMaintenance() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -261,7 +261,7 @@ export default function ServicesWoocommerceMaintenance() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Phone Support
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -274,10 +274,10 @@ export default function ServicesWoocommerceMaintenance() {
                   </div>
                 </div>
               </li>
-              <li className="hidden mt-10 md:mt-8">
+              <li className="mt-10 hidden md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -294,7 +294,7 @@ export default function ServicesWoocommerceMaintenance() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       Content Management, Done for You
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -310,7 +310,7 @@ export default function ServicesWoocommerceMaintenance() {
               <li className="mt-10 md:mt-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                       <svg
                         className="h-6 w-6"
                         fill="none"
@@ -327,7 +327,7 @@ export default function ServicesWoocommerceMaintenance() {
                     </div>
                   </div>
                   <div className="ml-4 pr-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">
+                    <h4 className="text-lg font-medium leading-6 text-gray-900">
                       24/7 Support in Case Of Emergency
                     </h4>
                     <p className="mt-2 text-base leading-6 text-gray-500">
@@ -345,10 +345,10 @@ export default function ServicesWoocommerceMaintenance() {
         </div>
       </div>
 
-      <div className="bg-gray-50 overflow-hidden">
-        <div className="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="overflow-hidden bg-gray-50">
+        <div className="relative mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
           <svg
-            className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+            className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
             width="404"
             height="784"
             fill="none"
@@ -379,15 +379,15 @@ export default function ServicesWoocommerceMaintenance() {
               fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
             />
           </svg>
-          <div className="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
+          <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
             <div className="lg:col-span-1">
-              <h3 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+              <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
                 Security should never be a concern.
               </h3>
             </div>
-            <div className="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
+            <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
               <div>
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -403,7 +403,7 @@ export default function ServicesWoocommerceMaintenance() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Weekly Upgrades
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -417,7 +417,7 @@ export default function ServicesWoocommerceMaintenance() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -433,7 +433,7 @@ export default function ServicesWoocommerceMaintenance() {
                   </svg>
                 </div>
                 <div className="mt-5">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Server Monitoring
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -445,7 +445,7 @@ export default function ServicesWoocommerceMaintenance() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -461,7 +461,7 @@ export default function ServicesWoocommerceMaintenance() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Daily Backups
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -472,7 +472,7 @@ export default function ServicesWoocommerceMaintenance() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -488,7 +488,7 @@ export default function ServicesWoocommerceMaintenance() {
                   </svg>
                 </div>
                 <div className="mt-5">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Hack Interventions
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -502,7 +502,7 @@ export default function ServicesWoocommerceMaintenance() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -518,7 +518,7 @@ export default function ServicesWoocommerceMaintenance() {
                   </svg>
                 </div>
                 <div className="mt-5 pr-4">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     Security Scans
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -530,7 +530,7 @@ export default function ServicesWoocommerceMaintenance() {
                 </div>
               </div>
               <div className="mt-10 sm:mt-0">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
                     fill="none"
@@ -546,7 +546,7 @@ export default function ServicesWoocommerceMaintenance() {
                   </svg>
                 </div>
                 <div className="mt-5">
-                  <h4 className="text-lg leading-6 font-medium text-gray-900">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
                     DDoS Mitigation
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
@@ -565,10 +565,10 @@ export default function ServicesWoocommerceMaintenance() {
       <ContentManagement />
       <PlusIntegrations />
 
-      <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
-        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
+      <div className="overflow-hidden bg-gray-50 py-16 lg:py-24">
+        <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
           <svg
-            className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
+            className="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -600,19 +600,19 @@ export default function ServicesWoocommerceMaintenance() {
             />
           </svg>
           <div className="relative">
-            <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+            <h3 className="text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
               A better way to communicate
             </h3>
-            <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
+            <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-7 text-gray-500">
               Tickets are not for every one of us. In fact, most of us hate
               tickets. They are slow, provide little feedback, and most of all
               —&nbsp;feel like you're talking to a robot. That is why we
               communicate the way you like.
             </p>
           </div>
-          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div className="relative">
-              <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+              <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                 Let's talk the way you like to
               </h4>
               <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -624,7 +624,7 @@ export default function ServicesWoocommerceMaintenance() {
                 <li>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                         <svg
                           className="h-6 w-6"
                           fill="none"
@@ -641,7 +641,7 @@ export default function ServicesWoocommerceMaintenance() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      <h5 className="text-lg font-medium leading-6 text-gray-900">
                         Tasks on our platform
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
@@ -656,7 +656,7 @@ export default function ServicesWoocommerceMaintenance() {
                 <li className="mt-10">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                         <svg
                           className="h-6 w-6"
                           fill="none"
@@ -673,7 +673,7 @@ export default function ServicesWoocommerceMaintenance() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      <h5 className="text-lg font-medium leading-6 text-gray-900">
                         Email
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
@@ -687,7 +687,7 @@ export default function ServicesWoocommerceMaintenance() {
                 <li className="mt-10">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                         <svg
                           className="h-6 w-6"
                           fill="none"
@@ -704,7 +704,7 @@ export default function ServicesWoocommerceMaintenance() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      <h5 className="text-lg font-medium leading-6 text-gray-900">
                         Slack
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
@@ -719,7 +719,7 @@ export default function ServicesWoocommerceMaintenance() {
                 <li className="mt-10">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                         <svg
                           className="h-6 w-6"
                           fill="none"
@@ -736,7 +736,7 @@ export default function ServicesWoocommerceMaintenance() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      <h5 className="text-lg font-medium leading-6 text-gray-900">
                         WhatsApp
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
@@ -748,9 +748,9 @@ export default function ServicesWoocommerceMaintenance() {
                 </li>
               </ul>
             </div>
-            <div className="mt-10 -mx-4 relative lg:mt-0">
+            <div className="relative -mx-4 mt-10 lg:mt-0">
               <svg
-                className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                 width="784"
                 height="404"
                 fill="none"
@@ -791,7 +791,7 @@ export default function ServicesWoocommerceMaintenance() {
             </div>
           </div>
           <svg
-            className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
+            className="absolute right-full hidden translate-x-1/2 translate-y-12 transform lg:block"
             width="404"
             height="784"
             fill="none"
@@ -823,9 +823,9 @@ export default function ServicesWoocommerceMaintenance() {
             />
           </svg>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
-            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
               <div className="lg:col-start-2">
-                <h4 className="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
+                <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
                   Keeping you in the loop
                 </h4>
                 <p className="mt-3 text-lg leading-7 text-gray-500">
@@ -838,7 +838,7 @@ export default function ServicesWoocommerceMaintenance() {
                   <li>
                     <div className="flex">
                       <div className="flex-shrink-0">
-                        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                           <svg
                             className="h-6 w-6"
                             fill="none"
@@ -861,7 +861,7 @@ export default function ServicesWoocommerceMaintenance() {
                         </div>
                       </div>
                       <div className="ml-4">
-                        <h5 className="text-lg leading-6 font-medium text-gray-900">
+                        <h5 className="text-lg font-medium leading-6 text-gray-900">
                           Nothing gets lost
                         </h5>
                         <p className="mt-2 text-base leading-6 text-gray-500">
@@ -876,7 +876,7 @@ export default function ServicesWoocommerceMaintenance() {
                   <li className="mt-10">
                     <div className="flex">
                       <div className="flex-shrink-0">
-                        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                           <svg
                             className="h-6 w-6"
                             fill="none"
@@ -893,7 +893,7 @@ export default function ServicesWoocommerceMaintenance() {
                         </div>
                       </div>
                       <div className="ml-4">
-                        <h5 className="text-lg leading-6 font-medium text-gray-900">
+                        <h5 className="text-lg font-medium leading-6 text-gray-900">
                           Send it and forget it
                         </h5>
                         <p className="mt-2 text-base leading-6 text-gray-500">
@@ -907,9 +907,9 @@ export default function ServicesWoocommerceMaintenance() {
                   </li>
                 </ul>
               </div>
-              <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+              <div className="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0">
                 <svg
-                  className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                  className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
                   width="784"
                   height="404"
                   fill="none"
@@ -956,8 +956,8 @@ export default function ServicesWoocommerceMaintenance() {
       <Woocommerce />
 
       <div className="bg-gray-50">
-        <div className="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+        <div className="mx-auto max-w-screen-xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
+          <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             <span>Ready to dive in?</span>
             <br />
             <span>We'll get you covered.</span>
@@ -965,7 +965,7 @@ export default function ServicesWoocommerceMaintenance() {
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
               <Link
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none"
                 to="/contact/"
               >
                 Get started
@@ -973,7 +973,7 @@ export default function ServicesWoocommerceMaintenance() {
             </div>
             <div className="ml-3 inline-flex">
               <Link
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out"
+                className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-100 px-5 py-3 text-base font-medium leading-6 text-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-50 hover:text-indigo-600 focus:border-indigo-300 focus:outline-none"
                 to="/testimonials/"
               >
                 See what our customers said?
@@ -986,16 +986,16 @@ export default function ServicesWoocommerceMaintenance() {
       <div className="relative bg-white">
         <div className="h-56 bg-indigo-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
           <StaticImage
-            className="w-full h-full object-cover"
+            className="h-full w-full object-cover"
             src="../images/magic-in-the-office.jpg"
             alt="Magic in the office"
             loading="auto"
           />
         </div>
-        <div className="relative max-w-screen-xl mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16">
-          <div className="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
+        <div className="relative mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16">
+          <div className="mx-auto max-w-2xl lg:mr-0 lg:ml-auto lg:w-1/2 lg:max-w-none lg:pl-10">
             <div>
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                 <svg
                   className="h-6 w-6"
                   fill="none"
@@ -1011,7 +1011,7 @@ export default function ServicesWoocommerceMaintenance() {
                 </svg>
               </div>
             </div>
-            <h2 className="mt-6 text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+            <h2 className="mt-6 text-3xl font-extrabold leading-9 text-gray-900 sm:text-4xl sm:leading-10">
               Get what you want, every time
             </h2>
             <p className="mt-6 text-lg leading-7 text-gray-500">
@@ -1022,26 +1022,26 @@ export default function ServicesWoocommerceMaintenance() {
             <div className="mt-8 overflow-hidden">
               <dl className="-mx-8 -mt-8 flex flex-wrap">
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="order-2 text-base leading-6 font-medium text-gray-500">
+                  <dt className="order-2 text-base font-medium leading-6 text-gray-500">
                     in case of emergency
                   </dt>
-                  <dd className="order-1 text-2xl leading-8 font-extrabold text-indigo-600 sm:text-3xl sm:leading-9">
+                  <dd className="order-1 text-2xl font-extrabold leading-8 text-indigo-600 sm:text-3xl sm:leading-9">
                     24/7 availability
                   </dd>
                 </div>
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="order-2 text-base leading-6 font-medium text-gray-500">
+                  <dt className="order-2 text-base font-medium leading-6 text-gray-500">
                     support for you
                   </dt>
-                  <dd className="order-1 text-2xl leading-8 font-extrabold text-indigo-600 sm:text-3xl sm:leading-9">
+                  <dd className="order-1 text-2xl font-extrabold leading-8 text-indigo-600 sm:text-3xl sm:leading-9">
                     truly unlimited
                   </dd>
                 </div>
                 <div className="flex flex-col px-8 pt-8">
-                  <dt className="order-2 text-base leading-6 font-medium text-gray-500">
+                  <dt className="order-2 text-base font-medium leading-6 text-gray-500">
                     response time guaranteed
                   </dt>
-                  <dd className="order-1 text-2xl leading-8 font-extrabold text-indigo-600 sm:text-3xl sm:leading-9">
+                  <dd className="order-1 text-2xl font-extrabold leading-8 text-indigo-600 sm:text-3xl sm:leading-9">
                     90 minutes
                   </dd>
                 </div>
@@ -1052,10 +1052,10 @@ export default function ServicesWoocommerceMaintenance() {
       </div>
 
       <div className="bg-white">
-        <div className="max-w-screen-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-screen-xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="pb-16 xl:flex xl:items-center xl:justify-between">
             <div>
-              <h1 className="text-4xl leading-10 font-extrabold sm:text-5xl sm:leading-none sm:tracking-tight">
+              <h1 className="text-4xl font-extrabold leading-10 sm:text-5xl sm:leading-none sm:tracking-tight">
                 <span className="text-gray-900">And even more from </span>
                 <span className="text-indigo-600">
                   {getMaintenancePrice()} a month
@@ -1067,25 +1067,25 @@ export default function ServicesWoocommerceMaintenance() {
               </p>
             </div>
             <Link
-              className="mt-8 w-full bg-indigo-600 border border-transparent px-5 py-3 inline-flex items-center justify-center text-base leading-6 font-medium rounded-md text-white hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out sm:mt-10 sm:w-auto xl:mt-0"
+              className="focus:shadow-outline mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none sm:mt-10 sm:w-auto xl:mt-0"
               to="/pricing/"
             >
               See our pricing
             </Link>
           </div>
-          <div className="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:col-gap-8">
+          <div className="xl:col-gap-8 border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3">
             <div>
-              <h2 className="text-base leading-6 font-semibold text-indigo-600 tracking-wide uppercase">
+              <h2 className="text-base font-semibold uppercase leading-6 tracking-wide text-indigo-600">
                 Everything you need
               </h2>
-              <p className="mt-2 text-3xl leading-9 font-extrabold text-gray-900">
+              <p className="mt-2 text-3xl font-extrabold leading-9 text-gray-900">
                 To manage your online business
               </p>
               <p className="mt-4 text-lg leading-7 text-gray-500" />
             </div>
-            <div className="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 md:col-gap-8 xl:mt-0 xl:col-span-2">
+            <div className="md:col-gap-8 mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 xl:col-span-2 xl:mt-0">
               <ul className="divide-y divide-gray-200">
-                <li className="py-4 flex space-x-3 md:py-0 md:pb-4">
+                <li className="flex space-x-3 py-4 md:py-0 md:pb-4">
                   <svg
                     className="h-6 w-6 text-green-500"
                     aria-hidden="true"
@@ -1105,7 +1105,7 @@ export default function ServicesWoocommerceMaintenance() {
                     Setting up and maintaining GDPR
                   </span>
                 </li>
-                <li className="py-4 flex space-x-3">
+                <li className="flex space-x-3 py-4">
                   <svg
                     className="h-6 w-6 text-green-500"
                     aria-hidden="true"
@@ -1125,7 +1125,7 @@ export default function ServicesWoocommerceMaintenance() {
                     User and role management
                   </span>
                 </li>
-                <li className="py-4 flex space-x-3">
+                <li className="flex space-x-3 py-4">
                   <svg
                     className="h-6 w-6 text-green-500"
                     aria-hidden="true"
@@ -1145,7 +1145,7 @@ export default function ServicesWoocommerceMaintenance() {
                     Support when going international
                   </span>
                 </li>
-                <li className="py-4 flex space-x-3">
+                <li className="flex space-x-3 py-4">
                   <svg
                     className="h-6 w-6 text-green-500"
                     aria-hidden="true"
@@ -1165,7 +1165,7 @@ export default function ServicesWoocommerceMaintenance() {
                     Batch import of pages &amp; products
                   </span>
                 </li>
-                <li className="py-4 flex space-x-3">
+                <li className="flex space-x-3 py-4">
                   <svg
                     className="h-6 w-6 text-green-500"
                     aria-hidden="true"
@@ -1186,8 +1186,8 @@ export default function ServicesWoocommerceMaintenance() {
                   </span>
                 </li>
               </ul>
-              <ul className="border-t border-gray-200 divide-y divide-gray-200 md:border-t-0">
-                <li className="py-4 flex space-x-3 md:border-t-0 md:py-0 md:pb-4">
+              <ul className="divide-y divide-gray-200 border-t border-gray-200 md:border-t-0">
+                <li className="flex space-x-3 py-4 md:border-t-0 md:py-0 md:pb-4">
                   <svg
                     className="h-6 w-6 text-green-500"
                     aria-hidden="true"
@@ -1207,7 +1207,7 @@ export default function ServicesWoocommerceMaintenance() {
                     Help improving the search
                   </span>
                 </li>
-                <li className="py-4 flex space-x-3">
+                <li className="flex space-x-3 py-4">
                   <svg
                     className="h-6 w-6 text-green-500"
                     aria-hidden="true"
@@ -1227,7 +1227,7 @@ export default function ServicesWoocommerceMaintenance() {
                     Suggestions on UI and UX improvements
                   </span>
                 </li>
-                <li className="py-4 flex space-x-3">
+                <li className="flex space-x-3 py-4">
                   <svg
                     className="h-6 w-6 text-green-500"
                     aria-hidden="true"
@@ -1247,7 +1247,7 @@ export default function ServicesWoocommerceMaintenance() {
                     Speed optimisation
                   </span>
                 </li>
-                <li className="py-4 flex space-x-3">
+                <li className="flex space-x-3 py-4">
                   <svg
                     className="h-6 w-6 text-green-500"
                     aria-hidden="true"
@@ -1274,9 +1274,9 @@ export default function ServicesWoocommerceMaintenance() {
       </div>
 
       <div className="bg-gray-50">
-        <div className="max-w-screen-xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-center text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+        <div className="mx-auto max-w-screen-xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl">
+            <h2 className="text-center text-3xl font-extrabold leading-9 text-gray-900 sm:text-4xl sm:leading-10">
               Frequently asked questions
             </h2>
             <div className="mt-6 border-t-2 border-gray-200 pt-6">
