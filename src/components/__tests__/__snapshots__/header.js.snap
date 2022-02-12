@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header>
+  <title>
+    StuntCoders
+  </title>
+  <meta
+    charset="utf-8"
+  />
+  <meta
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    name="viewport"
+  />
+  <meta
+    content=""
+    name="description"
+  />
+  <meta
+    content=""
+    name="author"
+  />
+  <meta
+    content="u7n67cd60by0290q0me248tsm49hl0"
+    name="facebook-domain-verification"
+  />
+  <link
+    href="https://rsms.me/inter/inter.css"
+    rel="stylesheet"
+  />
+</header>
+`;
