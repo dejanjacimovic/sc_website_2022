@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage; } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
-import contact from '../images/covid-office.jpg';
+import intern from '../images/intern.jpeg';
 
 export default function GuideToApplyingInternship() {
   return (
@@ -127,6 +128,16 @@ export default function GuideToApplyingInternship() {
               frequently asked questions and spruce things up with some tips you
               will surely find useful if you decide to apply.
             </p>
+          </div>
+          <div className="lg:absolute lg:inset-0">
+            <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+              <StaticImage
+                className="h-56 w-full object-cover lg:absolute lg:h-full"
+                src={intern}
+                alt="Intern applied"
+                loading="auto"
+              />
+            </div>
           </div>
           <div className="prose prose-lg mx-auto text-gray-500">
             <h2>Is it for me?</h2>
