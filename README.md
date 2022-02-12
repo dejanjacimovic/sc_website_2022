@@ -22,6 +22,13 @@
     Our site is now running at http://localhost:8000!
 
 
+## Make code prettier?
+
+```
+yarn install
+npx prettier --write src/*.jsx
+```
+
 ## 🚀 Deploy?
 
 Git push, then navigate to [Netlify link](https://vibrant-brown-359096.netlify.app/).
