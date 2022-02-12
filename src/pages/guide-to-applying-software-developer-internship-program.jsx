@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
@@ -7,6 +8,11 @@ import NavCenter from '../components/nav_center';
 export default function GuideToApplyingSoftwareDeveloperInternshipProgram() {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Practical Guide To Applying For Software Developer Internship Program At StuntCoders</title>
+      </Helmet>
+
       <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
         <NavCenter />
       </div>
@@ -118,7 +124,7 @@ export default function GuideToApplyingSoftwareDeveloperInternshipProgram() {
               Practical Guide To
             </p>
             <h1 className="mt-2 mb-8 text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-              Applying For Software Developer Internship Program At Stuntcoders
+              Applying For Software Developer Internship Program At StuntCoders
             </h1>
             <p className="text-xl leading-8 text-gray-500">
               StuntCoders has established its internship program in 2016. We are
