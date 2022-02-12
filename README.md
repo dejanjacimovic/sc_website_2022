@@ -26,7 +26,7 @@
 
 ```
 yarn install
-npx prettier --write src/*.jsx
+npx prettier --write src/pages/.jsx
 ```
 
 ## 🚀 Deploy?

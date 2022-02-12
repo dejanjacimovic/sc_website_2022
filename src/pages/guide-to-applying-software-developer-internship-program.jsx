@@ -3,9 +3,8 @@ import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
-import intern from '../images/intern.jpeg';
 
-export default function GuideToApplyingInternship() {
+export default function GuideToApplyingSoftwareDeveloperInternshipProgram() {
   return (
     <LayoutPage>
       <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
@@ -133,7 +132,7 @@ export default function GuideToApplyingInternship() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <StaticImage
                 className="h-56 w-full object-cover lg:absolute lg:h-full"
-                src={intern}
+                src="../images/intern.jpeg"
                 alt="Intern applied"
                 loading="auto"
               />
