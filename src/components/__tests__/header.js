@@ -6,7 +6,7 @@ import Header from '../header';
 describe('Header', () => {
   it('renders correctly', () => {
     const tree = renderer
-      .create(<Header siteTitle="Default Starter" />)
+      .create(<Header siteTitle="StuntCoders" />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
