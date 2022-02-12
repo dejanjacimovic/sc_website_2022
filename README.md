@@ -29,6 +29,13 @@ yarn install
 npx prettier --write src/pages/.jsx
 ```
 
+## Test the website?
+
+```
+npm test
+```
+
+
 ## 🚀 Deploy?
 
 Git push, then navigate to [Netlify link](https://vibrant-brown-359096.netlify.app/).
