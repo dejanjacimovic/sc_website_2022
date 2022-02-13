@@ -6,6 +6,10 @@ import NavCenter from '../components/nav_center';
 export default function AboutUs() {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Learn more about us, and what drives us</title>
+      </Helmet>
       <div className="bg-white">
         <div className="relative">
           <div className="absolute inset-y-0 block h-full w-full">

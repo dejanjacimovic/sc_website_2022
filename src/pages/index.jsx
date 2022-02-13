@@ -12,6 +12,11 @@ import {
 export default function Home() {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>StuntCoders — home of customer-centric eCommerce developers</title>
+      </Helmet>
+
       <div className="relative overflow-hidden bg-white">
         <div className="mx-auto max-w-screen-xl">
           <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
