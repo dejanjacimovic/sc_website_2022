@@ -59,6 +59,11 @@ function serviceIncluded(serviceName, c = 0) {
 export default function Pricing() {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Transparent pricing at StuntCoders</title>
+      </Helmet>
+
       <div className="relative pt-6 pb-8 sm:pb-8 md:pb-8 lg:pb-12 xl:pb-12">
         <NavCenter />
       </div>
