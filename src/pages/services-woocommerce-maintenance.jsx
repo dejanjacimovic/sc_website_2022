@@ -61,6 +61,11 @@ function QA(question, answer, isFirst = true) {
 export default function ServicesWoocommerceMaintenance() {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>WooCommerce maintenance services at StuntCoders</title>
+      </Helmet>
+
       <div className="relative overflow-hidden bg-gray-50">
         <div className="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full">
           <div className="relative mx-auto h-full max-w-screen-xl">
