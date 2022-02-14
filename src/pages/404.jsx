@@ -11,6 +11,11 @@ export default function NotFoundPage() {
 
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>404! We think you got lost!</title>
+      </Helmet>
+
       <main className="min-h-full bg-cover bg-top sm:bg-top" style={styleDef}>
         <div className="mx-auto max-w-7xl px-4 py-16 text-center sm:px-6 sm:py-24 lg:px-8 lg:py-48">
           <p className="text-sm font-semibold uppercase tracking-wide text-black text-opacity-50">
