@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import LayoutPage from '../components/layout_page';
 import NavLeft from '../components/nav_left';
 import { StaticImage } from 'gatsby-plugin-image';
