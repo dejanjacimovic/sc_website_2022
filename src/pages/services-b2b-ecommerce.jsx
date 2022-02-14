@@ -8,6 +8,11 @@ import { getB2BPrice } from '../helpers/index.jsx';
 export default function ServicesB2bEcommerce() {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>B2B eCommerce platform and development services</title>
+      </Helmet>
+
       <div className="relative overflow-hidden bg-gray-50">
         <div className="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full">
           <div className="relative mx-auto h-full max-w-screen-xl">
