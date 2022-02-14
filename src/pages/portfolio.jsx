@@ -77,6 +77,11 @@ function project(clientName, client, edges) {
 export default function Portfolio({ data }) {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>StuntCoders portfolio, our most relevant projects</title>
+      </Helmet>
+
       <div className="relative pt-6 pb-2 sm:pb-16 md:pb-2 lg:pb-2 xl:pb-2">
         <NavCenter />
       </div>
