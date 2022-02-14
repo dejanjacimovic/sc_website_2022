@@ -8,7 +8,7 @@ export default function CancellationPolicy() {
     <LayoutPage>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>StuntCoders fair cancellation policy</title>
+        <title>StuntCoders cancellation policy</title>
       </Helmet>
       <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
         <NavCenter />
