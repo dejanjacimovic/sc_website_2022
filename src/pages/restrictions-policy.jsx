@@ -6,6 +6,11 @@ import NavCenter from '../components/nav_center';
 export default function RestrictionsPolicy() {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Restriction policy at StuntCoders</title>
+      </Helmet>
+
       <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
         <NavCenter />
       </div>
