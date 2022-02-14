@@ -7,6 +7,11 @@ import NavCenter from '../components/nav_center';
 export default function Testimonials() {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Learn about experience with StuntCoders and what our customers said</title>
+      </Helmet>
+
       <div className="relative overflow-hidden bg-white">
         <div
           className="hidden lg:absolute lg:inset-0 lg:block"
