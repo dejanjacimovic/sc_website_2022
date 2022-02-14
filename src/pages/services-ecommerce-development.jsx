@@ -7,6 +7,10 @@ import NavCenter from '../components/nav_center';
 export default function ServicesEcommerceDevelopment() {
   return (
     <LayoutPage>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>eCommerce development services at StuntCoders</title>
+      </Helmet>
       <div className="relative overflow-hidden bg-gray-50">
         <div className="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full">
           <div className="relative mx-auto h-full max-w-screen-xl">
