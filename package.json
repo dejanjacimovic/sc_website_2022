@@ -13,7 +13,9 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "jest"
+    "test": "jest",
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open"
   },
   "dependencies": {
     "axios": "^0.25.0",
@@ -35,10 +37,12 @@
   "devDependencies": {
     "babel-jest": "^27.5.1",
     "babel-preset-gatsby": "^2.7.0",
+    "cypress": "^9.4.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.7",
-    "react-test-renderer": "^17.0.2"
+    "react-test-renderer": "^17.0.2",
+    "start-server-and-test": "^1.14.0"
   }
 }
