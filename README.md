@@ -32,6 +32,7 @@ npx prettier --write src/pages/.jsx
 ## Test the website?
 
 ```
+npm test -- -u
 npm test
 ```
 
