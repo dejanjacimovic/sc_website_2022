@@ -31,9 +31,19 @@ npx prettier --write src/pages/.jsx
 
 ## Test the website?
 
+Build images:
 ```
 npm test -- -u
+```
+
+Run tests:
+```
 npm test
+```
+
+Check coverage:
+```
+npm run test --coverage
 ```
 
 
