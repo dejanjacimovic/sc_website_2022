@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { Link } from 'gatsby';
+import Footer from '../footer';
 
-import Header from '../footer';
-
-describe('Header', () => {
+describe('Footer', () => {
   it('renders correctly', () => {
     const tree = renderer
       .create(<Footer h4="Company" />)
