@@ -12,4 +12,11 @@ describe("Accessibility tests", () => {
       .click()
       .checkA11y()
   })
+  it("Focuses on the footer link and asserts its attributes", () => {
+    cy.findAllByText("Careers").focus()
+    cy.focused()
+      .should("have.text", "Careers")
+      .should("have.attr", "href", "https://stuntcoders.careers")
+      .should("not.have.css", "outline-width", "0px")
+  })
 })
