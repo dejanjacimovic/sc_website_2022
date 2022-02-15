@@ -5,12 +5,12 @@ import Footer from './footer';
 
 export default function LayoutPage(content) {
   return (
-    (<Header />),
-    (
+    <div>
+      <Header />
       <div className="font-sans text-gray-900 antialiased">
         {content.children}
       </div>
-    ),
-    (<Footer />)
+      <Footer />
+    </div>
   );
 }
