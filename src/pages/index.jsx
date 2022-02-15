@@ -14,7 +14,6 @@ export default function Home() {
   return (
     <LayoutPage>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>StuntCoders — home of customer-centric eCommerce developers</title>
       </Helmet>
 
