@@ -46,6 +46,11 @@ Check coverage:
 npm run test --coverage
 ```
 
+End-to-end tests?
+```
+npm run test:e2e
+```
+
 
 ## 🚀 Deploy?
 
