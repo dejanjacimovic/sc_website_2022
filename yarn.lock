@@ -6452,6 +6452,15 @@
     "jsonfile" "^6.0.1"
     "universalify" "^2.0.0"
 
+"fs-extra@^7.0.0":
+  "integrity" "sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw=="
+  "resolved" "https://registry.npmjs.org/fs-extra/-/fs-extra-7.0.1.tgz"
+  "version" "7.0.1"
+  dependencies:
+    "graceful-fs" "^4.1.2"
+    "jsonfile" "^4.0.0"
+    "universalify" "^0.1.0"
+
 "fs-extra@^9.1.0":
   "integrity" "sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ=="
   "resolved" "https://registry.npmjs.org/fs-extra/-/fs-extra-9.1.0.tgz"
@@ -6598,6 +6607,13 @@
     "glob" "^7.2.0"
     "lodash" "^4.17.21"
     "micromatch" "^4.0.4"
+
+"gatsby-plugin-client-side-redirect@^1.1.0":
+  "integrity" "sha512-ox3QpfQynNmH4SgBedMxi9WdEFVI/fQep0cpAu5mPSIQElIJmy+TF5fDZc56Ra+cvr/dz45sw+tUzE41aMlLfw=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-client-side-redirect/-/gatsby-plugin-client-side-redirect-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "fs-extra" "^7.0.0"
 
 "gatsby-plugin-image@^2.6.0":
   "integrity" "sha512-IVX/c0O/5QL505hla74Pt9i7xtv5zFBeYiYqG9gyejtZ3YuM0Opid3Rs+IIn1LN3fjM/xBrqp8yL7/XN/p24fw=="
@@ -9047,6 +9063,13 @@
   "version" "2.2.0"
   dependencies:
     "minimist" "^1.2.5"
+
+"jsonfile@^4.0.0":
+  "integrity" "sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss="
+  "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz"
+  "version" "4.0.0"
+  optionalDependencies:
+    "graceful-fs" "^4.1.6"
 
 "jsonfile@^6.0.1":
   "integrity" "sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ=="
@@ -14596,6 +14619,11 @@
   dependencies:
     "@types/cookie" "^0.3.3"
     "cookie" "^0.4.0"
+
+"universalify@^0.1.0":
+  "integrity" "sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg=="
+  "resolved" "https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz"
+  "version" "0.1.2"
 
 "universalify@^0.1.2":
   "integrity" "sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg=="
