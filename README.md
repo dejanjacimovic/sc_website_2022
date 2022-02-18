@@ -21,7 +21,6 @@
 
     Our site is now running at http://localhost:8000!
 
-
 ## Make code prettier?
 
 ```
@@ -32,25 +31,34 @@ npx prettier --write src/pages/.jsx
 ## Test the website?
 
 Build images:
+
 ```
 npm test -- -u
 ```
 
 Run tests:
+
 ```
 npm test
 ```
 
 Check coverage:
+
 ```
 npm run test --coverage
 ```
 
 End-to-end tests?
+
 ```
 npm run test:e2e
 ```
 
+## Setup pre-commit hooks
+
+```
+pre-commit install
+```
 
 ## 🚀 Deploy?
 
