@@ -40,6 +40,48 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   createRedirect({
+    fromPath: `/pricing.php`,
+    toPath: `/pricing`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/portfolio.php`,
+    toPath: `/portfolio`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/testimonials.php`,
+    toPath: `/testimonials`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/about-us.php`,
+    toPath: `/about-us`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/services-woocommerce-maintenance.php`,
+    toPath: `/services-woocommerce-maintenance`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/services-ecommerce-development.php`,
+    toPath: `/services-ecommerce-development`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/services-b2b-ecommerce.php`,
+    toPath: `/services-b2b-ecommerce`,
+    statusCode: 301,
+  });
+
+  createRedirect({
     fromPath: `/blog/*`,
     toPath: `/`,
     statusCode: 301,
