@@ -113,8 +113,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
   createRedirect({
     fromPath: `/services-rubyonrails.php`,
-    toPath: `/services-rubyonrails`, statusCode: 301,
-
+    toPath: `/services-rubyonrails`,
+    statusCode: 301,
   });
 
   createRedirect({
