@@ -42,11 +42,6 @@ module.exports = {
         mergeCachingHeaders: true,
         transformHeaders: (headers, path) => headers,
         generateMatchPathRewrites: true,
-        createRedirect({
-          fromPath: '/pricing.php',
-          toPath: '/pricing',
-          statusCode: 301,
-        }),
       },
     },
   ],
