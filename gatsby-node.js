@@ -82,6 +82,42 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   createRedirect({
+    fromPath: `/privacy-policy.php`,
+    toPath: `/privacy-policy`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/terms.php`,
+    toPath: `/terms`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/refund-policy.php`,
+    toPath: `/refund-policy`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/cancellation-policy.php`,
+    toPath: `/cancellation-policy`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/restrictions-policy.php`,
+    toPath: `/restrictions-policy`,
+    statusCode: 301,
+  });
+
+  createRedirect({
+    fromPath: `/services-rubyonrails.php`,
+    toPath: `/services-rubyonrails`,
+    statusCode: 301,
+  });
+
+  createRedirect({
     fromPath: `/blog/*`,
     toPath: `/`,
     statusCode: 301,
