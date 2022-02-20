@@ -33,6 +33,13 @@ exports.sourceNodes = async ({
 exports.createPages = async ({ graphql, actions }) => {
   const { createRedirect } = actions;
 
+  if (page.path.match(/^\/account/)) {
+    page.matchPath = '/account/*';
+
+    // Update the page.
+    createPage(page);
+  }
+
   createRedirect({
     fromPath: `/contact-us.php`,
     toPath: `/contact`,
