@@ -2,3 +2,5 @@ node_modules/
 .cache/
 public
 cypress/videos/
+.env.*
+.env
