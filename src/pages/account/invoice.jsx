@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
-import * as invoiceStyles from '../../components/invoices.module.css';
+import * as invoiceStyles from '../../components/invoice.module.css';
 
 function exchangeRate() {
   return 117.5;
@@ -115,7 +115,7 @@ export default function Invoice() {
   totalValue = 300;
 
   return (
-    <LayoutPage>
+    <div id="invoice">
       <Helmet>
         <link
           href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,400italic,700,700italic&subset=latin,latin-ext"
@@ -274,6 +274,6 @@ export default function Invoice() {
           </table>
         </footer>
       </div>
-    </LayoutPage>
+    </div>
   );
 }
