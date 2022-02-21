@@ -58,6 +58,11 @@ const setSession =
     }
   };
 
+export const silentAuth = (callback) => {
+  if (!isAuthenticated()) return callback();
+  auth.checkSession({}, setSession(callback));
+};
+
 export const handleAuthentication = () => {
   if (!isBrowser) {
     return;
@@ -68,11 +73,6 @@ export const handleAuthentication = () => {
 
 export const getProfile = () => {
   return user;
-};
-
-export const silentAuth = (callback) => {
-  if (!isAuthenticated()) return callback();
-  auth.checkSession({}, setSession(callback));
 };
 
 export const logout = () => {
