@@ -4,8 +4,8 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.stuntcoders.com',
-    title: 'StuntCoders 2022',
+    siteUrl: 'https://stuntcoders.com',
+    title: 'StuntCoders on Gatsby',
   },
   plugins: [
     'gatsby-plugin-netlify-cms',
