@@ -100,7 +100,7 @@ function invoiceItemsList(allItems, currency) {
     total += item['subtotal'];
   }
 
-  totalValue = total;
+  let totalValue = total;
   total = numberFormat(total, 2);
 
   return output;
