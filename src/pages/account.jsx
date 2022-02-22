@@ -7,7 +7,7 @@ const Home = ({ user }) => {
   return <p>Hi, {user.name ? user.name : 'friend'}!</p>;
 };
 const Settings = () => <p>Settings</p>;
-const Billing = () => <p>Billing</p>;
+const Invoice = () => <p>Invoice</p>;
 
 const Account = () => {
   if (!isAuthenticated()) {
@@ -22,7 +22,7 @@ const Account = () => {
       <nav>
         <Link to="/account">Home</Link>{' '}
         <Link to="/account/settings">Settings</Link>{' '}
-        <Link to="/account/billing">Billing</Link>{' '}
+        <Link to="/account/invoice">Invoice</Link>{' '}
         <a
           href="#logout"
           onClick={(e) => {
@@ -36,7 +36,7 @@ const Account = () => {
       <Router>
         <Home path="/account" user={user} />
         <Settings path="/account/settings" />
-        <Billing path="/account/billing" />
+        <Invoice path="/account/invoice" />
       </Router>
     </>
   );
