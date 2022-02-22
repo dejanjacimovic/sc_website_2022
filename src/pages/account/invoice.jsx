@@ -17,7 +17,7 @@ function exchangeRate() {
 }
 
 function getBankDetails(bank, detail) {
-  bank_account_data = {
+  let bank_account_data = {
     ca: {
       bic: 'BIC: MEBARS22<br/>CREDIT AGRICOLE SRBIJA AD<br/>Novi Sad, Republic of Serbia',
       iban: 'RS35330007010010282854',
@@ -107,12 +107,12 @@ function invoiceItemsList(allItems, currency) {
 }
 
 export default function Invoice() {
-  currency = 'EUR';
-  client = 'Random client GmbH';
-  perHour = 150;
-  invoiceNumber = '117';
-  total = 300;
-  totalValue = 300;
+  let currency = 'EUR';
+  let client = 'Random client GmbH';
+  let perHour = 150;
+  let invoiceNumber = '117';
+  let total = 300;
+  let totalValue = 300;
 
   return (
     <div id="invoice">
