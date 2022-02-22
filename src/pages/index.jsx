@@ -2017,7 +2017,7 @@ export default function Home() {
                   <div className="pb-7/12 relative lg:pb-0">
                     <StaticImage
                       className="absolute inset-0 h-full w-full rounded-lg object-cover object-center shadow-lg lg:static lg:h-auto"
-                      src="../images/dejan-ceo.jpg"
+                      src="../images/dejan-ceo.jpeg"
                       alt="Dejan Jacimovic, CEO of StuntCoders"
                       width="1184"
                       height="1376"
