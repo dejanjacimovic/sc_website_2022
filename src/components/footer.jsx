@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default function Footer() {
   return (
@@ -151,8 +152,8 @@ export default function Footer() {
             </p>
           </div>
 
-          <img
-            src="https://stcdshare.s3.amazonaws.com/aaa-banner.png"
+          <StaticImage
+            src="../images/general/aaa-banner.png"
             className="w-32 object-right-top sm:m-12"
           />
         </div>
