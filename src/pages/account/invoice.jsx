@@ -17,18 +17,15 @@ function exchangeRate() {
 }
 
 function getBankDetails(bank, detail) {
-  let bank_account_data = {
-    ca: {
-      bic: 'BIC: MEBARS22<br/>CREDIT AGRICOLE SRBIJA AD<br/>Novi Sad, Republic of Serbia',
-      iban: 'RS35330007010010282854',
-    },
-    intesa: {
-      bic: 'BIC: DBDBRSBG<br/>Banca Intesa ad Beograd,<br/>Beograd, Republic of Serbia',
-      iban: 'RS35160005380000160536',
-    },
-  };
-
-  return bank_account_data[bank][detail];
+  if (bank == 'ca' && detail == 'iban') {
+    return 'RS35330007010010282854';
+  } else if (bank == 'ca' && detail == 'bic') {
+    return 'BIC: MEBARS22<br/>CREDIT AGRICOLE SRBIJA AD<br/>Novi Sad, Republic of Serbia';
+  } else if (bank == 'intesa' && detail == 'iban') {
+    return 'RS35160005380000160536';
+  } else {
+    return 'BIC: DBDBRSBG<br/>Banca Intesa ad Beograd,<br/>Beograd, Republic of Serbia';
+  }
 }
 
 function getNetPayment(number_of_days) {
@@ -167,7 +164,7 @@ export default function Invoice() {
           <table>
             <thead>
               <tr>
-                <th></th>
+                <th />
                 <th align="left">Osnov za naplatu / Service</th>
                 <th align="right" style="min-width:130px">
                   Iznos / Amount
