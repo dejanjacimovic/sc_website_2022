@@ -108,7 +108,7 @@ function invoiceItemsList(allItems, currency) {
 
 export default function Invoice() {
   let currency = 'EUR';
-  let client = 'Random client GmbH';
+  let customer = 'Random client GmbH';
   let perHour = 150;
   let invoiceNumber = '117';
   let total = 300;
