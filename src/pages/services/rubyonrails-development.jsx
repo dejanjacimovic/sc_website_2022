@@ -87,7 +87,7 @@ export default function ServicesRubyonrails() {
           <main className="mx-auto mt-10 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
             <div className="text-center">
               <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-                <span className="mr-1">Development</span>
+                <span className="mr-1">Development{` `}</span>
                 <br className="xl:hidden" />
                 <span className="text-red-600">on Rails</span>
               </h2>
