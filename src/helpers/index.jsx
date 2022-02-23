@@ -131,15 +131,15 @@ export function getMaintenancePrice() {
 
   switch (country) {
     case 'United States':
-      return '$399 USD';
+      return '$999 USD';
     case 'Norway':
-      return '3.920 kr';
+      return '9.550 kr';
     case 'Sweden':
-      return '3.920 kr';
+      return '9.550 kr';
     case 'Denmark':
-      return '2.899 kr';
+      return '6.695 kr';
     default:
-      return '380 €';
+      return '900 €';
   }
 }
 
