@@ -9,6 +9,7 @@ import {
   getHeroRegionPhrase,
   getRegionName,
 } from '../helpers/index.jsx';
+
 import bilxtraSvg from '../images/logos/bilxtra.svg';
 import skintificSvg from '../images/logos/skintific.svg';
 import campDavidSvg from '../images/logos/campdavid.svg';
