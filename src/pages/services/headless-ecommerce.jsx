@@ -1,0 +1,1705 @@
+import * as React from 'react';
+import { Helmet } from 'react-helmet';
+import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
+import LayoutPage from '../components/layout_page';
+import NavCenter from '../components/nav_center';
+
+export default function ServicesEcommerceDevelopment() {
+  return (
+    <LayoutPage>
+      <Helmet>
+        <title>Headless eCommerce development at StuntCoders</title>
+      </Helmet>
+
+      <div className="relative overflow-hidden bg-gray-50">
+        <div className="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full">
+          <div className="relative mx-auto h-full max-w-screen-xl">
+            <svg
+              className="absolute right-full translate-y-1/4 translate-x-1/4 transform lg:translate-x-1/2"
+              width="404"
+              height="784"
+              fill="none"
+              viewBox="0 0 404 784"
+            >
+              <defs>
+                <pattern
+                  id="f210dbf6-a58d-4871-961e-36d5016a0f49"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    className="text-gray-200"
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="784"
+                fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
+              />
+            </svg>
+            <svg
+              className="absolute left-full -translate-y-3/4 -translate-x-1/4 transform md:-translate-y-1/2 lg:-translate-x-1/2"
+              width="404"
+              height="784"
+              fill="none"
+              viewBox="0 0 404 784"
+            >
+              <defs>
+                <pattern
+                  id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b"
+                  x="0"
+                  y="0"
+                  width="20"
+                  height="20"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect
+                    className="text-gray-200"
+                    x="0"
+                    y="0"
+                    width="4"
+                    height="4"
+                    fill="currentColor"
+                  />
+                </pattern>
+              </defs>
+              <rect
+                width="404"
+                height="784"
+                fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+          <NavCenter />
+
+          <main class="lg:relative">
+            <div class="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-48 lg:text-left">
+              <div class="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
+                <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+                  <span class="block xl:inline">Headless eCommerce</span>
+                  <span class="block text-indigo-600 xl:inline">
+                    to boost your online business
+                  </span>
+                </h1>
+                <p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
+                  Unprescedented speed and agility in development with React
+                  front-end and support of Gatsbyjs.
+                </p>
+                <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+                  <div class="rounded-md shadow">
+                    <a
+                      href="/contact/"
+                      class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                    >
+                      {' '}
+                      Get in touch{' '}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="relative h-64 w-full sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2">
+              <img
+                class="absolute inset-0 h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+                alt=""
+              />
+            </div>
+            <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+              <a
+                href="#"
+                class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg"
+              >
+                {' '}
+                Learn more{' '}
+              </a>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <div className="bg-white py-12">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+          <div className="lg:text-left">
+            <p className=" text-base font-semibold uppercase leading-6 tracking-wide text-indigo-600">
+              Our question is,
+            </p>
+            <h3 className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+              Would you keep your existing solution and data, or build from
+              scratch?
+            </h3>
+            <p className="mt-4 text-xl leading-7 text-gray-500 lg:mx-auto">
+              Technology is transforming the way we live and work. Software
+              technologies are an essential part of the technology
+              transformation.
+            </p>
+            <p className="mt-4  text-xl leading-7 text-gray-500 lg:mx-auto">
+              Learn more about platforms, technologies, and industries we have
+              gained extensive experience with over the past ten years.
+            </p>
+          </div>
+          <div className="mt-10" />
+          <div className="mt-12 text-left">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-3">
+              <div className="pt-6">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
+                        <svg
+                          className="h-6 w-6 text-white"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
+                      Our Main Platforms
+                    </h3>
+                    <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
+                      <li>Magento</li>
+                      <li>WooCommerce</li>
+                      <li>Shopify</li>
+                      <li>Solidus</li>
+                      <li>Oxid</li>
+                      <li>Salesforce Cloud</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-6">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
+                        <svg
+                          className="h-6 w-6 text-white"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
+                      Our Main Technology Stack
+                    </h3>
+                    <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
+                      <li>PHP</li>
+                      <li>Ruby on Rails</li>
+                      <li>Python</li>
+                      <li>JavaScript</li>
+                      <li>Java</li>
+                      <li>React / Vue / Angular</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-6">
+                <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-3 shadow-lg">
+                        <svg
+                          className="h-6 w-6 text-white"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
+                      Industries
+                    </h3>
+                    <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
+                      <li>Fashion</li>
+                      <li>Technology</li>
+                      <li>Commodity</li>
+                      <li>Product</li>
+                      <li>E-Learning</li>
+                      <li>Rental</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-gray-900">
+        <div className="pt-12 sm:pt-16 lg:pt-24">
+          <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-3xl space-y-2 lg:max-w-none">
+              <h2 className="text-lg font-semibold uppercase leading-6 tracking-wider text-gray-300">
+                Our approach is
+              </h2>
+              <p className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+                Being focused on your success
+              </p>
+              <p className="max-w-7xl pt-12 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                When it comes to tailor-made eCommerce solutions for business
+                technology, innovation is all about increasing the pace of
+                delivery. Speed influences the time to market and indirectly
+                affects the costs associated with the project.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                At StuntCoders, we deliver new technologies that facilitate this
+                pace of delivery. We focus on intelligent orchestration and the
+                integration of services, open-source components, and customized
+                software.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                While we are using an agile setup to deliver the software, we
+                take responsibility to achieve milestones and reach deadlines
+                together with your Product Owners and other stakeholders.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                To best adapt to your needs, we have created two models of
+                collaboration—one for balanced small-budget companies and the
+                other for fast-paced enterprises or startups.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 bg-gray-50 pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+          <div className="relative">
+            <div className="absolute inset-0 h-3/4 bg-gray-900" />
+            <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-md space-y-4 lg:grid lg:max-w-5xl lg:grid-cols-2 lg:gap-5 lg:space-y-0">
+                <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                  <div className="bg-white px-6 py-8 sm:p-10 sm:pb-6">
+                    <h3 className="mt-5 text-3xl font-extrabold text-gray-900">
+                      Micro-team
+                    </h3>
+                    <div className="mt-4 flex items-baseline text-xl font-extrabold">
+                      from 7.200 €
+                      <span className="text-l ml-1 font-medium text-gray-500">
+                        /mo
+                      </span>
+                    </div>
+                    <p className="mt-5 text-lg text-gray-500">
+                      Micro-team comprises multi-disciplinary personnel that
+                      includes project manager, front-end developer, back-end
+                      developer, and quality assurance. This well-balanced team
+                      will work on your project development two weeks a month,
+                      or 160 work hours. Product Owner determines priority and
+                      scope of the project.
+                    </p>
+                  </div>
+                  <div className="flex flex-1 flex-col justify-between space-y-6 bg-gray-50 px-6 pt-6 pb-8 sm:p-10 sm:pt-6">
+                    <ul className="space-y-4">
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg
+                            className="h-6 w-6 text-green-500"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base text-gray-700">
+                          90 minutes Response Time
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg
+                            className="h-6 w-6 text-green-500"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base text-gray-700">
+                          160 Work Hours
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg
+                            className="h-6 w-6 text-green-500"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base text-gray-700">
+                          Well-balanced team
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg
+                            className="h-6 w-6 text-green-500"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base text-gray-700">
+                          Adaptive communication
+                        </p>
+                      </li>
+                    </ul>
+                    <div className="rounded-md shadow">
+                      <Link
+                        to="/contact/"
+                        className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
+                        aria-describedby="tier-standard"
+                      >
+                        Get started
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+                  <div className="bg-white px-6 py-8 sm:p-10 sm:pb-6">
+                    <h3 className="mt-5 text-3xl font-extrabold text-gray-900">
+                      Accelerated Development
+                    </h3>
+                    <div className="mt-4 flex items-baseline text-xl font-extrabold">
+                      from 11.250 €
+                      <span className="text-l ml-1 font-medium text-gray-500">
+                        /mo
+                      </span>
+                    </div>
+                    <p className="mt-5 text-lg text-gray-500">
+                      By establishing a dedicated development unit for you, we
+                      provide a comprehensive set of development services,
+                      ensuring an overall content business flow and teams that
+                      are the best fit for the assignment and responsibility for
+                      the quality and timeliness of software delivery.
+                    </p>
+                  </div>
+                  <div className="flex flex-1 flex-col justify-between space-y-6 bg-gray-50 px-6 pt-6 pb-8 sm:p-10 sm:pt-6">
+                    <ul className="space-y-4">
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg
+                            className="h-6 w-6 text-green-500"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base text-gray-700">
+                          Full time, fully integrated team
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg
+                            className="h-6 w-6 text-green-500"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base text-gray-700">
+                          Team assigned only to you
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg
+                            className="h-6 w-6 text-green-500"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base text-gray-700">
+                          Predictable and transparent cost
+                        </p>
+                      </li>
+
+                      <li className="flex items-start">
+                        <div className="flex-shrink-0">
+                          <svg
+                            className="h-6 w-6 text-green-500"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </div>
+                        <p className="ml-3 text-base text-gray-700">
+                          Development at your pace
+                        </p>
+                      </li>
+                    </ul>
+                    <div className="rounded-md shadow">
+                      <Link
+                        to="/contact/"
+                        className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
+                        aria-describedby="tier-standard"
+                      >
+                        Get started
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="relative mx-auto mt-4 max-w-7xl px-4 sm:px-6 lg:mt-5 lg:px-8">
+            <div className="mx-auto max-w-md lg:max-w-5xl">
+              <div className="rounded-lg bg-gray-100 px-6 py-8 sm:p-10 lg:flex lg:items-center">
+                <div className="flex-1">
+                  <div className="mt-4 text-lg text-gray-600">
+                    We create long-lasting relationships with our clients and
+                    focus on communicating with them to ensure they are always
+                    in control.
+                  </div>
+
+                  <div className="mt-4 text-lg text-gray-600">
+                    Our Accelerated Development delivery method is a perfect fit
+                    for more significant innovation initiatives, where roadmaps
+                    and backlogs exist and stretch over a more extended period.
+                  </div>
+
+                  <div className="mt-4 text-lg text-gray-600">
+                    You control the direction and focus of the teams and adjust
+                    their priorities to align with your business needs in an
+                    agile way.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+        <div className="absolute inset-0">
+          <div className="h-1/3 bg-white sm:h-2/3" />
+        </div>
+        <div className="relative mx-auto max-w-7xl">
+          <div className="text-center">
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              Proven results and happy customers!
+            </h2>
+            <p className="mx-auto mt-3 hidden max-w-2xl text-xl text-gray-500 sm:mt-4" />
+          </div>
+          <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <StaticImage
+                  className="h-48 w-full object-cover"
+                  src="../images/portfolio/tesori.jpeg"
+                  alt="Tesori portfolio image"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-indigo-600">
+                    Case Study
+                  </p>
+                  <Link to="/case/tesori/" className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900">
+                      Tesori Diamanter
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Since 2008, Tesori Diamanter has supplied quality diamonds
+                      at very competitive prices. As a customer with Tesori, you
+                      are guaranteed personal service and guidance through
+                      finding the perfect diamond.
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Tesori selected StuntCoders for their partner in this
+                      long-lasting pursuit of perfection.
+                    </p>
+                  </Link>
+                </div>
+                <div className="mt-8 text-center md:flex md:items-center">
+                  <div className="text-base font-medium text-gray-900">
+                    Team: Micro-team
+                  </div>
+                  <svg
+                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M11 0h3L9 20H6l5-20z" />
+                  </svg>
+                  <div className="text-base font-medium text-gray-500">
+                    Length: 8+ years
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
+                <Link
+                  to="/case/tesori/"
+                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
+                >
+                  Read the study<span aria-hidden="true"> →</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <StaticImage
+                  className="h-48 w-full object-cover"
+                  src="../images/portfolio/clinton-b2b.jpeg"
+                  alt="Camp David Soccx"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-indigo-600">
+                    Case Study
+                  </p>
+                  <Link to="/case/camp-david/" className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900">
+                      Camp David & Soccx
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      B2B eCommerce implementation for one of the fastest
+                      growing fashion companies in Germany.
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      To optimize their sales team of 60+ people, Camp David has
+                      found an ideal partner in StuntCoders. Today, each
+                      individual is saving 40+ hours a month on previously
+                      manual tasks.
+                    </p>
+                  </Link>
+                </div>
+                <div className="mt-8 text-center md:flex md:items-center">
+                  <div className="text-base font-medium text-gray-900">
+                    Team: 10+
+                  </div>
+                  <svg
+                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M11 0h3L9 20H6l5-20z" />
+                  </svg>
+                  <div className="text-base font-medium text-gray-500">
+                    Length: 4+ years
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
+                <Link
+                  to="/case/camp-david/"
+                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
+                >
+                  Read the study<span aria-hidden="true"> →</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <StaticImage
+                  className="h-48 w-full object-cover"
+                  src="../images/portfolio/selekkt.jpeg"
+                  alt="Selekkt"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-indigo-600">
+                    Case Study
+                  </p>
+                  <a href="#" className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900">
+                      Selekkt
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      What was initially only a place with a limited selection
+                      of products today is a marketplace for 30.000 designers.
+                      Supporting such a variety of customers and use-cases, plus
+                      legal requirements, was no easy task.
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      We are lucky to call ourselves partners of Selekkt and
+                      successfully maintain their platform's quality in 10+
+                      years of a history of collaboration.
+                    </p>
+                  </a>
+                </div>
+                <div className="mt-8 text-center md:flex md:items-center">
+                  <div className="text-base font-medium text-gray-900">
+                    Team: 5+
+                  </div>
+                  <svg
+                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M11 0h3L9 20H6l5-20z" />
+                  </svg>
+                  <div className="text-base font-medium text-gray-500">
+                    Length: 10+ years
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
+                <Link
+                  to="/case/selekkt/"
+                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
+                >
+                  Read the study<span aria-hidden="true"> →</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section className="overflow-hidden bg-white">
+        <div className="relative mx-auto max-w-screen-xl px-4 pt-20 pb-12 sm:px-6 lg:px-8 lg:py-20">
+          <svg
+            className="absolute top-full left-0 translate-x-80 -translate-y-24 transform lg:hidden"
+            width="784"
+            height="404"
+            fill="none"
+            viewBox="0 0 784 404"
+          >
+            <defs>
+              <pattern
+                id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width="784"
+              height="404"
+              fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)"
+            />
+          </svg>
+          <svg
+            className="absolute right-full top-1/2 hidden translate-x-1/2 -translate-y-1/2 transform lg:block"
+            width="404"
+            height="784"
+            fill="none"
+            viewBox="0 0 404 784"
+          >
+            <defs>
+              <pattern
+                id="56409614-3d62-4985-9a10-7ca758a8f4f0"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="784"
+              fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)"
+            />
+          </svg>
+          <div className="relative lg:flex lg:items-center">
+            <div className="hidden lg:block lg:flex-shrink-0">
+              <StaticImage
+                className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
+                src="../images/terje.jpg"
+                alt="Teje Tesori"
+                loading="auto"
+              />
+            </div>
+            <div className="relative lg:ml-10">
+              <svg
+                className="absolute top-0 left-0 h-36 w-36 -translate-x-8 -translate-y-24 transform text-indigo-200 opacity-50"
+                stroke="currentColor"
+                fill="none"
+                viewBox="0 0 144 144"
+              >
+                <path
+                  stroke-width="2"
+                  d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"
+                />
+              </svg>
+              <blockquote className="relative">
+                <div className="text-2xl font-medium leading-9 text-gray-900">
+                  <p>
+                    During my career I have worked with numerous IT companies,
+                    software and e-commerce developers. None of them come close
+                    to StuntCoders. They are a highly dedicated and professional
+                    team with a high technical proficiency, but most importantly
+                    you feel that they care about your project on a personal
+                    level. You really feel that they want you to succeed. This
+                    is what sets StuntCoders apart from the rest. I highly
+                    recommend Dejan and the rest of the team at StuntCoders.
+                  </p>
+                </div>
+                <footer className="mt-8">
+                  <div className="flex">
+                    <div className="flex-shrink-0 lg:hidden">
+                      <StaticImage
+                        className="h-12 w-12 rounded-full"
+                        src="../images/terje.jpg"
+                        alt=""
+                        loading="auto"
+                      />
+                    </div>
+                    <div className="ml-4 lg:ml-0">
+                      <div className="text-base font-medium leading-6 text-gray-900">
+                        Terje Gaupseth
+                      </div>
+                      <div className="text-base font-medium leading-6 text-indigo-600">
+                        CEO, Tesori
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="overflow-hidden bg-gray-50">
+        <div className="relative mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
+          <svg
+            className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+            width="404"
+            height="784"
+            fill="none"
+            viewBox="0 0 404 784"
+          >
+            <defs>
+              <pattern
+                id="8b1b5f72-e944-4457-af67-0c6d15a99f38"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="784"
+              fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
+            />
+          </svg>
+          <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
+            <div className="lg:col-span-1">
+              <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+                We are providing you with peace of mind.
+              </h3>
+            </div>
+            <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
+              <div>
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Hosting Included
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    Our team of DevOps is there to make sure your systems are
+                    running smoothly 24/7 so that you don't need to dedicate any
+                    additional resources to run your online store.
+                  </p>
+                  <br />
+                </div>
+              </div>
+              <div className="mt-10 pb-4 sm:mt-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pb-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Distributed Network
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    Distributed networks of computers are there to provide you
+                    with exceptional deliverability, so you can always stay
+                    online even in the unlikely event of increased loads or
+                    outside attacks.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-10 sm:mt-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Daily Backups
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    Our backup systems are made in such a manner that partial
+                    updates get performed every minute to make sure your system
+                    is possible to recover without any data loss. Full backups
+                    get performed daily.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-10 sm:mt-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    GDPR Compliance
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    Our team will make sure you stay up to date with GDPR with
+                    data processing audits, privacy policy checks, and
+                    communication with your legal team upon new tools
+                    implemented while recording awareness of the customer so
+                    that in an unlikely event of user reporting, you have the
+                    evidence of rightdoing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-white">
+        <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <span className="block">Marketplaces under your fingertips</span>
+          </h2>
+
+          <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
+            Speed up deals with the ability to sell on marketplaces through
+            integrated platforms and reach a wider audience through Amazon,
+            Zalando, Otto, and hundreds of others.
+          </p>
+
+          <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
+            Once implemented, our customers have seen a 5x increase in revenue
+            in the first year and a steady 1.3x year over year after the first
+            year.
+          </p>
+
+          <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/marketplaces/otto.png"
+                  alt="Otto"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/marketplaces/amazon.png"
+                  alt="Amazon"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/marketplaces/ebay.png"
+                  alt="ebay"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/marketplaces/zalando.svg"
+                  alt="Zalando"
+                />
+              </div>
+              <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
+                <StaticImage
+                  className="h-12"
+                  src="../images/marketplaces/goertz.png"
+                  alt="Goertz"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-8 flex justify-center">
+            <div className="inline-flex rounded-md shadow">
+              <Link
+                to="/contact/"
+                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+              >
+                Contact us to learn more
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative bg-gray-50 py-16 sm:py-24">
+        <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+          <div className="relative sm:py-16 lg:py-0">
+            <div
+              aria-hidden="true"
+              className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
+            >
+              <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-gray-50 lg:right-72" />
+              <svg
+                className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
+                width="404"
+                height="392"
+                fill="none"
+                viewBox="0 0 404 392"
+              >
+                <defs>
+                  <pattern
+                    id="02f20b47-fd69-4224-a62a-4c9de5c763f7"
+                    x="0"
+                    y="0"
+                    width="20"
+                    height="20"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <rect
+                      x="0"
+                      y="0"
+                      width="4"
+                      height="4"
+                      className="text-gray-200"
+                      fill="currentColor"
+                    />
+                  </pattern>
+                </defs>
+                <rect
+                  width="404"
+                  height="392"
+                  fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"
+                />
+              </svg>
+            </div>
+            <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+              <img
+                src="https://stcdshare.s3.amazonaws.com/vND1hE7mnw.jpg"
+                alt="Unleash your Decision-making Process"
+                className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
+              />
+            </div>
+          </div>
+
+          <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+            <div className="pt-12 sm:pt-16 lg:pt-20">
+              <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                360° eCommerce Analytics
+              </h2>
+              <div className="mt-6 space-y-6 text-gray-500">
+                <p className="text-lg">
+                  Today the world’s most valuable resource has changed from
+                  energy to data. Businesses are becoming driven by data and the
+                  insights derived from it; this, in turn, requires us to
+                  develop new skills in data engineering and data science.
+                </p>
+                <p className="text-lg">
+                  To develop a business-value-focused eCommerce solution, IT
+                  strategy and to fit your business objectives, our company will
+                  collaborate with your teams beyond beyond ROI and ROAS.
+                </p>
+                <p className="text-lg">
+                  Our know-how allows for the most accurate data tracking
+                  implementations. This way, once correctly processed, allows
+                  your marketing and sales teams to make correct critical
+                  business decisions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-white">
+        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+          <div className="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
+            <div>
+              <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                Alliances &amp; Partnerships
+              </h2>
+              <p className="mt-3 max-w-3xl text-lg text-gray-500">
+                Benefit from our know-how. Having deep expertise around these
+                solutions helps us deliver even more value to you, our
+                customers.
+              </p>
+              <div className="mt-8 sm:flex">
+                <div className="mt-3 sm:mt-0">
+                  <Link
+                    to="/contact/"
+                    className="focus:shadow-outline inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none"
+                  >
+                    Contact Us
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                <StaticImage
+                  className="max-h-12"
+                  src="../images/partnerships/digitalocean.svg"
+                  alt="DigitalOcean"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                <StaticImage
+                  className="max-h-12"
+                  src="../images/partnerships/aws.png"
+                  alt="AWS"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                <StaticImage
+                  className="max-h-12"
+                  src="../images/partnerships/cpanel.svg"
+                  alt="cPanel"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                <StaticImage
+                  className="max-h-12"
+                  src="../images/partnerships/mailchimp.png"
+                  alt="MailChimp"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                <StaticImage
+                  className="max-h-12"
+                  src="../images/partnerships/algolia.png"
+                  alt="Algolia"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                <StaticImage
+                  className="max-h-12"
+                  src="../images/partnerships/tradebyte.svg"
+                  alt="Tradebyte"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="overflow-hidden bg-gray-50 py-16 lg:py-24">
+        <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
+          <svg
+            className="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block"
+            width="404"
+            height="784"
+            fill="none"
+            viewBox="0 0 404 784"
+          >
+            <defs>
+              <pattern
+                id="b1e6e422-73f8-40a6-b5d9-c8586e37e0e7"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="784"
+              fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
+            />
+          </svg>
+          <div className="relative">
+            <h3 className="text-center text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+              Accelerate Your Development
+            </h3>
+            <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-7 text-gray-500">
+              Shortage of tech talent is one of the biggest challenges
+              businesses face today regarding technology innovation.
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-7 text-gray-500">
+              StuntCoders accelerates product roadmaps and helps modernize tech
+              stacks by becoming a trusted technology partner and an extension
+              of your in-house team.
+            </p>
+          </div>
+          <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
+            <div className="relative">
+              <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
+                In-sourcing
+              </h4>
+              <p className="mt-3 text-lg leading-7 text-gray-500">
+                We help you grow your project with tailor-made individual team
+                members who have the right level of expertise and work for you
+                remotely and under your direct management. You avoid all the
+                trouble of administration and infrastructure while at the same
+                time significantly reducing your labor costs.
+              </p>
+              <p className="mt-3 text-lg leading-7 text-gray-500">
+                We help you overcome tech talent shortages and become your
+                additional development location by working alongside your
+                engineering teams.
+              </p>
+            </div>
+            <div className="relative -mx-4 mt-10 lg:mt-0">
+              <svg
+                className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
+                width="784"
+                height="404"
+                fill="none"
+                viewBox="0 0 784 404"
+              >
+                <defs>
+                  <pattern
+                    id="ca9667ae-9f92-4be7-abcb-9e3d727f2941"
+                    x="0"
+                    y="0"
+                    width="20"
+                    height="20"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <rect
+                      className="text-gray-200"
+                      x="0"
+                      y="0"
+                      width="4"
+                      height="4"
+                      fill="currentColor"
+                    />
+                  </pattern>
+                </defs>
+                <rect
+                  width="784"
+                  height="404"
+                  fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
+                />
+              </svg>
+              <StaticImage
+                className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
+                width="490"
+                src="../images/nearshoring.jpeg"
+                alt="Experienced developer"
+                loading="auto"
+              />
+            </div>
+          </div>
+          <svg
+            className="absolute right-full hidden translate-x-1/2 translate-y-12 transform lg:block"
+            width="404"
+            height="784"
+            fill="none"
+            viewBox="0 0 404 784"
+          >
+            <defs>
+              <pattern
+                id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="784"
+              fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
+            />
+          </svg>
+          <div className="relative mt-12 sm:mt-16 lg:mt-24">
+            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
+              <div className="lg:col-start-2">
+                <h4 className="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl sm:leading-9">
+                  Why does it make sense?
+                </h4>
+                <p className="mt-3 text-lg leading-7 text-gray-500">
+                  You don't have to provide office, equipment, and testing. None
+                  of the material elements are necessary for building an online
+                  presence. You can also forget about recruitment time and
+                  costs. You don't need to worry about software and test
+                  infrastructure. You can skip trying to gather the exact set of
+                  skills necessary for your project.
+                </p>
+                <p className="mt-3 text-lg leading-7 text-gray-500">
+                  High performance, quality output and great communication go a
+                  long way to ensure smooth service delivery. We have a set of
+                  continual activities to ensure we’re on top of our game.
+                </p>
+              </div>
+              <div className="relative -mx-4 mt-10 lg:col-start-1 lg:mt-0">
+                <svg
+                  className="absolute left-1/2 -translate-x-1/2 translate-y-16 transform lg:hidden"
+                  width="784"
+                  height="404"
+                  fill="none"
+                  viewBox="0 0 784 404"
+                >
+                  <defs>
+                    <pattern
+                      id="e80155a9-dfde-425a-b5ea-1f6fadd20131"
+                      x="0"
+                      y="0"
+                      width="20"
+                      height="20"
+                      patternUnits="userSpaceOnUse"
+                    >
+                      <rect
+                        className="text-gray-200"
+                        x="0"
+                        y="0"
+                        width="4"
+                        height="4"
+                        fill="currentColor"
+                      />
+                    </pattern>
+                  </defs>
+                  <rect
+                    width="784"
+                    height="404"
+                    fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
+                  />
+                </svg>
+                <StaticImage
+                  className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
+                  width="490"
+                  src="../images/why.jpg"
+                  alt="Why?"
+                  loading="auto"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-white">
+        <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="text-3xl font-extrabold text-gray-900">
+              Choose an Experienced Integrator
+            </h2>
+            <p className="mt-4 text-lg text-gray-500">
+              Over the 10+ years, we have delivered 60+ highly successful online
+              stores and have successfully connected online stores to ERP,
+              warehouse systems, and CRMs.
+            </p>
+            <p className="mt-4 text-lg text-gray-500">
+              Integrating your internal tools into your website can be a tedious
+              task prone to failure. By choosing a partner with experience with
+              the following systems, you reduce time to market and uncertainty.
+            </p>
+          </div>
+          <dl className="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
+            <div className="relative">
+              <dt>
+                <svg
+                  className="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
+                  Visma
+                </p>
+              </dt>
+            </div>
+
+            <div className="relative">
+              <dt>
+                <svg
+                  className="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
+                  Mamut
+                </p>
+              </dt>
+            </div>
+
+            <div className="relative">
+              <dt>
+                <svg
+                  className="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
+                  Microsoft Dynamics
+                </p>
+              </dt>
+            </div>
+
+            <div className="relative">
+              <dt>
+                <svg
+                  className="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
+                  SAP
+                </p>
+              </dt>
+            </div>
+
+            <div className="relative">
+              <dt>
+                <svg
+                  className="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
+                  Odoo
+                </p>
+              </dt>
+            </div>
+
+            <div className="relative">
+              <dt>
+                <svg
+                  className="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
+                  Salesforce
+                </p>
+              </dt>
+            </div>
+
+            <div className="relative">
+              <dt>
+                <svg
+                  className="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
+                  Pimcore
+                </p>
+              </dt>
+            </div>
+
+            <div className="relative">
+              <dt>
+                <svg
+                  className="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
+                  SuperOffice
+                </p>
+              </dt>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <div className="bg-indigo-50">
+        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8">
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
+            <span className="block">Get in touch?</span>
+            <span className="block text-indigo-600">Book your call today.</span>
+          </h2>
+          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+            <div className="inline-flex rounded-md shadow">
+              <Link
+                to="/contact/"
+                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+              >
+                Get started
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </LayoutPage>
+  );
+}
