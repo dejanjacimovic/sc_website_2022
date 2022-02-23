@@ -141,7 +141,7 @@ export default function ServicesWoocommerceMaintenance() {
           <main className="mx-auto mt-10 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
             <div className="text-center">
               <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-                <span className="mr-1">Services to support your</span>
+                <span className="mr-1">Services to support your {` `}</span>
                 <br className="xl:hidden" />
                 <span className="text-indigo-600">WooCommerce</span>
               </h2>
