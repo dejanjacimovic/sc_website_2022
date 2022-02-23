@@ -114,7 +114,7 @@ export default class NavCenter extends React.Component {
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       <Link
-                        to="/services-woocommerce-maintenance/"
+                        to="/services/woocommerce-maintenance/"
                         className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -126,7 +126,7 @@ export default class NavCenter extends React.Component {
                       </Link>
 
                       <Link
-                        to="/services-ecommerce-development/"
+                        to="/services/ecommerce-development/"
                         className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -139,7 +139,7 @@ export default class NavCenter extends React.Component {
                       </Link>
 
                       <Link
-                        to="/services-b2b-ecommerce/"
+                        to="/services/b2b-ecommerce/"
                         className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -264,7 +264,7 @@ export default class NavCenter extends React.Component {
                     <div className="overflow-hidden">
                       <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
                         <Link
-                          to="/services-woocommerce-maintenance/"
+                          to="/services/woocommerce-maintenance/"
                           className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">
@@ -276,7 +276,7 @@ export default class NavCenter extends React.Component {
                         </Link>
 
                         <Link
-                          to="/services-ecommerce-development/"
+                          to="/services/ecommerce-development/"
                           className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">
@@ -289,7 +289,7 @@ export default class NavCenter extends React.Component {
                         </Link>
 
                         <Link
-                          to="/services-b2b-ecommerce/"
+                          to="/services/b2b-ecommerce/"
                           className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">
