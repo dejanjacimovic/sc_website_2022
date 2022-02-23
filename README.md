@@ -1,3 +1,6 @@
+[![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
+
 <h1 align="center">
   StuntCoders 2022 website running on Gatsbyjs
 </h1>
@@ -62,7 +65,9 @@ pre-commit install
 
 ## 🚀 Deploy?
 
-Git push, then navigate to [Netlify link](https://vibrant-brown-359096.netlify.app/).
+First run `npm run build` to be sure all is running smoothly. Otherwise, you'll be wasting Netlify minutes.
+
+Once you're 100% sure it's running, do `git push`, then navigate to [Netlify link](https://vibrant-brown-359096.netlify.app/).
 
 ### 😵‍💫 Changes not visible?
 

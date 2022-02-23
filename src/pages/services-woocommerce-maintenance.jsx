@@ -787,10 +787,10 @@ export default function ServicesWoocommerceMaintenance() {
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
                 />
               </svg>
-              <img
+              <StaticImage
                 className="relative mx-auto"
                 width="490"
-                src="https://stcdshare.s3.amazonaws.com/whatsapp-min.png"
+                src="../images/general/whatsapp-min.png"
                 alt="Whatsapp message support"
                 loading="auto"
               />
@@ -946,10 +946,10 @@ export default function ServicesWoocommerceMaintenance() {
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
                   />
                 </svg>
-                <img
+                <StaticImage
                   className="relative mx-auto"
                   width="490"
-                  src="https://stcdshare.s3.amazonaws.com/status-updates-min.png"
+                  src="../images/general/status-updates-min.png"
                   alt="Status update from StuntCoders"
                   loading="auto"
                 />
