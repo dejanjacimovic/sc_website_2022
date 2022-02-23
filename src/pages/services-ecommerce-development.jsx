@@ -1252,8 +1252,8 @@ export default function ServicesEcommerceDevelopment() {
               </svg>
             </div>
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
-              <img
-                src="https://stcdshare.s3.amazonaws.com/vND1hE7mnw.jpg"
+              <StaticImage
+                src="../images/general/senior.jpg"
                 alt="Unleash your Decision-making Process"
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
               />

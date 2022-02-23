@@ -555,10 +555,10 @@ export default function ServicesRubyonrails() {
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
                 />
               </svg>
-              <img
+              <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                 width="490"
-                src="https://stcdshare.s3.amazonaws.com/vND1hE7mnw.jpg"
+                src="../images/general/senior.jpg"
                 alt="Experienced developer"
                 loading="auto"
               />

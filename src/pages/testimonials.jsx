@@ -10,7 +10,9 @@ export default function Testimonials() {
     <LayoutPage>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Learn about experience with StuntCoders and what our customers said</title>
+        <title>
+          Learn about experience with StuntCoders and what our customers said
+        </title>
       </Helmet>
 
       <div className="relative overflow-hidden bg-white">
@@ -137,10 +139,10 @@ export default function Testimonials() {
                     <span className="sr-only">
                       Watch our video to learn more
                     </span>
-                    <img
+                    <StaticImage
                       className="w-full"
-                      src="https://stcdshare.s3.amazonaws.com/ase-line-outside-review.png"
-                      alt="Ase-Line review of StuntCoders"
+                      src="../images/general/ase-line-outside-review.png"
+                      alt="Åse-Line review of StuntCoders"
                       loading="auto"
                     />
                     <div
@@ -2008,10 +2010,10 @@ export default function Testimonials() {
                 href="https://www.youtube.com/watch?v=UNwPgOZnQHE"
                 target="_blank"
               >
-                <img
+                <StaticImage
                   className="w-full rounded-lg"
-                  src="https://stcdshare.s3.amazonaws.com/etiketta-christofer-stuntcoders-review-play-min-min-min.jpg"
-                  alt=""
+                  src="../images/general/etiketta-christofer-stuntcoders-review.jpg"
+                  alt="Christofer Etiketta video review"
                   width="1310"
                   height="873"
                   loading="auto"
