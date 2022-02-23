@@ -5,6 +5,10 @@ import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../../components/layout_page';
 import NavCenter from '../../components/nav_center';
 
+import CampDavidblackImg from '../../images/CampDavid-black.svg';
+import luadorosaImg from '../../images/luado-rosa.png';
+import skintificblackImg from '../../images/skintific-black.svg';
+
 export default function ServicesRubyonrails() {
   return (
     <LayoutPage>
@@ -671,23 +675,19 @@ export default function ServicesRubyonrails() {
             <div className="mt-8 flow-root self-center lg:mt-0">
               <div className="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
                 <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
-                  <StaticImage
+                  <img
                     className="h-12"
-                    src="../../images/CampDavid-black.svg"
+                    src={CampDavidblackImg}
                     alt="Camp David"
                   />
                 </div>
                 <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
-                  <StaticImage
-                    className="h-12"
-                    src="../../images/luado-rosa.png"
-                    alt="Luado"
-                  />
+                  <img className="h-12" src={luadorosaImg} alt="Luado" />
                 </div>
                 <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
-                  <StaticImage
+                  <img
                     className="h-12"
-                    src="../../images/skintific-black.svg"
+                    src={skintificblackImg}
                     alt="Skintific"
                   />
                 </div>
