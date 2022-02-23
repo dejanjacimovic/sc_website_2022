@@ -17,6 +17,12 @@ import picklesSvg from '../images/logos/pickles.svg';
 import tesoriSvg from '../images/logos/tesori.svg';
 import bedtimeSvg from '../images/logos/bedtime.svg';
 
+import campDavidblackImg from '../images/CampDavid-black.svg';
+import madebyberitnordstrandImg from '../images/madebyberitnordstrand.png';
+import smartlapperImg from '../images/smartlapper.png';
+import purNorskImg from '../images/pur-norsk.svg';
+import jumpkingImg from '../images/jumpking.png';
+
 export default function Home() {
   return (
     <LayoutPage>
@@ -684,41 +690,41 @@ export default function Home() {
         <div className="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/CampDavid-black.svg"
+                src={campDavidblackImg}
                 alt="StuntCoders client CampDavid"
                 loading="auto"
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/madebyberitnordstrand.png"
+                src={madebyberitnordstrandImg}
                 alt="BERIT"
                 loading="auto"
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/smartlapper.png"
+                src={smartlapperImg}
                 alt="Client Smartlapper"
                 loading="auto"
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/pur-norsk.svg"
+                src={purNorskImg}
                 alt="PurNorsk Client of StuntCoders"
                 loading="auto"
               />
             </div>
             <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/jumpking.png"
+                src={jumpkingImg}
                 alt="JumpKing client of StuntCoders"
                 loading="auto"
               />
