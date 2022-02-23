@@ -9,7 +9,7 @@ import skintificSvg from '../images/skintific.svg';
 import purnorskSvg from '../images/pur-norsk.svg';
 import jumpkingPng from '../images/jk-logo-white-transparent.png';
 import campDavidPng from '../images/camp-david.png';
-import skintificPng from '../images/berit.png';
+import beritPng from '../images/berit.png';
 
 export default function Testimonials() {
   return (
