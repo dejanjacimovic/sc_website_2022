@@ -2,8 +2,8 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
-import LayoutPage from '../components/layout_page';
-import NavCenter from '../components/nav_center';
+import LayoutPage from '../../components/layout_page';
+import NavCenter from '../../components/nav_center';
 
 export default function ServicesEcommerceDevelopment() {
   return (
@@ -88,7 +88,7 @@ export default function ServicesEcommerceDevelopment() {
             <div class="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-48 lg:text-left">
               <div class="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
                 <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-                  <span class="block xl:inline">Headless eCommerce</span>
+                  <span class="block xl:inline">Headless eCommerce</span>{' '}
                   <span class="block text-indigo-600 xl:inline">
                     to boost your online business
                   </span>
@@ -100,11 +100,20 @@ export default function ServicesEcommerceDevelopment() {
                 <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
                   <div class="rounded-md shadow">
                     <a
-                      href="/contact/"
+                      href="#"
                       class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
                     >
                       {' '}
-                      Get in touch{' '}
+                      Get started{' '}
+                    </a>
+                  </div>
+                  <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                    <a
+                      href="#"
+                      class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg"
+                    >
+                      {' '}
+                      Learn more{' '}
                     </a>
                   </div>
                 </div>
@@ -116,15 +125,6 @@ export default function ServicesEcommerceDevelopment() {
                 src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
                 alt=""
               />
-            </div>
-            <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-              <a
-                href="#"
-                class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg"
-              >
-                {' '}
-                Learn more{' '}
-              </a>
             </div>
           </main>
         </div>
