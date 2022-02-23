@@ -5,6 +5,12 @@ import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
+import ottoImg from '../images/marketplaces/otto.png';
+import amazonImg from '../images/marketplaces/amazon.png';
+import ebayImg from '../images/marketplaces/ebay.png';
+import zalandoImg from '../images/marketplaces/zalando.svg';
+import goertzImg from '../images/marketplaces/goertz.png';
+
 export default function ServicesEcommerceDevelopment() {
   return (
     <LayoutPage>
@@ -1160,39 +1166,19 @@ export default function ServicesEcommerceDevelopment() {
           <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/otto.png"
-                  alt="Otto"
-                />
+                <img className="h-12" src={ottoImg} alt="Otto" />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/amazon.png"
-                  alt="Amazon"
-                />
+                <img className="h-12" src={amazonImg} alt="Amazon" />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/ebay.png"
-                  alt="ebay"
-                />
+                <img className="h-12" src={ebayImg} alt="ebay" />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/zalando.svg"
-                  alt="Zalando"
-                />
+                <img className="h-12" src={zalandoImg} alt="Zalando" />
               </div>
               <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/goertz.png"
-                  alt="Goertz"
-                />
+                <img className="h-12" src={goertzImg} alt="Goertz" />
               </div>
             </div>
           </div>
