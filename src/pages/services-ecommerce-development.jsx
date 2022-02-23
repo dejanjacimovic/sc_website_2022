@@ -1253,7 +1253,7 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
               <StaticImage
-                src="../images/general/senior.jpg"
+                src="../images/general/senior.jpeg"
                 alt="Unleash your Decision-making Process"
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
               />

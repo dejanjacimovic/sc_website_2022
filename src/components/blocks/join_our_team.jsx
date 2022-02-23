@@ -19,7 +19,7 @@ export default function JoinOurTeam() {
               <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
                 <StaticImage
                   className="rounded-3xl object-cover object-center shadow-2xl"
-                  src="../images/general/stefan.jpeg"
+                  src="../../images/general/stefan.jpeg"
                   alt="Join our team!"
                 />
               </div>

@@ -558,7 +558,7 @@ export default function ServicesRubyonrails() {
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                 width="490"
-                src="../images/general/senior.jpg"
+                src="../images/general/senior.jpeg"
                 alt="Experienced developer"
                 loading="auto"
               />

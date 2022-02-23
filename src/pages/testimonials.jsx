@@ -2012,7 +2012,7 @@ export default function Testimonials() {
               >
                 <StaticImage
                   className="w-full rounded-lg"
-                  src="../images/general/etiketta-christofer-stuntcoders-review.jpg"
+                  src="../images/general/etiketta-christofer-stuntcoders-review.jpeg"
                   alt="Christofer Etiketta video review"
                   width="1310"
                   height="873"
