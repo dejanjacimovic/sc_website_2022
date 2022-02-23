@@ -929,13 +929,13 @@ export default function ServicesEcommerceDevelopment() {
               <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
                 Benefits of Headless eCommerce
               </h3>
-              <p>
+              <p className="mt-12 pr-12 text-lg leading-6 text-gray-500">
                 Adopting headless commerce will give online brands many
                 advantages, including the following.
               </p>
             </div>
             <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
-              <div>
+              <div className="mt-4 pb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -965,7 +965,7 @@ export default function ServicesEcommerceDevelopment() {
                   <br />
                 </div>
               </div>
-              <div className="mt-10 pb-4 sm:mt-0">
+              <div className="mt-4 pb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -994,7 +994,7 @@ export default function ServicesEcommerceDevelopment() {
                   </p>
                 </div>
               </div>
-              <div className="mt-10 sm:mt-0">
+              <div className="mt-4 pb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -1022,7 +1022,7 @@ export default function ServicesEcommerceDevelopment() {
                   </p>
                 </div>
               </div>
-              <div className="mt-10 sm:mt-0">
+              <div className="mt-4 pb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -1050,7 +1050,7 @@ export default function ServicesEcommerceDevelopment() {
                   </p>
                 </div>
               </div>
-              <div className="mt-10 sm:mt-0">
+              <div className="mt-4 pb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -1078,7 +1078,7 @@ export default function ServicesEcommerceDevelopment() {
                   </p>
                 </div>
               </div>
-              <div className="mt-10 sm:mt-0">
+              <div className="mt-4 pb-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
