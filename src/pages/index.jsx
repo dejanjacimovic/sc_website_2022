@@ -23,6 +23,8 @@ import smartlapperImg from '../images/smartlapper.png';
 import purNorskImg from '../images/pur-norsk.svg';
 import jumpkingImg from '../images/jumpking.png';
 
+import dejanCeo from '../images/dejan-ceo.jpeg';
+
 export default function Home() {
   return (
     <LayoutPage>
@@ -2022,9 +2024,9 @@ export default function Home() {
               <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
                 <figure>
                   <div className="pb-7/12 relative lg:pb-0">
-                    <StaticImage
+                    <img
                       className="absolute inset-0 h-full w-full rounded-lg object-cover object-center shadow-lg lg:static lg:h-auto"
-                      src="../images/dejan-ceo.jpeg"
+                      src={dejanCeo}
                       alt="Dejan Jacimovic, CEO of StuntCoders"
                       width="1184"
                       height="1376"
