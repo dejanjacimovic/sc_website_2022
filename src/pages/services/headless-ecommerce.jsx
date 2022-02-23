@@ -5,6 +5,13 @@ import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../../components/layout_page';
 import NavCenter from '../../components/nav_center';
 
+import shopifyImg from '../../images/headless/shopify.svg';
+import awsImg from '../../images/partnerships/aws.png';
+import medusaImg from '../../images/headless/medusa.svg';
+import stripeImg from '../../images/headless/stripe.svg';
+import algoliaImg from '../../images/partnerships/algolia.png';
+import gatsbyImg from '../../images/headless/gatsby.svg';
+
 export default function ServicesEcommerceDevelopment() {
   return (
     <LayoutPage>
@@ -123,7 +130,7 @@ export default function ServicesEcommerceDevelopment() {
               <img
                 class="absolute inset-0 h-full w-full object-cover"
                 src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
-                alt=""
+                alt="Girl on the phone"
               />
             </div>
           </main>
@@ -252,6 +259,227 @@ export default function ServicesEcommerceDevelopment() {
                       <li>Vercel</li>
                     </ul>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="overflow-hidden bg-gray-50">
+        <div className="relative mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
+          <svg
+            className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+            width="404"
+            height="784"
+            fill="none"
+            viewBox="0 0 404 784"
+          >
+            <defs>
+              <pattern
+                id="8b1b5f72-e944-4457-af67-0c6d15a99f38"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="784"
+              fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
+            />
+          </svg>
+          <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
+            <div className="lg:col-span-1">
+              <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+                Benefits of Headless eCommerce
+              </h3>
+              <p className="mt-12 pr-12 text-lg leading-6 text-gray-500">
+                Adopting headless commerce will give online brands many
+                advantages, including the following.
+              </p>
+            </div>
+            <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Speed
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    Headless commerce detaches the presentation layer
+                    (front-end) from the commerce functionality and background
+                    process layer (back-end). This means that the content that
+                    the people see loads faster and gives them a more seamless
+                    experience altogether.
+                  </p>
+                  <br />
+                </div>
+              </div>
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pb-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Flexibility
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    With the help of headless architecture, you can quickly
+                    implement a lot of customization, which was not possible
+                    earlier or seemed very hard. Keep in mind that
+                    out-of-the-box platform plugin implementation is not
+                    feasible for those we need to build the front-end part.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Security
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    Your back-end server and admin portal endpoint are unknown
+                    to the outside user due to the headless architecture.
+                    Therefore, it is less prone to attack. Also, the same can be
+                    restricted from office IP only, making it even safer.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Omnichannel Experience
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    With headless commerce, we can create different interactions
+                    at different touchpoints with the same back-end and give
+                    customers the same seamless experience, whether it is
+                    Website, Mobile Web, Mobile App, POS, Kiosk, etc.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Improved Customer Experience
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    A headless architecture ensures that you can turn the front
+                    end of the website to match the taste of the customer. This
+                    creates a stronger and more special bond between you and
+                    your customers.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Faster Go to Market
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    You can make rapid changes and innovate swiftly without
+                    affecting the entire website. This is possible because your
+                    back-end and front-end are no longer tightly tied, and you
+                    have to focus on upgrading the front-end.
+                  </p>
                 </div>
               </div>
             </div>
@@ -887,377 +1115,6 @@ export default function ServicesEcommerceDevelopment() {
         </div>
       </section>
 
-      <div className="overflow-hidden bg-gray-50">
-        <div className="relative mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
-          <svg
-            className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
-            width="404"
-            height="784"
-            fill="none"
-            viewBox="0 0 404 784"
-          >
-            <defs>
-              <pattern
-                id="8b1b5f72-e944-4457-af67-0c6d15a99f38"
-                x="0"
-                y="0"
-                width="20"
-                height="20"
-                patternUnits="userSpaceOnUse"
-              >
-                <rect
-                  className="text-gray-200"
-                  x="0"
-                  y="0"
-                  width="4"
-                  height="4"
-                  fill="currentColor"
-                />
-              </pattern>
-            </defs>
-            <rect
-              width="404"
-              height="784"
-              fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
-            />
-          </svg>
-          <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
-            <div className="lg:col-span-1">
-              <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                Benefits of Headless eCommerce
-              </h3>
-              <p className="mt-12 pr-12 text-lg leading-6 text-gray-500">
-                Adopting headless commerce will give online brands many
-                advantages, including the following.
-              </p>
-            </div>
-            <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M13 10V3L4 14h7v7l9-11h-7z"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Speed
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    Headless commerce detaches the presentation layer
-                    (front-end) from the commerce functionality and background
-                    process layer (back-end). This means that the content that
-                    the people see loads faster and gives them a more seamless
-                    experience altogether.
-                  </p>
-                  <br />
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pb-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Flexibility
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    With the help of headless architecture, you can quickly
-                    implement a lot of customization, which was not possible
-                    earlier or seemed very hard. Keep in mind that
-                    out-of-the-box platform plugin implementation is not
-                    feasible for those we need to build the front-end part.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Security
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    Your back-end server and admin portal endpoint are unknown
-                    to the outside user due to the headless architecture.
-                    Therefore, it is less prone to attack. Also, the same can be
-                    restricted from office IP only, making it even safer.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Omnichannel Experience
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    With headless commerce, we can create different interactions
-                    at different touchpoints with the same back-end and give
-                    customers the same seamless experience, whether it is
-                    Website, Mobile Web, Mobile App, POS, Kiosk, etc.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Improved Customer Experience
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    A headless architecture ensures that you can turn the front
-                    end of the website to match the taste of the customer. This
-                    creates a stronger and more special bond between you and
-                    your customers.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Faster Go to Market
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    You can make rapid changes and innovate swiftly without
-                    affecting the entire website. This is possible because your
-                    back-end and front-end are no longer tightly tied, and you
-                    have to focus on upgrading the front-end.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-white">
-        <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
-          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            <span className="block">Marketplaces under your fingertips</span>
-          </h2>
-
-          <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
-            Speed up deals with the ability to sell on marketplaces through
-            integrated platforms and reach a wider audience through Amazon,
-            Zalando, Otto, and hundreds of others.
-          </p>
-
-          <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
-            Once implemented, our customers have seen a 5x increase in revenue
-            in the first year and a steady 1.3x year over year after the first
-            year.
-          </p>
-
-          <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/otto.png"
-                  alt="Otto"
-                />
-              </div>
-              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/amazon.png"
-                  alt="Amazon"
-                />
-              </div>
-              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/ebay.png"
-                  alt="ebay"
-                />
-              </div>
-              <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/zalando.svg"
-                  alt="Zalando"
-                />
-              </div>
-              <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-                <StaticImage
-                  className="h-12"
-                  src="../images/marketplaces/goertz.png"
-                  alt="Goertz"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-8 flex justify-center">
-            <div className="inline-flex rounded-md shadow">
-              <Link
-                to="/contact/"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-              >
-                Contact us to learn more
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="relative bg-gray-50 py-16 sm:py-24">
-        <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
-          <div className="relative sm:py-16 lg:py-0">
-            <div
-              aria-hidden="true"
-              className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
-            >
-              <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-gray-50 lg:right-72" />
-              <svg
-                className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
-                width="404"
-                height="392"
-                fill="none"
-                viewBox="0 0 404 392"
-              >
-                <defs>
-                  <pattern
-                    id="02f20b47-fd69-4224-a62a-4c9de5c763f7"
-                    x="0"
-                    y="0"
-                    width="20"
-                    height="20"
-                    patternUnits="userSpaceOnUse"
-                  >
-                    <rect
-                      x="0"
-                      y="0"
-                      width="4"
-                      height="4"
-                      className="text-gray-200"
-                      fill="currentColor"
-                    />
-                  </pattern>
-                </defs>
-                <rect
-                  width="404"
-                  height="392"
-                  fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"
-                />
-              </svg>
-            </div>
-            <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
-              <img
-                src="https://stcdshare.s3.amazonaws.com/vND1hE7mnw.jpg"
-                alt="Unleash your Decision-making Process"
-                className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-              />
-            </div>
-          </div>
-
-          <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
-            <div className="pt-12 sm:pt-16 lg:pt-20">
-              <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                360° eCommerce Analytics
-              </h2>
-              <div className="mt-6 space-y-6 text-gray-500">
-                <p className="text-lg">
-                  Today the world’s most valuable resource has changed from
-                  energy to data. Businesses are becoming driven by data and the
-                  insights derived from it; this, in turn, requires us to
-                  develop new skills in data engineering and data science.
-                </p>
-                <p className="text-lg">
-                  To develop a business-value-focused eCommerce solution, IT
-                  strategy and to fit your business objectives, our company will
-                  collaborate with your teams beyond beyond ROI and ROAS.
-                </p>
-                <p className="text-lg">
-                  Our know-how allows for the most accurate data tracking
-                  implementations. This way, once correctly processed, allows
-                  your marketing and sales teams to make correct critical
-                  business decisions.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="bg-white">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <div className="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
@@ -1283,46 +1140,22 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/digitalocean.svg"
-                  alt="DigitalOcean"
-                />
+                <img className="max-h-12" src={shopifyImg} alt="Shopify" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/aws.png"
-                  alt="AWS"
-                />
+                <img className="max-h-12" src={awsImg} alt="AWS" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/cpanel.svg"
-                  alt="cPanel"
-                />
+                <img className="max-h-12" src={medusaImg} alt="Medusajs" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/mailchimp.png"
-                  alt="MailChimp"
-                />
+                <img className="max-h-12" src={stripeImg} alt="Stripe" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/algolia.png"
-                  alt="Algolia"
-                />
+                <img className="max-h-12" src={algoliaImg} alt="Algolia" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/tradebyte.svg"
-                  alt="Tradebyte"
-                />
+                <img className="max-h-12" src={gatsbyImg} alt="Gatsby" />
               </div>
             </div>
           </div>
