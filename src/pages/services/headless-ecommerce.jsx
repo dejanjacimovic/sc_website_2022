@@ -927,8 +927,12 @@ export default function ServicesEcommerceDevelopment() {
           <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
             <div className="lg:col-span-1">
               <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                We are providing you with peace of mind.
+                Benefits of Headless eCommerce
               </h3>
+              <p>
+                Adopting headless commerce will give online brands many
+                advantages, including the following.
+              </p>
             </div>
             <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
               <div>
@@ -949,12 +953,14 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
                 <div className="mt-5 pr-4">
                   <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Hosting Included
+                    Speed
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Our team of DevOps is there to make sure your systems are
-                    running smoothly 24/7 so that you don't need to dedicate any
-                    additional resources to run your online store.
+                    Headless commerce detaches the presentation layer
+                    (front-end) from the commerce functionality and background
+                    process layer (back-end). This means that the content that
+                    the people see loads faster and gives them a more seamless
+                    experience altogether.
                   </p>
                   <br />
                 </div>
@@ -977,13 +983,14 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
                 <div className="mt-5 pb-4">
                   <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Distributed Network
+                    Flexibility
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Distributed networks of computers are there to provide you
-                    with exceptional deliverability, so you can always stay
-                    online even in the unlikely event of increased loads or
-                    outside attacks.
+                    With the help of headless architecture, you can quickly
+                    implement a lot of customization, which was not possible
+                    earlier or seemed very hard. Keep in mind that
+                    out-of-the-box platform plugin implementation is not
+                    feasible for those we need to build the front-end part.
                   </p>
                 </div>
               </div>
@@ -1005,13 +1012,13 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
                 <div className="mt-5 pr-4">
                   <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Daily Backups
+                    Security
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Our backup systems are made in such a manner that partial
-                    updates get performed every minute to make sure your system
-                    is possible to recover without any data loss. Full backups
-                    get performed daily.
+                    Your back-end server and admin portal endpoint are unknown
+                    to the outside user due to the headless architecture.
+                    Therefore, it is less prone to attack. Also, the same can be
+                    restricted from office IP only, making it even safer.
                   </p>
                 </div>
               </div>
@@ -1033,15 +1040,69 @@ export default function ServicesEcommerceDevelopment() {
                 </div>
                 <div className="mt-5 pr-4">
                   <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    GDPR Compliance
+                    Omnichannel Experience
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Our team will make sure you stay up to date with GDPR with
-                    data processing audits, privacy policy checks, and
-                    communication with your legal team upon new tools
-                    implemented while recording awareness of the customer so
-                    that in an unlikely event of user reporting, you have the
-                    evidence of rightdoing.
+                    With headless commerce, we can create different interactions
+                    at different touchpoints with the same back-end and give
+                    customers the same seamless experience, whether it is
+                    Website, Mobile Web, Mobile App, POS, Kiosk, etc.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-10 sm:mt-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Improved Customer Experience
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    A headless architecture ensures that you can turn the front
+                    end of the website to match the taste of the customer. This
+                    creates a stronger and more special bond between you and
+                    your customers.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-10 sm:mt-0">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Faster Go to Market
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    You can make rapid changes and innovate swiftly without
+                    affecting the entire website. This is possible because your
+                    back-end and front-end are no longer tightly tied, and you
+                    have to focus on upgrading the front-end.
                   </p>
                 </div>
               </div>
