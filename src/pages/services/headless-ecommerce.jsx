@@ -137,17 +137,17 @@ export default function ServicesEcommerceDevelopment() {
               Our question is,
             </p>
             <h3 className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-              Would you keep your existing solution and data, or build from
+              Would you keep your existing solution and data or build from
               scratch?
             </h3>
             <p className="mt-4 text-xl leading-7 text-gray-500 lg:mx-auto">
-              Technology is transforming the way we live and work. Software
-              technologies are an essential part of the technology
-              transformation.
+              Headless is here to connect to your pre-existing back-end, helping
+              you keep your data and business as usual with new high-performance
+              experience and extensibility.
             </p>
             <p className="mt-4  text-xl leading-7 text-gray-500 lg:mx-auto">
               Learn more about platforms, technologies, and industries we have
-              gained extensive experience with over the past ten years.
+              gained extensive experience with over the past years.
             </p>
           </div>
           <div className="mt-10" />
@@ -174,15 +174,14 @@ export default function ServicesEcommerceDevelopment() {
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
-                      Our Main Platforms
+                      Established
                     </h3>
                     <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
                       <li>Magento</li>
-                      <li>WooCommerce</li>
                       <li>Shopify</li>
-                      <li>Solidus</li>
+                      <li>WooCommerce</li>
                       <li>Oxid</li>
-                      <li>Salesforce Cloud</li>
+                      <li>BigCommerce</li>
                     </ul>
                   </div>
                 </div>
@@ -203,21 +202,20 @@ export default function ServicesEcommerceDevelopment() {
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
-                            d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+                            d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
                           />
                         </svg>
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
-                      Our Main Technology Stack
+                      New Kids on the Block
                     </h3>
                     <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
-                      <li>PHP</li>
-                      <li>Ruby on Rails</li>
-                      <li>Python</li>
-                      <li>JavaScript</li>
-                      <li>Java</li>
-                      <li>React / Vue / Angular</li>
+                      <li>Medusajs</li>
+                      <li>Swell</li>
+                      <li>Saleor</li>
+                      <li>Sanity</li>
+                      <li>Storyblok</li>
                     </ul>
                   </div>
                 </div>
@@ -244,15 +242,14 @@ export default function ServicesEcommerceDevelopment() {
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">
-                      Industries
+                      Served by
                     </h3>
                     <ul className="mt-2 list-disc pl-4 text-base leading-6 text-gray-500">
-                      <li>Fashion</li>
-                      <li>Technology</li>
-                      <li>Commodity</li>
-                      <li>Product</li>
-                      <li>E-Learning</li>
-                      <li>Rental</li>
+                      <li>Netlify</li>
+                      <li>CloudFront</li>
+                      <li>Gatsby</li>
+                      <li>Heroku</li>
+                      <li>Vercel</li>
                     </ul>
                   </div>
                 </div>
