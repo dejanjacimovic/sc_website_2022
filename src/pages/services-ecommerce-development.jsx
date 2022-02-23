@@ -11,6 +11,13 @@ import ebayImg from '../images/marketplaces/ebay.png';
 import zalandoImg from '../images/marketplaces/zalando.svg';
 import goertzImg from '../images/marketplaces/goertz.png';
 
+import digitaloceanImg from '../images/partnerships/digitalocean.svg';
+import awsImg from '../images/partnerships/aws.png';
+import cpanelImg from '../images/partnerships/cpanel.svg';
+import mailchimpImg from '../images/partnerships/mailchimp.png';
+import algoliaImg from '../images/partnerships/algolia.png';
+import tradebyteImg from '../images/partnerships/tradebyte.svg';
+
 export default function ServicesEcommerceDevelopment() {
   return (
     <LayoutPage>
@@ -1300,46 +1307,26 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
+                <img
                   className="max-h-12"
-                  src="../images/partnerships/digitalocean.svg"
+                  src={digitaloceanImg}
                   alt="DigitalOcean"
                 />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/aws.png"
-                  alt="AWS"
-                />
+                <img className="max-h-12" src={awsImg} alt="AWS" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/cpanel.svg"
-                  alt="cPanel"
-                />
+                <img className="max-h-12" src={cpanelImg} alt="cPanel" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/mailchimp.png"
-                  alt="MailChimp"
-                />
+                <img className="max-h-12" src={mailchimpImg} alt="MailChimp" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/algolia.png"
-                  alt="Algolia"
-                />
+                <img className="max-h-12" src={algoliaImg} alt="Algolia" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <StaticImage
-                  className="max-h-12"
-                  src="../images/partnerships/tradebyte.svg"
-                  alt="Tradebyte"
-                />
+                <img className="max-h-12" src={tradebyteImg} alt="Tradebyte" />
               </div>
             </div>
           </div>
