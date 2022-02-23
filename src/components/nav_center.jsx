@@ -39,7 +39,7 @@ export default class NavCenter extends React.Component {
             <div className="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0">
               <div className="flex w-full items-center justify-between md:w-auto">
                 <Link to="/" aria-label="Home">
-                  <img
+                  <StaticImage
                     className="h-8 w-auto sm:h-12"
                     src="../images/general/small-purple-logo.png"
                     alt="StuntCoders logo"

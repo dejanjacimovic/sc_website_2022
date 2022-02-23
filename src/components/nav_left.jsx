@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default class NavLeft extends React.Component {
   constructor(props) {
@@ -38,9 +39,9 @@ export default class NavLeft extends React.Component {
             <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
               <div className="flex w-full items-center justify-between md:w-auto">
                 <Link to="/" aria-label="Home">
-                  <img
+                  <StaticImage
                     className="h-10 w-auto sm:h-12"
-                    src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png"
+                    src="../images/general/small-purple-logo.png"
                     loading="auto"
                     alt="StuntCoders logo"
                   />
@@ -189,11 +190,11 @@ export default class NavLeft extends React.Component {
             >
               <div className="flex items-center justify-between px-5 pt-4">
                 <div>
-                  <img
+                  <StaticImage
                     className="h-8 w-auto"
-                    src="https://stcdshare.s3.amazonaws.com/stunt-coders-logo-standard.png"
-                    alt="StuntCoders logo"
+                    src="../images/general/small-purple-logo.png"
                     loading="auto"
+                    alt="StuntCoders logo"
                   />
                 </div>
                 <div className="-mr-2">
