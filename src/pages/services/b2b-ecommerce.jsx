@@ -2,9 +2,9 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
-import LayoutPage from '../components/layout_page';
-import NavCenter from '../components/nav_center';
-import { getB2BPrice } from '../helpers/index.jsx';
+import LayoutPage from '../../components/layout_page';
+import NavCenter from '../../components/nav_center';
+import { getB2BPrice } from '../../helpers/index.jsx';
 
 export default function ServicesB2bEcommerce() {
   return (
@@ -701,35 +701,35 @@ export default function ServicesB2bEcommerce() {
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <StaticImage
                     className="h-12"
-                    src="../images/media/cbs.svg"
+                    src="../../images/media/cbs.svg"
                     alt="CBS"
                   />
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <StaticImage
                     className="h-12"
-                    src="../images/media/fox.svg"
+                    src="../../images/media/fox.svg"
                     alt="FOX"
                   />
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <StaticImage
                     className="h-12"
-                    src="../images/media/nbc.svg"
+                    src="../../images/media/nbc.svg"
                     alt="NBC"
                   />
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
                   <StaticImage
                     className="h-12"
-                    src="../images/media/usa-today.svg"
+                    src="../../images/media/usa-today.svg"
                     alt="USA Today"
                   />
                 </div>
                 <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
                   <StaticImage
                     className="h-12"
-                    src="../images/media/ncn.svg"
+                    src="../../images/media/ncn.svg"
                     alt="NCN"
                   />
                 </div>

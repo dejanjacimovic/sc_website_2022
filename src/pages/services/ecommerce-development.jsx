@@ -2,21 +2,21 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
-import LayoutPage from '../components/layout_page';
-import NavCenter from '../components/nav_center';
+import LayoutPage from '../../components/layout_page';
+import NavCenter from '../../components/nav_center';
 
-import ottoImg from '../images/marketplaces/otto.png';
-import amazonImg from '../images/marketplaces/amazon.png';
-import ebayImg from '../images/marketplaces/ebay.png';
-import zalandoImg from '../images/marketplaces/zalando.svg';
-import goertzImg from '../images/marketplaces/goertz.png';
+import ottoImg from '../../images/marketplaces/otto.png';
+import amazonImg from '../../images/marketplaces/amazon.png';
+import ebayImg from '../../images/marketplaces/ebay.png';
+import zalandoImg from '../../images/marketplaces/zalando.svg';
+import goertzImg from '../../images/marketplaces/goertz.png';
 
-import digitaloceanImg from '../images/partnerships/digitalocean.svg';
-import awsImg from '../images/partnerships/aws.png';
-import cpanelImg from '../images/partnerships/cpanel.svg';
-import mailchimpImg from '../images/partnerships/mailchimp.png';
-import algoliaImg from '../images/partnerships/algolia.png';
-import tradebyteImg from '../images/partnerships/tradebyte.svg';
+import digitaloceanImg from '../../images/partnerships/digitalocean.svg';
+import awsImg from '../../images/partnerships/aws.png';
+import cpanelImg from '../../images/partnerships/cpanel.svg';
+import mailchimpImg from '../../images/partnerships/mailchimp.png';
+import algoliaImg from '../../images/partnerships/algolia.png';
+import tradebyteImg from '../../images/partnerships/tradebyte.svg';
 
 export default function ServicesEcommerceDevelopment() {
   return (
@@ -102,7 +102,7 @@ export default function ServicesEcommerceDevelopment() {
             <div className="absolute inset-0">
               <StaticImage
                 className="h-full w-full object-cover"
-                src="../images/working-class-hero.jpeg"
+                src="../../images/working-class-hero.jpeg"
                 alt="Working class hero is something to be"
               />
               <div
@@ -701,7 +701,7 @@ export default function ServicesEcommerceDevelopment() {
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/tesori.jpeg"
+                  src="../../images/portfolio/tesori.jpeg"
                   alt="Tesori portfolio image"
                 />
               </div>
@@ -756,7 +756,7 @@ export default function ServicesEcommerceDevelopment() {
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/clinton-b2b.jpeg"
+                  src="../../images/portfolio/clinton-b2b.jpeg"
                   alt="Camp David Soccx"
                 />
               </div>
@@ -811,7 +811,7 @@ export default function ServicesEcommerceDevelopment() {
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/selekkt.jpeg"
+                  src="../../images/portfolio/selekkt.jpeg"
                   alt="Selekkt"
                 />
               </div>
@@ -936,7 +936,7 @@ export default function ServicesEcommerceDevelopment() {
             <div className="hidden lg:block lg:flex-shrink-0">
               <StaticImage
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                src="../images/terje.jpg"
+                src="../../images/terje.jpg"
                 alt="Teje Tesori"
                 loading="auto"
               />
@@ -971,7 +971,7 @@ export default function ServicesEcommerceDevelopment() {
                     <div className="flex-shrink-0 lg:hidden">
                       <StaticImage
                         className="h-12 w-12 rounded-full"
-                        src="../images/terje.jpg"
+                        src="../../images/terje.jpg"
                         alt=""
                         loading="auto"
                       />
@@ -1246,7 +1246,7 @@ export default function ServicesEcommerceDevelopment() {
             </div>
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
               <StaticImage
-                src="../images/general/senior.jpeg"
+                src="../../images/general/senior.jpeg"
                 alt="Unleash your Decision-making Process"
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
               />
@@ -1435,7 +1435,7 @@ export default function ServicesEcommerceDevelopment() {
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                 width="490"
-                src="../images/nearshoring.jpeg"
+                src="../../images/nearshoring.jpeg"
                 alt="Experienced developer"
                 loading="auto"
               />
@@ -1529,7 +1529,7 @@ export default function ServicesEcommerceDevelopment() {
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                   width="490"
-                  src="../images/why.jpg"
+                  src="../../images/why.jpg"
                   alt="Why?"
                   loading="auto"
                 />

@@ -2,13 +2,13 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import { StaticImage, getImage } from 'gatsby-plugin-image';
-import LayoutPage from '../components/layout_page';
-import NavCenter from '../components/nav_center';
-import { getMaintenancePrice, getFaq } from '../helpers/index.jsx';
-import AddedValue from '../components/blocks/added_value';
-import ContentManagement from '../components/blocks/content_management';
-import PlusIntegrations from '../components/blocks/plus_integrations';
-import Woocommerce from '../components/blocks/woocommerce';
+import LayoutPage from '../../components/layout_page';
+import NavCenter from '../../components/nav_center';
+import { getMaintenancePrice, getFaq } from '../../helpers/index.jsx';
+import AddedValue from '../../components/blocks/added_value';
+import ContentManagement from '../../components/blocks/content_management';
+import PlusIntegrations from '../../components/blocks/plus_integrations';
+import Woocommerce from '../../components/blocks/woocommerce';
 
 function faqList() {
   let faqs = getFaq();
@@ -790,7 +790,7 @@ export default function ServicesWoocommerceMaintenance() {
               <StaticImage
                 className="relative mx-auto"
                 width="490"
-                src="../images/general/whatsapp-min.png"
+                src="../../images/general/whatsapp-min.png"
                 alt="Whatsapp message support"
                 loading="auto"
               />
@@ -949,7 +949,7 @@ export default function ServicesWoocommerceMaintenance() {
                 <StaticImage
                   className="relative mx-auto"
                   width="490"
-                  src="../images/general/status-updates-min.png"
+                  src="../../images/general/status-updates-min.png"
                   alt="Status update from StuntCoders"
                   loading="auto"
                 />
@@ -993,7 +993,7 @@ export default function ServicesWoocommerceMaintenance() {
         <div className="h-56 bg-indigo-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
           <StaticImage
             className="h-full w-full object-cover"
-            src="../images/magic-in-the-office.jpg"
+            src="../../images/magic-in-the-office.jpg"
             alt="Magic in the office"
             loading="auto"
           />

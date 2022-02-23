@@ -825,7 +825,7 @@ export default function ServicesEcommerceDevelopment() {
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/tesori.jpeg"
+                  src="../../images/portfolio/tesori.jpeg"
                   alt="Tesori portfolio image"
                 />
               </div>
@@ -880,7 +880,7 @@ export default function ServicesEcommerceDevelopment() {
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/clinton-b2b.jpeg"
+                  src="../../images/portfolio/clinton-b2b.jpeg"
                   alt="Camp David Soccx"
                 />
               </div>
@@ -935,7 +935,7 @@ export default function ServicesEcommerceDevelopment() {
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/selekkt.jpeg"
+                  src="../../images/portfolio/selekkt.jpeg"
                   alt="Selekkt"
                 />
               </div>
@@ -1060,7 +1060,7 @@ export default function ServicesEcommerceDevelopment() {
             <div className="hidden lg:block lg:flex-shrink-0">
               <StaticImage
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                src="../images/terje.jpg"
+                src="../../images/terje.jpg"
                 alt="Teje Tesori"
                 loading="auto"
               />
@@ -1095,7 +1095,7 @@ export default function ServicesEcommerceDevelopment() {
                     <div className="flex-shrink-0 lg:hidden">
                       <StaticImage
                         className="h-12 w-12 rounded-full"
-                        src="../images/terje.jpg"
+                        src="../../images/terje.jpg"
                         alt=""
                         loading="auto"
                       />
@@ -1265,7 +1265,7 @@ export default function ServicesEcommerceDevelopment() {
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                 width="490"
-                src="../images/nearshoring.jpeg"
+                src="../../images/nearshoring.jpeg"
                 alt="Experienced developer"
                 loading="auto"
               />
@@ -1359,7 +1359,7 @@ export default function ServicesEcommerceDevelopment() {
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                   width="490"
-                  src="../images/why.jpg"
+                  src="../../images/why.jpg"
                   alt="Why?"
                   loading="auto"
                 />

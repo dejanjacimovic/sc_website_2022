@@ -2,8 +2,8 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
-import LayoutPage from '../components/layout_page';
-import NavCenter from '../components/nav_center';
+import LayoutPage from '../../components/layout_page';
+import NavCenter from '../../components/nav_center';
 
 export default function ServicesRubyonrails() {
   return (
@@ -558,7 +558,7 @@ export default function ServicesRubyonrails() {
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                 width="490"
-                src="../images/general/senior.jpeg"
+                src="../../images/general/senior.jpeg"
                 alt="Experienced developer"
                 loading="auto"
               />
@@ -652,7 +652,7 @@ export default function ServicesRubyonrails() {
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                   width="490"
-                  src="../images/rails-ticket-to-future.png"
+                  src="../../images/rails-ticket-to-future.png"
                   alt="Rails ticket to future"
                   loading="auto"
                 />
@@ -673,21 +673,21 @@ export default function ServicesRubyonrails() {
                 <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                   <StaticImage
                     className="h-12"
-                    src="../images/CampDavid-black.svg"
+                    src="../../images/CampDavid-black.svg"
                     alt="Camp David"
                   />
                 </div>
                 <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                   <StaticImage
                     className="h-12"
-                    src="../images/luado-rosa.png"
+                    src="../../images/luado-rosa.png"
                     alt="Luado"
                   />
                 </div>
                 <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                   <StaticImage
                     className="h-12"
-                    src="../images/skintific-black.svg"
+                    src="../../images/skintific-black.svg"
                     alt="Skintific"
                   />
                 </div>
@@ -715,42 +715,42 @@ export default function ServicesRubyonrails() {
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
-                  src="../images/ror/github.svg"
+                  src="../../images/ror/github.svg"
                   alt="Github"
                 />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
-                  src="../images/ror/airbnb.svg"
+                  src="../../images/ror/airbnb.svg"
                   alt="AirBnb"
                 />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
-                  src="../images/ror/twitter.svg"
+                  src="../../images/ror/twitter.svg"
                   alt="Twitter"
                 />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
-                  src="../images/ror/hulu.svg"
+                  src="../../images/ror/hulu.svg"
                   alt="Hulu"
                 />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
-                  src="../images/ror/groupon.svg"
+                  src="../../images/ror/groupon.svg"
                   alt="Groupon"
                 />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <StaticImage
                   className="max-h-12"
-                  src="../images/ror/shopify.svg"
+                  src="../../images/ror/shopify.svg"
                   alt="Shopify"
                 />
               </div>
