@@ -5,6 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../../components/layout_page';
 import NavCenter from '../../components/nav_center';
 
+import headlessBoost from '../../images/general/headless-boost.jpeg';
 import shopifyImg from '../../images/headless/shopify.svg';
 import awsImg from '../../images/partnerships/aws.png';
 import medusaImg from '../../images/headless/medusa.svg';
@@ -129,7 +130,7 @@ export default function ServicesEcommerceDevelopment() {
             <div class="relative h-64 w-full sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2">
               <img
                 class="absolute inset-0 h-full w-full object-cover"
-                src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+                src={headlessBoost}
                 alt="Girl on the phone"
               />
             </div>
