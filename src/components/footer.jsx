@@ -31,7 +31,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  to="/services-ecommerce-development/"
+                  to="/services/ecommerce-development/"
                 >
                   Services
                 </Link>
