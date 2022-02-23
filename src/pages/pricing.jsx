@@ -3,9 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
-import AddedValue from '../components/blocks/added_value';
-import ContentManagement from '../components/blocks/content_management';
-import PlusIntegrations from '../components/blocks/plus_integrations';
 
 import {
   getMaintenancePrice,
@@ -686,52 +683,6 @@ export default function Pricing() {
       </div>
 
       <div className="bg-white">
-        <div className="bg-gradient-to-t from-indigo-50 via-white to-white">
-          <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-            <div className="pb-16 xl:flex xl:items-center xl:justify-between">
-              <div>
-                <h1 className="text-4xl font-extrabold sm:text-5xl sm:tracking-tight">
-                  <span className="text-gray-900">
-                    Unlimited and Development plans include...
-                  </span>
-                </h1>
-              </div>
-            </div>
-            <div className="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
-              <div>
-                <h2 className="text-base font-semibold uppercase tracking-wide text-indigo-600">
-                  Everything you need to manage your{' '}
-                </h2>
-                <p className="mt-2 text-3xl font-extrabold text-gray-900">
-                  website
-                </p>
-              </div>
-              <div className="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 md:gap-x-8 xl:col-span-2 xl:mt-0">
-                <ul className="divide-y divide-gray-200">
-                  <li className="flex py-4 md:py-0 md:pb-4" />
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <AddedValue />
-        <ContentManagement />
-        <PlusIntegrations />
-
-        <div className="bg-indigo-900">
-          <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-extrabold text-white">
-              Frequently asked questions
-            </h2>
-            <div className="mt-6 border-t border-indigo-400 border-opacity-25 pt-10">
-              <dl className="space-y-10 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12 md:space-y-0">
-                {faqList()}
-              </dl>
-            </div>
-          </div>
-        </div>
-
         <div className="bg-indigo-50">
           <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8">
             <h2 className="text-3xl font-extrabold tracking-tight text-indigo-900 sm:text-4xl">
