@@ -82,11 +82,11 @@ export default function Pricing() {
           <div className="relative flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
             <div className="flex-1">
               <h3 className="text-xl font-semibold text-gray-900">
-                Unlimited Support
+                Maintenance &amp; Support
               </h3>
               <p className="mt-4 flex items-baseline text-gray-900">
                 <span className="text-5xl font-extrabold tracking-tight">
-                  €380
+                  €900
                 </span>
                 <span className="ml-1 text-xl font-semibold">/month</span>
               </p>
@@ -112,6 +112,25 @@ export default function Pricing() {
                     />
                   </svg>
                   <span className="ml-3 text-gray-500">Weekly Updates</span>
+                </li>
+
+                <li className="flex">
+                  <svg
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="ml-3 text-gray-500">Daily Backups</span>
                 </li>
 
                 <li className="flex">
@@ -210,28 +229,7 @@ export default function Pricing() {
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
-                  <span className="ml-3 text-gray-500">Content Management</span>
-                </li>
-
-                <li className="flex">
-                  <svg
-                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                  <span className="ml-3 text-gray-500">
-                    No Development Hours
-                  </span>
+                  <span className="ml-3 text-gray-500">20 Work Hours</span>
                 </li>
               </ul>
             </div>
@@ -510,27 +508,6 @@ export default function Pricing() {
                   </svg>
                   <span className="ml-3 text-gray-500">
                     Constant SEO improvements from a technical perspective
-                  </span>
-                </li>
-
-                <li className="flex">
-                  <svg
-                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                  <span className="ml-3 text-gray-500">
-                    Ability to purchase additional hour at price of €45
                   </span>
                 </li>
               </ul>
