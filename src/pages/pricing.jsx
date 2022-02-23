@@ -133,6 +133,27 @@ export default function Pricing() {
                   <span className="ml-3 text-gray-500">Daily Backups</span>
                 </li>
 
+                <li class="flex">
+                  <svg
+                    class="h-6 w-6 flex-shrink-0 text-indigo-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span class="ml-3 text-gray-500">
+                    Weekly Quality Assurance
+                  </span>
+                </li>
+
                 <li className="flex">
                   <svg
                     className="h-6 w-6 flex-shrink-0 text-indigo-500"
