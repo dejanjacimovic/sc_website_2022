@@ -65,9 +65,17 @@ export default function Invoice() {
 
   const [exchangeRate, setExchangeRate] = useState(0);
   useEffect(() => {
-    fetch(`https://kurs.resenje.org/api/v1/currencies/eur/rates/today`)
-      .then((response) => response.json())
+    fetch(`https://kurs.resenje.org/api/v1/currencies/eur/rates/today`, {
+      method: 'GET',
+      mode: 'no-cors',
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        // 'Content-Type': 'text/plain',
+      },
+    })
+      // .then((response) => response.json())
       .then((resultData) => {
+        console.log(resultData);
         setExchangeRate(resultData.exchange_middle);
       });
   }, []);
