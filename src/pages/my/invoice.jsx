@@ -2,6 +2,18 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import * as invoiceStyles from '../../components/invoice.module.css';
 
+function getBankDetails(bank, detail) {
+  if (bank == 'ca' && detail == 'iban') {
+    return 'RS35330007010010282854';
+  } else if (bank == 'ca' && detail == 'bic') {
+    return 'BIC: MEBARS22<br/>CREDIT AGRICOLE SRBIJA AD<br/>Novi Sad, Republic of Serbia';
+  } else if (bank == 'intesa' && detail == 'iban') {
+    return 'RS35160005380000160536';
+  } else {
+    return 'BIC: DBDBRSBG<br/>Banca Intesa ad Beograd,<br/>Beograd, Republic of Serbia';
+  }
+}
+
 function getNetPayment(number_of_days) {
   return 'Valuta: {number_of_days} dana od dana izdavanja fakture. / Terms: please pay within {number_of_days} days of receiving this invoice.';
 }
@@ -169,11 +181,7 @@ export default function Invoice() {
               <tr>
                 <td valign="top">57A: ACCOUNT WITH INSTITUTION BANK</td>
                 <td valign="top" width="40%">
-                  BIC: MEBARS22
-                  <br />
-                  CREDIT AGRICOLE SRBIJA AD
-                  <br />
-                  Novi Sad, Republic of Serbia
+                  {getBankDetails('ca', 'bic')}
                 </td>
               </tr>
               <tr>
@@ -186,7 +194,7 @@ export default function Invoice() {
               </tr>
               <tr>
                 <td valign="top">
-                  IBAN: RS35330007010010282854
+                  IBAN: {getBankDetails('ca', 'iban')}
                   <br />
                   NAME: StuntCoders d.o.o. Beograd
                   <br />
