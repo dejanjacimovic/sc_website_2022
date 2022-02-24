@@ -1,19 +1,19 @@
-import * as React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import * as invoiceStyles from '../../components/invoice.module.css';
-import Axios from 'axios';
+// import invoiceStyles from '../../components/invoice.module.css';
+// import Axios from 'axios';
 
-function exchangeRate() {
-  let exRate = 117.5;
+// function exchangeRate() {
+//   let exRate = 117.5;
 
-  Axios.get('https://kurs.resenje.org/api/v1/currencies/eur/rates/today').then(
-    (response) => {
-      exRate = response.data.exchange_middle;
-    }
-  );
+//   Axios.get('https://kurs.resenje.org/api/v1/currencies/eur/rates/today').then(
+//     (response) => {
+//       exRate = response.data.exchange_middle;
+//     }
+//   );
 
-  return parseFloat(exRate);
-}
+//   return parseFloat(exRate);
+// }
 
 function getBankDetails(bank, detail) {
   if (bank == 'ca' && detail == 'iban') {
@@ -31,19 +31,19 @@ function getNetPayment(number_of_days) {
   return 'Valuta: {number_of_days} dana od dana izdavanja fakture. / Terms: please pay within {number_of_days} days of receiving this invoice.';
 }
 
-function invoiceItem(count, item, currency) {
-  return (
-    <tr>
-      <td valign="top">{count}</td>
-      <td valign="top" align="left">
-        {item['service']}
-      </td>
-      <td valign="top" align="right">
-        {parseFloat(item['subtotal']).toFixed(2)} {currency}
-      </td>
-    </tr>
-  );
-}
+// function invoiceItem(count, item, currency) {
+//   return (
+//     <tr>
+//       <td valign="top">{count}</td>
+//       <td valign="top" align="left">
+//         {item['service']}
+//       </td>
+//       <td valign="top" align="right">
+//         {parseFloat(item['subtotal']).toFixed(2)} {currency}
+//       </td>
+//     </tr>
+//   );
+// }
 
 export default function Invoice() {
   let currency = 'EUR';
@@ -53,13 +53,23 @@ export default function Invoice() {
   let invoiceNumber = '117/2022';
   let total = 300;
   let totalValue = 300;
-  let totalRsd = total * exchangeRate();
-  let totalEur = total;
+  let totalRsd = total * 117.5; //exchangeRate();
 
   let formatter = new Intl.NumberFormat('de-DE', {
     style: 'currency',
     currency: 'EUR',
   });
+
+  let totalEur = formatter.format(total);
+
+  const [exchangeRate, setExchangeRate] = useState(0);
+  useEffect(() => {
+    fetch(`https://kurs.resenje.org/api/v1/currencies/eur/rates/today`)
+      .then((response) => response.json())
+      .then((resultData) => {
+        setExchangeRate(resultData.exchange_middle);
+      });
+  }, []);
 
   return (
     <div id="invoice">
@@ -124,7 +134,7 @@ export default function Invoice() {
               </tr>
             </thead>
             <tbody>
-              {invoiceItem(
+              {/*{invoiceItem(
                 1,
                 {
                   service:
@@ -141,12 +151,12 @@ export default function Invoice() {
                   subtotal: '100',
                 },
                 'EUR'
-              )}
+              )}*/}
             </tbody>
           </table>
 
           <p>
-            Svega bez PDVa / Total without VAT: {formatter.format(totalEur)} EUR
+            Svega bez PDVa / Total without VAT: {totalEur} {currency}
           </p>
 
           <table>
@@ -160,7 +170,7 @@ export default function Invoice() {
             <tbody>
               <tr>
                 <td width="50%" align="left">
-                  {formatter.format(totalEur)} EUR
+                  {totalEur} {currency}
                 </td>
                 <td align="left">20%</td>
                 <td align="right">0.00</td>
