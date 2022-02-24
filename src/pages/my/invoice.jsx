@@ -49,9 +49,16 @@ export default function Invoice() {
   let currency = 'EUR';
   let customer = 'Random client GmbH';
   let perHour = 150;
-  let invoiceNumber = '117';
+  let invoiceNumber = '117/2022';
   let total = 300;
   let totalValue = 300;
+  let totalRsd = total * exchangeRate();
+  let totalEur = total;
+
+  let formatter = new Intl.NumberFormat('de-DE', {
+    style: 'currency',
+    currency: 'EUR',
+  });
 
   return (
     <div id="invoice">
@@ -147,7 +154,9 @@ export default function Invoice() {
             </tbody>
           </table>
 
-          <p>Svega bez PDVa / Total without VAT: 2,125.00 EUR</p>
+          <p>
+            Svega bez PDVa / Total without VAT: {formatter.format(totalEur)} EUR
+          </p>
 
           <table>
             <thead>
@@ -160,14 +169,14 @@ export default function Invoice() {
             <tbody>
               <tr>
                 <td width="50%" align="left">
-                  2,125.00 EUR
+                  {formatter.format(totalEur)} EUR
                 </td>
                 <td align="left">20%</td>
                 <td align="right">0.00</td>
               </tr>
               <tr>
                 <td width="50%" align="left">
-                  249,687.50 RSD
+                  {totalRsd} RSD
                 </td>
                 <td align="left">20%</td>
                 <td align="right">0.00</td>
@@ -175,9 +184,11 @@ export default function Invoice() {
             </tbody>
           </table>
 
-          <h2 style="color:#44b2fe">Svega za uplatu / Total: 2,125.00 EUR</h2>
+          <h2 style="color:#44b2fe">
+            Svega za uplatu / Total: {formatter.format(totalEur)} EUR
+          </h2>
           <p style="font-size:16px">
-            Total u RSD / Total in RSD currency: 249,687.50 RSD
+            Total u RSD / Total in RSD currency: {totalRsd} RSD
           </p>
           <p style="font-size:16px;font-weight:bold;">{getNetPayment(15)}</p>
         </main>
