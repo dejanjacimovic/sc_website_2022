@@ -78,19 +78,19 @@ exports.createPages = async ({ graphql, actions }) => {
 
   createRedirect({
     fromPath: `/services-woocommerce-maintenance.php`,
-    toPath: `/services-woocommerce-maintenance`,
+    toPath: `/services/woocommerce-maintenance`,
     statusCode: 301,
   });
 
   createRedirect({
     fromPath: `/services-ecommerce-development.php`,
-    toPath: `/services-ecommerce-development`,
+    toPath: `/services/ecommerce-development`,
     statusCode: 301,
   });
 
   createRedirect({
     fromPath: `/services-b2b-ecommerce.php`,
-    toPath: `/services-b2b-ecommerce`,
+    toPath: `/services/b2b-ecommerce`,
     statusCode: 301,
   });
 
