@@ -4,11 +4,7 @@ import { Link } from 'gatsby';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
-import {
-  getMaintenancePrice,
-  getFaq,
-  servicesIncluded,
-} from '../helpers/index.jsx';
+import { getFaq } from '../helpers/index.jsx';
 
 function faqList() {
   let faqs = getFaq();

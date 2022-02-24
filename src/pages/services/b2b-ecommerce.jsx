@@ -1030,7 +1030,7 @@ export default function ServicesB2bEcommerce() {
             <div>
               <h1 className="text-4xl font-extrabold leading-10 sm:text-5xl sm:leading-none sm:tracking-tight">
                 <span className="text-gray-900">Starting from </span>
-                <span className="text-indigo-600">{getB2BPrice}</span>
+                <span className="text-indigo-600">{getB2BPrice()}</span>
               </h1>
               <p className="mt-5 text-xl leading-7 text-gray-500">
                 Standard implementation takes about six months and requires a
