@@ -63,6 +63,15 @@ export default function Invoice() {
   let totalRsd = total * exchangeRateF();
   let totalEur = total;
 
+  const [exchangeRate, setExchangeRate] = useState(0);
+  useEffect(() => {
+    fetch(`https://kurs.resenje.org/api/v1/currencies/eur/rates/today`)
+      .then((response) => response.json())
+      .then((resultData) => {
+        setExchangeRate(resultData.exchange_middle);
+      });
+  }, []);
+
   return (
     <div id="invoice">
       <Helmet>
