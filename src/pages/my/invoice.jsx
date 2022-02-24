@@ -1,7 +1,6 @@
-import * as React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import * as invoiceStyles from '../../components/invoice.module.css';
-// import Axios from 'axios';
+import '../../components/invoice.module.css';
 
 const formatterEur = new Intl.NumberFormat('de-DE', {
   style: 'currency',
@@ -13,15 +12,8 @@ const formatterRsd = new Intl.NumberFormat('rs-RS', {
   currency: 'RSD',
 });
 
-function exchangeRate() {
+function exchangeRateF() {
   let exRate = 117.5;
-
-  // Axios.get('https://kurs.resenje.org/api/v1/currencies/eur/rates/today').then(
-  //   (response) => {
-  //     exRate = response.data.exchange_middle;
-  //   }
-  // );
-
   return parseFloat(exRate);
 }
 
@@ -68,18 +60,13 @@ export default function Invoice() {
   let invoiceNumber = '117/2022';
   let total = 300;
   let totalValue = 300;
-  let totalRsd = total * exchangeRate();
+  let totalRsd = total * exchangeRateF();
   let totalEur = total;
 
   return (
     <div id="invoice">
       <Helmet>
         <title>Invoice-226-ASM-StuntCoders</title>
-        <link
-          href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,400italic,700,700italic&subset=latin,latin-ext"
-          rel="stylesheet"
-          type="text/css"
-        />
       </Helmet>
 
       <div className="container">
