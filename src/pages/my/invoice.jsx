@@ -1,6 +1,19 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import * as invoiceStyles from '../../components/invoice.module.css';
+import Axios from 'axios';
+
+function exchangeRate() {
+  let exRate = 117.5;
+
+  Axios.get('https://kurs.resenje.org/api/v1/currencies/eur/rates/today').then(
+    (response) => {
+      exRate = response.data.exchange_middle;
+    }
+  );
+
+  return parseFloat(exRate);
+}
 
 function getBankDetails(bank, detail) {
   if (bank == 'ca' && detail == 'iban') {
