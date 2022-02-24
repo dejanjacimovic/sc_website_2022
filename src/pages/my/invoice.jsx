@@ -2,6 +2,10 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import * as invoiceStyles from '../../components/invoice.module.css';
 
+function getNetPayment(number_of_days) {
+  return 'Valuta: {number_of_days} dana od dana izdavanja fakture. / Terms: please pay within {number_of_days} days of receiving this invoice.';
+}
+
 export default function Invoice() {
   let currency = 'EUR';
   let customer = 'Random client GmbH';
@@ -138,10 +142,7 @@ export default function Invoice() {
           <p style="font-size:16px">
             Total u RSD / Total in RSD currency: 249,687.50 RSD
           </p>
-          <p style="font-size:16px;font-weight:bold;">
-            Valuta: 15 dana od dana izdavanja fakture. / Terms: please pay
-            within 15 days of receiving this invoice.
-          </p>
+          <p style="font-size:16px;font-weight:bold;">{getNetPayment(15)}</p>
         </main>
 
         <footer>
