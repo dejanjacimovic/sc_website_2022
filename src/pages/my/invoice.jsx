@@ -47,7 +47,8 @@ function invoiceItem(count, item, currency) {
 
 export default function Invoice() {
   let currency = 'EUR';
-  let customer = 'Random client GmbH';
+  let customer =
+    'Random client GmbH<br />Company number. XXX YYY ZZZ<br />Address: Gamle Ringeriksvei 66,<br />1357 Bekkestua<br />Bærum, Norway';
   let perHour = 150;
   let invoiceNumber = '117/2022';
   let total = 300;
@@ -77,17 +78,7 @@ export default function Invoice() {
             <tr>
               <td width="50%" valign="top">
                 <h3>Korisnik usluga / Client</h3>
-                <p style="margin-bottom:0">
-                  ASM AS
-                  <br />
-                  Company number. XXX YYY ZZZ
-                  <br />
-                  Address: Gamle Ringeriksvei 66,
-                  <br />
-                  1357 Bekkestua
-                  <br />
-                  Bærum, Norway
-                </p>
+                <p style="margin-bottom:0">{customer}</p>
               </td>
               <td style="text-align:right; width:50%;" valign="top">
                 <h3>Uslugu pružio / Invoiced by</h3>
@@ -119,7 +110,7 @@ export default function Invoice() {
 
         <main>
           <h1 style="color:#44b2fe;">
-            Račun br. / Invoice no. &ndash; 226/2022
+            Račun br. / Invoice no. &ndash; {invoiceNumber}
           </h1>
 
           <table>
@@ -225,7 +216,7 @@ export default function Invoice() {
                   70: Remittance information / Payment details
                 </td>
                 <td valign="top" style="padding: 20px 0">
-                  Invoice 226/2022
+                  Invoice {invoiceNumber}
                 </td>
               </tr>
               <tr>
