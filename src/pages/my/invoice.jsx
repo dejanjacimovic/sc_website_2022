@@ -31,6 +31,20 @@ function getNetPayment(number_of_days) {
   return 'Valuta: {number_of_days} dana od dana izdavanja fakture. / Terms: please pay within {number_of_days} days of receiving this invoice.';
 }
 
+function invoiceItem(count, item, currency) {
+  return (
+    <tr>
+      <td valign="top">{count}</td>
+      <td valign="top" align="left">
+        {item['service']}
+      </td>
+      <td valign="top" align="right">
+        {parseFloat(item['subtotal']).toFixed(2)} {currency}
+      </td>
+    </tr>
+  );
+}
+
 export default function Invoice() {
   let currency = 'EUR';
   let customer = 'Random client GmbH';
@@ -112,26 +126,24 @@ export default function Invoice() {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td valign="top">1</td>
-                <td valign="top" align="left">
-                  Usluge računarskog programiranja za prethodni mesec (45 radnih
-                  sati). / Software development services for January (45h).
-                </td>
-                <td valign="top" align="right">
-                  2,025.00 EUR
-                </td>
-              </tr>
-              <tr>
-                <td valign="top">2</td>
-                <td valign="top" align="left">
-                  Usluge održavanja servera za period od jednog meseca. /
-                  Hosting services for period of one month.
-                </td>
-                <td valign="top" align="right">
-                  100.00 EUR
-                </td>
-              </tr>
+              {invoiceItem(
+                1,
+                {
+                  service:
+                    'Usluge računarskog programiranja za prethodni mesec (45 radnih sati). / Software development services for January (45h).',
+                  subtotal: '2150',
+                },
+                'EUR'
+              )}
+              {invoiceItem(
+                2,
+                {
+                  service:
+                    'Usluge održavanja servera za period od jednog meseca. / Hosting services for period of one month.',
+                  subtotal: '100',
+                },
+                'EUR'
+              )}
             </tbody>
           </table>
 
