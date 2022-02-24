@@ -70,14 +70,10 @@ export default function Invoice() {
       mode: 'no-cors',
       headers: {
         'Access-Control-Allow-Origin': '*',
-        // 'Content-Type': 'text/plain',
       },
-    })
-      // .then((response) => response.json())
-      .then((resultData) => {
-        console.log(resultData);
-        setExchangeRate(resultData.exchange_middle);
-      });
+    }).then((resultData) => {
+      setExchangeRate(resultData);
+    });
   }, []);
 
   return (
