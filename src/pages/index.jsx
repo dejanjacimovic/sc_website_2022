@@ -54,12 +54,12 @@ export default function Home() {
                   <span className="mr-1">eCommerce agency</span>
                   <br className="xl:hidden" />
                   {` `}
-                  <span className="text-indigo-600">{getHeroPhrase()}</span>
+                  <span className="text-indigo-600">{getHeroPhrase}</span>
                 </h2>
                 <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
                   Our dedicated team saves frustration, time, worries, and a lot
                   of money for SMB eCommerce. That is why customers from{' '}
-                  {getHeroRegionPhrase()} have been with us for{' '}
+                  {getHeroRegionPhrase} have been with us for{' '}
                   <strong>10+ years</strong>.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -449,7 +449,7 @@ export default function Home() {
           <div className="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div>
               <h2 className="text-3xl font-extrabold leading-9 text-gray-900 sm:text-4xl sm:leading-10">
-                Trusted by {getRegionName()} companies
+                Trusted by {getRegionName} companies
               </h2>
               <p className="mt-3 max-w-3xl text-lg leading-7 text-gray-500">
                 You may know some of them, but do you know we've been supporting
