@@ -1,16 +1,26 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import * as invoiceStyles from '../../components/invoice.module.css';
-import Axios from 'axios';
+// import Axios from 'axios';
+
+const formatterEur = new Intl.NumberFormat('de-DE', {
+  style: 'currency',
+  currency: 'EUR',
+});
+
+const formatterRsd = new Intl.NumberFormat('rs-RS', {
+  style: 'currency',
+  currency: 'RSD',
+});
 
 function exchangeRate() {
   let exRate = 117.5;
 
-  Axios.get('https://kurs.resenje.org/api/v1/currencies/eur/rates/today').then(
-    (response) => {
-      exRate = response.data.exchange_middle;
-    }
-  );
+  // Axios.get('https://kurs.resenje.org/api/v1/currencies/eur/rates/today').then(
+  //   (response) => {
+  //     exRate = response.data.exchange_middle;
+  //   }
+  // );
 
   return parseFloat(exRate);
 }
@@ -28,10 +38,15 @@ function getBankDetails(bank, detail) {
 }
 
 function getNetPayment(number_of_days) {
-  return 'Valuta: {number_of_days} dana od dana izdavanja fakture. / Terms: please pay within {number_of_days} days of receiving this invoice.';
+  return (
+    <div>
+      Valuta: {number_of_days} dana od dana izdavanja fakture. / Terms: please
+      pay within {number_of_days} days of receiving this invoice.
+    </div>
+  );
 }
 
-function invoiceItem(count, item, currency) {
+function invoiceItem(count, item) {
   return (
     <tr>
       <td valign="top">{count}</td>
@@ -39,7 +54,7 @@ function invoiceItem(count, item, currency) {
         {item['service']}
       </td>
       <td valign="top" align="right">
-        {parseFloat(item['subtotal']).toFixed(2)} {currency}
+        {formatterEur.format(parseFloat(item['subtotal']).toFixed(2))}
       </td>
     </tr>
   );
@@ -56,11 +71,6 @@ export default function Invoice() {
   let totalRsd = total * exchangeRate();
   let totalEur = total;
 
-  let formatter = new Intl.NumberFormat('de-DE', {
-    style: 'currency',
-    currency: 'EUR',
-  });
-
   return (
     <div id="invoice">
       <Helmet>
@@ -72,17 +82,17 @@ export default function Invoice() {
         />
       </Helmet>
 
-      <div class="container">
+      <div className="container">
         <header id="header">
           <table>
             <tr>
               <td width="50%" valign="top">
                 <h3>Korisnik usluga / Client</h3>
-                <p style="margin-bottom:0">{customer}</p>
+                <p style={{ marginBottom: 0 }}>{customer}</p>
               </td>
-              <td style="text-align:right; width:50%;" valign="top">
+              <td style={{ textAlign: 'auto', width: '50%' }} valign="top">
                 <h3>Uslugu pružio / Invoiced by</h3>
-                <p style="margin-bottom:0">
+                <p style={{ marginBottom: 0 }}>
                   StuntCoders doo
                   <br />
                   Vatroslava Lisinskog 21
@@ -95,9 +105,9 @@ export default function Invoice() {
             </tr>
           </table>
 
-          <div class="row">
-            <div class="large-12 columns">
-              <p style="margin-top:0.5em">
+          <div className="row">
+            <div className="large-12 columns">
+              <p style={{ marginTop: '0.5em' }}>
                 Mesto i datum izdavanja računa: Beograd, 24.02.2022
                 <br />
                 Place and date of issuing of invoice: Belgrade, 24.02.2022
@@ -109,7 +119,7 @@ export default function Invoice() {
         </header>
 
         <main>
-          <h1 style="color:#44b2fe;">
+          <h1 style={{ color: '#44b2fe' }}>
             Račun br. / Invoice no. &ndash; {invoiceNumber}
           </h1>
 
@@ -118,35 +128,27 @@ export default function Invoice() {
               <tr>
                 <th></th>
                 <th align="left">Osnov za naplatu / Service</th>
-                <th align="right" style="min-width:130px">
+                <th align="right" style={{ minWidth: '130px' }}>
                   Iznos / Amount
                 </th>
               </tr>
             </thead>
             <tbody>
-              {invoiceItem(
-                1,
-                {
-                  service:
-                    'Usluge računarskog programiranja za prethodni mesec (45 radnih sati). / Software development services for January (45h).',
-                  subtotal: '2150',
-                },
-                'EUR'
-              )}
-              {invoiceItem(
-                2,
-                {
-                  service:
-                    'Usluge održavanja servera za period od jednog meseca. / Hosting services for period of one month.',
-                  subtotal: '100',
-                },
-                'EUR'
-              )}
+              {invoiceItem(1, {
+                service:
+                  'Usluge računarskog programiranja za prethodni mesec (45 radnih sati). / Software development services for January (45h).',
+                subtotal: '2150',
+              })}
+              {invoiceItem(2, {
+                service:
+                  'Usluge održavanja servera za period od jednog meseca. / Hosting services for period of one month.',
+                subtotal: '100',
+              })}
             </tbody>
           </table>
 
           <p>
-            Svega bez PDVa / Total without VAT: {formatter.format(totalEur)} EUR
+            Svega bez PDVa / Total without VAT: {formatterEur.format(totalEur)}
           </p>
 
           <table>
@@ -160,14 +162,14 @@ export default function Invoice() {
             <tbody>
               <tr>
                 <td width="50%" align="left">
-                  {formatter.format(totalEur)} EUR
+                  {formatterEur.format(totalEur)}
                 </td>
                 <td align="left">20%</td>
                 <td align="right">0.00</td>
               </tr>
               <tr>
                 <td width="50%" align="left">
-                  {totalRsd} RSD
+                  {formatterRsd.format(totalRsd)}
                 </td>
                 <td align="left">20%</td>
                 <td align="right">0.00</td>
@@ -175,17 +177,19 @@ export default function Invoice() {
             </tbody>
           </table>
 
-          <h2 style="color:#44b2fe">
-            Svega za uplatu / Total: {formatter.format(totalEur)} EUR
+          <h2 style={{ color: '#44b2fe' }}>
+            Svega za uplatu / Total: {formatterEur.format(totalEur)}
           </h2>
-          <p style="font-size:16px">
-            Total u RSD / Total in RSD currency: {totalRsd} RSD
+          <p style={{ fontSize: '16px' }}>
+            Total u RSD / Total in RSD currency: {formatterRsd.format(totalRsd)}
           </p>
-          <p style="font-size:16px;font-weight:bold;">{getNetPayment(15)}</p>
+          <p style={{ fontSize: '16px', fontWeight: 'bold' }}>
+            {getNetPayment(15)}
+          </p>
         </main>
 
         <footer>
-          <p style="font-size:16px">
+          <p style={{ fontSize: '16px' }}>
             Napomena: ne postoji obaveza obračunavanja i plaćanja PDV-a po članu
             12. stav 6. tačka 7) pod 3. Zakona o PDV-u
             <br />
@@ -212,10 +216,10 @@ export default function Invoice() {
                 </td>
               </tr>
               <tr>
-                <td valign="top" style="padding: 20px 0">
+                <td valign="top" style={{ padding: '20px 0' }}>
                   70: Remittance information / Payment details
                 </td>
-                <td valign="top" style="padding: 20px 0">
+                <td valign="top" style={{ padding: '20px 0' }}>
                   Invoice {invoiceNumber}
                 </td>
               </tr>
