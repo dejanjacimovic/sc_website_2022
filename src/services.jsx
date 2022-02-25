@@ -49,174 +49,6 @@ export default function Services() {
                   </p>
                   <Link to="/case/tesori/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
-                      Tesori Diamanter
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Since 2008, Tesori Diamanter has supplied quality diamonds
-                      at very competitive prices. As a customer with Tesori, you
-                      are guaranteed personal service and guidance through
-                      finding the perfect diamond.
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Tesori selected StuntCoders for their partner in this
-                      long-lasting pursuit of perfection.
-                    </p>
-                  </Link>
-                </div>
-                <div className="mt-8 text-center md:flex md:items-center">
-                  <div className="text-base font-medium text-gray-900">
-                    Team: Micro-team
-                  </div>
-                  <svg
-                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M11 0h3L9 20H6l5-20z" />
-                  </svg>
-                  <div className="text-base font-medium text-gray-500">
-                    Length: 8+ years
-                  </div>
-                </div>
-              </div>
-              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
-                <Link
-                  to="/case/tesori/"
-                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
-                >
-                  Read the study<span aria-hidden="true"> →</span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <StaticImage
-                  className="h-48 w-full object-cover"
-                  src="../images/portfolio/clinton-b2b.jpeg"
-                  alt="Camp David Soccx"
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    Case Study
-                  </p>
-                  <Link to="/case/camp-david/" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">
-                      Camp David & Soccx
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      B2B eCommerce implementation for one of the fastest
-                      growing fashion companies in Germany.
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      To optimize their sales team of 60+ people, Camp David has
-                      found an ideal partner in StuntCoders. Today, each
-                      individual is saving 40+ hours a month on previously
-                      manual tasks.
-                    </p>
-                  </Link>
-                </div>
-                <div className="mt-8 text-center md:flex md:items-center">
-                  <div className="text-base font-medium text-gray-900">
-                    Team: 10+
-                  </div>
-                  <svg
-                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M11 0h3L9 20H6l5-20z" />
-                  </svg>
-                  <div className="text-base font-medium text-gray-500">
-                    Length: 4+ years
-                  </div>
-                </div>
-              </div>
-              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
-                <Link
-                  to="/case/camp-david/"
-                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
-                >
-                  Read the study<span aria-hidden="true"> →</span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <StaticImage
-                  className="h-48 w-full object-cover"
-                  src="../images/portfolio/selekkt.jpeg"
-                  alt="Selekkt"
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    Case Study
-                  </p>
-                  <a href="#" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">
-                      Selekkt
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      What was initially only a place with a limited selection
-                      of products today is a marketplace for 30.000 designers.
-                      Supporting such a variety of customers and use-cases, plus
-                      legal requirements, was no easy task.
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      We are lucky to call ourselves partners of Selekkt and
-                      successfully maintain their platform's quality in 10+
-                      years of a history of collaboration.
-                    </p>
-                  </a>
-                </div>
-                <div className="mt-8 text-center md:flex md:items-center">
-                  <div className="text-base font-medium text-gray-900">
-                    Team: 5+
-                  </div>
-                  <svg
-                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M11 0h3L9 20H6l5-20z" />
-                  </svg>
-                  <div className="text-base font-medium text-gray-500">
-                    Length: 10+ years
-                  </div>
-                </div>
-              </div>
-              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
-                <Link
-                  to="/case/selekkt/"
-                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
-                >
-                  Read the study<span aria-hidden="true"> →</span>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <StaticImage
-                  className="h-48 w-full object-cover"
-                  src="../images/portfolio/tesori.jpeg"
-                  alt="Tesori portfolio image"
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    Case Study
-                  </p>
-                  <Link to="/case/tesori/" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">
                       Magento eCommerce Development
                     </p>
                     <p className="mt-3 text-base text-gray-500">
@@ -308,6 +140,143 @@ export default function Services() {
                   <a href="#" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
                       Shopify
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Flexibility...
+                    </p>
+                  </a>
+                </div>
+                <div className="mt-8 text-center md:flex md:items-center">
+                  <div className="text-base font-medium text-gray-900">
+                    Team: 5+
+                  </div>
+                  <svg
+                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M11 0h3L9 20H6l5-20z" />
+                  </svg>
+                  <div className="text-base font-medium text-gray-500">
+                    Length: 10+ years
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
+                <Link
+                  to="/case/selekkt/"
+                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
+                >
+                  Read more<span aria-hidden="true"> →</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <StaticImage
+                  className="h-48 w-full object-cover"
+                  src="../images/portfolio/tesori.jpeg"
+                  alt="Tesori portfolio image"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <Link to="/case/tesori/" className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900">
+                      Headless eCommerce Development
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Since 2008, StuntCoders has been crafting...
+                    </p>
+                  </Link>
+                </div>
+                <div className="mt-8 text-center md:flex md:items-center">
+                  <div className="text-base font-medium text-gray-900">
+                    Team: Micro-team
+                  </div>
+                  <svg
+                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M11 0h3L9 20H6l5-20z" />
+                  </svg>
+                  <div className="text-base font-medium text-gray-500">
+                    Length: 8+ years
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
+                <Link
+                  to="/case/tesori/"
+                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
+                >
+                  Read more<span aria-hidden="true"> →</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <StaticImage
+                  className="h-48 w-full object-cover"
+                  src="../images/portfolio/clinton-b2b.jpeg"
+                  alt="Camp David Soccx"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <Link to="/case/camp-david/" className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900">
+                      Ruby on Rails
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      Since the beginning of WooCommerce, we've felt like...
+                    </p>
+                  </Link>
+                </div>
+                <div className="mt-8 text-center md:flex md:items-center">
+                  <div className="text-base font-medium text-gray-900">
+                    Team: 10+
+                  </div>
+                  <svg
+                    className="mx-1 hidden h-5 w-5 text-indigo-600 md:block"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M11 0h3L9 20H6l5-20z" />
+                  </svg>
+                  <div className="text-base font-medium text-gray-500">
+                    Length: 4+ years
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
+                <Link
+                  to="/case/camp-david/"
+                  className="text-base font-medium text-indigo-700 hover:text-indigo-600"
+                >
+                  Read more<span aria-hidden="true"> →</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div className="flex-shrink-0">
+                <StaticImage
+                  className="h-48 w-full object-cover"
+                  src="../images/portfolio/selekkt.jpeg"
+                  alt="Selekkt"
+                />
+              </div>
+              <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex-1">
+                  <a href="#" className="mt-2 block">
+                    <p className="text-xl font-semibold text-gray-900">
+                      Django
                     </p>
                     <p className="mt-3 text-base text-gray-500">
                       Flexibility...
