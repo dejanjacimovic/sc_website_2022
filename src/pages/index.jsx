@@ -24,7 +24,7 @@ import purNorskImg from '../images/pur-norsk.svg';
 import jumpkingImg from '../images/jumpking.png';
 
 import dejanCeo from '../images/dejan-ceo.jpeg';
-import pricingPlan from '../images/pricing-plans.jpeg';
+import pricingPlans from '../images/pricing-plans.jpeg';
 
 export default function Home() {
   return (
@@ -654,7 +654,7 @@ export default function Home() {
             <div className="h-full xl:relative xl:col-start-2">
               <img
                 className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-                src={pricingPlan}
+                src={pricingPlans}
                 alt="Pricing plans"
               />
               <div

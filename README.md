@@ -72,3 +72,10 @@ Once you're 100% sure it's running, do `git push`, then navigate to [Netlify lin
 ### 😵‍💫 Changes not visible?
 
 You must go to [app.netlify.com](https://app.netlify.com/) >> Project name >> Deploy >> See build errors.
+
+
+# To Do
+- [ ] Complete auth0 integration and testing
+- [ ] Write more Unit tests
+- [ ] Make a simple store with Stripe checkout selling SC Swag
+- [ ] Add services.jsx describing all of the services offered by SC

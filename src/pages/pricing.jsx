@@ -4,56 +4,6 @@ import { Link } from 'gatsby';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
-import {
-  getMaintenancePrice,
-  getFaq,
-  servicesIncluded,
-} from '../helpers/index.jsx';
-
-function faqList() {
-  let faqs = getFaq();
-  let output = [];
-  for (var key in faqs) {
-    output.push(QA(key, faqs[key]));
-  }
-
-  return output;
-}
-
-function QA(question, answer) {
-  return (
-    <div>
-      <dt className="text-lg font-medium leading-6 text-white">{question}</dt>
-      <dd className="mt-2 text-base text-indigo-200">
-        <div dangerouslySetInnerHTML={{ __html: answer }} />
-      </dd>
-    </div>
-  );
-}
-
-function serviceIncluded(serviceName, c = 0) {
-  return (
-    <li className="flex py-4 md:border-t-0 md:py-0 md:pb-4">
-      <svg
-        className="h-6 w-6 flex-shrink-0 text-green-500"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        aria-hidden="true"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M5 13l4 4L19 7"
-        />
-      </svg>
-      <span className="ml-3 text-base text-gray-500">{serviceName}</span>
-    </li>
-  );
-}
-
 export default function Pricing() {
   return (
     <LayoutPage>
