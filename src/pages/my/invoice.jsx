@@ -61,7 +61,7 @@ export default function Invoice() {
   let total = 300;
   let totalValue = 300;
   let totalRsd = total * exchangeRateF();
-  let totalEur = formatter.format(total);
+  let totalEur = formatterEur.format(total);
 
   const [exchangeRate, setExchangeRate] = useState(0);
   useEffect(() => {
