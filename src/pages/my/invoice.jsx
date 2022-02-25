@@ -61,21 +61,6 @@ export default function Invoice() {
   let total = 300;
   let totalValue = 300;
   let totalRsd = total * exchangeRateF();
-  let totalEur = total;
-
-  const [exchangeRate, setExchangeRate] = useState(0);
-  useEffect(() => {
-    fetch(`https://kurs.resenje.org/api/v1/currencies/eur/rates/today`, {
-      method: 'GET',
-      mode: 'no-cors',
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-      },
-    }).then((resultData) => {
-      setExchangeRate(resultData);
-    });
-  }, []);
-
   let totalEur = formatter.format(total);
 
   const [exchangeRate, setExchangeRate] = useState(0);
