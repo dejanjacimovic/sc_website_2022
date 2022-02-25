@@ -12,7 +12,7 @@
     Use the Gatsby CLI to start site:
 
     ```shell
-    yarn install
+    npm install
     npm run develop
     ```
 
@@ -27,7 +27,7 @@
 ## Make code prettier?
 
 ```
-yarn install
+npm install
 npx prettier --write src/pages/.jsx
 ```
 
@@ -73,8 +73,8 @@ Once you're 100% sure it's running, do `git push`, then navigate to [Netlify lin
 
 You must go to [app.netlify.com](https://app.netlify.com/) >> Project name >> Deploy >> See build errors.
 
-
 # To Do
+
 - [ ] Complete auth0 integration and testing
 - [ ] Write more Unit tests
 - [ ] Make a simple store with Stripe checkout selling SC Swag
