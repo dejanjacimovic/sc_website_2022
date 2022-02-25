@@ -820,7 +820,7 @@ export default function ServicesEcommerceDevelopment() {
                   <p className="text-sm font-medium text-indigo-600">
                     Case Study
                   </p>
-                  <a href="#" className="mt-2 block">
+                  <a href="/case/selekkt/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
                       Selekkt
                     </p>
