@@ -4,6 +4,12 @@ import { Link } from 'gatsby';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
+import magentoSvg from '../images/services/magento.svg';
+import medusaSvg from '../images/services/medusa.svg';
+import shopifySvg from '../images/services/shopify.svg';
+import rorSvg from '../images/services/ror.svg';
+import djangoSvg from '../images/services/django.svg';
+
 export default function Services() {
   return (
     <LayoutPage>
@@ -36,10 +42,10 @@ export default function Services() {
           <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
-                <StaticImage
+                <img
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/tesori.jpeg"
-                  alt="Tesori portfolio image"
+                  src={magentoSvg}
+                  alt="Magento ecommerce development"
                 />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
@@ -47,7 +53,10 @@ export default function Services() {
                   <p className="text-sm font-medium text-indigo-600">
                     Case Study
                   </p>
-                  <Link to="/case/tesori/" className="mt-2 block">
+                  <Link
+                    to="/services/ecommerce-development/"
+                    className="mt-2 block"
+                  >
                     <p className="text-xl font-semibold text-gray-900">
                       Magento eCommerce Development
                     </p>
@@ -74,25 +83,28 @@ export default function Services() {
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
                 <Link
-                  to="/case/tesori/"
+                  to="/services/ecommerce-development/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
-                  Read more<span aria-hidden="true"> →</span>
+                  Learn more<span aria-hidden="true"> →</span>
                 </Link>
               </div>
             </div>
 
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
-                <StaticImage
+                <img
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/clinton-b2b.jpeg"
-                  alt="Camp David Soccx"
+                  src={wooSvg}
+                  alt="WooCommerce Development Services"
                 />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
-                  <Link to="/case/camp-david/" className="mt-2 block">
+                  <Link
+                    to="/services/ecommerce-development/"
+                    className="mt-2 block"
+                  >
                     <p className="text-xl font-semibold text-gray-900">
                       WooCommerce
                     </p>
@@ -119,25 +131,28 @@ export default function Services() {
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
                 <Link
-                  to="/case/camp-david/"
+                  to="/services/ecommerce-development/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
-                  Read more<span aria-hidden="true"> →</span>
+                  Learn more<span aria-hidden="true"> →</span>
                 </Link>
               </div>
             </div>
 
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
-                <StaticImage
+                <img
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/selekkt.jpeg"
-                  alt="Selekkt"
+                  src={shopifySvg}
+                  alt="Shopify Development"
                 />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
-                  <a href="#" className="mt-2 block">
+                  <a
+                    href="/services/ecommerce-development/"
+                    className="mt-2 block"
+                  >
                     <p className="text-xl font-semibold text-gray-900">
                       Shopify
                     </p>
@@ -164,10 +179,10 @@ export default function Services() {
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
                 <Link
-                  to="/case/selekkt/"
+                  to="/services/ecommerce-development/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
-                  Read more<span aria-hidden="true"> →</span>
+                  Learn more<span aria-hidden="true"> →</span>
                 </Link>
               </div>
             </div>
@@ -176,15 +191,18 @@ export default function Services() {
           <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
-                <StaticImage
+                <img
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/tesori.jpeg"
-                  alt="Tesori portfolio image"
+                  src={medusaSvg}
+                  alt="Headless ecommerce development"
                 />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
-                  <Link to="/case/tesori/" className="mt-2 block">
+                  <Link
+                    to="/services/ecommerce-development/"
+                    className="mt-2 block"
+                  >
                     <p className="text-xl font-semibold text-gray-900">
                       Headless eCommerce Development
                     </p>
@@ -211,25 +229,28 @@ export default function Services() {
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
                 <Link
-                  to="/case/tesori/"
+                  to="/services/ecommerce-development/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
-                  Read more<span aria-hidden="true"> →</span>
+                  Learn more<span aria-hidden="true"> →</span>
                 </Link>
               </div>
             </div>
 
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
-                <StaticImage
+                <img
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/clinton-b2b.jpeg"
-                  alt="Camp David Soccx"
+                  src={rorSvg}
+                  alt="Ruby on Rails Development Services"
                 />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
-                  <Link to="/case/camp-david/" className="mt-2 block">
+                  <Link
+                    to="/services/rubyonrails-development/"
+                    className="mt-2 block"
+                  >
                     <p className="text-xl font-semibold text-gray-900">
                       Ruby on Rails
                     </p>
@@ -256,10 +277,10 @@ export default function Services() {
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
                 <Link
-                  to="/case/camp-david/"
+                  to="/services/rubyonrails-development/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
-                  Read more<span aria-hidden="true"> →</span>
+                  Learn more<span aria-hidden="true"> →</span>
                 </Link>
               </div>
             </div>
@@ -268,13 +289,16 @@ export default function Services() {
               <div className="flex-shrink-0">
                 <StaticImage
                   className="h-48 w-full object-cover"
-                  src="../images/portfolio/selekkt.jpeg"
-                  alt="Selekkt"
+                  src={djangoSvg}
+                  alt="Django development services"
                 />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
-                  <a href="#" className="mt-2 block">
+                  <a
+                    href="/services/django-development/"
+                    className="mt-2 block"
+                  >
                     <p className="text-xl font-semibold text-gray-900">
                       Django
                     </p>
@@ -301,10 +325,10 @@ export default function Services() {
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6">
                 <Link
-                  to="/case/selekkt/"
+                  to="/services/django-development/"
                   className="text-base font-medium text-indigo-700 hover:text-indigo-600"
                 >
-                  Read more<span aria-hidden="true"> →</span>
+                  Learn more<span aria-hidden="true"> →</span>
                 </Link>
               </div>
             </div>
