@@ -28,7 +28,7 @@
 
 ```
 npm install
-npx prettier --write src/pages/.jsx
+npx prettier --write **/*.jsx
 ```
 
 ## Test the website?
