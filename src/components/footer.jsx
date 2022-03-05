@@ -155,7 +155,7 @@ export default function Footer() {
 
         <div className="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
           <p className="mt-8 text-base leading-6 text-gray-400 md:order-1 md:mt-0">
-            © 2020 Adorable Corporation, Inc. in collaboration with StuntCoders
+            © 2022 Adorable Corporation, Inc. in collaboration with StuntCoders
             doo. All rights reserved.
           </p>
         </div>
