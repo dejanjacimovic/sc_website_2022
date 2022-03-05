@@ -114,6 +114,18 @@ export default class NavCenter extends React.Component {
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       <Link
+                        to="/services/headless-ecommerce/"
+                        className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
+                      >
+                        <p className="text-base font-medium text-gray-900">
+                          Headless eCommerce
+                        </p>
+                        <p className="mt-1 text-sm text-gray-500">
+                          Development of next generation of eCommerce solutions.
+                        </p>
+                      </Link>
+
+                      <Link
                         to="/services/woocommerce-maintenance/"
                         className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
@@ -263,6 +275,18 @@ export default class NavCenter extends React.Component {
                   <div id="service-submenu-mobile" className={hiddenSubmenuVal}>
                     <div className="overflow-hidden">
                       <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
+                        <Link
+                          to="/services/headless-ecommerce/"
+                          className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
+                        >
+                          <p className="text-base font-medium text-gray-900">
+                            Headless eCommerce
+                          </p>
+                          <p className="mt-1 text-sm text-gray-500">
+                            Development of next generation of eCommerce solutions.
+                          </p>
+                        </Link>
+
                         <Link
                           to="/services/woocommerce-maintenance/"
                           className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
