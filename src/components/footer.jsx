@@ -136,17 +136,12 @@ export default function Footer() {
 
           <div className="sm:mt-12">
             <h5 className="text-sm font-semibold uppercase leading-5 tracking-wider text-gray-400">
-              Nordics
+              Norway
             </h5>
             <p className="mt-4 text-base leading-6 text-gray-300">
-              Kalevankatu 31
+              Nedre gate 5
               <br />
-              00100, Helsinki
-              <br />
-              Finland
-              <br />
-              <br />
-              +358 413131372 (Hugo)
+              0551 Oslo
               <br />
               <br />
             </p>
