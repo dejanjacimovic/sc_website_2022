@@ -1,6 +1,3 @@
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-
 <h1 align="center">
   StuntCoders 2022 website running on Gatsbyjs
 </h1>
