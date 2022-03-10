@@ -72,7 +72,5 @@ You must go to [app.netlify.com](https://app.netlify.com/) >> Project name >> De
 
 # To Do
 
-- [ ] Complete auth0 integration and testing
 - [ ] Write more Unit tests
-- [ ] Make a simple store with Stripe checkout selling SC Swag
-- [ ] Add services.jsx describing all of the services offered by SC
+- [ ] Add services.jsx describing all of the services offered by StuntCoders
