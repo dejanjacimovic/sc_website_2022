@@ -1,5 +1,5 @@
-<h1 align="center">
-  StuntCoders 2022 website running on Gatsbyjs
+<h1>
+  <a href="https://stuntcoders.com/">StuntCoders</a> 2022 website running on Gatsbyjs
 </h1>
 
 ## 🏃‍♂️ Quick start
