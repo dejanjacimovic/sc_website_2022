@@ -5,6 +5,7 @@ import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
 import magentoSvg from '../images/services/magento.svg';
+import wooSvg from '../images/services/woocommerce.svg';
 import medusaSvg from '../images/services/medusa.svg';
 import shopifySvg from '../images/services/shopify.svg';
 import rorSvg from '../images/services/ror.svg';
