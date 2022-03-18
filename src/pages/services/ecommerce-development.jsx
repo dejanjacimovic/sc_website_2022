@@ -1434,7 +1434,7 @@ export default function ServicesEcommerceDevelopment() {
               </svg>
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                width="490"
+                width={490}
                 src="../../images/nearshoring.jpeg"
                 alt="Experienced developer"
                 loading="auto"
@@ -1528,7 +1528,7 @@ export default function ServicesEcommerceDevelopment() {
                 </svg>
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                  width="490"
+                  width={490}
                   src="../../images/why.jpg"
                   alt="Why?"
                   loading="auto"

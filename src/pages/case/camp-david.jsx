@@ -156,7 +156,7 @@ export default function CampDavid() {
               </svg>
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                width="490"
+                width={490}
                 src="../../images/cases/clinton-growth.jpeg"
                 loading="auto"
                 alt="Clinton collaboration"
@@ -247,7 +247,7 @@ export default function CampDavid() {
                 </svg>
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                  width="490"
+                  width={490}
                   src="../..//images/cases/clinton-vibes.jpeg"
                   alt="Clinton Vibes"
                   loading="auto"

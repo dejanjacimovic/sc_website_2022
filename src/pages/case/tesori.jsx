@@ -142,7 +142,7 @@ export default function Tesori() {
               </svg>
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                width="490"
+                width={490}
                 src="../../images/cases/tesori-vibes.jpeg"
                 loading="auto"
                 alt="Tesori - Collaborating since 2013"
@@ -252,7 +252,7 @@ export default function Tesori() {
                 </svg>
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                  width="490"
+                  width={490}
                   src="../../images/cases/tesori-growth.jpeg"
                   alt="Tesori's Growth"
                   loading="auto"

@@ -561,7 +561,7 @@ export default function ServicesRubyonrails() {
               </svg>
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                width="490"
+                width={490}
                 src="../../images/general/senior.jpeg"
                 alt="Experienced developer"
                 loading="auto"
@@ -655,7 +655,7 @@ export default function ServicesRubyonrails() {
                 </svg>
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                  width="490"
+                  width={490}
                   src="../../images/rails-ticket-to-future.png"
                   alt="Rails ticket to future"
                   loading="auto"

@@ -281,7 +281,7 @@ export default function Home() {
               </svg>
               <StaticImage
                 className="relative mx-auto"
-                width="490"
+                width={490}
                 src="../images/slack-min.png"
                 loading="auto"
                 alt="Slack communication"
@@ -434,7 +434,7 @@ export default function Home() {
                 </svg>
                 <StaticImage
                   className="relative mx-auto"
-                  width="490"
+                  width={490}
                   src="../images/status-updates-min.png"
                   alt="StuntCoders status updates"
                   loading="auto"

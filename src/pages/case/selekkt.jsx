@@ -150,7 +150,7 @@ export default function Selekkt() {
               </svg>
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                width="490"
+                width={490}
                 src="../../images/cases/selekkt-growth.jpg"
                 loading="auto"
                 alt="Selekkt - Collaborating since 2010"
@@ -250,7 +250,7 @@ export default function Selekkt() {
                 </svg>
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                  width="490"
+                  width={490}
                   src="../../images/cases/selekkt-good-vibes.jpeg"
                   alt="Selekkt's Growth"
                   loading="auto"

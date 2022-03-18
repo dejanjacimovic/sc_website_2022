@@ -789,7 +789,7 @@ export default function ServicesWoocommerceMaintenance() {
               </svg>
               <StaticImage
                 className="relative mx-auto"
-                width="490"
+                width={490}
                 src="../../images/general/whatsapp-min.png"
                 alt="Whatsapp message support"
                 loading="auto"
@@ -948,7 +948,7 @@ export default function ServicesWoocommerceMaintenance() {
                 </svg>
                 <StaticImage
                   className="relative mx-auto"
-                  width="490"
+                  width={490}
                   src="../../images/general/status-updates-min.png"
                   alt="Status update from StuntCoders"
                   loading="auto"
