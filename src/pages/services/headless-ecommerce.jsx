@@ -1096,7 +1096,7 @@ export default function ServicesEcommerceDevelopment() {
                       <StaticImage
                         className="h-12 w-12 rounded-full"
                         src="../../images/terje.jpg"
-                        alt=""
+                        alt="Terje from Tesori"
                         loading="auto"
                       />
                     </div>

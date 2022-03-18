@@ -1070,7 +1070,7 @@ export default function Testimonials() {
                     <StaticImage
                       className="h-12 w-12 rounded-full"
                       src="../images/stine.jpg"
-                      alt=""
+                      alt="Stine from BBB"
                       loading="auto"
                     />
                   </div>
@@ -1542,7 +1542,7 @@ export default function Testimonials() {
                     <StaticImage
                       className="h-12 w-12 rounded-full"
                       src="../images/kim.jpg"
-                      alt=""
+                      alt="Kim Orderud"
                       loading="auto"
                     />
                   </div>
@@ -1737,7 +1737,7 @@ export default function Testimonials() {
                     <StaticImage
                       className="h-12 w-12 rounded-full"
                       src="../images/helene-bedtime.jpg"
-                      alt=""
+                      alt="Helene from Bedtime"
                       loading="auto"
                     />
                   </div>
@@ -1827,7 +1827,7 @@ export default function Testimonials() {
               <StaticImage
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
                 src="../images/ace.jpeg"
-                alt=""
+                alt="Ace of Spades"
                 loading="auto"
               />
             </div>
@@ -1862,7 +1862,7 @@ export default function Testimonials() {
                       <StaticImage
                         className="h-12 w-12 rounded-full"
                         src="../images/ace.jpeg"
-                        alt=""
+                        alt="Ice man, Warholms"
                         loading="auto"
                       />
                     </div>

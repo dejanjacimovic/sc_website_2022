@@ -149,6 +149,7 @@ export default function Footer() {
 
           <StaticImage
             src="../images/general/aaa-banner.png"
+            alt="Credit-worthy company"
             className="w-32 object-right-top sm:m-12"
           />
         </div>
