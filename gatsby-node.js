@@ -30,19 +30,6 @@ exports.sourceNodes = async ({
   const data = await response.json();
 };
 
-exports.onCreatePage = async ({ page, actions }) => {
-  const { createPage } = actions;
-
-  // page.matchPath is a special key that's used for matching pages
-  // only on the client.
-  if (page.path.match(/^\/account/)) {
-    page.matchPath = '/account/*';
-
-    // Update the page.
-    createPage(page);
-  }
-};
-
 exports.createPages = async ({ graphql, actions }) => {
   const { createRedirect } = actions;
 
