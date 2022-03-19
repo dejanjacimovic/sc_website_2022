@@ -74,3 +74,4 @@ You must go to [app.netlify.com](https://app.netlify.com/) >> Project name >> De
 
 - [ ] Write more Unit tests
 - [ ] Add services.jsx describing all of the services offered by StuntCoders
+- [ ] Fix bloody menu dropdown
