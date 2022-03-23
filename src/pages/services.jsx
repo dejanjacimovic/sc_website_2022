@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
@@ -289,7 +288,7 @@ export default function Services() {
 
             <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
-                <StaticImage
+                <img
                   className="h-48 w-full object-cover"
                   src={djangoSvg}
                   alt="Django development services"
