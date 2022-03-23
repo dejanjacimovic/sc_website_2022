@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 
