@@ -120,27 +120,6 @@ export default function Pricing() {
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
-                  <span className="ml-3 text-gray-500">
-                    90 minutes Response Time
-                  </span>
-                </li>
-
-                <li className="flex">
-                  <svg
-                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
                   <span className="ml-3 text-gray-500">Server Monitoring</span>
                 </li>
 
@@ -182,25 +161,6 @@ export default function Pricing() {
                   <span className="ml-3 text-gray-500">
                     Access to our resources (10.000 eur in value)
                   </span>
-                </li>
-
-                <li className="flex">
-                  <svg
-                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                  <span className="ml-3 text-gray-500">20 Work Hours</span>
                 </li>
               </ul>
             </div>
@@ -332,25 +292,6 @@ export default function Pricing() {
                   <span className="ml-3 text-gray-500">
                     Access to our resources (10.000 eur in value)
                   </span>
-                </li>
-
-                <li className="flex">
-                  <svg
-                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                  <span className="ml-3 text-gray-500">160 Work Hours</span>
                 </li>
 
                 <li className="flex">
