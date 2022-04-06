@@ -4,6 +4,8 @@ import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../../components/layout_page';
 import NavLeft from '../../components/nav_left';
 
+import pricingPlans from '../images/pricing-plans.jpeg';
+
 export default function CampDavid() {
   return (
     <LayoutPage>
@@ -384,10 +386,10 @@ export default function CampDavid() {
         <div className="absolute inset-x-0 bottom-0 h-80 xl:top-0 xl:h-full">
           <div className="h-full w-full xl:grid xl:grid-cols-2">
             <div className="h-full xl:relative xl:col-start-2">
-              <StaticImage
+              <img
                 className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-                src="../../images/pricing-plans.jpeg"
-                alt="Pricing plans"
+                src={pricingPlans}
+                alt="Tech stack"
               />
               <div
                 aria-hidden="true"
