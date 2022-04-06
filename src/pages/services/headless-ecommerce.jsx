@@ -92,7 +92,7 @@ export default function ServicesEcommerceDevelopment() {
         <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <NavCenter />
 
-          <main className="lg:relative">
+          <main className="lg:relative mt-4">
             <div className="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-48 lg:text-left">
               <div className="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
