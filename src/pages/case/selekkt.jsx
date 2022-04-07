@@ -4,6 +4,8 @@ import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../../components/layout_page';
 import NavLeft from '../../components/nav_left';
 
+import pricingPlans from '../../images/pricing-plans.jpeg';
+
 export default function Selekkt() {
   return (
     <LayoutPage>
@@ -25,6 +27,7 @@ export default function Selekkt() {
               <div className="sm:text-center lg:text-left">
                 <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                   <span className="mr-1">Direct to consumer</span>
+                  {` `}
                   <br className="xl:hidden" />
                   <span className="text-indigo-600">
                     Marketplace on Magento
@@ -385,10 +388,10 @@ export default function Selekkt() {
         <div className="absolute inset-x-0 bottom-0 h-80 xl:top-0 xl:h-full">
           <div className="h-full w-full xl:grid xl:grid-cols-2">
             <div className="h-full xl:relative xl:col-start-2">
-              <StaticImage
+              <img
                 className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-                src="../../images/pricing-plans.jpeg"
-                alt="Pricing plans"
+                src={pricingPlans}
+                alt="Stack"
               />
               <div
                 aria-hidden="true"
