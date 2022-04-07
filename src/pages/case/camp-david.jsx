@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../../components/layout_page';
 import NavLeft from '../../components/nav_left';
 
-import pricingPlans from '../images/pricing-plans.jpeg';
+import pricingPlans from '../../images/pricing-plans.jpeg';
 
 export default function CampDavid() {
   return (
@@ -250,7 +250,7 @@ export default function CampDavid() {
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
                   width={490}
-                  src="../..//images/cases/clinton-vibes.jpeg"
+                  src="../../images/cases/clinton-vibes.jpeg"
                   alt="Clinton Vibes"
                   loading="auto"
                 />
@@ -381,7 +381,6 @@ export default function CampDavid() {
         </div>
       </section>
 
-      <a name="pricing" />
       <div className="relative bg-gray-900">
         <div className="absolute inset-x-0 bottom-0 h-80 xl:top-0 xl:h-full">
           <div className="h-full w-full xl:grid xl:grid-cols-2">
