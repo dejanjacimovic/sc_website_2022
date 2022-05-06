@@ -118,6 +118,12 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   createRedirect({
+    fromPath: `/deploy/notify.php`,
+    toPath: `/notify`,
+    statusCode: 301,
+  });
+
+  createRedirect({
     fromPath: `/blog/*`,
     toPath: `/`,
     statusCode: 301,
