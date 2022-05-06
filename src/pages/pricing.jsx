@@ -3,59 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
-import AddedValue from '../components/blocks/added_value';
-import ContentManagement from '../components/blocks/content_management';
-import PlusIntegrations from '../components/blocks/plus_integrations';
-
-import {
-  getMaintenancePrice,
-  getFaq,
-  servicesIncluded,
-} from '../helpers/index.jsx';
-
-function faqList() {
-  let faqs = getFaq();
-  let output = [];
-  for (var key in faqs) {
-    output.push(QA(key, faqs[key]));
-  }
-
-  return output;
-}
-
-function QA(question, answer) {
-  return (
-    <div>
-      <dt className="text-lg font-medium leading-6 text-white">{question}</dt>
-      <dd className="mt-2 text-base text-indigo-200">
-        <div dangerouslySetInnerHTML={{ __html: answer }} />
-      </dd>
-    </div>
-  );
-}
-
-function serviceIncluded(serviceName, c = 0) {
-  return (
-    <li className="flex py-4 md:border-t-0 md:py-0 md:pb-4">
-      <svg
-        className="h-6 w-6 flex-shrink-0 text-green-500"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        aria-hidden="true"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M5 13l4 4L19 7"
-        />
-      </svg>
-      <span className="ml-3 text-base text-gray-500">{serviceName}</span>
-    </li>
-  );
-}
 
 export default function Pricing() {
   return (
@@ -85,11 +32,11 @@ export default function Pricing() {
           <div className="relative flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
             <div className="flex-1">
               <h3 className="text-xl font-semibold text-gray-900">
-                Unlimited Support
+                Maintenance &amp; Support
               </h3>
               <p className="mt-4 flex items-baseline text-gray-900">
                 <span className="text-5xl font-extrabold tracking-tight">
-                  €380
+                  €900
                 </span>
                 <span className="ml-1 text-xl font-semibold">/month</span>
               </p>
@@ -133,8 +80,27 @@ export default function Pricing() {
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
+                  <span className="ml-3 text-gray-500">Daily Backups</span>
+                </li>
+
+                <li className="flex">
+                  <svg
+                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
                   <span className="ml-3 text-gray-500">
-                    90 minutes Response Time
+                    Weekly Quality Assurance
                   </span>
                 </li>
 
@@ -194,46 +160,6 @@ export default function Pricing() {
                   </svg>
                   <span className="ml-3 text-gray-500">
                     Access to our resources (10.000 eur in value)
-                  </span>
-                </li>
-
-                <li className="flex">
-                  <svg
-                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                  <span className="ml-3 text-gray-500">Content Management</span>
-                </li>
-
-                <li className="flex">
-                  <svg
-                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                  <span className="ml-3 text-gray-500">
-                    No Development Hours
                   </span>
                 </li>
               </ul>
@@ -384,25 +310,6 @@ export default function Pricing() {
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
-                  <span className="ml-3 text-gray-500">160 Work Hours</span>
-                </li>
-
-                <li className="flex">
-                  <svg
-                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
                   <span className="ml-3 text-gray-500">
                     Fastest response in case of emergency (outside of working
                     hours and on weekends)
@@ -513,27 +420,6 @@ export default function Pricing() {
                   </svg>
                   <span className="ml-3 text-gray-500">
                     Constant SEO improvements from a technical perspective
-                  </span>
-                </li>
-
-                <li className="flex">
-                  <svg
-                    className="h-6 w-6 flex-shrink-0 text-indigo-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                  <span className="ml-3 text-gray-500">
-                    Ability to purchase additional hour at price of €45
                   </span>
                 </li>
               </ul>
@@ -686,52 +572,6 @@ export default function Pricing() {
       </div>
 
       <div className="bg-white">
-        <div className="bg-gradient-to-t from-indigo-50 via-white to-white">
-          <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-            <div className="pb-16 xl:flex xl:items-center xl:justify-between">
-              <div>
-                <h1 className="text-4xl font-extrabold sm:text-5xl sm:tracking-tight">
-                  <span className="text-gray-900">
-                    Unlimited and Development plans include...
-                  </span>
-                </h1>
-              </div>
-            </div>
-            <div className="border-t border-gray-200 pt-16 xl:grid xl:grid-cols-3 xl:gap-x-8">
-              <div>
-                <h2 className="text-base font-semibold uppercase tracking-wide text-indigo-600">
-                  Everything you need to manage your{' '}
-                </h2>
-                <p className="mt-2 text-3xl font-extrabold text-gray-900">
-                  website
-                </p>
-              </div>
-              <div className="mt-4 sm:mt-8 md:mt-10 md:grid md:grid-cols-2 md:gap-x-8 xl:col-span-2 xl:mt-0">
-                <ul className="divide-y divide-gray-200">
-                  <li className="flex py-4 md:py-0 md:pb-4" />
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <AddedValue />
-        <ContentManagement />
-        <PlusIntegrations />
-
-        <div className="bg-indigo-900">
-          <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-extrabold text-white">
-              Frequently asked questions
-            </h2>
-            <div className="mt-6 border-t border-indigo-400 border-opacity-25 pt-10">
-              <dl className="space-y-10 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12 md:space-y-0">
-                {faqList()}
-              </dl>
-            </div>
-          </div>
-        </div>
-
         <div className="bg-indigo-50">
           <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8">
             <h2 className="text-3xl font-extrabold tracking-tight text-indigo-900 sm:text-4xl">

@@ -4,6 +4,8 @@ import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../../components/layout_page';
 import NavLeft from '../../components/nav_left';
 
+import pricingPlans from '../../images/pricing-plans.jpeg';
+
 export default function Tesori() {
   return (
     <LayoutPage>
@@ -26,6 +28,7 @@ export default function Tesori() {
                 <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                   <span className="mr-1">Direct to consumer</span>
                   <br className="xl:hidden" />
+                  {` `}
                   <span className="text-indigo-600">WP-Magento Hybrid</span>
                 </h2>
                 <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
@@ -142,7 +145,7 @@ export default function Tesori() {
               </svg>
               <StaticImage
                 className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                width="490"
+                width={490}
                 src="../../images/cases/tesori-vibes.jpeg"
                 loading="auto"
                 alt="Tesori - Collaborating since 2013"
@@ -252,7 +255,7 @@ export default function Tesori() {
                 </svg>
                 <StaticImage
                   className="relative mx-auto rounded-lg border-gray-200 shadow-xl"
-                  width="490"
+                  width={490}
                   src="../../images/cases/tesori-growth.jpeg"
                   alt="Tesori's Growth"
                   loading="auto"
@@ -346,7 +349,7 @@ export default function Tesori() {
                 viewbox="0 0 144 144"
               >
                 <path
-                  stroke-width="2"
+                  strokeWidth="2"
                   d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z"
                 />
               </svg>
@@ -393,10 +396,10 @@ export default function Tesori() {
         <div className="absolute inset-x-0 bottom-0 h-80 xl:top-0 xl:h-full">
           <div className="h-full w-full xl:grid xl:grid-cols-2">
             <div className="h-full xl:relative xl:col-start-2">
-              <StaticImage
+              <img
                 className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-                src="../../images/pricing-plans.jpeg"
-                alt="Pricing plans"
+                src={pricingPlans}
+                alt="Stack"
               />
               <div
                 aria-hidden="true"

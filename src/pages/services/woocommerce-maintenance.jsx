@@ -2,13 +2,13 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import { StaticImage, getImage } from 'gatsby-plugin-image';
-import LayoutPage from '../components/layout_page';
-import NavCenter from '../components/nav_center';
-import { getMaintenancePrice, getFaq } from '../helpers/index.jsx';
-import AddedValue from '../components/blocks/added_value';
-import ContentManagement from '../components/blocks/content_management';
-import PlusIntegrations from '../components/blocks/plus_integrations';
-import Woocommerce from '../components/blocks/woocommerce';
+import LayoutPage from '../../components/layout_page';
+import NavCenter from '../../components/nav_center';
+import { getMaintenancePrice, getFaq } from '../../helpers/index.jsx';
+import AddedValue from '../../components/blocks/added_value';
+import ContentManagement from '../../components/blocks/content_management';
+import PlusIntegrations from '../../components/blocks/plus_integrations';
+import Woocommerce from '../../components/blocks/woocommerce';
 
 function faqList() {
   let faqs = getFaq();
@@ -141,7 +141,7 @@ export default function ServicesWoocommerceMaintenance() {
           <main className="mx-auto mt-10 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
             <div className="text-center">
               <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-                <span className="mr-1">Services to support your</span>
+                <span className="mr-1">Services to support your {` `}</span>
                 <br className="xl:hidden" />
                 <span className="text-indigo-600">WooCommerce</span>
               </h2>
@@ -787,10 +787,10 @@ export default function ServicesWoocommerceMaintenance() {
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
                 />
               </svg>
-              <img
+              <StaticImage
                 className="relative mx-auto"
-                width="490"
-                src="https://stcdshare.s3.amazonaws.com/whatsapp-min.png"
+                width={490}
+                src="../../images/general/whatsapp-min.png"
                 alt="Whatsapp message support"
                 loading="auto"
               />
@@ -946,10 +946,10 @@ export default function ServicesWoocommerceMaintenance() {
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
                   />
                 </svg>
-                <img
+                <StaticImage
                   className="relative mx-auto"
-                  width="490"
-                  src="https://stcdshare.s3.amazonaws.com/status-updates-min.png"
+                  width={490}
+                  src="../../images/general/status-updates-min.png"
                   alt="Status update from StuntCoders"
                   loading="auto"
                 />
@@ -993,7 +993,7 @@ export default function ServicesWoocommerceMaintenance() {
         <div className="h-56 bg-indigo-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
           <StaticImage
             className="h-full w-full object-cover"
-            src="../images/magic-in-the-office.jpg"
+            src="../../images/magic-in-the-office.jpg"
             alt="Magic in the office"
             loading="auto"
           />

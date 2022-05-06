@@ -59,7 +59,9 @@ export default function ContentManagement() {
           <div className="pt-12 sm:pt-16 lg:pt-20">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Content management, done for you{' '}
-              <span className="text-indigo-600">in Unlimited plan</span>
+              <span className="text-indigo-600">
+                in Maintenance &amp; Support
+              </span>
             </h2>
             <div className="mt-6 space-y-6 text-gray-500">
               <p className="text-lg">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default function Footer() {
   return (
@@ -30,7 +31,7 @@ export default function Footer() {
               <li className="mt-4">
                 <Link
                   className="text-base leading-6 text-gray-300 hover:text-white"
-                  to="/services-ecommerce-development/"
+                  to="/services/ecommerce-development/"
                 >
                   Services
                 </Link>
@@ -135,31 +136,27 @@ export default function Footer() {
 
           <div className="sm:mt-12">
             <h5 className="text-sm font-semibold uppercase leading-5 tracking-wider text-gray-400">
-              Nordics
+              Norway
             </h5>
             <p className="mt-4 text-base leading-6 text-gray-300">
-              Kalevankatu 31
+              Nedre gate 5
               <br />
-              00100, Helsinki
-              <br />
-              Finland
-              <br />
-              <br />
-              +358 413131372 (Hugo)
+              0551 Oslo
               <br />
               <br />
             </p>
           </div>
 
-          <img
-            src="https://stcdshare.s3.amazonaws.com/aaa-banner.png"
+          <StaticImage
+            src="../images/general/aaa-banner.png"
+            alt="Credit-worthy company"
             className="w-32 object-right-top sm:m-12"
           />
         </div>
 
         <div className="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
           <p className="mt-8 text-base leading-6 text-gray-400 md:order-1 md:mt-0">
-            © 2020 Adorable Corporation, Inc. in collaboration with StuntCoders
+            © 2022 Adorable Corporation, Inc. in collaboration with StuntCoders
             doo. All rights reserved.
           </p>
         </div>

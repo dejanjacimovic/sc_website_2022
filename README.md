@@ -1,5 +1,5 @@
-<h1 align="center">
-  StuntCoders 2022 website running on Gatsbyjs
+<h1>
+  <a href="https://stuntcoders.com/">StuntCoders</a> 2022 website running on Gatsbyjs
 </h1>
 
 ## 🏃‍♂️ Quick start
@@ -9,7 +9,7 @@
     Use the Gatsby CLI to start site:
 
     ```shell
-    yarn install
+    npm install
     npm run develop
     ```
 
@@ -24,8 +24,8 @@
 ## Make code prettier?
 
 ```
-yarn install
-npx prettier --write src/pages/.jsx
+npm install
+npx prettier --write **/*.jsx
 ```
 
 ## Test the website?
@@ -62,8 +62,15 @@ pre-commit install
 
 ## 🚀 Deploy?
 
-Git push, then navigate to [Netlify link](https://vibrant-brown-359096.netlify.app/).
+First run `npm run build` to be sure all is running smoothly. Otherwise, you'll be wasting Netlify minutes.
+
+Once you're 100% sure it's running, do `git push`, then navigate to [Netlify link](https://vibrant-brown-359096.netlify.app/).
 
 ### 😵‍💫 Changes not visible?
 
 You must go to [app.netlify.com](https://app.netlify.com/) >> Project name >> Deploy >> See build errors.
+
+# To Do
+
+- [ ] Write more Unit tests
+- [ ] Add services.jsx describing all of the services offered by StuntCoders

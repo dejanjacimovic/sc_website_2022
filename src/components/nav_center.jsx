@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default class NavCenter extends React.Component {
   constructor(props) {
@@ -38,9 +39,9 @@ export default class NavCenter extends React.Component {
             <div className="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0">
               <div className="flex w-full items-center justify-between md:w-auto">
                 <Link to="/" aria-label="Home">
-                  <img
+                  <StaticImage
                     className="h-8 w-auto sm:h-12"
-                    src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png"
+                    src="../images/general/small-purple-logo.png"
                     alt="StuntCoders logo"
                   />
                 </Link>
@@ -113,7 +114,19 @@ export default class NavCenter extends React.Component {
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       <Link
-                        to="/services-woocommerce-maintenance/"
+                        to="/services/headless-ecommerce/"
+                        className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
+                      >
+                        <p className="text-base font-medium text-gray-900">
+                          Headless eCommerce
+                        </p>
+                        <p className="mt-1 text-sm text-gray-500">
+                          Development of next generation of eCommerce solutions.
+                        </p>
+                      </Link>
+
+                      <Link
+                        to="/services/woocommerce-maintenance/"
                         className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -125,7 +138,7 @@ export default class NavCenter extends React.Component {
                       </Link>
 
                       <Link
-                        to="/services-ecommerce-development/"
+                        to="/services/ecommerce-development/"
                         className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -138,7 +151,7 @@ export default class NavCenter extends React.Component {
                       </Link>
 
                       <Link
-                        to="/services-b2b-ecommerce/"
+                        to="/services/b2b-ecommerce/"
                         className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
@@ -200,9 +213,9 @@ export default class NavCenter extends React.Component {
             >
               <div className="flex items-center justify-between px-5 pt-4">
                 <div>
-                  <img
+                  <StaticImage
                     className="h-8 w-auto"
-                    src="https://stcdshare.s3.amazonaws.com/RAsTG0DklW.png"
+                    src="../images/general/small-purple-logo.png"
                     alt="StuntCoders logo"
                   />
                 </div>
@@ -263,7 +276,19 @@ export default class NavCenter extends React.Component {
                     <div className="overflow-hidden">
                       <div className="relative grid gap-6 px-5 sm:gap-8 sm:p-8">
                         <Link
-                          to="/services-woocommerce-maintenance/"
+                          to="/services/headless-ecommerce/"
+                          className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
+                        >
+                          <p className="text-base font-medium text-gray-900">
+                            Headless eCommerce
+                          </p>
+                          <p className="mt-1 text-sm text-gray-500">
+                            Development of next generation of eCommerce solutions.
+                          </p>
+                        </Link>
+
+                        <Link
+                          to="/services/woocommerce-maintenance/"
                           className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">
@@ -275,7 +300,7 @@ export default class NavCenter extends React.Component {
                         </Link>
 
                         <Link
-                          to="/services-ecommerce-development/"
+                          to="/services/ecommerce-development/"
                           className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">
@@ -288,7 +313,7 @@ export default class NavCenter extends React.Component {
                         </Link>
 
                         <Link
-                          to="/services-b2b-ecommerce/"
+                          to="/services/b2b-ecommerce/"
                           className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">

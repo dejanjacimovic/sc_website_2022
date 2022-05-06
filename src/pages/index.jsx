@@ -10,11 +10,29 @@ import {
   getRegionName,
 } from '../helpers/index.jsx';
 
+import bilxtraSvg from '../images/logos/bilxtra.svg';
+import skintificSvg from '../images/logos/skintific.svg';
+import campDavidSvg from '../images/logos/campdavid.svg';
+import picklesSvg from '../images/logos/pickles.svg';
+import tesoriSvg from '../images/logos/tesori.svg';
+import bedtimeSvg from '../images/logos/bedtime.svg';
+
+import campDavidblackImg from '../images/CampDavid-black.svg';
+import madebyberitnordstrandImg from '../images/madebyberitnordstrand.png';
+import smartlapperImg from '../images/smartlapper.png';
+import purNorskImg from '../images/pur-norsk.svg';
+import jumpkingImg from '../images/jumpking.png';
+
+import dejanCeo from '../images/dejan-ceo.jpeg';
+import pricingPlans from '../images/pricing-plans.jpeg';
+
 export default function Home() {
   return (
     <LayoutPage>
       <Helmet>
-        <title>StuntCoders — home of customer-centric eCommerce developers</title>
+        <title>
+          StuntCoders — home of customer-centric eCommerce developers
+        </title>
       </Helmet>
 
       <div className="relative overflow-hidden bg-white">
@@ -261,10 +279,10 @@ export default function Home() {
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
                 />
               </svg>
-              <img
+              <StaticImage
                 className="relative mx-auto"
-                width="490"
-                src="https://stcdshare.s3.amazonaws.com/slack-min.png"
+                width={490}
+                src="../images/slack-min.png"
                 loading="auto"
                 alt="Slack communication"
               />
@@ -414,10 +432,10 @@ export default function Home() {
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
                   />
                 </svg>
-                <img
+                <StaticImage
                   className="relative mx-auto"
-                  width="490"
-                  src="https://stcdshare.s3.amazonaws.com/status-updates-min.png"
+                  width={490}
+                  src="../images/status-updates-min.png"
                   alt="StuntCoders status updates"
                   loading="auto"
                 />
@@ -453,7 +471,7 @@ export default function Home() {
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
-                  src="https://stcdshare.s3.amazonaws.com/bilxtra.svg"
+                  src={bilxtraSvg}
                   alt="BilXtra web development"
                   loading="auto"
                 />
@@ -461,7 +479,7 @@ export default function Home() {
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
-                  src="https://stcdshare.s3.amazonaws.com/skintific.svg"
+                  src={skintificSvg}
                   alt="Skintific web development"
                   loading="auto"
                 />
@@ -469,7 +487,7 @@ export default function Home() {
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
-                  src="https://stcdshare.s3.amazonaws.com/93TlHygAEK.svg"
+                  src={campDavidSvg}
                   alt="CampDavid web development"
                   loading="auto"
                 />
@@ -477,7 +495,7 @@ export default function Home() {
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
-                  src="https://stcdshare.s3.amazonaws.com/pickles.svg"
+                  src={picklesSvg}
                   alt="Pickles web development"
                   loading="auto"
                 />
@@ -485,7 +503,7 @@ export default function Home() {
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
-                  src="https://stcdshare.s3.amazonaws.com/tesori.svg"
+                  src={tesoriSvg}
                   alt="Tesori developers"
                   loading="auto"
                 />
@@ -493,7 +511,7 @@ export default function Home() {
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img
                   className="max-h-12"
-                  src="https://stcdshare.s3.amazonaws.com/bedtime.svg"
+                  src={bedtimeSvg}
                   alt="Bedtime 9+ years developers"
                   loading="auto"
                 />
@@ -634,9 +652,9 @@ export default function Home() {
         <div className="absolute inset-x-0 bottom-0 h-80 xl:top-0 xl:h-full">
           <div className="h-full w-full xl:grid xl:grid-cols-2">
             <div className="h-full xl:relative xl:col-start-2">
-              <StaticImage
+              <img
                 className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-                src="../images/pricing-plans.jpeg"
+                src={pricingPlans}
                 alt="Pricing plans"
               />
               <div
@@ -675,41 +693,41 @@ export default function Home() {
         <div className="mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/CampDavid-black.svg"
+                src={campDavidblackImg}
                 alt="StuntCoders client CampDavid"
                 loading="auto"
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/madebyberitnordstrand.png"
+                src={madebyberitnordstrandImg}
                 alt="BERIT"
                 loading="auto"
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/smartlapper.png"
+                src={smartlapperImg}
                 alt="Client Smartlapper"
                 loading="auto"
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/pur-norsk.svg"
+                src={purNorskImg}
                 alt="PurNorsk Client of StuntCoders"
                 loading="auto"
               />
             </div>
             <div className="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-              <StaticImage
+              <img
                 className="h-12"
-                src="../images/jumpking.png"
+                src={jumpkingImg}
                 alt="JumpKing client of StuntCoders"
                 loading="auto"
               />
@@ -2009,7 +2027,7 @@ export default function Home() {
                   <div className="pb-7/12 relative lg:pb-0">
                     <img
                       className="absolute inset-0 h-full w-full rounded-lg object-cover object-center shadow-lg lg:static lg:h-auto"
-                      src="https://stcdshare.s3.amazonaws.com/dejan-ceo.jpg"
+                      src={dejanCeo}
                       alt="Dejan Jacimovic, CEO of StuntCoders"
                       width="1184"
                       height="1376"
