@@ -134,7 +134,7 @@ export default function MarketplaceManagement() {
               <div className="bg-gray-100">
                 <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
                   <p className="text-center text-sm font-semibold uppercase tracking-wide text-gray-500">
-                    Would you sell on any of these?
+                    Would you sell on any of these marketplaces?
                   </p>
                   <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
                     <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
@@ -161,6 +161,122 @@ export default function MarketplaceManagement() {
               </div>
             </div>
           </main>
+        </div>
+      </div>
+
+      <div className="relative overflow-hidden bg-white pt-16 pb-32">
+        <div className="relative">
+          <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+            <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+              <div>
+                <div>
+                  <span className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-600">
+                    <svg
+                      className="h-6 w-6 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div className="mt-6">
+                  <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                    Coordinate online marketplaces
+                  </h2>
+                  <p className="mt-4 text-lg text-gray-500">
+                    Coordinating multiple online marketplaces is one of the most
+                    resource-intensive challenges in eCommerce. Many companies
+                    come up against their performance limits or fail right from
+                    the start due to a lack of specialist expertise. As an
+                    established e-commerce agency, marketplace management is one
+                    of our core competencies.
+                  </p>
+                  <div className="mt-6">
+                    <a
+                      href="#"
+                      className="inline-flex rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                    >
+                      {' '}
+                      Get started{' '}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-12 sm:mt-16 lg:mt-0">
+              <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                <img
+                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                  alt="Inbox user interface"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-24">
+          <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+            <div className="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+              <div>
+                <div>
+                  <span className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-600">
+                    <svg
+                      className="h-6 w-6 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div className="mt-6">
+                  <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                    Better understand your customers and your business
+                  </h2>
+                  <p className="mt-4 text-lg text-gray-500">
+                    Our in-house tool built for business running on TradeByte
+                    are used by some of the largest e-commerce companies in
+                    Germany.
+                  </p>
+                  <div className="mt-6">
+                    <a
+                      href="#"
+                      className="inline-flex rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                    >
+                      {' '}
+                      Get started{' '}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
+              <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                <img
+                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                  alt="Customer profile user interface"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
