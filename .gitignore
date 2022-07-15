@@ -4,3 +4,5 @@ public
 cypress/videos/
 .env.*
 .env
+
+.DS_Store
