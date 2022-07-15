@@ -8,6 +8,7 @@ module.exports = {
     title: 'StuntCoders on Gatsby',
   },
   plugins: [
+    'gatsby-plugin-postcss',
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
