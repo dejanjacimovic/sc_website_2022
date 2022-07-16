@@ -280,9 +280,9 @@ export default function MarketplaceManagement() {
         </div>
       </div>
 
-      <div class="bg-white">
-        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-          <div class="max-w-3xl mx-auto text-center">
+      <div class="bg-gray-50">
+        <div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+          <div class="mx-auto max-w-3xl text-center">
             <h2 class="text-3xl font-extrabold text-gray-900">
               Direct-to-consumer
             </h2>
@@ -293,7 +293,7 @@ export default function MarketplaceManagement() {
               products.
             </p>
           </div>
-          <dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+          <dl class="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
             <div class="relative">
               <dt>
                 <svg
@@ -311,7 +311,7 @@ export default function MarketplaceManagement() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
                   80 stores at your fingertips
                 </p>
               </dt>
@@ -339,7 +339,7 @@ export default function MarketplaceManagement() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Customer's choice
                 </p>
               </dt>
@@ -366,7 +366,7 @@ export default function MarketplaceManagement() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Unbeatable statistics
                 </p>
               </dt>
@@ -395,7 +395,7 @@ export default function MarketplaceManagement() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Increased revenue
                 </p>
               </dt>
@@ -424,7 +424,7 @@ export default function MarketplaceManagement() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Control. Navigated.
                 </p>
               </dt>
@@ -453,7 +453,7 @@ export default function MarketplaceManagement() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Expertise
                 </p>
               </dt>
@@ -480,7 +480,7 @@ export default function MarketplaceManagement() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Single solution
                 </p>
               </dt>
@@ -509,7 +509,7 @@ export default function MarketplaceManagement() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
                   Expertise
                 </p>
               </dt>
@@ -519,6 +519,248 @@ export default function MarketplaceManagement() {
               </dd>
             </div>
           </dl>
+        </div>
+      </div>
+
+      <div class="bg-white">
+        <div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:py-24 lg:px-8">
+          <div>
+            <h2 class="text-base font-semibold uppercase tracking-wide text-indigo-600">
+              Learn about the steps in our
+            </h2>
+            <p class="mt-2 text-3xl font-extrabold text-gray-900">
+              TradeByte integration
+            </p>
+            <p class="mt-4 text-lg text-gray-500">
+              Do you own a brand and want to reach out to different target
+              groups by selling your products online?
+            </p>
+            <p class="mt-4 text-lg text-gray-500">
+              But you have never done this before and miss know-how?
+            </p>
+            <p class="mt-4 text-lg text-gray-500">
+              Let us hold your hand and lead you through the process, and
+              alleviate the pain.
+            </p>
+          </div>
+          <div class="mt-12 lg:col-span-2 lg:mt-0">
+            <dl class="space-y-10 sm:grid sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-4 sm:gap-x-6 sm:gap-y-10 sm:space-y-0 lg:gap-x-8">
+              <div class="relative">
+                <dt>
+                  <svg
+                    class="absolute h-6 w-6 text-green-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
+                    Step 1
+                  </p>
+                </dt>
+                <dd class="mt-2 ml-9 text-base text-gray-500">
+                  Get in touch with us! :)
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <svg
+                    class="absolute h-6 w-6 text-green-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
+                    Step 2
+                  </p>
+                </dt>
+                <dd class="mt-2 ml-9 text-base text-gray-500">
+                  Tell us about your products, your sales and your fulfilment
+                  processes.
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <svg
+                    class="absolute h-6 w-6 text-green-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
+                    Step 3
+                  </p>
+                </dt>
+                <dd class="mt-2 ml-9 text-base text-gray-500">
+                  We estimate the cost, and length of the integration process.
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <svg
+                    class="absolute h-6 w-6 text-green-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
+                    Step 4
+                  </p>
+                </dt>
+                <dd class="mt-2 ml-9 text-base text-gray-500">
+                  We connet your storefront, or your PIM with TradeByte. We get
+                  in touch with marketplaces and perform onboarding for the
+                  products you have chosen.
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <svg
+                    class="absolute h-6 w-6 text-green-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
+                    Step 5
+                  </p>
+                </dt>
+                <dd class="mt-2 ml-9 text-base text-gray-500">
+                  We thorougly test the integration, make sure that orders are
+                  fulfilled by your fulfillment center according to marketplaces
+                  requirements.
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <svg
+                    class="absolute h-6 w-6 text-green-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
+                    Step 6
+                  </p>
+                </dt>
+                <dd class="mt-2 ml-9 text-base text-gray-500">
+                  We tune up the volume based on statistics we have gathered, so
+                  that your products can perform better.
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <svg
+                    class="absolute h-6 w-6 text-green-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
+                    Step 7
+                  </p>
+                </dt>
+                <dd class="mt-2 ml-9 text-base text-gray-500">
+                  We teach you on how to use our reporting tools, and how to
+                  analyze the data.
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <svg
+                    class="absolute h-6 w-6 text-green-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <p class="ml-9 text-lg font-medium leading-6 text-gray-900">
+                    Step 8
+                  </p>
+                </dt>
+                <dd class="mt-2 ml-9 text-base text-gray-500">
+                  We celebrate. Together. 🎉
+                </dd>
+              </div>
+            </dl>
+          </div>
         </div>
       </div>
 
