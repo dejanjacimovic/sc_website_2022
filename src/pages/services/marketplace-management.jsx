@@ -764,6 +764,31 @@ export default function MarketplaceManagement() {
         </div>
       </div>
 
+      <div class="bg-gray-50">
+        <div class="mx-auto max-w-7xl divide-y divide-gray-200 py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+          <h2 class="text-3xl font-extrabold text-gray-900">
+            Frequently asked questions
+          </h2>
+          <div class="mt-8">
+            <dl class="divide-y divide-gray-200">
+              <div class="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
+                <dt class="text-base font-medium text-gray-900 md:col-span-5">
+                  What platforms can I sell on?
+                </dt>
+                <dd class="mt-2 md:col-span-7 md:mt-0">
+                  <p class="text-base text-gray-500">
+                    Through the power of TradeByte, we are able to integrate
+                    into 80+ top marketplaces. International and local. Some of
+                    them include Zalando, About You, Breuninger, Afound, Otto,
+                    Van Graaf, Decathlon, My Toys, Amazon, Babymarkt.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+
       <div className="bg-indigo-50">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
