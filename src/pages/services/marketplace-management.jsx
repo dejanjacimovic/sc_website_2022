@@ -280,6 +280,248 @@ export default function MarketplaceManagement() {
         </div>
       </div>
 
+      <div class="bg-white">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+          <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-extrabold text-gray-900">
+              Direct-to-consumer
+            </h2>
+            <p class="mt-4 text-lg text-gray-500">
+              Direct-to-consumer allows you to sell your products directly to
+              the customer through a retailer (a marketplace). As a seller, you
+              decide how, which marketplaces, and the exact price of your
+              products.
+            </p>
+          </div>
+          <dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+            <div class="relative">
+              <dt>
+                <svg
+                  class="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                  80 stores at your fingertips
+                </p>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-500">
+                With one interface you have access to the entire network of over
+                80 platforms, and with it, you have an unbeatable
+                time-to-market.
+              </dd>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <svg
+                  class="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                  Customer's choice
+                </p>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-500">
+                The customer chooses the point of sale – and you decide whether
+                you want to be there, too.
+              </dd>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <svg
+                  class="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                  Unbeatable statistics
+                </p>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-500">
+                On which channel is your product bought, and at what price? How
+                do customers react to your change? Is the revenue increasing?
+                What about returns? And more with our analytics integrated
+                directly into TradeByte.
+              </dd>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <svg
+                  class="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                  Increased revenue
+                </p>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-500">
+                With our integration through TradeByte, you can achieve the
+                unthinkable, easy. List your products on multiple sales channels
+                and the sales potential through expanded access to millions of
+                customers.
+              </dd>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <svg
+                  class="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                  Control. Navigated.
+                </p>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-500">
+                Each marketplace has a different view of acceptable product
+                placement and how photos must look. Is it on the customer or
+                standalone? Is it on a white or gray background? We answer those
+                questions for you so that you can spend time selling.
+              </dd>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <svg
+                  class="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                  Expertise
+                </p>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-500">
+                You will receive proactive care from our reliable and trained
+                Account Managers, that dedicate their support to your success.
+              </dd>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <svg
+                  class="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                  Single solution
+                </p>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-500">
+                With <strong>TB.One</strong>, you reach new target groups. All
+                your content and online channels are managed centrally with a
+                single solution—maximum coverage with maximum simplification of
+                fulfillment processes.
+              </dd>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <svg
+                  class="absolute h-6 w-6 text-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <p class="ml-9 text-lg leading-6 font-medium text-gray-900">
+                  Expertise
+                </p>
+              </dt>
+              <dd class="mt-2 ml-9 text-base text-gray-500">
+                Benefit from our 10+ years of expertise in e-commerce, not only
+                through our IT knowledge.
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
       <div className="bg-indigo-50">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
