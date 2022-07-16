@@ -197,7 +197,7 @@ export default function MarketplaceManagement() {
                     resource-intensive challenges in eCommerce. Many companies
                     come up against their performance limits or fail right from
                     the start due to a lack of specialist expertise. As an
-                    established e-commerce agency, marketplace management is one
+                    established eCommerce agency, marketplace management is one
                     of our core competencies.
                   </p>
                   <div className="mt-6">
@@ -252,7 +252,7 @@ export default function MarketplaceManagement() {
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
                     Our in-house tool built for business running on TradeByte
-                    are used by some of the largest e-commerce companies in
+                    are used by some of the largest eCommerce companies in
                     Germany.
                   </p>
                   <div className="mt-6">
@@ -514,7 +514,7 @@ export default function MarketplaceManagement() {
                 </p>
               </dt>
               <dd class="mt-2 ml-9 text-base text-gray-500">
-                Benefit from our 10+ years of expertise in e-commerce, not only
+                Benefit from our 10+ years of expertise in eCommerce, not only
                 through our IT knowledge.
               </dd>
             </div>
