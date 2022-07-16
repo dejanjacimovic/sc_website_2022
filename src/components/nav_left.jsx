@@ -137,15 +137,15 @@ export default class NavLeft extends React.Component {
                       </Link>
 
                       <Link
-                        to="/services/ecommerce-development/"
+                        to="/services/marketplace-management/"
                         className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                       >
                         <p className="text-base font-medium text-gray-900">
-                          eCommerce Development
+                          Marketplace Management
                         </p>
                         <p className="mt-1 text-sm text-gray-500">
-                          Get all of your questions answered about eCommerce
-                          development.
+                          Sell your products on multiple channels and reach
+                          millions.
                         </p>
                       </Link>
 
@@ -158,6 +158,19 @@ export default class NavLeft extends React.Component {
                         </p>
                         <p className="mt-1 text-sm text-gray-500">
                           The eCommerce solution for all your B2B needs.
+                        </p>
+                      </Link>
+
+                      <Link
+                        to="/services/ecommerce-development/"
+                        className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
+                      >
+                        <p className="text-base font-medium text-gray-900">
+                          eCommerce Development
+                        </p>
+                        <p className="mt-1 text-sm text-gray-500">
+                          Get all of your questions answered about eCommerce
+                          development.
                         </p>
                       </Link>
                     </div>
@@ -290,15 +303,15 @@ export default class NavLeft extends React.Component {
                         </Link>
 
                         <Link
-                          to="/services/ecommerce-development/"
+                          to="/services/marketplace-management/"
                           className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
                         >
                           <p className="text-base font-medium text-gray-900">
-                            eCommerce Development
+                            Marketplace Management
                           </p>
                           <p className="mt-1 text-sm text-gray-500">
-                            Get all of your questions answered about eCommerce
-                            development.
+                            Sell your products on multiple channels and reach
+                            millions.
                           </p>
                         </Link>
 
@@ -311,6 +324,19 @@ export default class NavLeft extends React.Component {
                           </p>
                           <p className="mt-1 text-sm text-gray-500">
                             The eCommerce solution for all your B2B needs.
+                          </p>
+                        </Link>
+
+                        <Link
+                          to="/services/ecommerce-development/"
+                          className="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50"
+                        >
+                          <p className="text-base font-medium text-gray-900">
+                            eCommerce Development
+                          </p>
+                          <p className="mt-1 text-sm text-gray-500">
+                            Get all of your questions answered about eCommerce
+                            development.
                           </p>
                         </Link>
                       </div>
