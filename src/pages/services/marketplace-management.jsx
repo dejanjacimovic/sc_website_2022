@@ -5,6 +5,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 import LayoutPage from '../../components/layout_page';
 import NavCenter from '../../components/nav_center';
 
+import tb1 from '../../images/marketplaces/tb1.png';
+import tb2 from '../../images/marketplaces/tb2.jpg';
+
 import aboutYouImg from '../../images/marketplaces/aboutyou-black.png';
 import breuningerImg from '../../images/marketplaces/breuninger-black.png';
 import douglasImg from '../../images/marketplaces/douglas-black.png';
@@ -216,7 +219,7 @@ export default function MarketplaceManagement() {
               <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                 <img
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                  src={tb2}
                   alt="Inbox user interface"
                 />
               </div>
@@ -271,7 +274,7 @@ export default function MarketplaceManagement() {
               <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                 <img
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                  src={tb1}
                   alt="Customer profile user interface"
                 />
               </div>
@@ -780,7 +783,41 @@ export default function MarketplaceManagement() {
                     Through the power of TradeByte, we are able to integrate
                     into 80+ top marketplaces. International and local. Some of
                     them include Zalando, About You, Breuninger, Afound, Otto,
-                    Van Graaf, Decathlon, My Toys, Amazon, Babymarkt.
+                    Goertz, Decathlon, InterSport, My Toys, Amazon, Babymarkt.
+                  </p>
+                </dd>
+              </div>
+              <div class="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
+                <dt class="text-base font-medium text-gray-900 md:col-span-5">
+                  Which countries do serve?
+                </dt>
+                <dd class="mt-2 md:col-span-7 md:mt-0">
+                  <p class="text-base text-gray-500">
+                    Our customers are mostly from Austria, Germany, Switzerland,
+                    Norway and Sweden, but we can set up your sales chanels in
+                    additional countries such as: Denmark, Finland, Sweden,
+                    Belgium, France, Italy, Netherlands, Czechia, Slovakia,
+                    Poland, Spain, Slovenia, Croatia, and Ireland.
+                  </p>
+                </dd>
+              </div>
+              <div class="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
+                <dt class="text-base font-medium text-gray-900 md:col-span-5">
+                  How long is the onboarding process?
+                </dt>
+                <dd class="mt-2 md:col-span-7 md:mt-0">
+                  <p class="text-base text-gray-500">
+                    In an ideal world, it could take about four weeks. But we do
+                    not live in such a world, and it will come down to your
+                    data, and integrations. Do you have an online store
+                    (Magento, Oxid, WooCommerce, Shopify)? To you have a
+                    warehouse to integrate? Do you need to integrate with PIM?
+                    Are your photos taken according to the marketplace you wish
+                    to be listed on?
+                  </p>
+                  <p class="mt-4 text-base text-gray-500">
+                    It is the best to have a call and do the estimate
+                    afterwards.
                   </p>
                 </dd>
               </div>
