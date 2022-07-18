@@ -525,6 +525,31 @@ export default function MarketplaceManagement() {
         </div>
       </div>
 
+      <div class="relative bg-indigo-800">
+        <div class="absolute inset-0">
+          <img
+            class="h-full w-full object-cover"
+            src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
+            alt=""
+          />
+          <div
+            class="absolute inset-0 bg-indigo-800 mix-blend-multiply"
+            aria-hidden="true"
+          ></div>
+        </div>
+        <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+          <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Business-to-business
+          </h1>
+          <p class="mt-6 max-w-3xl text-xl text-indigo-100">
+            Do you run a business-to-business operation and need automation to
+            import products from TradeByte and process them automatically? By
+            implementing such a solution, our customers could drastically reduce
+            human errors and the cost of maintenance.
+          </p>
+        </div>
+      </div>
+
       <div class="bg-white">
         <div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:py-24 lg:px-8">
           <div>
