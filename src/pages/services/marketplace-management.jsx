@@ -570,7 +570,7 @@ export default function MarketplaceManagement() {
                   </p>
                 </dt>
                 <dd class="mt-2 ml-9 text-base text-gray-500">
-                  Get in touch with us! :)
+                  Get in touch with us! 😊
                 </dd>
               </div>
 
@@ -807,13 +807,12 @@ export default function MarketplaceManagement() {
                 </dt>
                 <dd class="mt-2 md:col-span-7 md:mt-0">
                   <p class="text-base text-gray-500">
-                    In an ideal world, it could take about four weeks. But we do
-                    not live in such a world, and it will come down to your
-                    data, and integrations. Do you have an online store
-                    (Magento, Oxid, WooCommerce, Shopify)? To you have a
-                    warehouse to integrate? Do you need to integrate with PIM?
-                    Are your photos taken according to the marketplace you wish
-                    to be listed on?
+                    On average, it takes about 12 weeks to implement the full
+                    solution. But it may depend on the following. Do you have an
+                    online store (Magento, Oxid, WooCommerce, Shopify)? To you
+                    have a warehouse to integrate? Do you need to integrate with
+                    PIM? Are your photos taken according to the marketplace you
+                    wish to be listed on?
                   </p>
                   <p class="mt-4 text-base text-gray-500">
                     It is the best to have a call and do the estimate
