@@ -21,11 +21,11 @@ export default function MarketplaceManagement() {
         <title>Marketplace setup and management through TradeByte</title>
       </Helmet>
 
-      <div className="relative overflow-hidden bg-gray-50">
-        <div className="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full">
-          <div className="relative mx-auto h-full max-w-screen-xl">
+      <div className="bg-gray-50 relative overflow-hidden">
+        <div className="sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full hidden">
+          <div className="relative h-full max-w-screen-xl mx-auto">
             <svg
-              className="absolute right-full translate-y-1/4 translate-x-1/4 transform lg:translate-x-1/2"
+              className="right-full translate-y-1/4 translate-x-1/4 lg:translate-x-1/2 absolute transform"
               width="404"
               height="784"
               fill="none"
@@ -57,7 +57,7 @@ export default function MarketplaceManagement() {
               />
             </svg>
             <svg
-              className="absolute left-full -translate-y-3/4 -translate-x-1/4 transform md:-translate-y-1/2 lg:-translate-x-1/2"
+              className="left-full -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2 absolute transform"
               width="404"
               height="784"
               fill="none"
@@ -90,25 +90,25 @@ export default function MarketplaceManagement() {
             </svg>
           </div>
         </div>
-        <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+        <div className="sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32 relative pt-6 pb-12">
           <NavCenter />
 
           <main className="mt-8">
             <div>
               <div className="relative">
-                <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
-                <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                  <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
+                <div className="h-1/2 absolute inset-x-0 bottom-0 bg-gray-100" />
+                <div className="max-w-7xl sm:px-6 lg:px-8 mx-auto">
+                  <div className="sm:overflow-hidden sm:rounded-2xl relative shadow-xl">
                     <div className="absolute inset-0">
                       <img
-                        className="h-full w-full object-cover"
+                        className="object-cover w-full h-full"
                         src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
                         alt="People working on laptops"
                       />
-                      <div className="absolute inset-0 bg-indigo-700 mix-blend-multiply" />
+                      <div className="mix-blend-multiply absolute inset-0 bg-indigo-700" />
                     </div>
-                    <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-                      <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+                    <div className="sm:px-6 sm:py-24 lg:py-32 lg:px-8 relative px-4 py-16">
+                      <h1 className="sm:text-5xl lg:text-6xl text-4xl font-extrabold tracking-tight text-center">
                         <span className="block text-white">
                           Sell your products on
                         </span>
@@ -116,15 +116,15 @@ export default function MarketplaceManagement() {
                           marketplaces, easily.
                         </span>
                       </h1>
-                      <p className="mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl">
+                      <p className="sm:max-w-3xl max-w-lg mx-auto mt-6 text-xl text-center text-indigo-200">
                         Launch like a rocket and growth without limits. Join
                         ourwide range of partners and enter the worlds most
                         populat marketplaces.
                       </p>
-                      <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+                      <div className="sm:flex sm:max-w-none sm:justify-center max-w-sm mx-auto mt-10">
                         <a
-                          href="#"
-                          className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-indigo-700 shadow-sm hover:bg-indigo-50 sm:px-8"
+                          href="/contact/"
+                          className="hover:bg-indigo-50 sm:px-8 flex items-center justify-center px-4 py-3 text-base font-medium text-indigo-700 bg-white border border-transparent rounded-md shadow-sm"
                         >
                           Learn more
                         </a>
@@ -135,28 +135,28 @@ export default function MarketplaceManagement() {
               </div>
 
               <div className="bg-gray-100">
-                <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-                  <p className="text-center text-sm font-semibold uppercase tracking-wide text-gray-500">
+                <div className="max-w-7xl sm:px-6 lg:px-8 px-4 py-16 mx-auto">
+                  <p className="text-sm font-semibold tracking-wide text-center text-gray-500 uppercase">
                     Would you sell on any of these marketplaces?
                   </p>
-                  <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-                    <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <div className="md:grid-cols-6 lg:grid-cols-5 grid grid-cols-2 gap-8 mt-6">
+                    <div className="md:col-span-2 lg:col-span-1 flex justify-center col-span-1">
                       <img className="h-12" src={aboutYouImg} alt="AboutYou" />
                     </div>
-                    <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                    <div className="md:col-span-2 lg:col-span-1 flex justify-center col-span-1">
                       <img
                         className="h-12"
                         src={breuningerImg}
                         alt="Beuninger"
                       />
                     </div>
-                    <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                    <div className="md:col-span-2 lg:col-span-1 flex justify-center col-span-1">
                       <img className="h-12" src={zalandoImg} alt="Zalando" />
                     </div>
-                    <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+                    <div className="md:col-span-2 md:col-start-2 lg:col-span-1 flex justify-center col-span-1">
                       <img className="h-12" src={ottoImg} alt="OTTO" />
                     </div>
-                    <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                    <div className="md:col-span-2 md:col-start-4 lg:col-span-1 flex justify-center col-span-2">
                       <img className="h-12" src={douglasImg} alt="Douglas" />
                     </div>
                   </div>
@@ -167,15 +167,15 @@ export default function MarketplaceManagement() {
         </div>
       </div>
 
-      <div className="relative overflow-hidden bg-white pt-16 pb-32">
+      <div className="relative pt-16 pb-32 overflow-hidden bg-white">
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
-            <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+            <div className="sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 max-w-xl px-4 mx-auto">
               <div>
                 <div>
-                  <span className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-600">
+                  <span className="flex items-center justify-center w-12 h-12 bg-indigo-600 rounded-md">
                     <svg
-                      className="h-6 w-6 text-white"
+                      className="w-6 h-6 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -205,8 +205,8 @@ export default function MarketplaceManagement() {
                   </p>
                   <div className="mt-6">
                     <a
-                      href="#"
-                      className="inline-flex rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                      href="/contact/"
+                      className="hover:bg-indigo-700 inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm"
                     >
                       {' '}
                       Get started{' '}
@@ -215,10 +215,10 @@ export default function MarketplaceManagement() {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:mt-0">
-              <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="sm:mt-16 lg:mt-0 mt-12">
+              <div className="sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0 pl-4 -mr-48">
                 <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  className="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
                   src={tb2}
                   alt="Inbox user interface"
                 />
@@ -228,12 +228,12 @@ export default function MarketplaceManagement() {
         </div>
         <div className="mt-24">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
-            <div className="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+            <div className="sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0 max-w-xl px-4 mx-auto">
               <div>
                 <div>
-                  <span className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-600">
+                  <span className="flex items-center justify-center w-12 h-12 bg-indigo-600 rounded-md">
                     <svg
-                      className="h-6 w-6 text-white"
+                      className="w-6 h-6 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -260,8 +260,8 @@ export default function MarketplaceManagement() {
                   </p>
                   <div className="mt-6">
                     <a
-                      href="#"
-                      className="inline-flex rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                      href="/contact/"
+                      className="hover:bg-indigo-700 inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm"
                     >
                       {' '}
                       Get started{' '}
@@ -270,10 +270,10 @@ export default function MarketplaceManagement() {
                 </div>
               </div>
             </div>
-            <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-              <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="sm:mt-16 lg:col-start-1 lg:mt-0 mt-12">
+              <div className="sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0 pr-4 -ml-48">
                 <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                  className="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
                   src={tb1}
                   alt="Customer profile user interface"
                 />
@@ -851,16 +851,16 @@ export default function MarketplaceManagement() {
       </div>
 
       <div className="bg-indigo-50">
-        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8">
-          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
+        <div className="max-w-7xl sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8 px-4 py-12 mx-auto">
+          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tight text-gray-900">
             <span className="block">Get in touch?</span>
             <span className="block text-indigo-600">Book your call today.</span>
           </h2>
-          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+          <div className="lg:mt-0 lg:flex-shrink-0 flex mt-8">
             <div className="inline-flex rounded-md shadow">
               <Link
                 to="/contact/"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                className="hover:bg-indigo-700 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md"
               >
                 Get started
               </Link>
