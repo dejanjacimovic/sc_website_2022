@@ -7,6 +7,7 @@ import NavCenter from '../../components/nav_center';
 
 import tb1 from '../../images/marketplaces/tb1.png';
 import tb2 from '../../images/marketplaces/tb2.jpg';
+import stats from '../../images/marketplaces/statistics.jpg';
 import b2bImg from '../../images/marketplaces/b2b.jpeg';
 import marketplacesImg from '../../images/marketplaces/sell-on-marketplaces.jpeg'
 
@@ -221,8 +222,8 @@ export default function MarketplaceManagement() {
               <div className="sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0 pl-4 -mr-48">
                 <img
                   className="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
-                  src={tb2}
-                  alt="Inbox user interface"
+                  src={tb1}
+                  alt="Coordinate marketplaces"
                 />
               </div>
             </div>
@@ -276,8 +277,8 @@ export default function MarketplaceManagement() {
               <div className="sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0 pr-4 -ml-48">
                 <img
                   className="rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none w-full shadow-xl"
-                  src={tb1}
-                  alt="Customer profile user interface"
+                  src={stats}
+                  alt="Customer statistics"
                 />
               </div>
             </div>
