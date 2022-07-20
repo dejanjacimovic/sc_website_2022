@@ -7,6 +7,8 @@ import NavCenter from '../../components/nav_center';
 
 import tb1 from '../../images/marketplaces/tb1.png';
 import tb2 from '../../images/marketplaces/tb2.jpg';
+import b2bImg from '../../images/marketplaces/b2b.jpeg';
+import marketplacesImg from '../../images/marketplaces/sell-on-marketplaces.jpeg'
 
 import aboutYouImg from '../../images/marketplaces/aboutyou-black.png';
 import breuningerImg from '../../images/marketplaces/breuninger-black.png';
@@ -102,8 +104,8 @@ export default function MarketplaceManagement() {
                     <div className="absolute inset-0">
                       <img
                         className="object-cover w-full h-full"
-                        src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
-                        alt="People working on laptops"
+                        src={marketplacesImg}
+                        alt="Sell on marketplaces"
                       />
                       <div className="mix-blend-multiply absolute inset-0 bg-indigo-700" />
                     </div>
@@ -529,8 +531,8 @@ export default function MarketplaceManagement() {
         <div class="absolute inset-0">
           <img
             class="h-full w-full object-cover"
-            src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
-            alt=""
+            src={b2bImg}
+            alt="Business-to-business"
           />
           <div
             class="absolute inset-0 bg-indigo-800 mix-blend-multiply"
@@ -544,7 +546,7 @@ export default function MarketplaceManagement() {
           <p class="mt-6 max-w-3xl text-xl text-indigo-100">
             Do you run a business-to-business operation and need automation to
             import products from TradeByte and process them automatically? By
-            implementing such a solution, our customers could drastically reduce
+            implementing such a solution, our customers drastically reduce
             human errors and the cost of maintenance.
           </p>
         </div>
