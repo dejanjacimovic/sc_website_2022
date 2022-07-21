@@ -7,7 +7,7 @@ import NavCenter from '../../components/nav_center';
 
 import headlessBoost from '../../images/general/headless-boost.jpeg';
 import shopifyImg from '../../images/headless/shopify.svg';
-import awsImg from '../../images/partnerships/aws.png';
+import wooImg from '../../images/partnerships/woo.png';
 import medusaImg from '../../images/headless/medusa.svg';
 import stripeImg from '../../images/headless/stripe.svg';
 import algoliaImg from '../../images/partnerships/algolia.png';
@@ -868,7 +868,7 @@ export default function ServicesEcommerceDevelopment() {
                 <img className="max-h-12" src={shopifyImg} alt="Shopify" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                <img className="max-h-12" src={awsImg} alt="AWS" />
+                <img className="max-h-12" src={wooImg} alt="WooCommerce partner" />
               </div>
               <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                 <img className="max-h-12" src={medusaImg} alt="Medusajs" />
