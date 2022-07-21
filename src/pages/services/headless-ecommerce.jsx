@@ -138,6 +138,272 @@ export default function ServicesEcommerceDevelopment() {
         </div>
       </div>
 
+      <div className="bg-gray-900">
+        <div className="pt-12 sm:pt-16 lg:pt-24">
+          <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-3xl space-y-2 lg:max-w-none">
+              <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+                How Can Headless Commerce Help your eCommerce Business?
+              </h2>
+              <p className="max-w-7xl pt-12 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                Consumers access eCommerce websites through various devices.
+                eCommerce companies, therefore, must ensure their clients have a
+                flawless experience. Adobe, Commerce Tools, Shopify, and others
+                are implementing headless commerce architecture on their
+                platforms.{' '}
+                <a
+                  href="https://www.forbes.com/sites/forbestechcouncil/2021/05/11/why-is-headless-commerce-getting-16-billion-in-funding/?sh=1ae3fdd513ab"
+                  target="_blank"
+                  className="underline"
+                >
+                  Forbes reports
+                </a>{' '}
+                that more than $1.65 billion in funding has been raised for
+                headless technology in 2021 alone.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                A style of eCommerce architecture known as "headless commerce"
+                separates the front and back end of an eCommerce operation. With
+                this division, it is possible to update an eCommerce website's
+                design and user interface without affecting the backend coding.
+                As a result, more minor development limitations are when
+                building or updating your website, making it more user-friendly
+                and distinctive.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                Adopting headless commerce will give online brands many
+                advantages, including the following:
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                <strong>Faster speed:</strong> Headless commerce separates the
+                front-end presentation layer from the functionality and
+                background process layer of the commerce (back-end). As a
+                result, the people's experience is more smooth and the stuff
+                they view loads more quickly. According to studies, reducing the
+                loading time by just 0.1s can increase conversion rates by
+                approximately 8%. Consequently, implementing headless commerce
+                will speed up your website and boost conversion rates.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                <strong>Flexibility:</strong> You may easily apply a lot of
+                customisation with the aid of headless architecture, which was
+                before impossible or looked to be quite difficult. Additionally,
+                maintaining and making changes to headless commerce websites
+                takes a lot less time. This method is more versatile because any
+                alterations you require can be done in the front end without
+                requiring the engineers to alter the back-end coding. Just keep
+                in mind that it is not possible to implement platform plugins
+                that come with the front-end already built.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                <strong>Improved security:</strong> While eCommerce platforms
+                are crucial, this is one of the most important aspects of
+                headless commerce. Due to the headless architecture, your
+                backend server and admin portal endpoint are hidden from the
+                outside user. Consequently, it is less likely to be attacked.
+                Additionally, the same can only be accessed from business IP
+                addresses.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                <strong>Omnichannel Experience:</strong> The buyer journey is
+                becoming increasingly more complex.{' '}
+                <a
+                  href="https://www.salesforce.com/content/dam/web/en_us/www/documents/research/salesforce-state-of-the-connected-customer-4th-ed.pdf"
+                  className="underline"
+                  target="_blank"
+                >
+                  According to data
+                </a>
+                , nearly 74% of customers initiate and complete purchases
+                through several channels. Additionally, 76 percent of consumers
+                select a different eCommerce channel depending on the situation.
+              </p>
+              <p className="max-w-7xl pt-6 pb-16 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                <strong>
+                  Improved Customer Experience and Personalization:
+                </strong>{' '}
+                The demands and wants of the clients are constantly evolving.
+                Nowadays, customers seek a personalized experience, even when
+                purchasing. This includes features like tailored promos,
+                recommendations, and shopping preferences that are based on a
+                customer's past purchases. A headless architecture ensures the
+                ability to customize the website's front end to the user's
+                preferences. As a result, your relationship with your customers
+                becomes stronger and more unique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="overflow-hidden bg-gray-50">
+        <div className="relative mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
+          <svg
+            className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+            width="404"
+            height="784"
+            fill="none"
+            viewBox="0 0 404 784"
+          >
+            <defs>
+              <pattern
+                id="8b1b5f72-e944-4457-af67-0c6d15a99f38"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  className="text-gray-200"
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width="404"
+              height="784"
+              fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
+            />
+          </svg>
+          <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
+            <div className="lg:col-span-1">
+              <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+                Headless eCommerce
+              </h3>
+              <p className="mt-12 pr-12 text-lg leading-6 text-gray-500">
+                Which are the Most Suitable Businesses?
+              </p>
+            </div>
+            <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Tailored content
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    You can integrate headless commerce into your website to
+                    give customers access to more tailored content and a fluid
+                    omnichannel viewing experience. A DTC business, for
+                    instance, or a brand that relies on native advertising and
+                    influencer marketing, should choose headless commerce since
+                    it may help them implement their content- and experience-led
+                    strategy.
+                  </p>
+                  <br />
+                </div>
+              </div>
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pb-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Long-term business goals
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    If it fits your long-term business objectives, headless
+                    enables more creative freedom and developmental flexibility.
+                    Before you put this method in place, look through all your
+                    long-term objectives. Headless commerce is the way to go if
+                    you are a merchant operating with several similar brands and
+                    want to preserve brand functionality across various
+                    platforms and verticals.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Customzied products
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    Sellers that are already selling or intend to sell
+                    customized products should give headless as their primary
+                    option because it enables them to have more personalized
+                    products.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-4 pb-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-5 pr-4">
+                  <h4 className="text-lg font-medium leading-6 text-gray-900">
+                    Omnichannel Experience
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-gray-500">
+                    Companies that plan or are already using different
+                    touchpoints with the same back-end and wish to give
+                    customers the same seamless experience, whether it is
+                    Website, Mobile Web, Mobile App, POS, Kiosk, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="bg-white py-12">
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="lg:text-left">
@@ -259,609 +525,6 @@ export default function ServicesEcommerceDevelopment() {
                       <li>Heroku</li>
                       <li>Vercel</li>
                     </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="overflow-hidden bg-gray-50">
-        <div className="relative mx-auto max-w-screen-xl py-12 px-4 sm:px-6 lg:px-8">
-          <svg
-            className="absolute top-0 left-full -translate-x-1/2 -translate-y-3/4 transform lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
-            width="404"
-            height="784"
-            fill="none"
-            viewBox="0 0 404 784"
-          >
-            <defs>
-              <pattern
-                id="8b1b5f72-e944-4457-af67-0c6d15a99f38"
-                x="0"
-                y="0"
-                width="20"
-                height="20"
-                patternUnits="userSpaceOnUse"
-              >
-                <rect
-                  className="text-gray-200"
-                  x="0"
-                  y="0"
-                  width="4"
-                  height="4"
-                  fill="currentColor"
-                />
-              </pattern>
-            </defs>
-            <rect
-              width="404"
-              height="784"
-              fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
-            />
-          </svg>
-          <div className="lg:col-gap-8 relative lg:grid lg:grid-cols-3">
-            <div className="lg:col-span-1">
-              <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                Benefits of Headless eCommerce
-              </h3>
-              <p className="mt-12 pr-12 text-lg leading-6 text-gray-500">
-                Adopting headless commerce will give online brands many
-                advantages, including the following.
-              </p>
-            </div>
-            <div className="sm:col-gap-8 sm:row-gap-10 mt-10 sm:grid sm:grid-cols-2 lg:col-span-2 lg:mt-0">
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M13 10V3L4 14h7v7l9-11h-7z"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Speed
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    Headless commerce detaches the presentation layer
-                    (front-end) from the commerce functionality and background
-                    process layer (back-end). This means that the content that
-                    the people see loads faster and gives them a more seamless
-                    experience altogether.
-                  </p>
-                  <br />
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pb-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Flexibility
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    With the help of headless architecture, you can quickly
-                    implement a lot of customization, which was not possible
-                    earlier or seemed very hard. Keep in mind that
-                    out-of-the-box platform plugin implementation is not
-                    feasible for those we need to build the front-end part.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Security
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    Your back-end server and admin portal endpoint are unknown
-                    to the outside user due to the headless architecture.
-                    Therefore, it is less prone to attack. Also, the same can be
-                    restricted from office IP only, making it even safer.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Omnichannel Experience
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    With headless commerce, we can create different interactions
-                    at different touchpoints with the same back-end and give
-                    customers the same seamless experience, whether it is
-                    Website, Mobile Web, Mobile App, POS, Kiosk, etc.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Improved Customer Experience
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    A headless architecture ensures that you can turn the front
-                    end of the website to match the taste of the customer. This
-                    creates a stronger and more special bond between you and
-                    your customers.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-4 pb-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
-                  <svg
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                    />
-                  </svg>
-                </div>
-                <div className="mt-5 pr-4">
-                  <h4 className="text-lg font-medium leading-6 text-gray-900">
-                    Faster Go to Market
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-gray-500">
-                    You can make rapid changes and innovate swiftly without
-                    affecting the entire website. This is possible because your
-                    back-end and front-end are no longer tightly tied, and you
-                    have to focus on upgrading the front-end.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-gray-900">
-        <div className="pt-12 sm:pt-16 lg:pt-24">
-          <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-              <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
-                How Can Headless Commerce Help your eCommerce Business?
-              </h2>
-              <p className="max-w-7xl pt-12 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                Consumers access eCommerce websites through various devices.
-                eCommerce companies, therefore, must ensure their clients have a
-                flawless experience. Adobe, Commerce Tools, Shopify, and others
-                are implementing headless commerce architecture on their
-                platforms.{' '}
-                <a
-                  href="https://www.forbes.com/sites/forbestechcouncil/2021/05/11/why-is-headless-commerce-getting-16-billion-in-funding/?sh=1ae3fdd513ab"
-                  target="_blank"
-                  className="underline"
-                >
-                  Forbes reports
-                </a>{' '}
-                that more than $1.65 billion in funding has been raised for
-                headless technology in 2021 alone.
-              </p>
-              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                A style of eCommerce architecture known as "headless commerce"
-                separates the front and back end of an eCommerce operation. With
-                this division, it is possible to update an eCommerce website's
-                design and user interface without affecting the backend coding.
-                As a result, more minor development limitations are when
-                building or updating your website, making it more user-friendly
-                and distinctive.
-              </p>
-              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                Adopting headless commerce will give online brands many
-                advantages, including the following:
-              </p>
-              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                <strong>Faster speed:</strong> Headless commerce separates the
-                front-end presentation layer from the functionality and
-                background process layer of the commerce (back-end). As a
-                result, the people's experience is more smooth and the stuff
-                they view loads more quickly. According to studies, reducing the
-                loading time by just 0.1s can increase conversion rates by
-                approximately 8%. Consequently, implementing headless commerce
-                will speed up your website and boost conversion rates.
-              </p>
-              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                <strong>Flexibility:</strong> You may easily apply a lot of
-                customisation with the aid of headless architecture, which was
-                before impossible or looked to be quite difficult. Additionally,
-                maintaining and making changes to headless commerce websites
-                takes a lot less time. This method is more versatile because any
-                alterations you require can be done in the front end without
-                requiring the engineers to alter the back-end coding. Just keep
-                in mind that it is not possible to implement platform plugins
-                that come with the front-end already built.
-              </p>
-              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                <strong>Improved security:</strong> While eCommerce platforms
-                are crucial, this is one of the most important aspects of
-                headless commerce. Due to the headless architecture, your
-                backend server and admin portal endpoint are hidden from the
-                outside user. Consequently, it is less likely to be attacked.
-                Additionally, the same can only be accessed from business IP
-                addresses.
-              </p>
-              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                <strong>Omnichannel Experience:</strong> The buyer journey is
-                becoming increasingly more complex.{' '}
-                <a
-                  href="https://www.salesforce.com/content/dam/web/en_us/www/documents/research/salesforce-state-of-the-connected-customer-4th-ed.pdf"
-                  className="underline"
-                  target="_blank"
-                >
-                  According to data
-                </a>
-                , nearly 74% of customers initiate and complete purchases
-                through several channels. Additionally, 76 percent of consumers
-                select a different eCommerce channel depending on the situation.
-              </p>
-              <p className="max-w-7xl pt-6 pb-16 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                <strong>
-                  Improved Customer Experience and Personalization:
-                </strong>{' '}
-                The demands and wants of the clients are constantly evolving.
-                Nowadays, customers seek a personalized experience, even when
-                purchasing. This includes features like tailored promos,
-                recommendations, and shopping preferences that are based on a
-                customer's past purchases. A headless architecture ensures the
-                ability to customize the website's front end to the user's
-                preferences. As a result, your relationship with your customers
-                becomes stronger and more unique.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="mt-8 bg-gray-50 pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24 hidden">
-          <div className="relative">
-            <div className="absolute inset-0 h-3/4 bg-gray-900" />
-            <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-              <div className="mx-auto max-w-md space-y-4 lg:grid lg:max-w-5xl lg:grid-cols-2 lg:gap-5 lg:space-y-0">
-                <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                  <div className="bg-white px-6 py-8 sm:p-10 sm:pb-6">
-                    <h3 className="mt-5 text-3xl font-extrabold text-gray-900">
-                      Micro-team
-                    </h3>
-                    <div className="mt-4 flex items-baseline text-xl font-extrabold">
-                      from 7.200 €
-                      <span className="text-l ml-1 font-medium text-gray-500">
-                        /mo
-                      </span>
-                    </div>
-                    <p className="mt-5 text-lg text-gray-500">
-                      Micro-team comprises multi-disciplinary personnel that
-                      includes project manager, front-end developer, back-end
-                      developer, and quality assurance. This well-balanced team
-                      will work on your project development two weeks a month,
-                      or 160 work hours. Product Owner determines priority and
-                      scope of the project.
-                    </p>
-                  </div>
-                  <div className="flex flex-1 flex-col justify-between space-y-6 bg-gray-50 px-6 pt-6 pb-8 sm:p-10 sm:pt-6">
-                    <ul className="space-y-4">
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0">
-                          <svg
-                            className="h-6 w-6 text-green-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </div>
-                        <p className="ml-3 text-base text-gray-700">
-                          90 minutes Response Time
-                        </p>
-                      </li>
-
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0">
-                          <svg
-                            className="h-6 w-6 text-green-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </div>
-                        <p className="ml-3 text-base text-gray-700">
-                          160 Work Hours
-                        </p>
-                      </li>
-
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0">
-                          <svg
-                            className="h-6 w-6 text-green-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </div>
-                        <p className="ml-3 text-base text-gray-700">
-                          Well-balanced team
-                        </p>
-                      </li>
-
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0">
-                          <svg
-                            className="h-6 w-6 text-green-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </div>
-                        <p className="ml-3 text-base text-gray-700">
-                          Adaptive communication
-                        </p>
-                      </li>
-                    </ul>
-                    <div className="rounded-md shadow">
-                      <Link
-                        to="/contact/"
-                        className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
-                        aria-describedby="tier-standard"
-                      >
-                        Get started
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                  <div className="bg-white px-6 py-8 sm:p-10 sm:pb-6">
-                    <h3 className="mt-5 text-3xl font-extrabold text-gray-900">
-                      Accelerated Development
-                    </h3>
-                    <div className="mt-4 flex items-baseline text-xl font-extrabold">
-                      from 11.250 €
-                      <span className="text-l ml-1 font-medium text-gray-500">
-                        /mo
-                      </span>
-                    </div>
-                    <p className="mt-5 text-lg text-gray-500">
-                      By establishing a dedicated development unit for you, we
-                      provide a comprehensive set of development services,
-                      ensuring an overall content business flow and teams that
-                      are the best fit for the assignment and responsibility for
-                      the quality and timeliness of software delivery.
-                    </p>
-                  </div>
-                  <div className="flex flex-1 flex-col justify-between space-y-6 bg-gray-50 px-6 pt-6 pb-8 sm:p-10 sm:pt-6">
-                    <ul className="space-y-4">
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0">
-                          <svg
-                            className="h-6 w-6 text-green-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </div>
-                        <p className="ml-3 text-base text-gray-700">
-                          Full time, fully integrated team
-                        </p>
-                      </li>
-
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0">
-                          <svg
-                            className="h-6 w-6 text-green-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </div>
-                        <p className="ml-3 text-base text-gray-700">
-                          Team assigned only to you
-                        </p>
-                      </li>
-
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0">
-                          <svg
-                            className="h-6 w-6 text-green-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </div>
-                        <p className="ml-3 text-base text-gray-700">
-                          Predictable and transparent cost
-                        </p>
-                      </li>
-
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0">
-                          <svg
-                            className="h-6 w-6 text-green-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </div>
-                        <p className="ml-3 text-base text-gray-700">
-                          Development at your pace
-                        </p>
-                      </li>
-                    </ul>
-                    <div className="rounded-md shadow">
-                      <Link
-                        to="/contact/"
-                        className="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
-                        aria-describedby="tier-standard"
-                      >
-                        Get started
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="relative mx-auto mt-4 max-w-7xl px-4 sm:px-6 lg:mt-5 lg:px-8">
-            <div className="mx-auto max-w-md lg:max-w-5xl">
-              <div className="rounded-lg bg-gray-100 px-6 py-8 sm:p-10 lg:flex lg:items-center">
-                <div className="flex-1">
-                  <div className="mt-4 text-lg text-gray-600">
-                    We create long-lasting relationships with our clients and
-                    focus on communicating with them to ensure they are always
-                    in control.
-                  </div>
-
-                  <div className="mt-4 text-lg text-gray-600">
-                    Our Accelerated Development delivery method is a perfect fit
-                    for more significant innovation initiatives, where roadmaps
-                    and backlogs exist and stretch over a more extended period.
-                  </div>
-
-                  <div className="mt-4 text-lg text-gray-600">
-                    You control the direction and focus of the teams and adjust
-                    their priorities to align with your business needs in an
-                    agile way.
                   </div>
                 </div>
               </div>
