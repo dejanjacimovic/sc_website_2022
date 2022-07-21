@@ -92,7 +92,7 @@ export default function ServicesEcommerceDevelopment() {
         <div className="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <NavCenter />
 
-          <main className="lg:relative mt-4">
+          <main className="mt-4 lg:relative">
             <div className="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-48 lg:text-left">
               <div className="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
@@ -492,38 +492,99 @@ export default function ServicesEcommerceDevelopment() {
         <div className="pt-12 sm:pt-16 lg:pt-24">
           <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-              <h2 className="text-lg font-semibold uppercase leading-6 tracking-wider text-gray-300">
-                Our approach is
+              <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+                How Can Headless Commerce Help your eCommerce Business?
               </h2>
-              <p className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
-                Being focused on your success
-              </p>
               <p className="max-w-7xl pt-12 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                When it comes to tailor-made eCommerce solutions for business
-                technology, innovation is all about increasing the pace of
-                delivery. Speed influences the time to market and indirectly
-                affects the costs associated with the project.
+                Consumers access eCommerce websites through various devices.
+                eCommerce companies, therefore, must ensure their clients have a
+                flawless experience. Adobe, Commerce Tools, Shopify, and others
+                are implementing headless commerce architecture on their
+                platforms.{' '}
+                <a
+                  href="https://www.forbes.com/sites/forbestechcouncil/2021/05/11/why-is-headless-commerce-getting-16-billion-in-funding/?sh=1ae3fdd513ab"
+                  target="_blank"
+                  className="underline"
+                >
+                  Forbes reports
+                </a>{' '}
+                that more than $1.65 billion in funding has been raised for
+                headless technology in 2021 alone.
               </p>
               <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                At StuntCoders, we deliver new technologies that facilitate this
-                pace of delivery. We focus on intelligent orchestration and the
-                integration of services, open-source components, and customized
-                software.
+                A style of eCommerce architecture known as "headless commerce"
+                separates the front and back end of an eCommerce operation. With
+                this division, it is possible to update an eCommerce website's
+                design and user interface without affecting the backend coding.
+                As a result, more minor development limitations are when
+                building or updating your website, making it more user-friendly
+                and distinctive.
               </p>
               <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                While we are using an agile setup to deliver the software, we
-                take responsibility to achieve milestones and reach deadlines
-                together with your Product Owners and other stakeholders.
+                Adopting headless commerce will give online brands many
+                advantages, including the following:
               </p>
               <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
-                To best adapt to your needs, we have created two models of
-                collaboration—one for balanced small-budget companies and the
-                other for fast-paced enterprises or startups.
+                <strong>Faster speed:</strong> Headless commerce separates the
+                front-end presentation layer from the functionality and
+                background process layer of the commerce (back-end). As a
+                result, the people's experience is more smooth and the stuff
+                they view loads more quickly. According to studies, reducing the
+                loading time by just 0.1s can increase conversion rates by
+                approximately 8%. Consequently, implementing headless commerce
+                will speed up your website and boost conversion rates.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                <strong>Flexibility:</strong> You may easily apply a lot of
+                customisation with the aid of headless architecture, which was
+                before impossible or looked to be quite difficult. Additionally,
+                maintaining and making changes to headless commerce websites
+                takes a lot less time. This method is more versatile because any
+                alterations you require can be done in the front end without
+                requiring the engineers to alter the back-end coding. Just keep
+                in mind that it is not possible to implement platform plugins
+                that come with the front-end already built.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                <strong>Improved security:</strong> While eCommerce platforms
+                are crucial, this is one of the most important aspects of
+                headless commerce. Due to the headless architecture, your
+                backend server and admin portal endpoint are hidden from the
+                outside user. Consequently, it is less likely to be attacked.
+                Additionally, the same can only be accessed from business IP
+                addresses.
+              </p>
+              <p className="max-w-7xl pt-6 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                <strong>Omnichannel Experience:</strong> The buyer journey is
+                becoming increasingly more complex.{' '}
+                <a
+                  href="https://www.salesforce.com/content/dam/web/en_us/www/documents/research/salesforce-state-of-the-connected-customer-4th-ed.pdf"
+                  className="underline"
+                  target="_blank"
+                >
+                  According to data
+                </a>
+                , nearly 74% of customers initiate and complete purchases
+                through several channels. Additionally, 76 percent of consumers
+                select a different eCommerce channel depending on the situation.
+              </p>
+              <p className="max-w-7xl pt-6 pb-16 text-left text-xl leading-7 text-gray-300 lg:mx-auto lg:max-w-5xl">
+                <strong>
+                  Improved Customer Experience and Personalization:
+                </strong>{' '}
+                The demands and wants of the clients are constantly evolving.
+                Nowadays, customers seek a personalized experience, even when
+                purchasing. This includes features like tailored promos,
+                recommendations, and shopping preferences that are based on a
+                customer's past purchases. A headless architecture ensures the
+                ability to customize the website's front end to the user's
+                preferences. As a result, your relationship with your customers
+                becomes stronger and more unique.
               </p>
             </div>
           </div>
         </div>
-        <div className="mt-8 bg-gray-50 pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
+        <div className="mt-8 bg-gray-50 pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24 hidden">
           <div className="relative">
             <div className="absolute inset-0 h-3/4 bg-gray-900" />
             <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
