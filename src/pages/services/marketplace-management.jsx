@@ -7,7 +7,7 @@ import NavCenter from '../../components/nav_center';
 
 import tb1 from '../../images/marketplaces/tb1.png';
 import tb2 from '../../images/marketplaces/tb2.jpg';
-import stats from '../../images/marketplaces/statistics.jpg';
+import stats from '../../images/marketplaces/statistics.png';
 import b2bImg from '../../images/marketplaces/b2b.jpeg';
 import marketplacesImg from '../../images/marketplaces/sell-on-marketplaces.jpeg'
 
