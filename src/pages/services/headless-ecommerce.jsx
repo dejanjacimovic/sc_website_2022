@@ -102,7 +102,7 @@ export default function ServicesEcommerceDevelopment() {
                   </span>
                 </h1>
                 <p className="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-                  Unprescedented speed and agility in development with React
+                  Unprecedented speed and agility in development with React
                   front-end and support of Gatsbyjs.
                 </p>
                 <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
