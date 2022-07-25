@@ -9,7 +9,7 @@ import tb1 from '../../images/marketplaces/tb1.png';
 import tb2 from '../../images/marketplaces/tb2.jpg';
 import stats from '../../images/marketplaces/statistics.png';
 import b2bImg from '../../images/marketplaces/b2b.jpeg';
-import marketplacesImg from '../../images/marketplaces/sell-on-marketplaces.jpeg'
+import marketplacesImg from '../../images/marketplaces/sell-on-marketplaces.jpeg';
 
 import aboutYouImg from '../../images/marketplaces/aboutyou-black.png';
 import breuningerImg from '../../images/marketplaces/breuninger-black.png';
@@ -120,9 +120,9 @@ export default function MarketplaceManagement() {
                         </span>
                       </h1>
                       <p className="sm:max-w-3xl max-w-lg mx-auto mt-6 text-xl text-center text-indigo-200">
-                        Launch like a rocket and growth without limits. Join
-                        ourwide range of partners and enter the worlds most
-                        populat marketplaces.
+                        Launch like a rocket and growth without limits. Join our
+                        wide range of partners and enter the world's most
+                        popular marketplaces.
                       </p>
                       <div className="sm:flex sm:max-w-none sm:justify-center max-w-sm mx-auto mt-10">
                         <a
@@ -547,8 +547,8 @@ export default function MarketplaceManagement() {
           <p class="mt-6 max-w-3xl text-xl text-indigo-100">
             Do you run a business-to-business operation and need automation to
             import products from TradeByte and process them automatically? By
-            implementing such a solution, our customers drastically reduce
-            human errors and the cost of maintenance.
+            implementing such a solution, our customers drastically reduce human
+            errors and the cost of maintenance.
           </p>
         </div>
       </div>
