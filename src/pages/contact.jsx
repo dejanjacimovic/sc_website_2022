@@ -33,7 +33,7 @@ export default function Contact() {
       }),
     })
       .then(() => {
-        window.location.href = getUrlPrefix(language) + '/thank-you';
+        window.location.href = '/thank-you';
       })
       .catch((error) => alert(error));
   };
