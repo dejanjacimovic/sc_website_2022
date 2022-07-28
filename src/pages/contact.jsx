@@ -5,7 +5,39 @@ import LayoutPage from '../components/layout_page';
 import NavCenter from '../components/nav_center';
 import contact from '../images/covid-office.jpg';
 
+function encode(data) {
+  const formData = new FormData();
+
+  for (const key of Object.keys(data)) {
+    formData.append(key, data[key]);
+  }
+
+  return formData;
+}
+
 export default function Contact() {
+  const [state, setState] = React.useState({});
+
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    fetch('/', {
+      method: 'POST',
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
+    })
+      .then(() => {
+        window.location.href = getUrlPrefix(language) + '/thank-you';
+      })
+      .catch((error) => alert(error));
+  };
+
   return (
     <LayoutPage>
       <div className="">
@@ -47,6 +79,7 @@ export default function Contact() {
                   data-netlify="true"
                   id="contact-us-form"
                   method="POST"
+                  onSubmit={handleSubmit}
                 >
                   <div className="sm:col-span-2">
                     <label
@@ -61,6 +94,7 @@ export default function Contact() {
                         id="name"
                         name="name"
                         type="text"
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -77,6 +111,7 @@ export default function Contact() {
                         id="email"
                         name="email"
                         type="email"
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -98,6 +133,7 @@ export default function Contact() {
                         id="how_can_we_help"
                         name="how_can_we_help"
                         rows="4"
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
