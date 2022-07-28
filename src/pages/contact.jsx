@@ -90,7 +90,7 @@ export default function Contact() {
                     </label>
                     <div className="relative mt-1 rounded-md shadow-sm">
                       <input
-                        className="block w-full rounded-md border-gray-300 shadow-sm shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="block w-full rounded-md border-gray-300 shadow-sm shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm border border-gray-500 p-3"
                         id="name"
                         name="name"
                         type="text"
@@ -98,7 +98,7 @@ export default function Contact() {
                       />
                     </div>
                   </div>
-                  <div className="sm:col-span-2">
+                  <div className="sm:col-span-2 mt-4">
                     <label
                       className="block text-sm font-medium leading-5 text-gray-700"
                       for="email"
@@ -107,7 +107,7 @@ export default function Contact() {
                     </label>
                     <div className="relative mt-1 rounded-md shadow-sm">
                       <input
-                        className="block w-full rounded-md border-gray-300 shadow-sm shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="block w-full rounded-md border-gray-300 shadow-sm shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm border border-gray-500 p-3"
                         id="email"
                         name="email"
                         type="email"
@@ -115,7 +115,7 @@ export default function Contact() {
                       />
                     </div>
                   </div>
-                  <div className="sm:col-span-2">
+                  <div className="sm:col-span-2 mt-4">
                     <div className="flex justify-between">
                       <label
                         className="block text-sm font-medium leading-5 text-gray-700"
@@ -129,7 +129,7 @@ export default function Contact() {
                     </div>
                     <div className="relative mt-1 rounded-md shadow-sm">
                       <textarea
-                        className="form-textarea block w-full rounded-md border-gray-300 shadow-sm transition duration-150 ease-in-out sm:text-sm sm:leading-5"
+                        className="form-textarea block w-full rounded-md border-gray-300 shadow-sm transition duration-150 ease-in-out sm:text-sm sm:leading-5 border border-gray-500 p-3"
                         id="how_can_we_help"
                         name="how_can_we_help"
                         rows="4"
