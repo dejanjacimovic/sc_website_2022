@@ -21,6 +21,14 @@
 
     Our site is now running at http://localhost:8000!
 
+## Upgrade dependencies?
+
+```
+npm install -g npm-check-updates
+ncu -u
+npm install --legacy-peer-deps
+```
+
 ## Make code prettier?
 
 ```
